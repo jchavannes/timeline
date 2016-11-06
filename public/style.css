@@ -1,0 +1,18 @@
+.timeline {
+    padding: 50px 100px;
+}
+
+.timeline:nth-child(2n+1) {
+    background: #eee;
+}
+
+.timeline:nth-child(2n) {
+    background: #f5f5f5;
+}
+
+.vis-item.default {
+    background-color: rgba(115, 155, 200, 0.5);
+}
+.vis-item.range {
+    background-color: rgba(200, 155, 155, 0.5);
+}
