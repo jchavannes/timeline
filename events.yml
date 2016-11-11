@@ -1,103 +1,284 @@
 eras:
 
-  - name: Big Bang
+  - name: Beginning of the Universe to Early Life
     window:
       min: 13820000000
-      max: 13240000000
+      max: 0
     events:
       - name: Big Bang
         actual: 13820000000
         label: 13.82 billion years ago
+
       - name: First electrons, protons, and neutrons begin to form
         actual: 13820000000
         label: 10 seconds after big bang
+
       - name: First hydrogen atoms begin to form, CMB visibility horizon
         actual: 13819700000
         label: 380,000 years after big bang
+
       - name: First stars begin to form
         actual: 13670000000
         label: 150 million years after big bang
+
       - name: First galaxies begin to form
         actual: 13420000000
         label: 400 million years after big bang
 
-  - name: Milky Way and Earth
-    window:
-      min: 13820000000
-      max: 0
-    events:
       - name: Formation of Milky Way galaxy
         actual: 9000000000
         label: 9 billion years ago
+
       - name: Expansion of the universe begins accelerating, dark energy dominated era begins
         actual: 5000000000
         label: 5 billion years ago
+
       - name: Formation of our solar system, Sun begins burning
         actual: 4600000000
         label: 4.6 billion years ago
+
       - name: Formation of Earth, Moon forms shortly after
         actual: 4540000000
         label: 4.54 billion years ago
 
-  - name: Early Life
-    window:
-      min: 4600000000
-      max: 0
-    events:
       - name: First prokaryotes, life emerges
         actual: 4000000000
         label: 4 billion years ago
+
       - name: First bacteria and multicellular organisms
         actual: 3500000000
         label: 3.5 3 billion years ago
+
       - name: First cells to perform photosynthesis
         actual: 3000000000
         label: 3 billion years ago
+
       - name: First cells to use ATP for energy transfer
         actual: 3000000000
         label: 3 billion years ago
+
       - name: Eukaryotes evolve from prokaryotes nucleus, mitochondria
         actual: 2500000000
         label: 2.5 billion years ago
-      - name: Oxygen suddenly becomes abundant in atmosphere (possibly due to photosynthesis)
+
+      - name:
+            Oxygen suddenly becomes abundant in atmosphere<br/>
+            (possibly due to photosynthesis)
         actual: 2300000000
         label: 2.3 billion years ago
+
       - name: First evidence of sexual reproduction
         actual: 1200000000
         label: 1.2 billion years ago
 
-  - name: Animals
+  - name: Animals, Vertebrates, Mammals and Primates
     window:
-      min: 800000000
+      min: 700000000
       max: 0
     events:
       - name: Animals evolve from early eukaryotic organisms
         actual: 655000000
         label: 655 - 610 million years ago
-      - name: Early decentralized nervous system, bilateral symmetry (worm-like creature)
+
+      - name:
+          Early decentralized nervous system,<br/>
+          bilateral symmetry (worm-like creature)
         actual: 600000000
         label: 600 million years ago
+
       - name: Mouth evolves, early digestive system
         actual: 600000000
         label: 600 million years ago
+
       - name: Skeletal system evolves
         actual: 560000000
         label: 560 million years ago
+
       - name: Brain evolves
         actual: 550000000
         label: 550 million years ago
+
       - name: First arthropods evolve
         actual: 545000000
         label: 545 million years ago
+
       - name: Cambrian explosion
         actual: 542000000
         label: 542 - 517 million years ago
+
       - name: Eyes evolve
         actual: 540000000
         label: 540 million years ago
+
       - name: Heart evolves
         actual: 540000000
         label: 540 million years ago
+
       - name: First animals on land (invertebrates)
         actual: 530000000
         label: 530 million years ago
+
+      - name: Vertebrates evolve in water
+        actual: 530000000
+        label: 530 million years ago
+
+      - name: Fish evolve from early vertebrates
+        actual: 530000000
+        label: 530 million years ago
+
+      - name: Trilobites evolve from early arthropods, dominate oceans
+        actual: 521000000
+        label: 521 million years ago
+
+      - name: Teeth evolve
+        actual: 500000000
+        label: 500 million years ago
+
+      - name: Insects evolve from crustaceans (part of arthropods)
+        actual: 480000000
+        label: 480 million years ago
+
+      - name: Plants evolve from algae
+        actual: 470000000
+        label: 470 million years ago
+
+      - name: Jaw evolves
+        actual: 443000000
+        label: 443 - 419 million years ago
+
+      - name: Bones evolve to replace cartilage
+        actual: 420000000
+        label: 420 million years ago
+
+      - name: Flying insects evolve, first flying organism
+        actual: 400000000
+        label: 400 million years ago
+
+      - name: Trees evolve from early plants
+        actual: 385000000
+        label: 385 million years ago
+
+      - name: Arachnids evolve from early arthropods
+        actual: 380000000
+        label: 380 million years ago
+
+      - name: Amphibians evolve from fish - lungs, limbs, digits
+        actual: 370000000
+        label: 370 million years ago
+
+      - name: Evolution of hearing
+        actual: 350000000
+        label: 350 - 250 million years ago
+
+      - name: Reptiles evolve from early amphibians - dry skin
+        actual: 312000000
+        label: 312 million years ago
+
+      - name: Largest known extinction event, 90-96% of all species, extinction of all remaining trilobites
+        actual: 252000000
+        label: 252 million years ago
+
+      - name: Dinosaurs diverge from other archosaurs (which would later include crocodiles)
+        actual: 234000000
+        label: 234 million years ago
+
+      - name:
+            Mammals evolve from early reptiles - loss of color vision (possibly due to nocturnality),<br/>
+            warm-blooded,hair, neocortex, mammary glands, ear drum
+        actual: 210000000
+        label: 210 million years ago
+
+      - name: Mass extinction event, 70-75% of all species
+        actual: 201000000
+        label: 201 million years ago
+
+      - name: Dinosaurs become dominant organisms on Earth
+        actual: 201000000
+        label: 201 million years ago
+
+      - name: Birds evolve from dinosaurs, first flying vertebrate
+        actual: 150000000
+        label: 150 million years ago
+
+      - name: Placentals evolve to carry offspring rather than lay eggs
+        actual: 125000000
+        label: 125 million years ago
+
+      - name: Flowers evolve
+        actual: 125000000
+        label: 125 million years ago
+
+      - name: Opposable thumbs evolve in pre-primates
+        actual: 70000000
+        label: 70 million years ago
+
+      - name:
+          Mass extinction event, 75% of all species,<br/>
+          extinction of all dinosaurs except birds
+        actual: 66000000
+        label: 66 million years ago
+
+      - name: Mammals become dominant organisms on Earth
+        actual: 66000000
+        label: 66 million years ago
+
+      - name: Primates evolve
+        actual: 65000000
+        label: 65 million years ago
+
+      - name: Bats evolve (only flying mammals)
+        actual: 52000000
+        label: 52 million years ago
+
+      - name: Simians diverge from other primates (monkeys and apes)
+        actual: 42000000
+        label: 42 million years ago
+
+      - name: Early simians regain color vision (possibly to see ripe fruit)
+        actual: 40000000
+        label: 40 - 30 million years ago
+
+      - name:
+          Catarrhines diverge from other simians - no tail, more<br/>
+          ground-dwelling, greater sexual dimorphism, less pair bonding
+        actual: 35000000
+        label: 35 million years ago
+
+      - name:
+          Hominids diverge from other catarrhines - more freedom of<br/>
+          motion in shoulders (possibly for tree swinging)
+        actual: 20000000
+        label: 20 million years ago
+
+      - name: Last common ancestor of humans and apes
+        actual: 13000000
+        label: 13 - 4 million years ago
+
+  - name: Homo Sapiens, World Colonization
+    window:
+      min: 5000000
+      max: 0
+    events:
+      - name: Modern human thumb evolves
+        actual: 5000000
+        label: 5 million years ago
+
+      - name: First bipedal humans (possibly to carry food)
+        actual: 4000000
+        label: 4 million years ago
+
+      - name: First stone tools, beginning of stone age
+        actual: 3300000
+        label: 3.3 million years ago
+
+      - name: Homo erectus evolves (originated in Africa, eventually spread into Europe and as far east as China)
+        actual: 1900000
+        label: 1.9 million years ago
+
+      - name: First use of fire, cooking
+        actual: 1900000
+        label: 1.9 million years ago
+
+      - name: First use of clothing
+        actual: 500000
+        label: 500,000 to 100,000 years ago

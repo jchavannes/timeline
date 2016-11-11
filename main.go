@@ -43,29 +43,31 @@ type events struct {
 }
 
 func converterUniverseTimeToCosmicCalendar(t int) string {
-	unixMin := float32(1420070400)
-	unixMax := float32(1451606399)
-	universeMax := float32(13820000000)
+	unixMin := float32(1420070400) // 2015-01-01 00:00:00
+	unixMax := float32(1451606399) // 2015-12-31 23:59:59
+	universeMax := float32(13820000000) // 13.82 billion years
+
 	seconds := ((universeMax - float32(t)) / universeMax) * (unixMax - unixMin)
-	unixTs := unixMin + seconds + 28800
+	unixTs := unixMin + seconds + 28800 // Offset for PST
+
 	return time.Unix(int64(unixTs), 0).String()
 }
 
 const port = 2040
 
 func main() {
-	data, err := ioutil.ReadFile("events.yml")
-	check(err)
-
-	e := events{}
-	err = yaml.Unmarshal(data, &e)
-	check(err)
-
 	fmt.Printf("Starting timeline web server on port %d\n", port)
 
 	// Requests
 	server := http.NewServeMux()
 	server.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
+		data, err := ioutil.ReadFile("events.yml")
+		check(err)
+
+		e := events{}
+		err = yaml.Unmarshal(data, &e)
+		check(err)
+
 		renderer, err := site.GetRenderer("templates")
 		check(err)
 

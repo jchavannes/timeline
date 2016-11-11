@@ -3,7 +3,11 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.css"/>
 
-<div id="timelines"></div>
+<div id="timelines">
+    <div class="container">
+        <h4>This uses the <a href="https://en.wikipedia.org/wiki/Cosmic_Calendar">cosmic calendar</a>.  Specifically the year 2015 is used.</h4>
+    </div>
+</div>
 
 <script type="text/javascript">
 
@@ -28,7 +32,6 @@
 
         $("#timelines").append("<div class='timeline'>" +
                 "<h2>" + name + "</h2>" +
-                "<p>January 1 - 15</p>" +
                 "<div id='" + timelineId + "'></div>" +
                 "</div>");
 
@@ -41,7 +44,7 @@
         options.min = options.start;
         options.max = options.end;
         options.order = function (a, b) {
-            return b.id - a.id;
+            return a.id - b.id;
         };
         options.zoomable = false;
         options.selectable = false;
@@ -49,10 +52,10 @@
             return a.value - b.value;
         };
         var timeline = new vis.Timeline(document.getElementById(timelineId), new vis.DataSet(dataSet), options);
-        timeline.setGroups(new vis.DataSet([
+        /*timeline.setGroups(new vis.DataSet([
             {id: 0, content: 'Events', value: 2},
             {id: 1, content: 'Periods', value: 1}
-        ]));
+        ]));*/
     }
 </script>
 

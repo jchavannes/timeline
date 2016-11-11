@@ -1,17 +1,16 @@
 #timelines {
-    padding-top: 50px;
+    padding-top: 60px;
 }
 
 .timeline {
-    padding: 50px 100px;
+    padding: 30px 100px;
+    width: 75%;
+    margin: 0 auto;
 }
 
-.timeline:nth-child(2n+1) {
-    background: #eee;
-}
-
-.timeline:nth-child(2n) {
-    background: #f5f5f5;
+.timeline .vis-panel.vis-center,
+.timeline .vis-timeline {
+    overflow: visible;
 }
 
 .vis-item.default {
