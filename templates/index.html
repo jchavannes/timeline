@@ -12,7 +12,7 @@
 <script type="text/javascript">
 
     //{{ range $eraId, $era := .Eras }}
-    timeline("{{ $era.Name }}", [
+    timeline("{{ $era.Name }}", "{{ $era.Label }}", [
         // {{ range $eventId, $event := $era.Events }}
         {
             id: "{{ $eventId }}",
@@ -27,11 +27,12 @@
     });
     //{{ end }}
 
-    function timeline(name, dataSet, options) {
+    function timeline(name, label, dataSet, options) {
         var timelineId = "timeline-" + name.replace(/ /g, '-').toLowerCase();
 
         $("#timelines").append("<div class='timeline'>" +
                 "<h2>" + name + "</h2>" +
+                "<p>" + label + "</p>" +
                 "<div id='" + timelineId + "'></div>" +
                 "</div>");
 

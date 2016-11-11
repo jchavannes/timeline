@@ -37,17 +37,18 @@ func (w window) GetEnd() string {
 type events struct {
 	Eras []struct {
 		Name   string
+		Label  string
 		Window window
 		Events []event
 	}
 }
 
 func converterUniverseTimeToCosmicCalendar(t int) string {
-	unixMin := float32(1420070400) // 2015-01-01 00:00:00
-	unixMax := float32(1451606399) // 2015-12-31 23:59:59
-	universeMax := float32(13820000000) // 13.82 billion years
+	unixMin := float64(1420070400) // 2015-01-01 00:00:00
+	unixMax := float64(1451606399) // 2015-12-31 23:59:59
+	universeMax := float64(13820000000) // 13.82 billion years
 
-	seconds := ((universeMax - float32(t)) / universeMax) * (unixMax - unixMin)
+	seconds := ((universeMax - float64(t)) / universeMax) * (unixMax - unixMin)
 	unixTs := unixMin + seconds + 28800 // Offset for PST
 
 	return time.Unix(int64(unixTs), 0).String()

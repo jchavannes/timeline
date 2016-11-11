@@ -1,6 +1,7 @@
 eras:
 
   - name: Beginning of the Universe to Early Life
+    label: Entire year
     window:
       min: 13820000000
       max: 0
@@ -62,7 +63,7 @@ eras:
         label: 2.5 billion years ago
 
       - name:
-            Oxygen suddenly becomes abundant in atmosphere<br/>
+            Oxygen suddenly becomes abundant in atmosphere
             (possibly due to photosynthesis)
         actual: 2300000000
         label: 2.3 billion years ago
@@ -71,7 +72,8 @@ eras:
         actual: 1200000000
         label: 1.2 billion years ago
 
-  - name: Animals, Vertebrates, Mammals and Primates
+  - name: Animals, Vertebrates, Mammals, & Primates
+    label: Last 17 days
     window:
       min: 700000000
       max: 0
@@ -81,7 +83,7 @@ eras:
         label: 655 - 610 million years ago
 
       - name:
-          Early decentralized nervous system,<br/>
+          Early decentralized nervous system,
           bilateral symmetry (worm-like creature)
         actual: 600000000
         label: 600 million years ago
@@ -183,7 +185,7 @@ eras:
         label: 234 million years ago
 
       - name:
-            Mammals evolve from early reptiles - loss of color vision (possibly due to nocturnality),<br/>
+            Mammals evolve from early reptiles - loss of color vision (possibly due to nocturnality),
             warm-blooded,hair, neocortex, mammary glands, ear drum
         actual: 210000000
         label: 210 million years ago
@@ -213,7 +215,7 @@ eras:
         label: 70 million years ago
 
       - name:
-          Mass extinction event, 75% of all species,<br/>
+          Mass extinction event, 75% of all species,
           extinction of all dinosaurs except birds
         actual: 66000000
         label: 66 million years ago
@@ -239,13 +241,20 @@ eras:
         label: 40 - 30 million years ago
 
       - name:
-          Catarrhines diverge from other simians - no tail, more<br/>
+          Catarrhines diverge from other simians - no tail, more
           ground-dwelling, greater sexual dimorphism, less pair bonding
         actual: 35000000
         label: 35 million years ago
 
+  - name: Hominids
+    label: Last 13 hours
+    window:
+      min: 20000000
+      max: 0
+    events:
+
       - name:
-          Hominids diverge from other catarrhines - more freedom of<br/>
+          Hominids diverge from other catarrhines - more freedom of
           motion in shoulders (possibly for tree swinging)
         actual: 20000000
         label: 20 million years ago
@@ -254,11 +263,6 @@ eras:
         actual: 13000000
         label: 13 - 4 million years ago
 
-  - name: Homo Sapiens, World Colonization
-    window:
-      min: 5000000
-      max: 0
-    events:
       - name: Modern human thumb evolves
         actual: 5000000
         label: 5 million years ago
@@ -271,7 +275,9 @@ eras:
         actual: 3300000
         label: 3.3 million years ago
 
-      - name: Homo erectus evolves (originated in Africa, eventually spread into Europe and as far east as China)
+      - name:
+          Homo erectus evolves (originated in Africa, eventually
+          spread into Europe and as far east as China)
         actual: 1900000
         label: 1.9 million years ago
 
@@ -282,3 +288,111 @@ eras:
       - name: First use of clothing
         actual: 500000
         label: 500,000 to 100,000 years ago
+
+      - name:
+          Homo sapiens evolve from homo erectus (Africa) - larger brain,
+          proper language, less hair, shorter, less sexual dimorphism
+        actual: 200000
+        label: 200,000 years ago
+
+      - name: First use of adhesives (tar), stronger tools
+        actual: 200000
+        label: 200,000 years ago
+
+  - name: Homo Sapiens, World Colonization
+    label: Last 5 minutes
+    window:
+      min: 120000
+      max: 0
+    events:
+      - name: First wave of homo sapiens leave Africa
+        actual: 120000
+        label: 120,000 years ago
+
+      - name:
+          Beginning of most recent glacial period, 18°F drop
+          in average global temperature (ice age)
+        actual: 110000
+        label: 110,000 years ago
+
+      - name: First evidence of collecting and eating wild grains
+        actual: 105000
+        label: 105,000 years ago
+
+      - name: First homo sapiens in China
+        actual: 100000
+        label: 100,000 years ago
+
+      - name: First human burials
+        actual: 100000
+        label: 100,000 years ago
+
+      - name: First harpoon fishing
+        actual: 90000
+        label: 90,000 years ago
+
+      - name: First jewelery
+        actual: 75000
+        label: 75,000 years ago
+
+      - name:
+          Toba supereruption, global volcanic winter (Indonesia,
+          possibly reduced total human population to less than 10,000)
+        actual: 75000
+        label: 75,000 years ago
+
+      - name: Homo erectus becomes extinct
+        actual: 70000
+        label: 70,000 years ago
+
+      - name: First use of compound adhesives, stronger tools (South Africa)
+        actual: 70000
+        label: 70,000 years ago
+
+      - name: Second wave of homo sapiens leave Africa
+        actual: 60000
+        label: 60,000 years ago
+
+      - name: First homo sapiens in Australia
+        actual: 48000
+        label: 48,000 - 42,000 years ago
+
+      - name: First known instrument (wooden flute, Europe)
+        actual: 41000
+        label: 41,000 years ago
+
+      - name: Neanderthals become extinct
+        actual: 40000
+        label: 40,000 years ago
+
+      - name: Domestication of dogs
+        actual: 40000
+        label: 40,000 - 27,000 years ago
+
+      - name: First known cave paintings (animals, Spain)
+        actual: 35400
+        label: 35,400 years ago
+
+      - name: Invention of textile weaving
+        actual: 27000
+        label: 27,000 years ago
+
+      - name: First fish hook
+        actual: 23000
+        label: 23,000 years ago
+
+      - name: End of ice age, sea levels rise 400 ft over 13,000 years
+        actual: 19000
+        label: 19,000 - 6,000 years ago
+
+      - name: First homo sapiens in America
+        actual: 16500
+        label: 16,500 years ago
+
+      - name: Domestication of pigs (Mesopotamia)
+        actual: 15000
+        label: 15,000 years ago
+
+      - name: First cities, beginning of civilization
+        actual: 14000
+        label: 12,000 BC

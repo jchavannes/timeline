@@ -13,6 +13,11 @@
     overflow: visible;
 }
 
+.vis-item.default .vis-item-content {
+    width: 350px;
+    white-space: normal;
+    text-align: left;
+}
 .vis-item.default {
     background-color: rgba(115, 155, 200, 0.5);
 }
