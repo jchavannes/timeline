@@ -1,0 +1,103 @@
+eras:
+
+  - name: Big Bang
+    window:
+      min: 13820000000
+      max: 13240000000
+    events:
+      - name: Big Bang
+        actual: 13820000000
+        label: 13.82 billion years ago
+      - name: First electrons, protons, and neutrons begin to form
+        actual: 13820000000
+        label: 10 seconds after big bang
+      - name: First hydrogen atoms begin to form, CMB visibility horizon
+        actual: 13819700000
+        label: 380,000 years after big bang
+      - name: First stars begin to form
+        actual: 13670000000
+        label: 150 million years after big bang
+      - name: First galaxies begin to form
+        actual: 13420000000
+        label: 400 million years after big bang
+
+  - name: Milky Way and Earth
+    window:
+      min: 13820000000
+      max: 0
+    events:
+      - name: Formation of Milky Way galaxy
+        actual: 9000000000
+        label: 9 billion years ago
+      - name: Expansion of the universe begins accelerating, dark energy dominated era begins
+        actual: 5000000000
+        label: 5 billion years ago
+      - name: Formation of our solar system, Sun begins burning
+        actual: 4600000000
+        label: 4.6 billion years ago
+      - name: Formation of Earth, Moon forms shortly after
+        actual: 4540000000
+        label: 4.54 billion years ago
+
+  - name: Early Life
+    window:
+      min: 4600000000
+      max: 0
+    events:
+      - name: First prokaryotes, life emerges
+        actual: 4000000000
+        label: 4 billion years ago
+      - name: First bacteria and multicellular organisms
+        actual: 3500000000
+        label: 3.5 3 billion years ago
+      - name: First cells to perform photosynthesis
+        actual: 3000000000
+        label: 3 billion years ago
+      - name: First cells to use ATP for energy transfer
+        actual: 3000000000
+        label: 3 billion years ago
+      - name: Eukaryotes evolve from prokaryotes nucleus, mitochondria
+        actual: 2500000000
+        label: 2.5 billion years ago
+      - name: Oxygen suddenly becomes abundant in atmosphere (possibly due to photosynthesis)
+        actual: 2300000000
+        label: 2.3 billion years ago
+      - name: First evidence of sexual reproduction
+        actual: 1200000000
+        label: 1.2 billion years ago
+
+  - name: Animals
+    window:
+      min: 800000000
+      max: 0
+    events:
+      - name: Animals evolve from early eukaryotic organisms
+        actual: 655000000
+        label: 655 - 610 million years ago
+      - name: Early decentralized nervous system, bilateral symmetry (worm-like creature)
+        actual: 600000000
+        label: 600 million years ago
+      - name: Mouth evolves, early digestive system
+        actual: 600000000
+        label: 600 million years ago
+      - name: Skeletal system evolves
+        actual: 560000000
+        label: 560 million years ago
+      - name: Brain evolves
+        actual: 550000000
+        label: 550 million years ago
+      - name: First arthropods evolve
+        actual: 545000000
+        label: 545 million years ago
+      - name: Cambrian explosion
+        actual: 542000000
+        label: 542 - 517 million years ago
+      - name: Eyes evolve
+        actual: 540000000
+        label: 540 million years ago
+      - name: Heart evolves
+        actual: 540000000
+        label: 540 million years ago
+      - name: First animals on land (invertebrates)
+        actual: 530000000
+        label: 530 million years ago

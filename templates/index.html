@@ -3,187 +3,35 @@
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.js"></script>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.css"/>
 
-<br/><br/>
-
-<!--<div class="timeline">
-    <h2>All</h2>
-    <p>January 1 - December 31</p>
-    <div id="vis-all"></div>
-</div>-->
-
-<div class="timeline">
-    <h2>Big Bang</h2>
-    <p>January 1 - 15</p>
-    <div id="vis-big-bang"></div>
-</div>
-
-<div class="timeline">
-    <h2>Milky Way and Earth</h2>
-    <p>January 1 - December 31</p>
-    <div id="vis-milky-way-and-earth"></div>
-</div>
-
-<div class="timeline">
-    <h2>Early Life</h2>
-    <p>September 1 - December 31</p>
-    <div id="vis-early-life"></div>
-</div>
+<div id="timelines"></div>
 
 <script type="text/javascript">
 
-    /*timeline("vis-all", [
-     {id: 1, content: "<b>13.82 billion years ago:</b> Big bang", start: "2015-01-01 00:00:00"},
-     {id: 2, content: "<b>10 seconds after big bang:</b> First electrons, protons, and neutrons begin to form", start: "2015-01-01 00:00:01"},
-     {id: 3, content: "<b>380,000 years after big bang:</b> First hydrogen atoms begin to form, CMB visibility horizon", start: "2015-01-01 00:11:25"},
-     {id: 4, content: "<b>150 million years after big bang:</b> First stars begin to form", start: "2015-01-04 23:04:46"},
-     {id: 5, content: "<b>400 million years after big bang:</b> First galaxies begin to form", start: "2015-01-11 13:32:44"},
-     {id: 6, content: "<b>9 billion years ago:</b> Formation of Milky Way galaxy", start: "2015-05-08 07:13:28"},
-     {id: 7, content: "<b>5 billion years ago:</b> Expansion of the universe begins accelerating, dark energy dominated era begins", start: "2015-08-21 22:40:48"},
-     {id: 8, content: "<b>4.6 billion years ago:</b> Formation of our solar system, Sun begins burning", start: "2015-09-01 12:13:33"},
-     {id: 9, content: "<b>4.54 billion years ago:</b> Formation of Earth, Moon forms shortly after", start: "2015-09-03 02:15:27"},
-     {id: 10, content: "<b>4 billion years ago:</b> First prokaryotes, life emerges", start: "2015-09-17 08:32:38"},
-     {id: 11, content: "<b>3.5 - 3 billion years ago:</b> First bacteria and multicellular organisms", start: "2015-09-30 13:28:34"},
-     {id: 12, content: "<b>3 billion years ago:</b> First cells to perform photosynthesis", start: "2015-10-13 18:24:29"},
-     {id: 13, content: "<b>3 billion years ago:</b> First cells to use ATP for energy transfer", start: "2015-10-13 18:24:29"},
-     {id: 14, content: "<b>2.5 billion years ago:</b> Eukaryotes evolve from prokaryotes - nucleus, mitochondria", start: "2015-10-26 23:20:24"},
-     {id: 15, content: "<b>2.3 billion years ago:</b> Oxygen suddenly becomes abundant in atmosphere (possibly due to photosynthesis)", start: "2015-11-01 06:06:46"},
-     {id: 16, content: "<b>1.2 billion years ago:</b> First evidence of sexual reproduction", start: "2015-11-30 07:21:48"}
-     ], {
-     start: "2015-01-01 00:00:00",
-     end: "2015-12-31 23:59:59"
-     });*/
-
-    timeline("vis-big-bang", [
+    //{{ range $eraId, $era := .Eras }}
+    timeline("{{ $era.Name }}", [
+        // {{ range $eventId, $event := $era.Events }}
         {
-            id: 1,
+            id: "{{ $eventId }}",
             group: 0,
-            content: "<b>13.82 billion years ago:</b> Big bang",
-            start: "2015-01-01 00:00:00"
+            content: "<b>{{ $event.Label }}</b> {{ $event.Name }}",
+            start: "{{ $event.GetDate }}"
         },
-        {
-            id: 2,
-            group: 0,
-            content: "<b>10 seconds after big bang:</b> First electrons, protons, and neutrons begin to form",
-            start: "2015-01-01 00:00:01"
-        },
-        {
-            id: 3,
-            group: 0,
-            content: "<b>380,000 years after big bang:</b> First hydrogen atoms begin to form, CMB visibility horizon",
-            start: "2015-01-01 00:11:25"
-        },
-        {
-            id: 4,
-            group: 0,
-            content: "<b>150 million years after big bang:</b> First stars begin to form",
-            start: "2015-01-04 23:04:46"
-        },
-        {
-            id: 5,
-            group: 0,
-            content: "<b>400 million years after big bang:</b> First galaxies begin to form",
-            start: "2015-01-11 13:32:44"
-        }
+        // {{ end }}
     ], {
-        start: "2015-01-01 00:00:00",
-        end: "2015-01-15 00:00:00"
+        start: "{{ $era.Window.GetStart }}",
+        end: "{{ $era.Window.GetEnd }}"
     });
+    //{{ end }}
 
-    timeline("vis-milky-way-and-earth", [
-        {
-            id: 1,
-            group: 1,
-            content: "<b>Big Bang</b>",
-            start: "2015-01-01 00:00:00",
-            end: "2015-01-15 00:00:00",
-            className: "range"
-        },
-        {
-            id: 2,
-            group: 0,
-            content: "<b>9 billion years ago:</b> Formation of Milky Way galaxy",
-            start: "2015-05-08 07:13:28"
-        },
-        {
-            id: 3,
-            group: 0,
-            content: "<b>5 billion years ago:</b> Expansion of the universe begins accelerating, dark energy dominated era begins",
-            start: "2015-08-21 22:40:48"
-        },
-        {
-            id: 4,
-            group: 0,
-            content: "<b>4.6 billion years ago:</b> Formation of our solar system, Sun begins burning",
-            start: "2015-09-01 12:13:33"
-        },
-        {
-            id: 5,
-            group: 0,
-            content: "<b>4.54 billion years ago:</b> Formation of Earth, Moon forms shortly after",
-            start: "2015-09-03 02:15:27"
-        },
-        {
-            id: 6,
-            group: 1,
-            content: "<b>Early Life</b>",
-            start: "2015-09-01 00:00:00",
-            end: "2015-12-31 23:59:59",
-            className: "range"
-        }
-    ], {
-        start: "2015-01-01 00:00:00",
-        end: "2015-12-31 23:59:59"
-    });
+    function timeline(name, dataSet, options) {
+        var timelineId = "timeline-" + name.replace(/ /g, '-').toLowerCase();
 
-    timeline("vis-early-life", [
-        {
-            id: 1,
-            group: 0,
-            content: "<b>4 billion years ago:</b> First prokaryotes, life emerges",
-            start: "2015-09-17 08:32:38"
-        },
-        {
-            id: 2,
-            group: 0,
-            content: "<b>3.5 - 3 billion years ago:</b> First bacteria and multicellular organisms",
-            start: "2015-09-30 13:28:34"
-        },
-        {
-            id: 3,
-            group: 0,
-            content: "<b>3 billion years ago:</b> First cells to perform photosynthesis",
-            start: "2015-10-13 18:24:29"
-        },
-        {
-            id: 4,
-            group: 0,
-            content: "<b>3 billion years ago:</b> First cells to use ATP for energy transfer",
-            start: "2015-10-13 18:24:29"
-        },
-        {
-            id: 5,
-            group: 0,
-            content: "<b>2.5 billion years ago:</b> Eukaryotes evolve from prokaryotes - nucleus, mitochondria",
-            start: "2015-10-26 23:20:24"
-        },
-        {
-            id: 6,
-            group: 0,
-            content: "<b>2.3 billion years ago:</b> Oxygen suddenly becomes abundant in atmosphere (possibly due to photosynthesis)",
-            start: "2015-11-01 06:06:46"
-        },
-        {
-            id: 7,
-            group: 0,
-            content: "<b>1.2 billion years ago:</b> First evidence of sexual reproduction",
-            start: "2015-11-30 07:21:48"
-        }
-    ], {
-        start: "2015-09-01 00:00:00",
-        end: "2015-12-31 23:59:59"
-    });
+        $("#timelines").append("<div class='timeline'>" +
+                "<h2>" + name + "</h2>" +
+                "<p>January 1 - 15</p>" +
+                "<div id='" + timelineId + "'></div>" +
+                "</div>");
 
-    function timeline(id, dataSet, options) {
         for (var i = 0; i < dataSet.length; i++) {
             if (dataSet[i].className == undefined) {
                 dataSet[i].className = "default";
@@ -192,12 +40,15 @@
         options.align = "left";
         options.min = options.start;
         options.max = options.end;
+        options.order = function (a, b) {
+            return b.id - a.id;
+        };
         options.zoomable = false;
         options.selectable = false;
         options.groupOrder = function (a, b) {
             return a.value - b.value;
         };
-        var timeline = new vis.Timeline(document.getElementById(id), new vis.DataSet(dataSet), options);
+        var timeline = new vis.Timeline(document.getElementById(timelineId), new vis.DataSet(dataSet), options);
         timeline.setGroups(new vis.DataSet([
             {id: 0, content: 'Events', value: 2},
             {id: 1, content: 'Periods', value: 1}
