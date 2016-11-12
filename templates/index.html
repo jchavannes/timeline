@@ -4,9 +4,7 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.css"/>
 
 <div id="timelines">
-    <div class="container">
-        <h4>This uses the <a href="https://en.wikipedia.org/wiki/Cosmic_Calendar">cosmic calendar</a>.  Specifically the year 2015 is used.</h4>
-    </div>
+    <h4>This uses the <a href="https://en.wikipedia.org/wiki/Cosmic_Calendar">cosmic calendar</a>.  Specifically the year 2015 is used.</h4>
 </div>
 
 <script type="text/javascript">
@@ -27,6 +25,7 @@
             id: "{{ counter }}",
             group: 1,
             content: "{{ $period.Name }}",
+            title: "{{ $period.Name }}",
             start: "{{ $period.GetStart }}",
             end: "{{ $period.GetEnd }}",
             className: "period default"
@@ -41,12 +40,10 @@
     function timeline(name, label, dataSet, options) {
         var timelineId = "timeline-" + name.replace(/ /g, '-').toLowerCase();
 
-        $("#timelines").append("<div class='container'>" +
-                "<div class='timeline'>" +
+        $("#timelines").append("<div class='timeline'>" +
                 "<h2>" + name + "</h2>" +
                 "<p>" + label + "</p>" +
                 "<div id='" + timelineId + "'></div>" +
-                "</div>" +
                 "</div>");
 
         for (var i = 0; i < dataSet.length; i++) {
@@ -62,7 +59,6 @@
         };
         options.zoomable = false;
         options.selectable = false;
-        options.tooltipDelay = 0;
         options.groupOrder = function (a, b) {
             return b.value - a.value;
         };

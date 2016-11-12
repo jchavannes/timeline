@@ -3,8 +3,12 @@ body {
     color: #ddd;
 }
 
+.container.main-container {
+    padding-top: 50px;
+}
+
 #timelines {
-    padding-top: 60px;
+    padding-top: 10px;
 }
 
 .timeline {

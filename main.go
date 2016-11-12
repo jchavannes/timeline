@@ -9,11 +9,12 @@ import (
 	"strconv"
 	"io/ioutil"
 	"time"
+	"math"
 )
 
 type event struct {
 	Name   string
-	Actual int
+	Actual int64
 	Label  string
 }
 
@@ -22,8 +23,8 @@ func (e event) GetDate() string {
 }
 
 type window struct {
-	Min int
-	Max int
+	Min int64
+	Max int64
 }
 
 func (w window) GetStart() string {
@@ -36,8 +37,8 @@ func (w window) GetEnd() string {
 
 type period struct {
 	Name string
-	Min  int
-	Max  int
+	Min  int64
+	Max  int64
 }
 
 func (p period) GetStart() string {
@@ -54,55 +55,24 @@ type era struct {
 	Window  window
 	Periods []period
 	Events  []event
-	nextId  int
 }
-
-type VisData struct {
-	Id      int
-	Group   int
-	Content string
-	Start   string
-	End     string
-}
-
-/*func (e era) GetDataSet() []*VisData {
-	visData := []*VisData
-	counter := 0
-	for _, period := range e.Periods {
-		counter++
-		visData = append(visData, &VisData{
-			Id: counter,
-			Group: 1,
-			Content: period.Name,
-			Start: period.GetStart(),
-			End: period.GetEnd(),
-		})
-	}
-	for _, event := range e.Events {
-		counter++
-		visData = append(visData, &VisData{
-			Id: counter,
-			Group: 0,
-			Content: "<b>" + event.Label + "</b> " + event.Name + "",
-			Start: period.GetStart(),
-			End: period.GetEnd(),
-		})
-	}
-}*/
 
 type events struct {
 	Eras []era
 }
 
-func converterUniverseTimeToCosmicCalendar(t int) string {
+func converterUniverseTimeToCosmicCalendar(t int64) string {
 	unixMin := float64(1420070400) // 2015-01-01 00:00:00
-	unixMax := float64(1451606399) // 2015-12-31 23:59:59
+	unixMax := float64(1451606400) // 2016-01-01 00:00:00
 	universeMax := float64(13820000000) // 13.82 billion years
 
-	seconds := ((universeMax - float64(t)) / universeMax) * (unixMax - unixMin)
+	seconds := ((universeMax - float64(t - 1)) / universeMax) * (unixMax - unixMin)
 	unixTs := unixMin + seconds + 28800 // Offset for PST
 
-	return time.Unix(int64(unixTs), 0).String()
+	sec, dec := math.Modf(unixTs)
+	ts := time.Unix(int64(sec), int64(dec * 10e8)).Format("2006-01-02T15:04:05.999999Z07:00")
+	fmt.Printf("%#v: %#v (%#v) %#v - %#v ; %#v - %#v)\n", t, ts, unixTs, sec, int64(sec), dec, int64(dec * 10e9))
+	return ts
 }
 
 const port = 2040
@@ -123,6 +93,14 @@ func main() {
 		renderer, err := site.GetRenderer("templates")
 		check(err)
 
+		counter := 0
+		renderer.SetFuncMap(map[string]interface{}{
+			"counter": func() int {
+				counter++
+				return counter
+			},
+		})
+
 		filename := site.GetFilenameFromRequest(r)
 		if len(filename) == 0 {
 			filename = "index"
@@ -130,13 +108,11 @@ func main() {
 
 		err = renderer.Render([]string{
 			filename + ".html",
+			"404.html",
 		}, w, &e)
 
 		if err != nil {
-			/*log.Fatal(err)
-			renderer.Render([]string{
-				"404.html",
-			}, w, nil)*/
+			fmt.Println(err)
 		}
 
 		fmt.Printf("Handled request: %#v\n", r.URL)

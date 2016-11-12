@@ -83,7 +83,7 @@ eras:
       max: 0
       max: 0
     periods:
-      - name: Dec 31st
+      - name: 31st
         min: 37800000
         max: 0
     events:
@@ -300,7 +300,7 @@ eras:
       min: 1547939
       max: 0
     periods:
-      - name: 11:58 - 12:00
+      - name: :58 - :00
         min: 52600
         max: 0
     events:
@@ -367,11 +367,15 @@ eras:
         actual: 60000
         label: 60,000 years ago
 
-  - name: 11:58 - 12:00 (52,600 years ago - present)
-    label: Homo Sapiens
+  - name: Last 2 minutes of the year (52,600 years ago - present)
+    label: World colonization and early civilization
     window:
       min: 52600
       max: 0
+    periods:
+      - name: 59:50 - 00:00
+        min: 4383
+        max: 0
     events:
 
       - name: First homo sapiens in Australia
@@ -506,6 +510,109 @@ eras:
         actual: 4560
         label: 2560 BC
 
+  - name: Last 10 seconds of the year (4,383 years ago - present)
+    label: Ancient history and the iron age
+    window:
+      min: 4383
+      max: 0
+    events:
+
       - name: First horses used for transport
         actual: 4000
         label: 2000 BC
+
+      - name: First iron smelting (melting point of 2,800 °F), stronger tools
+        actual: 3300
+        label: 1300 BC
+
+      - name: First currency, cowrie shells (China)
+        actual: 3200
+        label: 1200 BC
+
+      - name: Major collapse of civilization (Mediterranean, possibly triggered by drought and famine), beginning of Greek dark ages
+        actual: 3177
+        label: 1177 BC
+
+      - name: First glass lenses
+        actual: 2700
+        label: 700 BC
+
+      - name: First record of camera obscura phenomenon, light travels in straight lines (Mozi, China)
+        actual: 2400
+        label: 400 BC
+
+      - name: Development of geometry (Euclid, Greece)
+        actual: 2300
+        label: 300 BC
+
+      - name: Estimation of pi, invention of exponents (Archimedes, Greece)
+        actual: 2250
+        label: 250 BC
+
+      - name: First city with population over 1 million (Rome)
+        actual: 2133
+        label: 133 BC
+
+      - name: Intromission theory - light is not a property of the eye (Lucretius, Roman)
+        actual: 2055
+        label: 55 BC
+
+      - name: Christianity (Jesus)
+        actual: 2000
+        label: 0
+
+      - name: Invention of paper (China)
+        actual: 1975
+        label: 25
+
+      - name: First light refraction tables (Claudius Ptolemy)
+        actual: 1850
+        label: 150
+
+      - name: Fall of Roman Empire, beginning of middle ages (Europe)
+        actual: 1524
+        label: 476
+
+      - name: Method to solve quadratic equations (Brahmagupta, India)
+        actual: 1372
+        label: 628
+
+      - name: First known paper currency (China)
+        actual: 1194
+        label: 806
+
+      - name: Development of algebra (Muhammad ibn Musa al-Khwarizmi, Middle East)
+        actual: 1170
+        label: 830
+
+      - name: Invention of gunpowder (China)
+        actual: 1150
+        label: 850
+
+      - name: Experimental evidence for intromission light theory (Ibn al-Haytham, Middle East)
+        actual: 1000
+        label: 1000
+
+      - name: Magna Carta, foundation for individual rights (England)
+        actual: 785
+        label: 1215
+
+      - name: First joint-stock company (Bazacle Milling Company, France)
+        actual: 750
+        label: 1250
+
+      - name: Invention of eyeglasses (Italy)
+        actual: 714
+        label: 1286
+
+      - name: Lincoln Cathedral surpasses Great Pyramid as tallest manmade structure (height of 525 feet)
+        actual: 689
+        label: 1311
+
+      - name: Invention of printing press (Johannes Gutenberg)
+        actual: 560
+        label: 1440
+
+      - name: Columbus explores America
+        actual: 508
+        label: 1492
