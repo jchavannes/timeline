@@ -34,13 +34,64 @@ func (w window) GetEnd() string {
 	return converterUniverseTimeToCosmicCalendar(w.Max)
 }
 
-type events struct {
-	Eras []struct {
-		Name   string
-		Label  string
-		Window window
-		Events []event
+type period struct {
+	Name string
+	Min  int
+	Max  int
+}
+
+func (p period) GetStart() string {
+	return converterUniverseTimeToCosmicCalendar(p.Min)
+}
+
+func (p period) GetEnd() string {
+	return converterUniverseTimeToCosmicCalendar(p.Max)
+}
+
+type era struct {
+	Name    string
+	Label   string
+	Window  window
+	Periods []period
+	Events  []event
+	nextId  int
+}
+
+type VisData struct {
+	Id      int
+	Group   int
+	Content string
+	Start   string
+	End     string
+}
+
+/*func (e era) GetDataSet() []*VisData {
+	visData := []*VisData
+	counter := 0
+	for _, period := range e.Periods {
+		counter++
+		visData = append(visData, &VisData{
+			Id: counter,
+			Group: 1,
+			Content: period.Name,
+			Start: period.GetStart(),
+			End: period.GetEnd(),
+		})
 	}
+	for _, event := range e.Events {
+		counter++
+		visData = append(visData, &VisData{
+			Id: counter,
+			Group: 0,
+			Content: "<b>" + event.Label + "</b> " + event.Name + "",
+			Start: period.GetStart(),
+			End: period.GetEnd(),
+		})
+	}
+}*/
+
+type events struct {
+	Eras []era
 }
 
 func converterUniverseTimeToCosmicCalendar(t int) string {

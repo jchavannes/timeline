@@ -1,10 +1,14 @@
 eras:
 
-  - name: Beginning of the Universe to Early Life
-    label: Entire year
+  - name: Entire cosmic year (13.82 billion years ago - present)
+    label: Beginning of the Universe to Early Life
     window:
       min: 13820000000
       max: 0
+    periods:
+      - name: December
+        min: 1173000000
+        max: 0
     events:
       - name: Big Bang
         actual: 13820000000
@@ -72,11 +76,16 @@ eras:
         actual: 1200000000
         label: 1.2 billion years ago
 
-  - name: Animals, Vertebrates, Mammals, & Primates
-    label: Last 17 days
+  - name: December (1.17 billion years ago - present)
+    label: Animals, Vertebrates, Mammals, & Primates
     window:
-      min: 700000000
+      min: 1173000000
       max: 0
+      max: 0
+    periods:
+      - name: Dec 31st
+        min: 37800000
+        max: 0
     events:
       - name: Animals evolve from early eukaryotic organisms
         actual: 655000000
@@ -240,18 +249,22 @@ eras:
         actual: 40000000
         label: 40 - 30 million years ago
 
+  - name: Dec 31 (37.8 million years ago - present)
+    label: Hominids
+    window:
+      min: 37800000
+      max: 0
+    periods:
+      - name: 11pm - Midnight
+        min: 1575000
+        max: 0
+    events:
+
       - name:
           Catarrhines diverge from other simians - no tail, more
           ground-dwelling, greater sexual dimorphism, less pair bonding
         actual: 35000000
         label: 35 million years ago
-
-  - name: Hominids
-    label: Last 13 hours
-    window:
-      min: 20000000
-      max: 0
-    events:
 
       - name:
           Hominids diverge from other catarrhines - more freedom of
@@ -277,13 +290,20 @@ eras:
 
       - name:
           Homo erectus evolves (originated in Africa, eventually
-          spread into Europe and as far east as China)
+          spread into Europe and as far east as China), first use of fire, cooking
         actual: 1900000
         label: 1.9 million years ago
 
-      - name: First use of fire, cooking
-        actual: 1900000
-        label: 1.9 million years ago
+  - name: 11pm - Midnight (1.58 million years ago - present)
+    label: Homo Sapiens
+    window:
+      min: 1547939
+      max: 0
+    periods:
+      - name: 11:58 - 12:00
+        min: 52600
+        max: 0
+    events:
 
       - name: First use of clothing
         actual: 500000
@@ -299,12 +319,6 @@ eras:
         actual: 200000
         label: 200,000 years ago
 
-  - name: Homo Sapiens, World Colonization
-    label: Last 5 minutes
-    window:
-      min: 120000
-      max: 0
-    events:
       - name: First wave of homo sapiens leave Africa
         actual: 120000
         label: 120,000 years ago
@@ -353,6 +367,13 @@ eras:
         actual: 60000
         label: 60,000 years ago
 
+  - name: 11:58 - 12:00 (52,600 years ago - present)
+    label: Homo Sapiens
+    window:
+      min: 52600
+      max: 0
+    events:
+
       - name: First homo sapiens in Australia
         actual: 48000
         label: 48,000 - 42,000 years ago
@@ -396,3 +417,95 @@ eras:
       - name: First cities, beginning of civilization
         actual: 14000
         label: 12,000 BC
+
+      - name: Domestication of rice (China)
+        actual: 13500
+        label: 11,500 - 6200 BC
+
+      - name: Domestication of sheep (Mesopotamia)
+        actual: 13000
+        label: 11,000 - 9000 BC
+
+      - name: First verifiable agriculture
+        actual: 12500
+        label: 10500 BC
+
+      - name: Homo floresiensis becomes extinct, homo sapiens last remaining humanoid species
+        actual: 12000
+        label: 10000 BC
+
+      - name: First known bow and arrow (Europe)
+        actual: 11000
+        label: 9000 BC
+
+      - name: Domestication of cattle (Middle East)
+        actual: 10500
+        label: 8500 BC
+
+      - name: First known calendar (Scotland)
+        actual: 10000
+        label: 8000 BC
+
+      - name: Domestication of corn (Mexico)
+        actual: 10000
+        label: 8000 BC
+
+      - name: Domestication of cats (possibly to keep rodents out of food stores)
+        actual: 9500
+        label: 7500 BC
+
+      - name: Domestication of chickens (Southeast Asia)
+        actual: 9000
+        label: 7000 BC
+
+      - name: First cities with 10,000+ people (Turkey)
+        actual: 9000
+        label: 7000 BC
+
+      - name: First use of dairy animals, milk (Southeast Asia)
+        actual: 9000
+        label: 7000 BC
+
+      - name: First use of alcoholic drinks (China, Middle East)
+        actual: 9000
+        label: 7000 BC
+
+      - name: Invention of writing, beginning of recorded history
+        actual: 8000
+        label: 6000 BC
+
+      - name: First copper axe, end of stone age (Serbia)
+        actual: 7500
+        label: 5500 BC
+
+      - name: First man-made glass objects (Mesopotamia)
+        actual: 5500
+        label: 3500 BC
+
+      - name: First wheeled vehicle
+        actual: 5350
+        label: 3350 BC
+
+      - name: First metal alloy, bronze (Mesopotamia)
+        actual: 5300
+        label: 3300 BC
+
+      - name: Invention of indoor plumbing and flush toilet (South Asia)
+        actual: 5000
+        label: 3000 BC
+
+      - name: Decimal mathematics (Egypt)
+        actual: 5000
+        label: 3000 BC
+
+      - name: Invention of abacus (Middle East)
+        actual: 4700
+        label: 2700 BC
+
+      - name: Great Pyramid of Giza (completed in only 20 years), remained tallest manmade structure for 3,800 years (height of 481 feet)
+        actual: 4560
+        label: 2560 BC
+
+      - name: First horses used for transport
+        actual: 4000
+        label: 2000 BC
