@@ -1,0 +1,33 @@
+{{ template "header.html" . }}
+
+<script type="text/javascript" src="/public/timeline.js"></script>
+
+<div id="timelines-new">
+
+    <div class="timeline-1">
+        <h2>Beginning of the universe to present (13.82 billion years ago)</h2>
+        <div class="main">
+        </div>
+    </div>
+
+</div>
+
+<script type="text/javascript">
+
+    /**
+     * @type {Timeline}
+     */
+    var timeline = {
+        Eras: [],
+        Events: [],
+        Name: "",
+        Label: "",
+        Start: 13820000000,
+        End: 0
+    };
+
+    createTimeline(timeline);
+</script>
+
+
+{{ template "footer.html" . }}
