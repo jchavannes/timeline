@@ -19,7 +19,7 @@ type event struct {
 }
 
 func (e event) GetDate() string {
-	return converterUniverseTimeToCosmicCalendar(e.Actual)
+	return converterUniverseTimeToCosmicCalendar(e.Actual, true)
 }
 
 type window struct {
@@ -28,11 +28,11 @@ type window struct {
 }
 
 func (w window) GetStart() string {
-	return converterUniverseTimeToCosmicCalendar(w.Min)
+	return converterUniverseTimeToCosmicCalendar(w.Min, false)
 }
 
 func (w window) GetEnd() string {
-	return converterUniverseTimeToCosmicCalendar(w.Max)
+	return converterUniverseTimeToCosmicCalendar(w.Max, false)
 }
 
 type period struct {
@@ -42,11 +42,11 @@ type period struct {
 }
 
 func (p period) GetStart() string {
-	return converterUniverseTimeToCosmicCalendar(p.Min)
+	return converterUniverseTimeToCosmicCalendar(p.Min, false)
 }
 
 func (p period) GetEnd() string {
-	return converterUniverseTimeToCosmicCalendar(p.Max)
+	return converterUniverseTimeToCosmicCalendar(p.Max, false)
 }
 
 type era struct {
@@ -61,17 +61,20 @@ type events struct {
 	Eras []era
 }
 
-func converterUniverseTimeToCosmicCalendar(t int64) string {
+func converterUniverseTimeToCosmicCalendar(yearsAgo int64, useOffset bool) string {
+	if useOffset && yearsAgo < 10000 {
+		yearOffset := int64(time.Now().Year() - 2000)
+		yearsAgo += yearOffset
+	}
 	unixMin := float64(1420070400) // 2015-01-01 00:00:00
 	unixMax := float64(1451606400) // 2016-01-01 00:00:00
 	universeMax := float64(13820000000) // 13.82 billion years
 
-	seconds := ((universeMax - float64(t - 1)) / universeMax) * (unixMax - unixMin)
+	seconds := ((universeMax - float64(yearsAgo)) / universeMax) * (unixMax - unixMin)
 	unixTs := unixMin + seconds + 28800 // Offset for PST
 
 	sec, dec := math.Modf(unixTs)
 	ts := time.Unix(int64(sec), int64(dec * 10e8)).Format("2006-01-02T15:04:05.999999Z07:00")
-	fmt.Printf("%#v: %#v (%#v) %#v - %#v ; %#v - %#v)\n", t, ts, unixTs, sec, int64(sec), dec, int64(dec * 10e9))
 	return ts
 }
 

@@ -511,10 +511,14 @@ eras:
         label: 2560 BC
 
   - name: Last 10 seconds of the year (4,383 years ago - present)
-    label: Ancient history and the iron age
+    label: Ancient history, iron age, middle ages
     window:
       min: 4383
       max: 0
+    periods:
+      - name: Last second
+        min: 438
+        max: 0
     events:
 
       - name: First horses used for transport
@@ -616,3 +620,441 @@ eras:
       - name: Columbus explores America
         actual: 508
         label: 1492
+
+      - name: Earth revolves around Sun, Copernican Revolution (Nicolaus Copernicus)
+        actual: 457
+        label: 1543
+
+      - name: First published picture of camera obscura (Gemma Frisius)
+        actual: 455
+        label: 1545
+
+  - name: Last second of the year (438 years ago - present)
+    label: Industrial revolution, technological revolution, space age, information age
+    window:
+      min: 438
+      max: 0
+    periods:
+      - name: Last 1/10th of a second
+        min: 44
+        max: 0
+    events:
+
+      - name: Invention of microscope (Zacharias Janssen)
+        actual: 410
+        label: 1590
+
+      - name: First stock market (Amsterdam Stock Exchange)
+        actual: 398
+        label: 1602
+
+      - name: Invention of telescope (Hans Lippershey)
+        actual: 392
+        label: 1608
+
+      - name: Discovery of moons of Jupiter (Galileo Galilei)
+        actual: 391
+        label: 1609
+
+      - name: Laws of planetary motion (Johannes Kepler)
+        actual: 391
+        label: 1609 - 1619
+
+      - name: First economic bubble (Netherlands)
+        actual: 363
+        label: 1637
+
+      - name: Theory of chemical elements (Robert Boyle)
+        actual: 339
+        label: 1661
+
+      - name: Development of calculus (Gottfried Leibniz and Isaac Newton)
+        actual: 325
+        label: 1675
+
+      - name: Discovery of bacteria (Antonie van Leeuwenhoek)
+        actual: 324
+        label: 1676
+
+      - name: Discovery of gravity (Isaac Newton)
+        actual: 313
+        label: 1687
+
+      - name: Invention of electrical capacitor (Pieter van Musschenbroek)
+        actual: 254
+        label: 1746
+
+      - name: Discovery of galaxies (Thomas Wright)
+        actual: 250
+        label: 1750
+
+      - name: Common understanding of electricity (Benjamin Franklin)
+        actual: 250
+        label: 1750
+
+      - name: Discovery of electromagnetism (Franz Aepinus)
+        actual: 241
+        label: 1759
+
+      - name: Discovery of hydrogen (Henry Cavendish)
+        actual: 234
+        label: 1766
+
+      - name: Declaration of Independence, democracy (United States)
+        actual: 224
+        label: 1776
+
+      - name: Invention of rotary steam engine (James Watt)
+        actual: 219
+        label: 1781
+
+      - name: Theory of black holes (John Michell)
+        actual: 217
+        label: 1783
+
+      - name: Development of chemistry, first list of elements (Antoine Lavoisier)
+        actual: 213
+        label: 1787
+
+      - name: Invention of internal combustion engine (John Stevens)
+        actual: 202
+        label: 1798
+
+      - name: Discovery of Rosetta Stone (origin 196 BC) enabling translation of Egyptian hieroglyphics (Napoleon)
+        actual: 201
+        label: 1799
+
+      - name: Invention of continuous current electric battery (Alessandro Volta)
+        actual: 201
+        label: 1799
+
+      - name: Invention of photography (Thomas Wedgwood)
+        actual: 201
+        label: 1799
+
+      - name: Discovery of infrared radiation (William Herschel)
+        actual: 200
+        label: 1800
+
+      - name: Discovery of ultraviolet light (Johann Wilhelm Ritter)
+        actual: 199
+        label: 1801
+
+      - name: Atomic theory (John Dalton)
+        actual: 197
+        label: 1803
+
+      - name: First commercially successful locomotive (Matthew Murray)
+        actual: 188
+        label: 1812
+
+      - name: Invention of electric motor (Michael Faraday)
+        actual: 179
+        label: 1821
+
+      - name: Invention of electric generator (Michael Faraday)
+        actual: 169
+        label: 1831
+
+      - name: First commercially successful camera (Louis Daguerre)
+        actual: 161
+        label: 1839
+
+      - name: Germ theory of disease, sterilization (John Snow)
+        actual: 151
+        label: 1849
+
+      - name: Invention of refrigeration, first commercially successful ice machine (James Harrison)
+        actual: 146
+        label: 1854
+
+      - name: First plastic patent (Alexander Parkes)
+        actual: 144
+        label: 1856
+
+      - name: Discovery of natural selection (Charles Darwin)
+        actual: 142
+        label: 1858
+
+      - name: First transatlantic telegraph cable (Atlantic Telegraph Company)
+        actual: 142
+        label: 1858
+
+      - name: Fundamental equations of electromagnetism (James Clerk Maxwell)
+        actual: 139
+        label: 1861
+
+      - name: Antiseptics - reduced infections from surgery (Joseph Lister)
+        actual: 133
+        label: 1867
+
+      - name: First commercially successful typewriter (Sholes, Hall, Glidden, Soule)
+        actual: 132
+        label: 1868
+
+      - name: Development of periodic table, correct predictions of unknown elements (Dmitri Mendeleev)
+        actual: 131
+        label: 1869
+
+      - name: First transcontinental railroad (Pacific Railroad)
+        actual: 131
+        label: 1869
+
+      - name: Invention of voice telephone (Alexander Graham Bell)
+        actual: 124
+        label: 1876
+
+      - name: Invention of phonograph for recording and playing sound (Thomas Edison)
+        actual: 123
+        label: 1877
+
+      - name: Modern QWERTY key layout established (Christopher Latham Sholes)
+        actual: 122
+        label: 1878
+
+      - name: Invention of viable light bulb and continuous electrical system (Thomas Edison)
+        actual: 121
+        label: 1879
+
+      - name: Invention of automobile (Karl Benz)
+        actual: 114
+        label: 1886
+
+      - name: First deliberate radio waves (Heinrich Hertz)
+        actual: 113
+        label: 1887
+
+      - name: Discovery of electrons (J. J. Thomson)
+        actual: 103
+        label: 1897
+
+      - name: First flight of an airplane (Orville and Wilbur Wright)
+        actual: 97
+        label: 1903
+
+      - name: Special relativity (Albert Einstein)
+        actual: 95
+        label: 1905
+
+      - name: First cathode ray tube television (Boris Rosing)
+        actual: 93
+        label: 1907
+
+      - name: First affordable automobile (Henry Ford)
+        actual: 92
+        label: 1908
+
+      - name: World War I
+        actual: 86
+        label: 1914 - 1918
+
+      - name: First transcontinental telephone call (New York to San Francisco)
+        actual: 85
+        label: 1915
+
+      - name: General relativity (Albert Einstein)
+        actual: 84
+        label: 1916
+
+      - name: Discovery of the first antibiotic, penicillin (Sir Alexander Fleming)
+        actual: 72
+        label: 1928
+
+      - name: Great Depression, 15% drop in global GDP
+        actual: 71
+        label: 1929 - 1932
+
+      - name: Discovery of expansion of the universe, big bang theory (Georges Lemaître)
+        actual: 69
+        label: 1931
+
+      - name: World War II
+        actual: 61
+        label: 1939 - 1945
+
+      - name: First usage of antibiotics to treat infections (Allied military)
+        actual: 58
+        label: 1942
+
+      - name: DNA identified as genetic transformer (Avery, MacLeod, McCarty)
+        actual: 57
+        label: 1943
+
+      - name: Atomic bomb (Manhattan Project)
+        actual: 55
+        label: 1945
+
+      - name: Invention of microwave oven (Percy Lebaron Spencer)
+        actual: 55
+        label: 1945
+
+      - name: Invention of solid-state electronic transistor (Bardeen, Brattain, Shockley)
+        actual: 53
+        label: 1947
+
+      - name: First stored-program computer (Victoria University of Manchester)
+        actual: 52
+        label: 1948
+
+      - name: DNA double-helix structure discovered (James Watson and Francis Crick)
+        actual: 47
+        label: 1953
+
+      - name: First artificial satellite (Sputnik 1)
+        actual: 43
+        label: 1957
+
+      - name: NASA created
+        actual: 42
+        label: 1958
+
+      - name: First Moon flyby, first spacecraft to achieve escape velocity (Luna 1)
+        actual: 41
+        label: 1959
+
+      - name: First human in orbit (Yuri Gagarin, Vostok 1)
+        actual: 39
+        label: 1961
+
+      - name: First Venus flyby (Venera 1)
+        actual: 39
+        label: 1961
+
+      - name: Invention of cassette tapes (Philips)
+        actual: 38
+        label: 1962
+
+      - name: Invention of liquid crystal displays (George H. Heilmeier)
+        actual: 36
+        label: 1964
+
+      - name: First Mars flyby (Mariner 4)
+        actual: 35
+        label: 1965
+
+      - name: First personal computer (Programma 101)
+        actual: 35
+        label: 1965
+
+      - name: First human on the Moon (Neil Armstrong, Apollo 11)
+        actual: 31
+        label: 1969
+
+      - name: First Mars orbiter (Mariner 9)
+        actual: 29
+        label: 1971
+
+  - name: Last tenth of a second of the year (44 years ago - present)
+    label: Industrial revolution, technological revolution, space age, information age
+    window:
+      min: 44
+      max: 0
+    events:
+
+      - name: First candidate black hole discovered (Charles Thomas Bolton)
+        actual: 28
+        label: 1972
+
+      - name: First Jupiter flyby, first spacecraft to achieve escape velocity from solar system, first spacecraft to traverse asteroid belt (Pioneer 10)
+        actual: 27
+        label: 1973
+
+      - name: First Mercury flyby (Mariner 10)
+        actual: 26
+        label: 1974
+
+      - name: First Mars lander (Viking 1)
+        actual: 24
+        label: 1976
+
+      - name: First Saturn flyby (Pioneer 11)
+        actual: 21
+        label: 1979
+
+      - name: First commercial cellular phone network (Japan)
+        actual: 21
+        label: 1979
+
+      - name: First window based graphical user interface and mouse (Xerox Parc)
+        actual: 19
+        label: 1981
+
+      - name: TCP/IP (Internet Protocol) standardized
+        actual: 18
+        label: 1982
+
+      - name: First Uranus flyby (Voyager 2)
+        actual: 14
+        label: 1986
+
+      - name: First Neptune flyby (Voyager 2)
+        actual: 11
+        label: 1989
+
+      - name: First internet search engine (Archie)
+        actual: 10
+        label: 1990
+
+      - name: First exoplanet discovered (Aleksander Wolszczan and Dale Frail)
+        actual: 8
+        label: 1992
+
+      - name: Beginning of widespread Internet adoption
+        actual: 5
+        label: 1995
+
+      - name: First computer to beat best human chess player (Deep Blue)
+        actual: 4
+        label: 1996
+
+      - name: First component of International Space Station launched into orbit
+        actual: 2
+        label: 1998
+
+      - name: First major peer-to-peer file sharing network (Napster)
+        actual: 1
+        label: 1999
+
+      - name: Last time there wasn’t a human in orbit
+        actual: 0
+        label: 2000
+
+      - name: First major collaborative general information database (Wikipedia)
+        actual: -1
+        label: 2001
+
+      - name: Complete mapping of human genome (Human Genome Project)
+        actual: -3
+        label: 2003
+
+      - name: First multi-touch smart phone (iPhone)
+        actual: -7
+        label: 2007
+
+      - name: First decentralized digital currency (Bitcoin)
+        actual: -9
+        label: 2009
+
+      - name: First mainstream tablet computer (iPad)
+        actual: -10
+        label: 2010
+
+      - name: First computer to beat best Jeopardy player (Watson)
+        actual: -11
+        label: 2011
+
+      - name: First social network with 1 billion monthly active users (Facebook)
+        actual: -12
+        label: 2012
+
+      - name: First autonomous cars in public traffic
+        actual: -13
+        label: 2013
+
+      - name: First computer to beat best human Go player (AlphaGo)
+        actual: -15
+        label: 2015
+
+      - name: First consumer virtual reality headsets
+        actual: -15
+        label: 2015
