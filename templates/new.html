@@ -2,15 +2,7 @@
 
 <script type="text/javascript" src="/public/timeline.js"></script>
 
-<div id="timelines-new">
-
-    <div class="timeline-1">
-        <h2>Beginning of the universe to present (13.82 billion years ago)</h2>
-        <div class="main">
-        </div>
-    </div>
-
-</div>
+<div id="timelines-new"></div>
 
 <script type="text/javascript">
 
@@ -19,14 +11,18 @@
      */
     var timeline = {
         Eras: [],
-        Events: [],
-        Name: "",
+        Events: [{
+            Name: "Big bang",
+            YearsAgo: 13820000000,
+            Label: "13.82 billion years ago"
+        }],
+        Name: "Beginning of the universe to present (13.82 billion years ago)",
         Label: "",
         Start: 13820000000,
         End: 0
     };
 
-    createTimeline(timeline);
+    createTimelines([timeline]);
 </script>
 
 

@@ -33,3 +33,54 @@ body {
 .vis-item.default.period {
     background-color: rgba(200, 155, 155, 1);
 }
+
+#timelines-new {
+    padding: 1px 0;
+}
+
+#timelines-new .main {
+    background: #fff;
+    position: relative;
+}
+
+#timelines-new h2 {
+    color: #000;
+}
+
+#timelines-new .line {
+    border-width: 3px 0 3px 3px;
+    border-color: #000;
+    border-style: solid;
+    height: 1000px;
+    width: 70px;
+    margin-left: 50px;
+}
+
+#timelines-new .events {
+    color: #000;
+}
+
+#timelines-new .event {
+    position: absolute;
+    left: 153px;
+    padding-left: 10px;
+    top: 0;
+}
+
+#timelines-new .bar1 {
+    border-width: 3px 3px 0 0;
+    border-color: #000;
+    border-style: solid;
+    position: absolute;
+    left: -100px;
+
+}
+
+#timelines-new .bar2 {
+    border-width: 3px 0 0 0;
+    border-color: #000;
+    border-style: solid;
+    position: absolute;
+    left: -100px;
+
+}
