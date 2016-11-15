@@ -84,3 +84,9 @@ body {
     left: -100px;
 
 }
+
+#timelines-list {
+    background: #fff;
+    color: #000;
+    padding: 20px;
+}
