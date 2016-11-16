@@ -1,6 +1,6 @@
 body {
-    background: #777;
-    color: #ddd;
+    background: #fff;
+    color: #000;
 }
 
 .container.main-container {
@@ -41,6 +41,7 @@ body {
 #timelines-new .main {
     background: #fff;
     position: relative;
+    margin: 30px 0;
 }
 
 #timelines-new h2 {
@@ -48,12 +49,11 @@ body {
 }
 
 #timelines-new .line {
-    border-width: 3px 0 3px 3px;
+    border-width: 2px 0 2px 2px;
     border-color: #000;
     border-style: solid;
     height: 1000px;
     width: 70px;
-    margin-left: 50px;
 }
 
 #timelines-new .events {
@@ -62,13 +62,19 @@ body {
 
 #timelines-new .event {
     position: absolute;
-    left: 153px;
-    padding-left: 10px;
+    left: 102px;
+    padding-left: 5px;
+    top: 0;
+}
+
+#timelines-new .event .text {
+    position: absolute;
+    width: 800px;
     top: 0;
 }
 
 #timelines-new .bar1 {
-    border-width: 3px 3px 0 0;
+    border-width: 2px 2px 0 0;
     border-color: #000;
     border-style: solid;
     position: absolute;
@@ -77,7 +83,7 @@ body {
 }
 
 #timelines-new .bar2 {
-    border-width: 3px 0 0 0;
+    border-width: 2px 0 0 0;
     border-color: #000;
     border-style: solid;
     position: absolute;

@@ -33,34 +33,63 @@ function createTimelines(timelines) {
     var $timelines = $('#timelines-new');
     for (var i = 0; i < timelines.length; i++) {
         var timeline = timelines[i];
+        var timelineId = "timeline-" + i;
         $timelines.append(
-            "<div class='timeline-1'>" +
+            "<div id='" + timelineId + "'>" +
             "<h2>" + timeline.Name + "</h2>" +
             "<div class='main'>" +
             "</div>" +
             "</div>"
         );
-        $timelines.find('.main').append(
+        var $timeline = $timelines.find("#" + timelineId);
+        $timeline.find('.main').append(
             "<div class='line'></div>" +
             "<div class='events'></div>"
         );
-        var $events = $timelines.find('.events');
+        var $events = $timeline.find('.events');
+        var maxTime = timeline.Start;
+
+        var width = 90;
+        var previousEventTop = -20;
+        var previousTextTop = -20;
+        var previousEventCollisions = 0;
         for (var j = 0; j < timeline.Events.length; j++) {
             var event = timeline.Events[j];
 
-            var width1 = "70px";
-            var top1 = "0";
-            var height1 = "10px";
+            var eventTop = (maxTime - event.YearsAgo) / maxTime * 1000;
+            var textTop = previousTextTop + 20;
+            var eventCollisions = 0;
 
-            var width2 = "30px";
-            var left2 = "-30px";
-            var top2 = "7px";
+            if (eventTop < previousEventTop + 20) {
+                if (parseInt(previousEventTop) != parseInt(eventTop)) {
+                    eventCollisions++;
+                }
+            } else {
+                eventCollisions = 0;
+                textTop = eventTop;
+            }
+
+            var bar1width = (width - (eventCollisions * 8)) + "px";
+            var bar1top = eventTop + "px";
+            var bar1height = (eventTop - textTop + 9) + "px";
+
+            var bar2width = (100 - width + (eventCollisions * 8)) + "px";
+            var bar2left = "-" + (100 - width + (eventCollisions * 8)) + "px";
+            var bar2top = (textTop > eventTop) ? (eventTop + 7) + "px" : textTop + "px";
+
+            var textTopPx = (textTop > eventTop) ? (eventTop - 1) + "px" : (textTop - 8) + "px";
+
+            previousEventTop = eventTop;
+            previousTextTop = textTop;
+            previousEventCollisions = eventCollisions;
 
             $events.append(
                 "<div class='event'>" +
-                "<div class='bar1' style='width:" + width1 + ";height:" + height1 + ";top:" + top1 + "'></div>" +
-                "<div class='bar2' style='width:" + width2 + ";top:" + top2 + ";left:" + left2 + "'></div>" +
+                "<div class='bar1' style='width:" + bar1width + ";height:" + bar1height + ";top:" + bar1top + "'></div>" +
+                "<div class='bar2' style='width:" + bar2width + ";top:" + bar2top + ";left:" + bar2left + "'></div>" +
+                "<div class='text' style='top:" + textTopPx + "'>" +
                 "<p><b>" + event.Label + ":</b> " + event.Name + "</p>" +
+                "</div>" +
                 "</div>"
             );
         }
