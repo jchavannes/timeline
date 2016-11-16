@@ -42,6 +42,7 @@ body {
     background: #fff;
     position: relative;
     margin: 30px 0;
+    overflow: scroll;
 }
 
 #timelines-new h2 {
@@ -52,8 +53,8 @@ body {
     border-width: 2px 0 2px 2px;
     border-color: #000;
     border-style: solid;
-    height: 1000px;
-    width: 70px;
+    height: 1500px;
+    width: 170px;
 }
 
 #timelines-new .events {
@@ -62,14 +63,14 @@ body {
 
 #timelines-new .event {
     position: absolute;
-    left: 102px;
+    left: 202px;
     padding-left: 5px;
     top: 0;
 }
 
 #timelines-new .event .text {
     position: absolute;
-    width: 800px;
+    width: 1200px;
     top: 0;
 }
 
@@ -78,7 +79,7 @@ body {
     border-color: #000;
     border-style: solid;
     position: absolute;
-    left: -100px;
+    left: -200px;
 
 }
 
@@ -87,7 +88,7 @@ body {
     border-color: #000;
     border-style: solid;
     position: absolute;
-    left: -100px;
+    left: -200px;
 
 }
 

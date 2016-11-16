@@ -1,6 +1,6 @@
 eras:
 
-  - name: Entire cosmic year (13.82 billion years ago - present)
+  - name: Entire history of the universe (13.82 billion years ago - present)
     label: Beginning of the Universe to Early Life
     window:
       min: 13820000000
@@ -72,14 +72,10 @@ eras:
         actual: 2300000000
         label: 2.3 billion years ago
 
-      - name: First evidence of sexual reproduction
-        actual: 1200000000
-        label: 1.2 billion years ago
-
-  - name: December (1.17 billion years ago - present)
+  - name: 1/10th of the lifetime of the universe (1.38 billion years ago - present)
     label: Animals, Vertebrates, Mammals, & Primates
     window:
-      min: 1173000000
+      min: 1382000000
       max: 0
       max: 0
     periods:
@@ -87,6 +83,11 @@ eras:
         min: 37800000
         max: 0
     events:
+
+      - name: First evidence of sexual reproduction
+        actual: 1200000000
+        label: 1.2 billion years ago
+
       - name: Animals evolve from early eukaryotic organisms
         actual: 655000000
         label: 655 - 610 million years ago
@@ -211,6 +212,17 @@ eras:
         actual: 150000000
         label: 150 million years ago
 
+  - name: 1/100th of the lifetime of the universe (138 million years ago - present)
+    label: Hominids
+    window:
+      min: 138200000
+      max: 0
+    periods:
+      - name: 11pm - Midnight
+        min: 1575000
+        max: 0
+    events:
+
       - name: Placentals evolve to carry offspring rather than lay eggs
         actual: 125000000
         label: 125 million years ago
@@ -249,17 +261,6 @@ eras:
         actual: 40000000
         label: 40 - 30 million years ago
 
-  - name: Dec 31 (37.8 million years ago - present)
-    label: Hominids
-    window:
-      min: 37800000
-      max: 0
-    periods:
-      - name: 11pm - Midnight
-        min: 1575000
-        max: 0
-    events:
-
       - name:
           Catarrhines diverge from other simians - no tail, more
           ground-dwelling, greater sexual dimorphism, less pair bonding
@@ -271,6 +272,17 @@ eras:
           motion in shoulders (possibly for tree swinging)
         actual: 20000000
         label: 20 million years ago
+
+  - name: 1/1,000th of the lifetime of the universe (13.82 million years ago - present)
+    label: Homo Sapiens
+    window:
+      min: 13820000
+      max: 0
+    periods:
+      - name: :58 - :00
+        min: 52600
+        max: 0
+    events:
 
       - name: Last common ancestor of humans and apes
         actual: 13000000
@@ -294,14 +306,14 @@ eras:
         actual: 1900000
         label: 1.9 million years ago
 
-  - name: 11pm - Midnight (1.58 million years ago - present)
-    label: Homo Sapiens
+  - name: 1/10,000th of the lifetime of the universe (1.38 million years ago - present)
+    label: World colonization and early civilization
     window:
-      min: 1547939
+      min: 1382000
       max: 0
     periods:
-      - name: :58 - :00
-        min: 52600
+      - name: 59:50 - 00:00
+        min: 4383
         max: 0
     events:
 
@@ -318,6 +330,17 @@ eras:
       - name: First use of adhesives (tar), stronger tools
         actual: 200000
         label: 200,000 years ago
+
+  - name: 1/100,000th of the lifetime of the universe (138,200 years ago - present)
+    label: Ancient history, iron age, middle ages
+    window:
+      min: 138200
+      max: 0
+    periods:
+      - name: Last second
+        min: 438
+        max: 0
+    events:
 
       - name: First wave of homo sapiens leave Africa
         actual: 120000
@@ -367,17 +390,6 @@ eras:
         actual: 60000
         label: 60,000 years ago
 
-  - name: Last 2 minutes of the year (52,600 years ago - present)
-    label: World colonization and early civilization
-    window:
-      min: 52600
-      max: 0
-    periods:
-      - name: 59:50 - 00:00
-        min: 4383
-        max: 0
-    events:
-
       - name: First homo sapiens in Australia
         actual: 48000
         label: 48,000 - 42,000 years ago
@@ -421,6 +433,17 @@ eras:
       - name: First cities, beginning of civilization
         actual: 14000
         label: 12,000 BC
+
+  - name: 1/1,000,000th of the lifetime of the universe (13,820 years ago - present)
+    label: Industrial revolution, technological revolution, space age, information age
+    window:
+      min: 13820
+      max: 0
+    periods:
+      - name: Last 1/10th of a second
+        min: 44
+        max: 0
+    events:
 
       - name: Domestication of rice (China)
         actual: 13500
@@ -510,17 +533,6 @@ eras:
         actual: 4560
         label: 2560 BC
 
-  - name: Last 10 seconds of the year (4,383 years ago - present)
-    label: Ancient history, iron age, middle ages
-    window:
-      min: 4383
-      max: 0
-    periods:
-      - name: Last second
-        min: 438
-        max: 0
-    events:
-
       - name: First horses used for transport
         actual: 4000
         label: 2000 BC
@@ -581,6 +593,13 @@ eras:
         actual: 1372
         label: 628
 
+  - name: 1/10,000,000th of the lifetime of the universe (1,382 years ago - present)
+    label: Industrial revolution, technological revolution, space age, information age
+    window:
+      min: 1382
+      max: 0
+    events:
+
       - name: First known paper currency (China)
         actual: 1194
         label: 806
@@ -628,17 +647,6 @@ eras:
       - name: First published picture of camera obscura (Gemma Frisius)
         actual: 455
         label: 1545
-
-  - name: Last second of the year (438 years ago - present)
-    label: Industrial revolution, technological revolution, space age, information age
-    window:
-      min: 438
-      max: 0
-    periods:
-      - name: Last 1/10th of a second
-        min: 44
-        max: 0
-    events:
 
       - name: Invention of microscope (Zacharias Janssen)
         actual: 410
@@ -808,6 +816,13 @@ eras:
         actual: 123
         label: 1877
 
+  - name: 1/100,000,000th of the lifetime of the universe (138 years ago - present)
+    label: Industrial revolution, technological revolution, space age, information age
+    window:
+      min: 138
+      max: 0
+    events:
+
       - name: Modern QWERTY key layout established (Christopher Latham Sholes)
         actual: 122
         label: 1878
@@ -943,13 +958,6 @@ eras:
       - name: First Mars orbiter (Mariner 9)
         actual: 29
         label: 1971
-
-  - name: Last tenth of a second of the year (44 years ago - present)
-    label: Industrial revolution, technological revolution, space age, information age
-    window:
-      min: 44
-      max: 0
-    events:
 
       - name: First candidate black hole discovered (Charles Thomas Bolton)
         actual: 28

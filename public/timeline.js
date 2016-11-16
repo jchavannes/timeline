@@ -30,37 +30,48 @@
  * @param timelines {[Timeline]}
  */
 function createTimelines(timelines) {
+
+    var totalWidth = 200;
+    var defaultWidth = 195;
+    var barAdjustmentSize = 5;
+    var timelineHeight = 1500;
+
     var $timelines = $('#timelines-new');
+
     for (var i = 0; i < timelines.length; i++) {
+
         var timeline = timelines[i];
         var timelineId = "timeline-" + i;
+
+        //var backgroundColor = "style='background-color:#" + new Array(4).join((0xFF-(i+2)*10).toString(16)) + "'";
         $timelines.append(
             "<div id='" + timelineId + "'>" +
             "<h2>" + timeline.Name + "</h2>" +
             "<div class='main'>" +
+            "<div class='line'></div>" +
+            "<div class='events'></div>" +
             "</div>" +
             "</div>"
         );
-        var $timeline = $timelines.find("#" + timelineId);
-        $timeline.find('.main').append(
-            "<div class='line'></div>" +
-            "<div class='events'></div>"
-        );
-        var $events = $timeline.find('.events');
-        var maxTime = timeline.Start;
 
-        var width = 90;
+        var $timeline = $timelines.find("#" + timelineId);
+        var $events = $timeline.find('.events');
+
         var previousEventTop = -20;
         var previousTextTop = -20;
+
         var previousEventCollisions = 0;
+
         for (var j = 0; j < timeline.Events.length; j++) {
             var event = timeline.Events[j];
 
-            var eventTop = (maxTime - event.YearsAgo) / maxTime * 1000;
-            var textTop = previousTextTop + 20;
+            var eventTop = (timeline.Start - event.YearsAgo - 16) / timeline.Start * timelineHeight;
+            var textTop = eventTop;
             var eventCollisions = 0;
 
-            if (eventTop < previousEventTop + 20) {
+            if (textTop < previousTextTop + 20) {
+                textTop = previousTextTop + 20;
+                eventCollisions = previousEventCollisions;
                 if (parseInt(previousEventTop) != parseInt(eventTop)) {
                     eventCollisions++;
                 }
@@ -69,19 +80,25 @@ function createTimelines(timelines) {
                 textTop = eventTop;
             }
 
-            var bar1width = (width - (eventCollisions * 8)) + "px";
+            if (textTop < 5) {
+                textTop = 5;
+            }
+
+            var bar1width = (defaultWidth - (eventCollisions * barAdjustmentSize)) + "px";
             var bar1top = eventTop + "px";
-            var bar1height = (eventTop - textTop + 9) + "px";
+            var bar1height = (textTop - eventTop + 2) + "px";
 
-            var bar2width = (100 - width + (eventCollisions * 8)) + "px";
-            var bar2left = "-" + (100 - width + (eventCollisions * 8)) + "px";
-            var bar2top = (textTop > eventTop) ? (eventTop + 7) + "px" : textTop + "px";
+            var bar2width = (totalWidth - defaultWidth + (eventCollisions * barAdjustmentSize)) + "px";
+            var bar2left = "-" + (totalWidth - defaultWidth + (eventCollisions * barAdjustmentSize)) + "px";
+            var bar2top = (textTop) + "px";
 
-            var textTopPx = (textTop > eventTop) ? (eventTop - 1) + "px" : (textTop - 8) + "px";
+            var textTopPx = (textTop - 7) + "px";
 
             previousEventTop = eventTop;
             previousTextTop = textTop;
             previousEventCollisions = eventCollisions;
+
+            console.log(textTop);
 
             $events.append(
                 "<div class='event'>" +
