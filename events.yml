@@ -919,9 +919,9 @@ eras:
         actual: 43
         label: 1957
 
-      - name: NASA created
-        actual: 42
-        label: 1958
+#      - name: NASA created
+#        actual: 42
+#        label: 1958
 
       - name: First Moon flyby, first spacecraft to achieve escape velocity (Luna 1)
         actual: 41
@@ -943,9 +943,9 @@ eras:
         actual: 36
         label: 1964
 
-      - name: First Mars flyby (Mariner 4)
-        actual: 35
-        label: 1965
+#      - name: First Mars flyby (Mariner 4)
+#        actual: 35
+#        label: 1965
 
       - name: First personal computer (Programma 101)
         actual: 35
@@ -955,9 +955,9 @@ eras:
         actual: 31
         label: 1969
 
-      - name: First Mars orbiter (Mariner 9)
-        actual: 29
-        label: 1971
+#      - name: First Mars orbiter (Mariner 9)
+#        actual: 29
+#        label: 1971
 
       - name: First candidate black hole discovered (Charles Thomas Bolton)
         actual: 28
@@ -967,17 +967,17 @@ eras:
         actual: 27
         label: 1973
 
-      - name: First Mercury flyby (Mariner 10)
-        actual: 26
-        label: 1974
+#      - name: First Mercury flyby (Mariner 10)
+#        actual: 26
+#        label: 1974
 
       - name: First Mars lander (Viking 1)
         actual: 24
         label: 1976
 
-      - name: First Saturn flyby (Pioneer 11)
-        actual: 21
-        label: 1979
+#      - name: First Saturn flyby (Pioneer 11)
+#        actual: 21
+#        label: 1979
 
       - name: First commercial cellular phone network (Japan)
         actual: 21
@@ -991,13 +991,13 @@ eras:
         actual: 18
         label: 1982
 
-      - name: First Uranus flyby (Voyager 2)
-        actual: 14
-        label: 1986
+#      - name: First Uranus flyby (Voyager 2)
+#        actual: 14
+#        label: 1986
 
-      - name: First Neptune flyby (Voyager 2)
-        actual: 11
-        label: 1989
+#      - name: First Neptune flyby (Voyager 2)
+#        actual: 11
+#        label: 1989
 
       - name: First internet search engine (Archie)
         actual: 10

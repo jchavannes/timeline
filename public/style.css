@@ -1,5 +1,5 @@
 body {
-    background: #fff;
+    background: #ddd;
     color: #000;
 }
 
@@ -19,7 +19,7 @@ body {
 .timeline .vis-panel.vis-center,
 .timeline .vis-timeline {
     overflow: visible;
-    background: #ddd;
+    background: #fff;
 }
 
 .vis-item.default .vis-item-content {
