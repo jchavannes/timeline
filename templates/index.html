@@ -1,13 +1,14 @@
 {{ template "header.html" . }}
 
-<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.17.0/vis.min.css"/>
+<h2>Timeline of Important Events</h2>
 
-<div id="timelines">
-    <h4>This uses the <a href="https://en.wikipedia.org/wiki/Cosmic_Calendar">cosmic calendar</a>.  Specifically the year 2015 is used.</h4>
-</div>
+<p><a href="https://github.com/jchavannes/timeline">https://github.com/jchavannes/timeline</a></p>
+
+<div id="timelines-list"></div>
 
 <script type="text/javascript">
+
+    var $timeline = $("#timelines-list");
 
     //{{ range $eraId, $era := .Eras }}
     timeline("{{ $era.Name }}", "{{ $era.Label }}", [
@@ -37,37 +38,21 @@
     });
     //{{ end }}
 
-    function timeline(name, label, dataSet, options) {
-        var timelineId = "timeline-" + name.replace(/ /g, '-').toLowerCase();
-
-        $("#timelines").append("<div class='timeline'>" +
-                "<h2>" + name + "</h2>" +
-                "<p>" + label + "</p>" +
-                "<div id='" + timelineId + "'></div>" +
-                "</div>");
-
-        for (var i = 0; i < dataSet.length; i++) {
-            if (dataSet[i].className == undefined) {
-                dataSet[i].className = "default";
+    function timeline(eraName, eraLabel, eraData, window) {
+        var appendText = "<h4>" + eraName + " (" + eraLabel + ")</h4><ul>";
+        for (var i = 0; i < eraData.length; i++) {
+            var event = eraData[i];
+            if (event.group == 1) {
+                appendText += "<hr/>";
+                continue;
             }
+            appendText += "<li>" + event.content + "</li>";
         }
-        options.align = "right";
-        options.min = options.start;
-        options.max = options.end;
-        options.order = function (a, b) {
-            return a.id - b.id;
-        };
-        options.zoomable = false;
-        options.selectable = false;
-        options.groupOrder = function (a, b) {
-            return b.value - a.value;
-        };
-        var timeline = new vis.Timeline(document.getElementById(timelineId), new vis.DataSet(dataSet), options);
-        timeline.setGroups(new vis.DataSet([
-            {id: 0, content: '', value: 2},
-            {id: 1, content: '', value: 1}
-        ]));
+        appendText += "</ul>";
+        $timeline.append(appendText);
     }
+
 </script>
+
 
 {{ template "footer.html" . }}

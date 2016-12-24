@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"gitlab.wantlistapp.com/app/jgo/site"
+	"git.jasonc.me/pub/jgo/site"
 	"gopkg.in/yaml.v2"
 	"log"
 	"net/http"

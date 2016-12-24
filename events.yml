@@ -1,7 +1,7 @@
 eras:
 
-  - name: Entire history of the universe (13.82 billion years ago - present)
-    label: Beginning of the Universe to Early Life
+  - name: Big Bang
+    label: 13.82 billion years ago
     window:
       min: 13820000000
       max: 0
@@ -30,6 +30,18 @@ eras:
         actual: 13420000000
         label: 400 million years after big bang
 
+  - name: Milky Way and Earth
+    label: 9 billion years ago
+    window:
+      min: 1382000000
+      max: 0
+      max: 0
+    periods:
+      - name: 31st
+        min: 37800000
+        max: 0
+    events:
+
       - name: Formation of Milky Way galaxy
         actual: 9000000000
         label: 9 billion years ago
@@ -45,6 +57,17 @@ eras:
       - name: Formation of Earth, Moon forms shortly after
         actual: 4540000000
         label: 4.54 billion years ago
+
+  - name: Early Life
+    label: 4 billion years ago
+    window:
+      min: 138200000
+      max: 0
+    periods:
+      - name: 11pm - Midnight
+        min: 1575000
+        max: 0
+    events:
 
       - name: First prokaryotes, life emerges
         actual: 4000000000
@@ -72,21 +95,20 @@ eras:
         actual: 2300000000
         label: 2.3 billion years ago
 
-  - name: 1/10th of the lifetime of the universe (1.38 billion years ago - present)
-    label: Animals, Vertebrates, Mammals, & Primates
-    window:
-      min: 1382000000
-      max: 0
-      max: 0
-    periods:
-      - name: 31st
-        min: 37800000
-        max: 0
-    events:
-
       - name: First evidence of sexual reproduction
         actual: 1200000000
         label: 1.2 billion years ago
+
+  - name: Animals
+    label: 655 million years ago
+    window:
+      min: 138200000
+      max: 0
+    periods:
+      - name: 11pm - Midnight
+        min: 1575000
+        max: 0
+    events:
 
       - name: Animals evolve from early eukaryotic organisms
         actual: 655000000
@@ -129,6 +151,17 @@ eras:
       - name: First animals on land (invertebrates)
         actual: 530000000
         label: 530 million years ago
+
+  - name: Vertebrates
+    label: 530 million years ago
+    window:
+      min: 138200000
+      max: 0
+    periods:
+      - name: 11pm - Midnight
+        min: 1575000
+        max: 0
+    events:
 
       - name: Vertebrates evolve in water
         actual: 530000000
@@ -174,6 +207,17 @@ eras:
         actual: 380000000
         label: 380 million years ago
 
+  - name: Land
+    label: 370 million years ago
+    window:
+      min: 138200000
+      max: 0
+    periods:
+      - name: 11pm - Midnight
+        min: 1575000
+        max: 0
+    events:
+
       - name: Amphibians evolve from fish - lungs, limbs, digits
         actual: 370000000
         label: 370 million years ago
@@ -200,6 +244,17 @@ eras:
         actual: 210000000
         label: 210 million years ago
 
+  - name: Dinosaurs
+    label: 201 million years ago
+    window:
+      min: 138200000
+      max: 0
+    periods:
+      - name: 11pm - Midnight
+        min: 1575000
+        max: 0
+    events:
+
       - name: Mass extinction event, 70-75% of all species
         actual: 201000000
         label: 201 million years ago
@@ -212,17 +267,6 @@ eras:
         actual: 150000000
         label: 150 million years ago
 
-  - name: 1/100th of the lifetime of the universe (138 million years ago - present)
-    label: Hominids
-    window:
-      min: 138200000
-      max: 0
-    periods:
-      - name: 11pm - Midnight
-        min: 1575000
-        max: 0
-    events:
-
       - name: Placentals evolve to carry offspring rather than lay eggs
         actual: 125000000
         label: 125 million years ago
@@ -234,6 +278,17 @@ eras:
       - name: Opposable thumbs evolve in pre-primates
         actual: 70000000
         label: 70 million years ago
+
+  - name: Mammals and Primates
+    label: 66 million years ago
+    window:
+      min: 138200000
+      max: 0
+    periods:
+      - name: 11pm - Midnight
+        min: 1575000
+        max: 0
+    events:
 
       - name:
           Mass extinction event, 75% of all species,
@@ -273,17 +328,6 @@ eras:
         actual: 20000000
         label: 20 million years ago
 
-  - name: 1/1,000th of the lifetime of the universe (13.82 million years ago - present)
-    label: Homo Sapiens
-    window:
-      min: 13820000
-      max: 0
-    periods:
-      - name: :58 - :00
-        min: 52600
-        max: 0
-    events:
-
       - name: Last common ancestor of humans and apes
         actual: 13000000
         label: 13 - 4 million years ago
@@ -306,8 +350,12 @@ eras:
         actual: 1900000
         label: 1.9 million years ago
 
-  - name: 1/10,000th of the lifetime of the universe (1.38 million years ago - present)
-    label: World colonization and early civilization
+      - name: First use of clothing
+        actual: 500000
+        label: 500,000 to 100,000 years ago
+
+  - name: Homo Sapiens
+    label: 200,000 years ago
     window:
       min: 1382000
       max: 0
@@ -316,10 +364,6 @@ eras:
         min: 4383
         max: 0
     events:
-
-      - name: First use of clothing
-        actual: 500000
-        label: 500,000 to 100,000 years ago
 
       - name:
           Homo sapiens evolve from homo erectus (Africa) - larger brain,
@@ -330,17 +374,6 @@ eras:
       - name: First use of adhesives (tar), stronger tools
         actual: 200000
         label: 200,000 years ago
-
-  - name: 1/100,000th of the lifetime of the universe (138,200 years ago - present)
-    label: Ancient history, iron age, middle ages
-    window:
-      min: 138200
-      max: 0
-    periods:
-      - name: Last second
-        min: 438
-        max: 0
-    events:
 
       - name: First wave of homo sapiens leave Africa
         actual: 120000
@@ -385,6 +418,17 @@ eras:
       - name: First use of compound adhesives, stronger tools (South Africa)
         actual: 70000
         label: 70,000 years ago
+
+  - name: Global Colonization
+    label: 60,000 years ago
+    window:
+      min: 138200
+      max: 0
+    periods:
+      - name: Last second
+        min: 438
+        max: 0
+    events:
 
       - name: Second wave of homo sapiens leave Africa
         actual: 60000
@@ -434,17 +478,6 @@ eras:
         actual: 14000
         label: 12,000 BC
 
-  - name: 1/1,000,000th of the lifetime of the universe (13,820 years ago - present)
-    label: Industrial revolution, technological revolution, space age, information age
-    window:
-      min: 13820
-      max: 0
-    periods:
-      - name: Last 1/10th of a second
-        min: 44
-        max: 0
-    events:
-
       - name: Domestication of rice (China)
         actual: 13500
         label: 11,500 - 6200 BC
@@ -456,6 +489,17 @@ eras:
       - name: First verifiable agriculture
         actual: 12500
         label: 10500 BC
+
+  - name: Early Civilization
+    label: 12,000 years ago
+    window:
+      min: 13820
+      max: 0
+    periods:
+      - name: Last 1/10th of a second
+        min: 44
+        max: 0
+    events:
 
       - name: Homo floresiensis becomes extinct, homo sapiens last remaining humanoid species
         actual: 12000
@@ -497,6 +541,17 @@ eras:
         actual: 9000
         label: 7000 BC
 
+  - name: Ancient History
+    label: 8,000 years ago
+    window:
+      min: 13820
+      max: 0
+    periods:
+      - name: Last 1/10th of a second
+        min: 44
+        max: 0
+    events:
+
       - name: Invention of writing, beginning of recorded history
         actual: 8000
         label: 6000 BC
@@ -536,6 +591,17 @@ eras:
       - name: First horses used for transport
         actual: 4000
         label: 2000 BC
+
+  - name: Iron Age
+    label: 3,300 years ago
+    window:
+      min: 13820
+      max: 0
+    periods:
+      - name: Last 1/10th of a second
+        min: 44
+        max: 0
+    events:
 
       - name: First iron smelting (melting point of 2,800 °F), stronger tools
         actual: 3300
@@ -585,6 +651,13 @@ eras:
         actual: 1850
         label: 150
 
+  - name: Middle Ages
+    label: 1,540 years ago
+    window:
+      min: 1382
+      max: 0
+    events:
+
       - name: Fall of Roman Empire, beginning of middle ages (Europe)
         actual: 1524
         label: 476
@@ -592,13 +665,6 @@ eras:
       - name: Method to solve quadratic equations (Brahmagupta, India)
         actual: 1372
         label: 628
-
-  - name: 1/10,000,000th of the lifetime of the universe (1,382 years ago - present)
-    label: Industrial revolution, technological revolution, space age, information age
-    window:
-      min: 1382
-      max: 0
-    events:
 
       - name: First known paper currency (China)
         actual: 1194
@@ -639,6 +705,13 @@ eras:
       - name: Columbus explores America
         actual: 508
         label: 1492
+
+  - name: Scientific Revolution
+    label: 475 years ago
+    window:
+      min: 1382
+      max: 0
+    events:
 
       - name: Earth revolves around Sun, Copernican Revolution (Nicolaus Copernicus)
         actual: 457
@@ -703,6 +776,13 @@ eras:
       - name: Discovery of electromagnetism (Franz Aepinus)
         actual: 241
         label: 1759
+
+  - name: Industrial Revolution
+    label: 250 years ago
+    window:
+      min: 1382
+      max: 0
+    events:
 
       - name: Discovery of hydrogen (Henry Cavendish)
         actual: 234
@@ -772,6 +852,13 @@ eras:
         actual: 151
         label: 1849
 
+  - name: Technological Revolution
+    label: 160 years ago
+    window:
+      min: 1382
+      max: 0
+    events:
+
       - name: Invention of refrigeration, first commercially successful ice machine (James Harrison)
         actual: 146
         label: 1854
@@ -816,13 +903,6 @@ eras:
         actual: 123
         label: 1877
 
-  - name: 1/100,000,000th of the lifetime of the universe (138 years ago - present)
-    label: Industrial revolution, technological revolution, space age, information age
-    window:
-      min: 138
-      max: 0
-    events:
-
       - name: Modern QWERTY key layout established (Christopher Latham Sholes)
         actual: 122
         label: 1878
@@ -842,6 +922,13 @@ eras:
       - name: Discovery of electrons (J. J. Thomson)
         actual: 103
         label: 1897
+
+  - name: Petroleum Age
+    label: 115 years ago
+    window:
+      min: 138
+      max: 0
+    events:
 
       - name: First flight of an airplane (Orville and Wilbur Wright)
         actual: 97
@@ -915,6 +1002,13 @@ eras:
         actual: 47
         label: 1953
 
+  - name: Space Age
+    label: 60 years ago
+    window:
+      min: 138
+      max: 0
+    events:
+
       - name: First artificial satellite (Sputnik 1)
         actual: 43
         label: 1957
@@ -983,6 +1077,13 @@ eras:
         actual: 21
         label: 1979
 
+  - name: Information Age
+    label: 35 years ago
+    window:
+      min: 138
+      max: 0
+    events:
+
       - name: First window based graphical user interface and mouse (Xerox Parc)
         actual: 19
         label: 1981
@@ -1034,6 +1135,13 @@ eras:
       - name: Complete mapping of human genome (Human Genome Project)
         actual: -3
         label: 2003
+
+  - name: Mobile Age
+    label: 10 years ago
+    window:
+      min: 138
+      max: 0
+    events:
 
       - name: First multi-touch smart phone (iPhone)
         actual: -7
