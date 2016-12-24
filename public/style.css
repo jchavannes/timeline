@@ -3,6 +3,10 @@ body {
     color: #000;
 }
 
+hr {
+    margin: 12px 0;
+}
+
 .container.main-container {
     padding-top: 0;
 }

@@ -18,7 +18,7 @@ eras:
         actual: 13820000000
         label: 10 seconds after big bang
 
-      - name: First hydrogen atoms begin to form, CMB visibility horizon
+      - name: First hydrogen atoms begin to form, universe visibility horizon (cosmic microwave background)
         actual: 13819700000
         label: 380,000 years after big bang
 
@@ -75,7 +75,7 @@ eras:
 
       - name: First bacteria and multicellular organisms
         actual: 3500000000
-        label: 3.5 3 billion years ago
+        label: 3.5 - 3 billion years ago
 
       - name: First cells to perform photosynthesis
         actual: 3000000000
@@ -308,6 +308,10 @@ eras:
         actual: 52000000
         label: 52 million years ago
 
+      - name: Branch of mammals begin evolving in water, leading to whales, dolphins, seals, etc (closest living land relative - hippo)
+        actual: 48000000
+        label: 48 million years ago
+
       - name: Simians diverge from other primates (monkeys and apes)
         actual: 42000000
         label: 42 million years ago
@@ -346,13 +350,26 @@ eras:
 
       - name:
           Homo erectus evolves (originated in Africa, eventually
-          spread into Europe and as far east as China), first use of fire, cooking
+          spread into Europe and as far east as China)
+        actual: 1900000
+        label: 1.9 million years ago
+
+      - name:
+          First use of fire, cooking
         actual: 1900000
         label: 1.9 million years ago
 
       - name: First use of clothing
         actual: 500000
         label: 500,000 to 100,000 years ago
+
+      - name: First use of paint
+        actual: 400000
+        label: 400,000 years ago
+
+      - name: Invention of stone spear heads
+        actual: 300000
+        label: 300,000 years ago
 
   - name: Homo Sapiens
     label: 200,000 years ago
@@ -434,7 +451,7 @@ eras:
         actual: 60000
         label: 60,000 years ago
 
-      - name: First homo sapiens in Australia
+      - name: First homo sapiens in Australia, extinction of Australian megafauna
         actual: 48000
         label: 48,000 - 42,000 years ago
 
@@ -466,7 +483,7 @@ eras:
         actual: 19000
         label: 19,000 - 6,000 years ago
 
-      - name: First homo sapiens in America
+      - name: First homo sapiens in America, extinction of American megafauna
         actual: 16500
         label: 16,500 years ago
 
@@ -572,6 +589,10 @@ eras:
         actual: 5300
         label: 3300 BC
 
+      - name: First written language, first schools (Mesopotamia)
+        actual: 5200
+        label: 3200 BC
+
       - name: Invention of indoor plumbing and flush toilet (South Asia)
         actual: 5000
         label: 3000 BC
@@ -603,7 +624,7 @@ eras:
         max: 0
     events:
 
-      - name: First iron smelting (melting point of 2,800 °F), stronger tools
+      - name: First iron smelting (melting point of 2,800 °F)
         actual: 3300
         label: 1300 BC
 
@@ -619,9 +640,29 @@ eras:
         actual: 2700
         label: 700 BC
 
+      - name: Torah written, beginning of Abrahamic religions, currently 54% of world population adheres to a Abrahamic religion (Babylonia)
+        actual: 2600
+        label: 600 - 400 BC
+
+      - name: Discovery that earth is round (Pythagoras, Greece)
+        actual: 2500
+        label: 500 BC
+
+      - name: Discovery of the Phythagorean theorem (Pythagoras, Greece)
+        actual: 2500
+        label: 500 BC
+
       - name: First record of camera obscura phenomenon, light travels in straight lines (Mozi, China)
         actual: 2400
         label: 400 BC
+
+      - name: First higher learning institution founded, The Academy (Plato, Greece)
+        actual: 2387
+        label: 387 BC
+
+      - name: Foundion of western phlosophy, science, western religion, and spirituality (Plato, Greece)
+        actual: 2375
+        label: 375 BC
 
       - name: Development of geometry (Euclid, Greece)
         actual: 2300
@@ -630,6 +671,12 @@ eras:
       - name: Estimation of pi, invention of exponents (Archimedes, Greece)
         actual: 2250
         label: 250 BC
+
+      - name:
+          Accurate measurement of Earth’s circumference, tilt, and distance from the sun;
+          development of geography (Eratosthenes, Greece)
+        actual: 2200
+        label: 200 BC
 
       - name: First city with population over 1 million (Rome)
         actual: 2133
@@ -646,6 +693,10 @@ eras:
       - name: Invention of paper (China)
         actual: 1975
         label: 25
+
+      - name: Invention of glass mirror (Rome)
+        actual: 1923
+        label: 77
 
       - name: First light refraction tables (Claudius Ptolemy)
         actual: 1850
@@ -677,6 +728,10 @@ eras:
       - name: Invention of gunpowder (China)
         actual: 1150
         label: 850
+
+      - name: Oldest existing university founded (University of Al Quaraouiyine, Morocco)
+        actual: 1141
+        label: 859
 
       - name: Experimental evidence for intromission light theory (Ibn al-Haytham, Middle East)
         actual: 1000
@@ -804,6 +859,10 @@ eras:
         actual: 213
         label: 1787
 
+      - name: First vaccine, smallpox (Edward Jenner)
+        actual: 204
+        label: 1796
+
       - name: Invention of internal combustion engine (John Stevens)
         actual: 202
         label: 1798
@@ -843,6 +902,10 @@ eras:
       - name: Invention of electric generator (Michael Faraday)
         actual: 169
         label: 1831
+
+      - name: Development of glass silvering; affordable glass mirrors (Justus von Liebig)
+        actual: 165
+        label: 1835
 
       - name: First commercially successful camera (Louis Daguerre)
         actual: 161
@@ -910,6 +973,10 @@ eras:
       - name: Invention of viable light bulb and continuous electrical system (Thomas Edison)
         actual: 121
         label: 1879
+
+      - name: First successful organ transplant, thyroid (Theodor Kocher)
+        actual: 117
+        label: 1883
 
       - name: Invention of automobile (Karl Benz)
         actual: 114
@@ -1002,6 +1069,18 @@ eras:
         actual: 47
         label: 1953
 
+      - name: First practical solar cell (Bell Labs)
+        actual: 46
+        label: 1954
+
+      - name: First bone marrow transplant (E. Donnall Thomas)
+        actual: 44
+        label: 1956
+
+      - name: First nuclear power plant (England)
+        actual: 44
+        label: 1956
+
   - name: Space Age
     label: 60 years ago
     window:
@@ -1045,6 +1124,10 @@ eras:
         actual: 35
         label: 1965
 
+      - name: First successful heart transplant (Christiaan Barnard)
+        actual: 33
+        label: 1967
+
       - name: First human on the Moon (Neil Armstrong, Apollo 11)
         actual: 31
         label: 1969
@@ -1052,6 +1135,10 @@ eras:
 #      - name: First Mars orbiter (Mariner 9)
 #        actual: 29
 #        label: 1971
+
+      - name: First computer virus, Creeper (Bob Thomas)
+        actual: 29
+        label: 1971
 
       - name: First candidate black hole discovered (Charles Thomas Bolton)
         actual: 28
@@ -1076,6 +1163,12 @@ eras:
       - name: First commercial cellular phone network (Japan)
         actual: 21
         label: 1979
+
+      - name:
+          Smallpox, which killed up to 500 million people in the 20th century alone,
+          completely eradicated (WHO)
+        actual: 20
+        label: 1980
 
   - name: Information Age
     label: 35 years ago
@@ -1163,6 +1256,10 @@ eras:
         actual: -12
         label: 2012
 
+      - name: Discovery of Higgs boson (CERN)
+        actual: -12
+        label: 2012
+
       - name: First autonomous cars in public traffic
         actual: -13
         label: 2013
@@ -1174,3 +1271,7 @@ eras:
       - name: First consumer virtual reality headsets
         actual: -15
         label: 2015
+
+      - name: Discovery of gravitational waves (LIGO)
+        actual: -16
+        label: 2016
