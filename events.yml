@@ -474,6 +474,17 @@ eras:
         actual: 15000
         label: 15,000 years ago
 
+  - name: Early Civilization
+    label: 14,000 years ago
+    window:
+      min: 13820
+      max: 0
+    periods:
+      - name: Last 1/10th of a second
+        min: 44
+        max: 0
+    events:
+
       - name: First cities, beginning of civilization
         actual: 14000
         label: 12,000 BC
@@ -489,17 +500,6 @@ eras:
       - name: First verifiable agriculture
         actual: 12500
         label: 10500 BC
-
-  - name: Early Civilization
-    label: 12,000 years ago
-    window:
-      min: 13820
-      max: 0
-    periods:
-      - name: Last 1/10th of a second
-        min: 44
-        max: 0
-    events:
 
       - name: Homo floresiensis becomes extinct, homo sapiens last remaining humanoid species
         actual: 12000
