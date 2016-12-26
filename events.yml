@@ -241,7 +241,7 @@ eras:
 
       - name:
             Mammals evolve from early reptiles - loss of color vision (possibly due to nocturnality),
-            warm-blooded,hair, neocortex, mammary glands, ear drum
+            warm-blooded, hair, neocortex, mammary glands, ear drum
         actual: 210000000
         label: 210 million years ago
 
@@ -337,6 +337,17 @@ eras:
         actual: 13000000
         label: 13 - 4 million years ago
 
+  - name: Early Humans
+    label: 5 million years ago
+    window:
+      min: 138200000
+      max: 0
+    periods:
+      - name: 11pm - Midnight
+        min: 1575000
+        max: 0
+    events:
+
       - name: Modern human thumb evolves
         actual: 5000000
         label: 5 million years ago
@@ -362,7 +373,7 @@ eras:
 
       - name: First use of clothing
         actual: 500000
-        label: 500,000 to 100,000 years ago
+        label: 500,000 years ago
 
       - name: First use of paint
         actual: 400000
@@ -437,7 +448,7 @@ eras:
         actual: 70000
         label: 70,000 years ago
 
-  - name: Global Colonization
+  - name: Global Inhabitation
     label: 60,000 years ago
     window:
       min: 138200
@@ -454,7 +465,7 @@ eras:
 
       - name: First homo sapiens in Australia, extinction of Australian megafauna
         actual: 48000
-        label: 48,000 - 42,000 years ago
+        label: 48,000 years ago
 
       - name: First known instrument (wooden flute, Europe)
         actual: 41000
@@ -547,7 +558,7 @@ eras:
         actual: 9000
         label: 7000 BC
 
-      - name: First cities with 10,000+ people (Turkey)
+      - name: First cities with over 10,000 people (Turkey)
         actual: 9000
         label: 7000 BC
 
@@ -641,7 +652,7 @@ eras:
         actual: 2700
         label: 700 BC
 
-      - name: Torah written, beginning of Abrahamic religions, currently 54% of world population adheres to a Abrahamic religion (Babylonia)
+      - name: Torah written, beginning of Abrahamic religions, currently 54% of world population adheres to an Abrahamic religion (Babylonia)
         actual: 2600
         label: 600 - 400 BC
 
