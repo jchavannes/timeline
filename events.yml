@@ -85,12 +85,13 @@ eras:
         actual: 3000000000
         label: 3 billion years ago
 
-      - name: Eukaryotes evolve from prokaryotes nucleus, mitochondria
+      - name: Eukaryotes evolve from prokaryotes - nucleus, mitochondria
         actual: 2500000000
         label: 2.5 billion years ago
 
       - name:
-            Oxygen suddenly becomes abundant in atmosphere
+            Great Oxygenation Event -
+            oxygen suddenly becomes abundant in atmosphere
             (possibly due to photosynthesis)
         actual: 2300000000
         label: 2.3 billion years ago
