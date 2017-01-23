@@ -133,7 +133,7 @@ eras:
         actual: 550000000
         label: 550 million years ago
 
-      - name: First arthropods evolve
+      - name: First arthropods evolve (which would later include insects, crustaceans, and arachnids)
         actual: 545000000
         label: 545 million years ago
 
@@ -516,15 +516,15 @@ eras:
 
       - name: First cities, beginning of civilization
         actual: 14000
-        label: 12,000 BC
+        label: 12000 BC
 
       - name: Domestication of rice (China)
         actual: 13500
-        label: 11,500 - 6200 BC
+        label: 11500 - 6200 BC
 
       - name: Domestication of sheep (Mesopotamia)
         actual: 13000
-        label: 11,000 - 9000 BC
+        label: 11000 - 9000 BC
 
       - name: First verifiable agriculture
         actual: 12500
@@ -1048,6 +1048,10 @@ eras:
       - name: Discovery of expansion of the universe, big bang theory (Georges Lemaître)
         actual: 69
         label: 1931
+
+      - name: Invention of radio telescope, first search for extraterrestrial intelligence (Grote Reber)
+        actual: 63
+        label: 1937
 
       - name: World War II
         actual: 61

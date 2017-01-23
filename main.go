@@ -125,7 +125,8 @@ func main() {
 	fs := http.FileServer(http.Dir("public"))
 	server.Handle("/public/", http.StripPrefix("/public/", fs))
 
-	http.ListenAndServe(":" + strconv.Itoa(port), server)
+	err := http.ListenAndServe(":" + strconv.Itoa(port), server)
+	check(err)
 }
 
 func check(e error) {
