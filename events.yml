@@ -919,6 +919,11 @@ eras:
         actual: 165
         label: 1835
 
+      - name: First telegram, invention of Morse code (Samuel F.B. Morse)
+        actual: 162
+        label: 1838
+        source: https://en.wikipedia.org/wiki/Electrical_telegraph
+
       - name: First commercially successful camera (Louis Daguerre)
         actual: 161
         label: 1839
@@ -994,13 +999,19 @@ eras:
         actual: 114
         label: 1886
 
-      - name: First deliberate radio waves (Heinrich Hertz)
+      - name: Discovery of radio waves (Heinrich Hertz)
         actual: 113
         label: 1887
+        source: https://en.wikipedia.org/wiki/History_of_radio
 
       - name: Discovery of electrons (J. J. Thomson)
         actual: 103
         label: 1897
+
+      - name: First remote control, boat (Nikola Tesla)
+        actual: 102
+        label: 1898
+        source: https://en.wikipedia.org/wiki/Remote_control
 
   - name: Petroleum Age
     label: 115 years ago
@@ -1008,6 +1019,11 @@ eras:
       min: 138
       max: 0
     events:
+
+      - name: First transmission of voice by radio (Reginald Fessenden)
+        actual: 100
+        label: 1900
+        source: https://en.wikipedia.org/wiki/Reginald_Fessenden
 
       - name: First flight of an airplane (Orville and Wilbur Wright)
         actual: 97

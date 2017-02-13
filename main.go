@@ -10,16 +10,25 @@ import (
 	"io/ioutil"
 	"time"
 	"math"
+	"github.com/jchavannes/browser-history-parser/wikipedia"
 )
 
 type event struct {
 	Name   string
 	Actual int64
 	Label  string
+	Source string
 }
 
 func (e event) GetDate() string {
 	return converterUniverseTimeToCosmicCalendar(e.Actual, true)
+}
+
+func (e event) GetSourceText() string {
+	if ! wikipedia.IsWikipediaUrl(e.Source) {
+		return e.Source
+	}
+	return "wiki/" + wikipedia.ArticleNameFromUrl(e.Source)
 }
 
 type window struct {

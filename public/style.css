@@ -101,3 +101,8 @@ hr {
     color: #000;
     padding: 20px;
 }
+
+#timelines-list li a {
+    font-style: italic;
+    font-size: 12px;
+}

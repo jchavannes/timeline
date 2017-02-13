@@ -17,6 +17,8 @@
             id: "{{ counter }}",
             group: 0,
             content: "<b>{{ $event.Label }}</b> {{ $event.Name }}",
+            source: "{{ $event.Source }}",
+            sourceText: "{{ $event.GetSourceText }}",
             title: "{{ $event.GetDate }}",
             start: "{{ $event.GetDate }}"
         },
@@ -46,7 +48,11 @@
                 appendText += "<hr/>";
                 continue;
             }
-            appendText += "<li>" + event.content + "</li>";
+            var sourceHtml = "";
+            if (event.source.length > 0) {
+                sourceHtml = " <a href='" + event.source + "'>[" + event.sourceText + "]</a>";
+            }
+            appendText += "<li>" + event.content + sourceHtml + "</li>";
         }
         appendText += "</ul>";
         $timeline.append(appendText);
