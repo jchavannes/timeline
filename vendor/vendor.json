@@ -31,6 +31,12 @@
 			"revision": ""
 		},
 		{
+			"checksumSHA1": "LGpqVtBXtJUhGKi2GzbmDltWc4I=",
+			"path": "github.com/jchavannes/browser-history-parser/wikipedia",
+			"revision": "0b6c66ae6b49e9af0dbf8a95f9028b75a1c8673e",
+			"revisionTime": "2016-10-12T07:13:58Z"
+		},
+		{
 			"checksumSHA1": "aTZrqlcgOcrt4hVkRLkgTdi5NR8=",
 			"path": "github.com/jchavannes/timeline",
 			"revision": "46bdb9dc5a69d28979144fe85a56a88f1cafedd5",

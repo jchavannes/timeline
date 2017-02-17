@@ -1020,18 +1020,19 @@ eras:
       max: 0
     events:
 
-      - name: First transmission of voice by radio (Reginald Fessenden)
+      - name: First transmission of voice by radio, amplitude modulation aka AM (Reginald Fessenden)
         actual: 100
         label: 1900
-        source: https://en.wikipedia.org/wiki/Reginald_Fessenden
+        source: https://en.wikipedia.org/wiki/Amplitude_modulation
 
       - name: First flight of an airplane (Orville and Wilbur Wright)
         actual: 97
         label: 1903
 
-      - name: Special relativity (Albert Einstein)
+      - name: Special relativity, spacetime continuum (Albert Einstein)
         actual: 95
         label: 1905
+        source: https://en.wikipedia.org/wiki/Special_relativity
 
       - name: First cathode ray tube television (Boris Rosing)
         actual: 93
@@ -1049,9 +1050,10 @@ eras:
         actual: 85
         label: 1915
 
-      - name: General relativity (Albert Einstein)
+      - name: General relativity, gravity curves spacetime (Albert Einstein)
         actual: 84
         label: 1916
+        source: https://en.wikipedia.org/wiki/General_relativity
 
       - name: Discovery of the first antibiotic, penicillin (Sir Alexander Fleming)
         actual: 72
