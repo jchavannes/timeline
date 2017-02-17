@@ -1020,7 +1020,7 @@ eras:
       max: 0
     events:
 
-      - name: First transmission of voice by radio, amplitude modulation aka AM (Reginald Fessenden)
+      - name: First transmission of voice by radio, invention of amplitude modulation aka AM (Reginald Fessenden)
         actual: 100
         label: 1900
         source: https://en.wikipedia.org/wiki/Amplitude_modulation
