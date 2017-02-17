@@ -104,5 +104,6 @@ hr {
 
 #timelines-list li a {
     font-style: italic;
-    font-size: 12px;
+    font-size: 11px;
+    color: rgba(51, 122, 183, 0.8);
 }
