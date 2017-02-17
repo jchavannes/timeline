@@ -50,7 +50,11 @@
             }
             var sourceHtml = "";
             if (event.source.length > 0) {
-                sourceHtml = " <a href='" + event.source + "'>[" + event.sourceText + "]</a>";
+                if (event.source.substr(0,4) == "http") {
+                    sourceHtml = " <a href='" + event.source + "'>[" + event.sourceText + "]</a>";
+                } else {
+                    sourceHtml = " <i>[" + event.sourceText + "]</i>";
+                }
             }
             appendText += "<li>" + event.content + sourceHtml + "</li>";
         }

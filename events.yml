@@ -13,22 +13,37 @@ eras:
       - name: Big Bang
         actual: 13820000000
         label: 13.82 billion years ago
+        source: https://en.wikipedia.org/wiki/Big_Bang
 
-      - name: First electrons, protons, and neutrons begin to form
+      - name: First protons, and neutrons begin to form
         actual: 13820000000
-        label: 10 seconds after big bang
+        label: 10<sup>-6</sup> seconds after big bang
+        source: https://en.wikipedia.org/wiki/Big_Bang
+
+      - name: First electrons begin to form
+        actual: 13820000000
+        label: 1 second after big bang
+        source: https://en.wikipedia.org/wiki/Big_Bang
+
+      - name: Protons and neutrons start combining to form first atomic nuclei
+        actual: 13820000000
+        label: Few minutes after big bang
+        source: https://en.wikipedia.org/wiki/Big_Bang
 
       - name: First hydrogen atoms begin to form, universe visibility horizon (cosmic microwave background)
         actual: 13819700000
         label: 380,000 years after big bang
+        source: https://en.wikipedia.org/wiki/Cosmic_microwave_background
 
       - name: First stars begin to form
         actual: 13670000000
         label: 150 million years after big bang
+        source: https://en.wikipedia.org/wiki/Chronology_of_the_universe
 
       - name: First galaxies begin to form
         actual: 13420000000
         label: 400 million years after big bang
+        source: https://en.wikipedia.org/wiki/GN-z11
 
   - name: Milky Way and Earth
     label: 9 billion years ago
@@ -998,6 +1013,7 @@ eras:
       - name: Invention of automobile (Karl Benz)
         actual: 114
         label: 1886
+        source: https://en.wikipedia.org/wiki/Car
 
       - name: Discovery of radio waves (Heinrich Hertz)
         actual: 113
@@ -1007,6 +1023,7 @@ eras:
       - name: Discovery of electrons (J. J. Thomson)
         actual: 103
         label: 1897
+        source: https://en.wikipedia.org/wiki/Electron
 
       - name: First remote control, boat (Nikola Tesla)
         actual: 102
@@ -1149,6 +1166,11 @@ eras:
       - name: Invention of liquid crystal displays (George H. Heilmeier)
         actual: 36
         label: 1964
+
+      - name: Discovery of cosmic microwave background
+        actual: 36
+        label: 1964
+        source: https://en.wikipedia.org/wiki/Cosmic_microwave_background
 
 #      - name: First Mars flyby (Mariner 4)
 #        actual: 35
