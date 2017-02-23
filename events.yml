@@ -10,25 +10,25 @@ eras:
         min: 1173000000
         max: 0
     events:
-      - name: Big Bang
+      - name: Big Bang, universe appears
         actual: 13820000000
         label: 13.82 billion years ago
         source: https://en.wikipedia.org/wiki/Big_Bang
 
-      - name: First protons, and neutrons begin to form
+      - name: First hadron particles begin to form, including protons and neutrons
         actual: 13820000000
         label: 10<sup>-6</sup> seconds after big bang
-        source: https://en.wikipedia.org/wiki/Big_Bang
+        source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
 
-      - name: First electrons begin to form
+      - name: First lepton particles begin to form, including electrons
         actual: 13820000000
         label: 1 second after big bang
-        source: https://en.wikipedia.org/wiki/Big_Bang
+        source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
 
       - name: Protons and neutrons start combining to form first atomic nuclei
         actual: 13820000000
         label: Few minutes after big bang
-        source: https://en.wikipedia.org/wiki/Big_Bang
+        source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
 
       - name: First hydrogen atoms begin to form, universe visibility horizon (cosmic microwave background)
         actual: 13819700000
@@ -75,12 +75,12 @@ eras:
       - name: Formation of Earth
         actual: 4540000000
         label: 4.54 billion years ago
-        source: https://en.wikipedia.org/wiki/Earth
+        source: https://en.wikipedia.org/wiki/History_of_Earth
 
       - name: Formation of Moon, likely the aftermath of impact with Earth
         actual: 4510000000
         label: 4.51 billion years ago
-        source: https://en.wikipedia.org/wiki/Moon
+        source: https://en.wikipedia.org/wiki/Origin_of_the_Moon
 
   - name: Early Life
     label: 4 billion years ago
@@ -93,36 +93,55 @@ eras:
         max: 0
     events:
 
-      - name: First prokaryotes, life emerges
-        actual: 4000000000
-        label: 4 billion years ago
+      - name: Life appears on earth
+        actual: 4100000000
+        label: 4.1 - 3.8 billion years ago
+        source: https://en.wikipedia.org/wiki/Abiogenesis
 
-      - name: First bacteria and multicellular organisms
+      - name: Last universal common ancestor
+        actual: 3800000000
+        label: 3.8 - 3.5 billion years ago
+        source: https://en.wikipedia.org/wiki/Last_universal_common_ancestor
+
+      - name: Oldest known prokaryotes
         actual: 3500000000
-        label: 3.5 - 3 billion years ago
+        label: 3.5 billion years ago
+        source: https://en.wikipedia.org/wiki/Prokaryote
 
-      - name: First cells to perform photosynthesis
-        actual: 3000000000
-        label: 3 billion years ago
+      - name: First bacteria
+        actual: 3500000000
+        label: 3.5 billion years ago
+        source: https://en.wikipedia.org/wiki/Timeline_of_the_evolutionary_history_of_life
+
+      - name: First organisms to perform photosynthesis
+        actual: 3400000000
+        label: 3.4 billion years ago
+        source: https://en.wikipedia.org/wiki/Evolution_of_photosynthesis
 
       - name: First cells to use ATP for energy transfer
         actual: 3000000000
         label: 3 billion years ago
+        source: https://www.ncbi.nlm.nih.gov/books/NBK26849/
 
       - name: Eukaryotes evolve from prokaryotes - nucleus, mitochondria
         actual: 2500000000
         label: 2.5 billion years ago
+        source: https://en.wikipedia.org/wiki/Eukaryote
 
-      - name:
-            Great Oxygenation Event -
-            oxygen suddenly becomes abundant in atmosphere
-            (possibly due to photosynthesis)
+      - name: Oxygen suddenly becomes abundant in atmosphere (possibly due to photosynthesis)
         actual: 2300000000
         label: 2.3 billion years ago
+        source: https://en.wikipedia.org/wiki/Great_Oxygenation_Event
+
+      - name: First multicellular organism
+        actual: 1700000000
+        label: 1.7 billion years ago
+        source: https://en.wikipedia.org/wiki/Evolutionary_history_of_life
 
       - name: First evidence of sexual reproduction
         actual: 1200000000
         label: 1.2 billion years ago
+        source: https://en.wikipedia.org/wiki/Evolution_of_sexual_reproduction
 
   - name: Animals
     label: 655 million years ago
