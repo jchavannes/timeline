@@ -107,3 +107,12 @@ hr {
     font-size: 11px;
     color: rgba(51, 122, 183, 0.8);
 }
+
+.sources {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.sources a {
+    cursor: pointer;
+}

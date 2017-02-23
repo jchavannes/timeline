@@ -4,9 +4,19 @@
 
 <p><a href="https://github.com/jchavannes/timeline">https://github.com/jchavannes/timeline</a></p>
 
+<p class="sources">Sources: <a id="show-sources">Show</a> | <a id="hide-sources">Hide</a></p>
+
 <div id="timelines-list"></div>
 
 <script type="text/javascript">
+
+    $("#show-sources").click(function() {
+        $timeline.find("a").show();
+    });
+
+    $("#hide-sources").click(function() {
+        $timeline.find("a").hide();
+    });
 
     var $timeline = $("#timelines-list");
 
