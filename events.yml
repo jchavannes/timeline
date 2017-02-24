@@ -154,15 +154,17 @@ eras:
         max: 0
     events:
 
-      - name: Animals evolve from early eukaryotic organisms
-        actual: 655000000
-        label: 655 - 610 million years ago
+      - name: Animals evolve from flagellated eukaryotes (single-celled organisms with whip-like tail, similar to sperm)
+        actual: 665000000
+        label: 665 - 610 million years ago
+        source: https://en.wikipedia.org/wiki/Animal
 
       - name:
           Early decentralized nervous system,
           bilateral symmetry (worm-like creature)
         actual: 600000000
         label: 600 million years ago
+        source: https://en.wikipedia.org/wiki/Evolution_of_nervous_systems
 
       - name: Mouth evolves, early digestive system
         actual: 600000000
@@ -171,6 +173,11 @@ eras:
       - name: Skeletal system evolves
         actual: 560000000
         label: 560 million years ago
+
+      - name: Last common ancestor of all bilateral animals
+        actual: 555000000
+        label: 555 million years ago
+        source: https://en.wikipedia.org/wiki/Urbilaterian
 
       - name: Brain evolves
         actual: 550000000
