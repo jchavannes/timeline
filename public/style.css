@@ -106,6 +106,7 @@ hr {
     font-style: italic;
     font-size: 11px;
     color: rgba(51, 122, 183, 0.8);
+    display: none;
 }
 
 .sources {
