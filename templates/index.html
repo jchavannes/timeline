@@ -10,11 +10,22 @@
 
 <script type="text/javascript">
 
+    $(function() {
+        $sources = $("#timelines-list li a");
+        if (localStorage.sourcesDisplay && localStorage.sourcesDisplay == "show") {
+            $sources.show();
+        } else {
+            $sources.hide();
+        }
+    });
+
     $("#show-sources").click(function() {
+        localStorage.sourcesDisplay = "show";
         $timeline.find("a").show();
     });
 
     $("#hide-sources").click(function() {
+        localStorage.sourcesDisplay = "hide";
         $timeline.find("a").hide();
     });
 
