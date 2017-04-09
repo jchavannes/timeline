@@ -57,7 +57,7 @@ eras:
         max: 0
     events:
 
-      - name: Formation of Milky Way galaxy thin disk, where the Sun later formed
+      - name: Formation of Milky Way galaxy thin disk - where the Sun later formed
         actual: 9000000000
         label: 9 billion years ago
         source: https://en.wikipedia.org/wiki/Milky_Way
@@ -77,10 +77,15 @@ eras:
         label: 4.54 billion years ago
         source: https://en.wikipedia.org/wiki/History_of_Earth
 
-      - name: Formation of Moon, likely the aftermath of impact with Earth
+      - name: Formation of Moon - possibly the aftermath of impact with Earth
         actual: 4510000000
         label: 4.51 billion years ago
         source: https://en.wikipedia.org/wiki/Origin_of_the_Moon
+
+      - name: Liquid water starts accumulating on Earth, beginning of oceans
+        actual: 4400000000
+        label: 4.4 billion years ago
+        source: https://en.wikipedia.org/wiki/Origin_of_water_on_Earth
 
   - name: Early Life
     label: 4 billion years ago
@@ -93,7 +98,7 @@ eras:
         max: 0
     events:
 
-      - name: Life appears on earth
+      - name: Life appears on Earth
         actual: 4100000000
         label: 4.1 - 3.8 billion years ago
         source: https://en.wikipedia.org/wiki/Abiogenesis
@@ -128,7 +133,7 @@ eras:
         label: 2.5 billion years ago
         source: https://en.wikipedia.org/wiki/Eukaryote
 
-      - name: Oxygen suddenly becomes abundant in atmosphere (possibly due to photosynthesis)
+      - name: Oxygen suddenly becomes abundant in atmosphere - possibly due to photosynthesis
         actual: 2300000000
         label: 2.3 billion years ago
         source: https://en.wikipedia.org/wiki/Great_Oxygenation_Event
@@ -154,14 +159,12 @@ eras:
         max: 0
     events:
 
-      - name: Animals evolve from flagellated eukaryotes (single-celled organisms with whip-like tail, similar to sperm)
+      - name: Animals evolve from flagellated eukaryotes - single-celled organisms with whip-like tail, similar to sperm
         actual: 665000000
         label: 665 - 610 million years ago
         source: https://en.wikipedia.org/wiki/Animal
 
-      - name:
-          Early decentralized nervous system,
-          bilateral symmetry (worm-like creature)
+      - name: Early decentralized nervous system, bilateral symmetry - worm-like creature
         actual: 600000000
         label: 600 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_nervous_systems
@@ -183,7 +186,7 @@ eras:
         actual: 550000000
         label: 550 million years ago
 
-      - name: First arthropods evolve (which would later include insects, crustaceans, and arachnids)
+      - name: First arthropods evolve - which would later include insects, crustaceans, and arachnids
         actual: 545000000
         label: 545 million years ago
 
@@ -285,7 +288,7 @@ eras:
         actual: 252000000
         label: 252 million years ago
 
-      - name: Dinosaurs diverge from other archosaurs (which would later include crocodiles)
+      - name: Dinosaurs diverge from other archosaurs - which would later include crocodiles
         actual: 234000000
         label: 234 million years ago
 
@@ -355,7 +358,7 @@ eras:
         actual: 65000000
         label: 65 million years ago
 
-      - name: Bats evolve (only flying mammals)
+      - name: Bats evolve, only flying mammals
         actual: 52000000
         label: 52 million years ago
 
@@ -667,7 +670,7 @@ eras:
         actual: 4700
         label: 2700 BC
 
-      - name: Great Pyramid of Giza (completed in only 20 years), remained tallest manmade structure for 3,800 years (height of 481 feet)
+      - name: Great Pyramid of Giza (completed in only 20 years), remained tallest manmade structure for 3,800 years (height of 481 feet), still heaviest building ever made
         actual: 4560
         label: 2560 BC
 
@@ -706,7 +709,12 @@ eras:
         actual: 2600
         label: 600 - 400 BC
 
-      - name: Discovery that earth is round (Pythagoras, Greece)
+      - name: Democracy (Cleisthenes, Greece)
+        actual: 2508
+        label: 508 BC
+        source: https://en.wikipedia.org/wiki/History_of_democracy
+
+      - name: Discovery that Earth is round (Pythagoras, Greece)
         actual: 2500
         label: 500 BC
 
@@ -833,66 +841,82 @@ eras:
       - name: Earth revolves around Sun, Copernican Revolution (Nicolaus Copernicus)
         actual: 457
         label: 1543
+        source: https://en.wikipedia.org/wiki/Copernican_Revolution
 
       - name: First published picture of camera obscura (Gemma Frisius)
         actual: 455
         label: 1545
+        source: https://en.wikipedia.org/wiki/Camera_obscura
 
       - name: Invention of microscope (Zacharias Janssen)
         actual: 410
         label: 1590
+        source: https://en.wikipedia.org/wiki/Microscope
 
       - name: First stock market (Amsterdam Stock Exchange)
         actual: 398
         label: 1602
+        source: https://en.wikipedia.org/wiki/Stock_market
 
       - name: Invention of telescope (Hans Lippershey)
         actual: 392
         label: 1608
+        source: https://en.wikipedia.org/wiki/History_of_the_telescope
 
       - name: Discovery of moons of Jupiter (Galileo Galilei)
         actual: 391
-        label: 1609
+        label: 1610
+        source: https://en.wikipedia.org/wiki/Galilean_moons
 
       - name: Laws of planetary motion (Johannes Kepler)
-        actual: 391
-        label: 1609 - 1619
+        actual: 381
+        label: 1619
+        source: https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion
 
-      - name: First economic bubble (Netherlands)
+      - name: First economic bubble (tulip mania, Netherlands)
         actual: 363
         label: 1637
+        source: https://en.wikipedia.org/wiki/Economic_bubble
 
       - name: Theory of chemical elements (Robert Boyle)
         actual: 339
         label: 1661
+        source: https://en.wikipedia.org/wiki/Chemical_element
 
       - name: Development of calculus (Gottfried Leibniz and Isaac Newton)
         actual: 325
         label: 1675
+        source: https://en.wikipedia.org/wiki/History_of_calculus
 
       - name: Discovery of bacteria (Antonie van Leeuwenhoek)
         actual: 324
         label: 1676
+        source: https://en.wikipedia.org/wiki/Bacteria
 
-      - name: Discovery of gravity (Isaac Newton)
+      - name: Discovery of gravitational force (Isaac Newton)
         actual: 313
         label: 1687
+        source: https://en.wikipedia.org/wiki/Gravity
 
       - name: Invention of electrical capacitor (Pieter van Musschenbroek)
         actual: 254
         label: 1746
+        source: https://en.wikipedia.org/wiki/Capacitor
 
       - name: Discovery of galaxies (Thomas Wright)
         actual: 250
         label: 1750
+        source: https://en.wikipedia.org/wiki/Galaxy
 
       - name: Common understanding of electricity (Benjamin Franklin)
         actual: 250
         label: 1750
+        source: https://en.wikipedia.org/wiki/History_of_electrical_engineering
 
       - name: Discovery of electromagnetism (Franz Aepinus)
         actual: 241
         label: 1759
+        source: https://en.wikipedia.org/wiki/History_of_electromagnetic_theory
 
   - name: Industrial Revolution
     label: 250 years ago
@@ -904,70 +928,82 @@ eras:
       - name: Discovery of hydrogen (Henry Cavendish)
         actual: 234
         label: 1766
-
-      - name: Declaration of Independence, democracy (United States)
-        actual: 224
-        label: 1776
+        source: https://en.wikipedia.org/wiki/Hydrogen
 
       - name: Invention of rotary steam engine (James Watt)
         actual: 219
         label: 1781
+        source: https://en.wikipedia.org/wiki/History_of_the_steam_engine
 
       - name: Theory of black holes (John Michell)
         actual: 217
         label: 1783
+        source: https://en.wikipedia.org/wiki/Black_hole
 
       - name: Development of chemistry, first list of elements (Antoine Lavoisier)
         actual: 213
-        label: 1787
+        label: 1789
+        source: https://en.wikipedia.org/wiki/Chemical_revolution
 
       - name: First vaccine, smallpox (Edward Jenner)
         actual: 204
         label: 1796
+        source: https://en.wikipedia.org/wiki/Vaccine
 
       - name: Invention of internal combustion engine (John Stevens)
         actual: 202
         label: 1798
+        source: https://en.wikipedia.org/wiki/History_of_the_internal_combustion_engine
 
       - name: Discovery of Rosetta Stone (origin 196 BC) enabling translation of Egyptian hieroglyphics (Napoleon)
         actual: 201
         label: 1799
+        source: https://en.wikipedia.org/wiki/Rosetta_Stone
 
       - name: Invention of continuous current electric battery (Alessandro Volta)
         actual: 201
         label: 1799
+        source: https://en.wikipedia.org/wiki/History_of_the_battery
 
       - name: Invention of photography (Thomas Wedgwood)
         actual: 201
-        label: 1799
+        label: 1800
+        source: https://en.wikipedia.org/wiki/History_of_photography
 
       - name: Discovery of infrared radiation (William Herschel)
         actual: 200
         label: 1800
+        source: https://en.wikipedia.org/wiki/Infrared
 
       - name: Discovery of ultraviolet light (Johann Wilhelm Ritter)
         actual: 199
         label: 1801
+        source: https://en.wikipedia.org/wiki/Ultraviolet
 
       - name: Atomic theory (John Dalton)
         actual: 197
         label: 1803
+        source: https://en.wikipedia.org/wiki/Atomic_theory
 
       - name: First commercially successful locomotive (Matthew Murray)
         actual: 188
         label: 1812
+        source: https://en.wikipedia.org/wiki/History_of_rail_transport
 
       - name: Invention of electric motor (Michael Faraday)
         actual: 179
         label: 1821
+        source: https://en.wikipedia.org/wiki/Timeline_of_the_electric_motor
 
       - name: Invention of electric generator (Michael Faraday)
         actual: 169
         label: 1831
+        source: https://en.wikipedia.org/wiki/Electric_generator
 
       - name: Development of glass silvering; affordable glass mirrors (Justus von Liebig)
         actual: 165
         label: 1835
+        source: https://en.wikipedia.org/wiki/Silvering
 
       - name: First telegram, invention of Morse code (Samuel F.B. Morse)
         actual: 162
@@ -977,10 +1013,12 @@ eras:
       - name: First commercially successful camera (Louis Daguerre)
         actual: 161
         label: 1839
+        source: https://en.wikipedia.org/wiki/History_of_the_camera
 
       - name: Germ theory of disease, sterilization (John Snow)
         actual: 151
         label: 1849
+        source: https://en.wikipedia.org/wiki/Germ_theory_of_disease
 
   - name: Technological Revolution
     label: 160 years ago
@@ -992,58 +1030,72 @@ eras:
       - name: Invention of refrigeration, first commercially successful ice machine (James Harrison)
         actual: 146
         label: 1854
+        source: https://en.wikipedia.org/wiki/Refrigeration
 
       - name: First plastic patent (Alexander Parkes)
         actual: 144
         label: 1856
+        source: https://en.wikipedia.org/wiki/Timeline_of_plastic_development
 
       - name: Discovery of natural selection (Charles Darwin)
         actual: 142
         label: 1858
+        source: https://en.wikipedia.org/wiki/Natural_selection
 
       - name: First transatlantic telegraph cable (Atlantic Telegraph Company)
         actual: 142
         label: 1858
+        source: https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable
 
       - name: Fundamental equations of electromagnetism (James Clerk Maxwell)
         actual: 139
         label: 1861
+        source: https://en.wikipedia.org/wiki/Maxwell%27s_equations
 
       - name: Antiseptics - reduced infections from surgery (Joseph Lister)
         actual: 133
         label: 1867
+        source: https://en.wikipedia.org/wiki/Antiseptic
 
       - name: First commercially successful typewriter (Sholes, Hall, Glidden, Soule)
         actual: 132
         label: 1868
+        source: https://en.wikipedia.org/wiki/Typewriter
 
       - name: Development of periodic table, correct predictions of unknown elements (Dmitri Mendeleev)
         actual: 131
         label: 1869
+        source: https://en.wikipedia.org/wiki/Periodic_table
 
       - name: First transcontinental railroad (Pacific Railroad)
         actual: 131
         label: 1869
+        source: https://en.wikipedia.org/wiki/First_Transcontinental_Railroad
 
       - name: Invention of voice telephone (Alexander Graham Bell)
         actual: 124
         label: 1876
+        source: https://en.wikipedia.org/wiki/Telephone
 
       - name: Invention of phonograph for recording and playing sound (Thomas Edison)
         actual: 123
         label: 1877
+        source: https://en.wikipedia.org/wiki/Phonograph
 
       - name: Modern QWERTY key layout established (Christopher Latham Sholes)
         actual: 122
         label: 1878
+        source: https://en.wikipedia.org/wiki/QWERTY
 
       - name: Invention of viable light bulb and continuous electrical system (Thomas Edison)
         actual: 121
         label: 1879
+        source: https://www.nps.gov/edis/learn/kidsyouth/the-electric-light-system-phonograph-motion-pictures.htm
 
       - name: First successful organ transplant, thyroid (Theodor Kocher)
         actual: 117
         label: 1883
+        source: https://en.wikipedia.org/wiki/Organ_transplantation
 
       - name: Invention of automobile (Karl Benz)
         actual: 114
@@ -1080,6 +1132,7 @@ eras:
       - name: First flight of an airplane (Orville and Wilbur Wright)
         actual: 97
         label: 1903
+        source: https://en.wikipedia.org/wiki/Airplane
 
       - name: Special relativity, spacetime continuum (Albert Einstein)
         actual: 95
@@ -1089,18 +1142,21 @@ eras:
       - name: First cathode ray tube television (Boris Rosing)
         actual: 93
         label: 1907
+        source: https://en.wikipedia.org/wiki/Cathode_ray_tube
 
       - name: First affordable automobile (Henry Ford)
         actual: 92
         label: 1908
+        source: https://en.wikipedia.org/wiki/Car
 
-      - name: World War I
-        actual: 86
-        label: 1914 - 1918
+#      - name: World War I
+#        actual: 86
+#        label: 1914 - 1918
 
       - name: First transcontinental telephone call (New York to San Francisco)
         actual: 85
         label: 1915
+        source: https://en.wikipedia.org/wiki/First_transcontinental_telephone_call
 
       - name: General relativity, gravity curves spacetime (Albert Einstein)
         actual: 84
@@ -1110,62 +1166,70 @@ eras:
       - name: Discovery of the first antibiotic, penicillin (Sir Alexander Fleming)
         actual: 72
         label: 1928
+        source: https://en.wikipedia.org/wiki/Antibiotics
 
-      - name: Great Depression, 15% drop in global GDP
-        actual: 71
-        label: 1929 - 1932
+#      - name: Great Depression, 15% drop in global GDP
+#        actual: 71
+#        label: 1929 - 1932
 
       - name: Discovery of expansion of the universe, big bang theory (Georges Lemaître)
         actual: 69
         label: 1931
+        source: https://en.wikipedia.org/wiki/Big_Bang
 
       - name: Invention of radio telescope, first search for extraterrestrial intelligence (Grote Reber)
         actual: 63
         label: 1937
+        source: https://en.wikipedia.org/wiki/Radio_telescope
 
-      - name: World War II
-        actual: 61
-        label: 1939 - 1945
+#      - name: World War II
+#        actual: 61
+#        label: 1939 - 1945
 
       - name: First usage of antibiotics to treat infections (Allied military)
         actual: 58
         label: 1942
+        source: https://en.wikipedia.org/wiki/Antibiotics
 
       - name: DNA identified as genetic transformer (Avery, MacLeod, McCarty)
         actual: 57
         label: 1943
+        source: https://en.wikipedia.org/wiki/Avery%E2%80%93MacLeod%E2%80%93McCarty_experiment
 
       - name: Atomic bomb (Manhattan Project)
         actual: 55
         label: 1945
+        source: https://en.wikipedia.org/wiki/Nuclear_weapon
 
       - name: Invention of microwave oven (Percy Lebaron Spencer)
         actual: 55
         label: 1945
+        source: https://en.wikipedia.org/wiki/Microwave_oven
 
-      - name: Invention of solid-state electronic transistor (Bardeen, Brattain, Shockley)
+      - name: Invention of transistor (Bardeen, Brattain, Shockley)
         actual: 53
         label: 1947
+        source: https://en.wikipedia.org/wiki/Transistor
 
       - name: First stored-program computer (Victoria University of Manchester)
         actual: 52
         label: 1948
+        source: https://en.wikipedia.org/wiki/Stored-program_computer
 
       - name: DNA double-helix structure discovered (James Watson and Francis Crick)
         actual: 47
         label: 1953
+        source: https://en.wikipedia.org/wiki/DNA
 
       - name: First practical solar cell (Bell Labs)
         actual: 46
         label: 1954
-
-      - name: First bone marrow transplant (E. Donnall Thomas)
-        actual: 44
-        label: 1956
+        source: https://en.wikipedia.org/wiki/Solar_cell
 
       - name: First nuclear power plant (England)
         actual: 44
         label: 1956
+        source: https://en.wikipedia.org/wiki/Nuclear_power_plant
 
   - name: Space Age
     label: 60 years ago
@@ -1177,6 +1241,12 @@ eras:
       - name: First artificial satellite (Sputnik 1)
         actual: 43
         label: 1957
+        source: https://en.wikipedia.org/wiki/Sputnik_1
+
+      - name: First bone marrow transplant (E. Donnall Thomas)
+        actual: 44
+        label: 1957
+        source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4222417/
 
 #      - name: NASA created
 #        actual: 42
@@ -1185,22 +1255,27 @@ eras:
       - name: First Moon flyby, first spacecraft to achieve escape velocity (Luna 1)
         actual: 41
         label: 1959
+        source: https://en.wikipedia.org/wiki/Luna_1
 
       - name: First human in orbit (Yuri Gagarin, Vostok 1)
         actual: 39
         label: 1961
+        source: https://en.wikipedia.org/wiki/Vostok_1
 
       - name: First Venus flyby (Venera 1)
         actual: 39
         label: 1961
+        source: https://en.wikipedia.org/wiki/Venera_1
 
       - name: Invention of cassette tapes (Philips)
         actual: 38
         label: 1962
+        source: https://en.wikipedia.org/wiki/Compact_Cassette
 
       - name: Invention of liquid crystal displays (George H. Heilmeier)
         actual: 36
         label: 1964
+        source: https://en.wikipedia.org/wiki/Liquid-crystal_display
 
       - name: Discovery of cosmic microwave background (Arno Penzias and Robert Wilson)
         actual: 36
@@ -1214,14 +1289,17 @@ eras:
       - name: First personal computer (Programma 101)
         actual: 35
         label: 1965
+        source: https://en.wikipedia.org/wiki/Programma_101
 
       - name: First successful heart transplant (Christiaan Barnard)
         actual: 33
         label: 1967
+        source: https://en.wikipedia.org/wiki/Heart_transplantation
 
       - name: First human on the Moon (Neil Armstrong, Apollo 11)
         actual: 31
         label: 1969
+        source: https://en.wikipedia.org/wiki/Apollo_11
 
 #      - name: First Mars orbiter (Mariner 9)
 #        actual: 29
@@ -1230,14 +1308,17 @@ eras:
       - name: First computer virus, Creeper (Bob Thomas)
         actual: 29
         label: 1971
+        source: https://en.wikipedia.org/wiki/Computer_virus
 
       - name: First candidate black hole discovered (Charles Thomas Bolton)
         actual: 28
         label: 1972
+        source: https://en.wikipedia.org/wiki/Black_hole
 
       - name: First Jupiter flyby, first spacecraft to achieve escape velocity from solar system, first spacecraft to traverse asteroid belt (Pioneer 10)
         actual: 27
         label: 1973
+        source: https://en.wikipedia.org/wiki/Pioneer_10
 
 #      - name: First Mercury flyby (Mariner 10)
 #        actual: 26
@@ -1246,6 +1327,7 @@ eras:
       - name: First Mars lander (Viking 1)
         actual: 24
         label: 1976
+        source: https://en.wikipedia.org/wiki/Viking_1
 
 #      - name: First Saturn flyby (Pioneer 11)
 #        actual: 21
@@ -1254,12 +1336,14 @@ eras:
       - name: First commercial cellular phone network (Japan)
         actual: 21
         label: 1979
+        source: https://en.wikipedia.org/wiki/1G
 
       - name:
           Smallpox, which killed up to 500 million people in the 20th century alone,
           completely eradicated (WHO)
         actual: 20
         label: 1980
+        source: https://en.wikipedia.org/wiki/Smallpox
 
   - name: Information Age
     label: 35 years ago
@@ -1271,10 +1355,12 @@ eras:
       - name: First window based graphical user interface and mouse (Xerox Parc)
         actual: 19
         label: 1981
+        source: https://en.wikipedia.org/wiki/Xerox_Star
 
       - name: TCP/IP (Internet Protocol) standardized
         actual: 18
         label: 1982
+        source: https://en.wikipedia.org/wiki/Internet_protocol_suite
 
 #      - name: First Uranus flyby (Voyager 2)
 #        actual: 14
@@ -1287,38 +1373,42 @@ eras:
       - name: First internet search engine (Archie)
         actual: 10
         label: 1990
+        source: https://en.wikipedia.org/wiki/Web_search_engine
 
       - name: First exoplanet discovered (Aleksander Wolszczan and Dale Frail)
         actual: 8
         label: 1992
+        source: https://en.wikipedia.org/wiki/Exoplanet
 
       - name: Beginning of widespread Internet adoption
         actual: 5
         label: 1995
+        source: https://en.wikipedia.org/wiki/Internet
 
       - name: First computer to beat best human chess player (Deep Blue)
         actual: 4
         label: 1996
-
-      - name: First component of International Space Station launched into orbit
-        actual: 2
-        label: 1998
+        source: https://en.wikipedia.org/wiki/Computer_chess
 
       - name: First major peer-to-peer file sharing network (Napster)
         actual: 1
         label: 1999
+        source: https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing
 
       - name: Last time there wasn’t a human in orbit
         actual: 0
         label: 2000
+        source: https://en.wikipedia.org/wiki/International_Space_Station
 
-      - name: First major collaborative general information database (Wikipedia)
+      - name: Beginning of most popular collaborative general information database (Wikipedia)
         actual: -1
         label: 2001
+        source: https://en.wikipedia.org/wiki/Wikipedia
 
       - name: Complete mapping of human genome (Human Genome Project)
         actual: -3
         label: 2003
+        source: https://en.wikipedia.org/wiki/Human_Genome_Project
 
   - name: Mobile Age
     label: 10 years ago
@@ -1330,39 +1420,48 @@ eras:
       - name: First multi-touch smart phone (iPhone)
         actual: -7
         label: 2007
+        source: https://en.wikipedia.org/wiki/Smartphone
 
       - name: First decentralized digital currency (Bitcoin)
         actual: -9
         label: 2009
+        source: https://en.wikipedia.org/wiki/Cryptocurrency
 
       - name: First mainstream tablet computer (iPad)
         actual: -10
         label: 2010
+        source: https://en.wikipedia.org/wiki/Tablet_computer
 
       - name: First computer to beat best Jeopardy player (Watson)
         actual: -11
         label: 2011
+        source: https://en.wikipedia.org/wiki/Watson_(computer)
 
       - name: First social network with 1 billion monthly active users (Facebook)
         actual: -12
         label: 2012
+        source: https://en.wikipedia.org/wiki/Facebook
 
       - name: Discovery of Higgs boson (CERN)
         actual: -12
         label: 2012
+        source: https://en.wikipedia.org/wiki/Higgs_boson
 
       - name: First autonomous cars in public traffic
         actual: -13
         label: 2013
 
+      - name: First lag-free virtual reality headsets
+        actual: -15
+        label: 2013
+        source: https://en.wikipedia.org/wiki/Virtual_reality
+
       - name: First computer to beat best human Go player (AlphaGo)
         actual: -15
         label: 2015
-
-      - name: First consumer virtual reality headsets
-        actual: -15
-        label: 2015
+        source: https://en.wikipedia.org/wiki/AlphaGo
 
       - name: Discovery of gravitational waves (LIGO)
         actual: -16
         label: 2016
+        source: https://en.wikipedia.org/wiki/Gravitational_wave
