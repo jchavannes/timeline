@@ -779,57 +779,74 @@ eras:
       max: 0
     events:
 
-      - name: Fall of Roman Empire, beginning of middle ages (Europe)
-        actual: 1524
-        label: 476
+#      - name: Fall of Roman Empire, beginning of middle ages (Europe)
+#        actual: 1524
+#        label: 476
 
-      - name: Method to solve quadratic equations (Brahmagupta, India)
+      - name: Method to solve quadratic equations, understanding of zero (Brahmagupta, India)
         actual: 1372
         label: 628
+        source: https://en.wikipedia.org/wiki/Br%C4%81hmasphu%E1%B9%ADasiddh%C4%81nta
 
       - name: First known paper currency (China)
         actual: 1194
         label: 806
+        source: http://www.pbs.org/wgbh/nova/ancient/history-money.html
 
       - name: Development of algebra (Muhammad ibn Musa al-Khwarizmi, Middle East)
         actual: 1170
         label: 830
+        source: https://en.wikipedia.org/wiki/History_of_algebra
 
       - name: Invention of gunpowder (China)
         actual: 1150
         label: 850
+        source: https://en.wikipedia.org/wiki/History_of_gunpowder
 
       - name: Oldest existing university founded (University of Al Quaraouiyine, Morocco)
         actual: 1141
         label: 859
+        source: https://en.wikipedia.org/wiki/University_of_Al_Quaraouiyine
 
       - name: Experimental evidence for intromission light theory (Ibn al-Haytham, Middle East)
         actual: 1000
         label: 1000
+        source: https://en.wikipedia.org/wiki/Book_of_Optics
 
       - name: Magna Carta, foundation for individual rights (England)
         actual: 785
         label: 1215
+        source: https://en.wikipedia.org/wiki/Magna_Carta
 
       - name: First joint-stock company (Bazacle Milling Company, France)
         actual: 750
         label: 1250
+        source: https://en.wikipedia.org/wiki/Joint-stock_company
+
+      - name: First firearm, cannon (Middle East)
+        actual: 740
+        label: 1260
+        source: https://en.wikipedia.org/wiki/History_of_the_firearm
 
       - name: Invention of eyeglasses (Italy)
         actual: 714
         label: 1286
+        source: https://en.wikipedia.org/wiki/Glasses
 
       - name: Lincoln Cathedral surpasses Great Pyramid as tallest manmade structure (height of 525 feet)
         actual: 689
         label: 1311
+        source: https://en.wikipedia.org/wiki/List_of_tallest_buildings_and_structures
 
       - name: Invention of printing press (Johannes Gutenberg)
         actual: 560
         label: 1440
+        source: https://en.wikipedia.org/wiki/Printing_press
 
       - name: Columbus explores America
         actual: 508
         label: 1492
+        source: https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus
 
   - name: Scientific Revolution
     label: 475 years ago
