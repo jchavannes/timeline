@@ -748,6 +748,11 @@ eras:
         actual: 2200
         label: 200 BC
 
+      - name: Invention of paper (China)
+        actual: 2179
+        label: 179 BC
+        source: https://en.wikipedia.org/wiki/History_of_paper
+
       - name: First city with population over 1 million (Rome)
         actual: 2133
         label: 133 BC
@@ -759,18 +764,17 @@ eras:
       - name: Christianity (Jesus)
         actual: 2000
         label: 0
-
-      - name: Invention of paper (China)
-        actual: 1975
-        label: 25
+        source: https://en.wikipedia.org/wiki/History_of_Christianity
 
       - name: Invention of glass mirror (Rome)
         actual: 1923
         label: 77
+        source: https://en.wikipedia.org/wiki/Mirror
 
       - name: First light refraction tables (Claudius Ptolemy)
         actual: 1850
         label: 150
+        source: https://en.wikipedia.org/wiki/History_of_optics
 
   - name: Middle Ages
     label: 1,540 years ago
