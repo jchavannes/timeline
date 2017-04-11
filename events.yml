@@ -642,13 +642,19 @@ eras:
         actual: 7500
         label: 5500 BC
 
+      - name: Horses domesticated (Northern Asia)
+        actual: 5500
+        label: 3500 BC
+        source: https://en.wikipedia.org/wiki/Domestication_of_the_horse
+
       - name: First man-made glass objects (Mesopotamia)
         actual: 5500
         label: 3500 BC
 
-      - name: First wheeled vehicle
+      - name: First wheeled vehicles, pulled by horses
         actual: 5350
         label: 3350 BC
+        source: https://en.wikipedia.org/wiki/Wheel
 
       - name: First metal alloy, bronze (Mesopotamia)
         actual: 5300
@@ -674,9 +680,10 @@ eras:
         actual: 4560
         label: 2560 BC
 
-      - name: First horses used for transport
+      - name: First horses used for transporting people, chariot becomes primary branch of the military
         actual: 4000
         label: 2000 BC
+        source: https://en.wikipedia.org/wiki/Chariot
 
   - name: Iron Age
     label: 3,300 years ago
@@ -690,24 +697,29 @@ eras:
     events:
 
       - name: First iron smelting (melting point of 2,800 °F)
-        actual: 3300
-        label: 1300 BC
-
-      - name: First currency, cowrie shells (China)
         actual: 3200
         label: 1200 BC
+        source: https://en.wikipedia.org/wiki/Smelting
+
+      - name: First standardized coinage (China)
+        actual: 3000
+        label: 1000 BC
+        source: https://en.wikipedia.org/wiki/History_of_money
 
       - name: Major collapse of civilization (Mediterranean, possibly triggered by drought and famine), beginning of Greek dark ages
         actual: 3177
         label: 1177 BC
+        source: https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse
 
-      - name: First glass lenses
+      - name: First glass lenses (Middle East)
         actual: 2700
         label: 700 BC
+        source: https://en.wikipedia.org/wiki/Lens_(optics)
 
       - name: Torah written, beginning of Abrahamic religions, currently 54% of world population adheres to an Abrahamic religion (Babylonia)
         actual: 2600
         label: 600 - 400 BC
+        source: https://en.wikipedia.org/wiki/Abrahamic_religions
 
       - name: Democracy (Cleisthenes, Greece)
         actual: 2508
@@ -717,54 +729,69 @@ eras:
       - name: Discovery that Earth is round (Pythagoras, Greece)
         actual: 2500
         label: 500 BC
+        source: https://en.wikipedia.org/wiki/Spherical_Earth
 
       - name: Discovery of the Phythagorean theorem (Pythagoras, Greece)
         actual: 2500
         label: 500 BC
+        source: https://en.wikipedia.org/wiki/Pythagorean_theorem
+
+      - name: Horses bred large enough to carry men, beginning of cavalry (Middle East)
+        actual: 2490
+        label: 490 BC
+        source: https://en.wikipedia.org/wiki/Cavalry
 
       - name: First record of camera obscura phenomenon, light travels in straight lines (Mozi, China)
         actual: 2400
         label: 400 BC
+        source: https://en.wikipedia.org/wiki/Camera_obscura
 
       - name: First higher learning institution founded, The Academy (Plato, Greece)
         actual: 2387
         label: 387 BC
+        source: https://en.wikipedia.org/wiki/Academy
 
       - name: Foundion of western phlosophy, science, western religion, and spirituality (Plato, Greece)
         actual: 2375
         label: 375 BC
+        source: https://en.wikipedia.org/wiki/Plato
 
       - name: Development of geometry (Euclid, Greece)
         actual: 2300
         label: 300 BC
+        source: https://en.wikipedia.org/wiki/Euclid%27s_Elements
 
       - name: Estimation of pi, invention of exponents (Archimedes, Greece)
         actual: 2250
         label: 250 BC
+        source: https://en.wikipedia.org/wiki/Archimedes
 
       - name:
           Accurate measurement of Earth’s circumference, tilt, and distance from the sun;
           development of geography (Eratosthenes, Greece)
         actual: 2200
         label: 200 BC
+        source: https://en.wikipedia.org/wiki/History_of_geodesy
 
       - name: Invention of paper (China)
         actual: 2179
         label: 179 BC
         source: https://en.wikipedia.org/wiki/History_of_paper
 
-      - name: First city with population over 1 million (Rome)
-        actual: 2133
-        label: 133 BC
-
       - name: Intromission theory - light is not a property of the eye (Lucretius, Roman)
         actual: 2055
         label: 55 BC
+        source: https://en.wikipedia.org/wiki/Emission_theory_(vision)
 
       - name: Christianity (Jesus)
         actual: 2000
         label: 0
         source: https://en.wikipedia.org/wiki/History_of_Christianity
+
+      - name: First cities with population over 1 million (Rome / Alexandria)
+        actual: 2001
+        label: 1
+        source: https://en.wikipedia.org/wiki/List_of_largest_cities_throughout_history
 
       - name: Invention of glass mirror (Rome)
         actual: 1923
@@ -783,9 +810,10 @@ eras:
       max: 0
     events:
 
-#      - name: Fall of Roman Empire, beginning of middle ages (Europe)
-#        actual: 1524
-#        label: 476
+      - name: Fall of Roman Empire, beginning of middle ages (Europe)
+        actual: 1524
+        label: 476
+        source: https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire
 
       - name: Method to solve quadratic equations, understanding of zero (Brahmagupta, India)
         actual: 1372
@@ -836,6 +864,11 @@ eras:
         actual: 714
         label: 1286
         source: https://en.wikipedia.org/wiki/Glasses
+
+      - name: Largest contiguous land empire (Mongol Empire)
+        actual: 706
+        label: 1294
+        source: https://en.wikipedia.org/wiki/Mongol_Empire
 
       - name: Lincoln Cathedral surpasses Great Pyramid as tallest manmade structure (height of 525 feet)
         actual: 689
