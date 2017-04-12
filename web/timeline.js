@@ -34,6 +34,8 @@ $(function() {
         localStorage.sourcesDisplay = "hide";
         hideSources();
     });
+
+    $("body").show();
 });
 
 function timeline(eraName, eraLabel, eraData, $timeline) {

@@ -574,6 +574,7 @@ eras:
       - name: Great Pyramid of Giza (completed in only 20 years), remained tallest manmade structure for 3,800 years (height of 481 feet), still heaviest building ever made
         actual: 4560
         label: 2560 BC
+        source: https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza
 
       - name: First horses used for transporting people, chariot becomes primary branch of the military
         actual: 4000

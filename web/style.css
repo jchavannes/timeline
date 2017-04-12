@@ -1,6 +1,7 @@
 body {
     background: #ddd;
     color: #000;
+    display: none;
 }
 
 hr {
