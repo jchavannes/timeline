@@ -1,6 +1,14 @@
-## Todo
+# Timeline of Important Events
 
-- Instead of pushing colliding events downward, average with previous events
-- Visual at bottom of timeline to show size of next timeline
-- Reorganize events.yml to have eras completely separate from events
-- Remove original timeline and make new timeline default
+https://jasonc.me/timeline/
+
+#### Usage
+
+```bash
+# Fetch missing packages
+govendor fetch +missing
+
+# Run
+go run main.go
+```
+

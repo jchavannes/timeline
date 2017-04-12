@@ -22,22 +22,9 @@ func (e event) GetSourceText() string {
 	return "wiki/" + wikipedia.ArticleNameFromUrl(e.Source)
 }
 
-type window struct {
-	Min int64
-	Max int64
-}
-
-type period struct {
-	Name string
-	Min  int64
-	Max  int64
-}
-
 type era struct {
 	Name    string
 	Label   string
-	Window  window
-	Periods []period
 	Events  []event
 }
 
