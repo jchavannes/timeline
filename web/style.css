@@ -1,0 +1,47 @@
+body {
+    background: #ddd;
+    color: #000;
+}
+
+hr {
+    margin: 12px 0;
+}
+
+.container.main-container {
+    padding-top: 0;
+}
+
+#timelines {
+    padding-top: 10px;
+}
+
+.timeline {
+    padding: 30px 0;
+    margin: 0 auto;
+}
+
+.timelines-list {
+    background: #fff;
+    color: #000;
+    padding: 20px;
+}
+
+.timelines-list li a {
+    font-style: italic;
+    font-size: 11px;
+    color: rgba(51, 122, 183, 0.8);
+}
+
+.timelines-list li span {
+    margin-top: -4px;
+    margin-bottom: 3px;
+}
+
+.sources {
+    font-style: italic;
+    font-size: 12px;
+}
+
+.sources a {
+    cursor: pointer;
+}

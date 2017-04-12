@@ -1,0 +1,34 @@
+{{ template "header.html" . }}
+
+<h2>Timeline of Important Events</h2>
+
+<p><a href="https://github.com/jchavannes/timeline">https://github.com/jchavannes/timeline</a></p>
+
+<p class="sources">Sources: <a id="show-sources">Show</a> | <a id="inline-sources">Inline</a> | <a id="hide-sources">Hide</a></p>
+
+<div id="timelines-list" class="timelines-list"></div>
+
+<script type="text/javascript">
+
+    var $timeline = $("#timelines-list");
+
+    //{{ range $eraId, $era := .Events.Eras }}
+    timeline("{{ $era.Name }}", "{{ $era.Label }}", [
+        // {{ range $eventId, $event := $era.Events }}
+        {
+            group: 0,
+            content: "<b>{{ $event.Label }}</b> {{ $event.Name }}",
+            source: "{{ $event.Source }}",
+            sourceText: "{{ $event.GetSourceText }}"
+        },
+        // {{ end }}
+    ], {
+        start: "{{ $era.Window.GetStart }}",
+        end: "{{ $era.Window.GetEnd }}"
+    }, $timeline);
+    //{{ end }}
+
+</script>
+
+
+{{ template "footer.html" . }}

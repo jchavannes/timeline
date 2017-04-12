@@ -1,14 +1,6 @@
 eras:
-
   - name: Big Bang
     label: 13.82 billion years ago
-    window:
-      min: 13820000000
-      max: 0
-    periods:
-      - name: December
-        min: 1173000000
-        max: 0
     events:
       - name: Big Bang, universe appears
         actual: 13820000000
@@ -47,16 +39,7 @@ eras:
 
   - name: Milky Way and Earth
     label: 9 billion years ago
-    window:
-      min: 1382000000
-      max: 0
-      max: 0
-    periods:
-      - name: 31st
-        min: 37800000
-        max: 0
     events:
-
       - name: Formation of Milky Way galaxy thin disk - where the Sun later formed
         actual: 9000000000
         label: 9 billion years ago
@@ -89,15 +72,7 @@ eras:
 
   - name: Early Life
     label: 4 billion years ago
-    window:
-      min: 138200000
-      max: 0
-    periods:
-      - name: 11pm - Midnight
-        min: 1575000
-        max: 0
     events:
-
       - name: Life appears on Earth
         actual: 4100000000
         label: 4.1 - 3.8 billion years ago
@@ -150,15 +125,7 @@ eras:
 
   - name: Animals
     label: 655 million years ago
-    window:
-      min: 138200000
-      max: 0
-    periods:
-      - name: 11pm - Midnight
-        min: 1575000
-        max: 0
     events:
-
       - name: Animals evolve from flagellated eukaryotes - single-celled organisms with whip-like tail, similar to sperm
         actual: 665000000
         label: 665 - 610 million years ago
@@ -208,15 +175,7 @@ eras:
 
   - name: Vertebrates
     label: 530 million years ago
-    window:
-      min: 138200000
-      max: 0
-    periods:
-      - name: 11pm - Midnight
-        min: 1575000
-        max: 0
     events:
-
       - name: Vertebrates evolve in water
         actual: 530000000
         label: 530 million years ago
@@ -263,15 +222,7 @@ eras:
 
   - name: Land
     label: 370 million years ago
-    window:
-      min: 138200000
-      max: 0
-    periods:
-      - name: 11pm - Midnight
-        min: 1575000
-        max: 0
     events:
-
       - name: Amphibians evolve from fish - lungs, limbs, digits
         actual: 370000000
         label: 370 million years ago
@@ -300,15 +251,7 @@ eras:
 
   - name: Dinosaurs
     label: 201 million years ago
-    window:
-      min: 138200000
-      max: 0
-    periods:
-      - name: 11pm - Midnight
-        min: 1575000
-        max: 0
     events:
-
       - name: Mass extinction event, 70-75% of all species
         actual: 201000000
         label: 201 million years ago
@@ -335,15 +278,7 @@ eras:
 
   - name: Mammals and Primates
     label: 66 million years ago
-    window:
-      min: 138200000
-      max: 0
-    periods:
-      - name: 11pm - Midnight
-        min: 1575000
-        max: 0
     events:
-
       - name:
           Mass extinction event, 75% of all species,
           extinction of all dinosaurs except birds
@@ -392,15 +327,7 @@ eras:
 
   - name: Early Humans
     label: 5 million years ago
-    window:
-      min: 138200000
-      max: 0
-    periods:
-      - name: 11pm - Midnight
-        min: 1575000
-        max: 0
     events:
-
       - name: Modern human thumb evolves
         actual: 5000000
         label: 5 million years ago
@@ -438,15 +365,7 @@ eras:
 
   - name: Homo Sapiens
     label: 200,000 years ago
-    window:
-      min: 1382000
-      max: 0
-    periods:
-      - name: 59:50 - 00:00
-        min: 4383
-        max: 0
     events:
-
       - name:
           Homo sapiens evolve from homo erectus (Africa) - larger brain,
           proper language, less hair, shorter, less sexual dimorphism
@@ -503,15 +422,7 @@ eras:
 
   - name: Global Inhabitation
     label: 60,000 years ago
-    window:
-      min: 138200
-      max: 0
-    periods:
-      - name: Last second
-        min: 438
-        max: 0
     events:
-
       - name: Second wave of homo sapiens leave Africa
         actual: 60000
         label: 60,000 years ago
@@ -558,15 +469,7 @@ eras:
 
   - name: Early Civilization
     label: 14,000 years ago
-    window:
-      min: 13820
-      max: 0
-    periods:
-      - name: Last 1/10th of a second
-        min: 44
-        max: 0
     events:
-
       - name: First cities, beginning of civilization
         actual: 14000
         label: 12000 BC
@@ -625,15 +528,7 @@ eras:
 
   - name: Ancient History
     label: 8,000 years ago
-    window:
-      min: 13820
-      max: 0
-    periods:
-      - name: Last 1/10th of a second
-        min: 44
-        max: 0
     events:
-
       - name: Invention of writing, beginning of recorded history
         actual: 8000
         label: 6000 BC
@@ -687,15 +582,7 @@ eras:
 
   - name: Iron Age
     label: 3,300 years ago
-    window:
-      min: 13820
-      max: 0
-    periods:
-      - name: Last 1/10th of a second
-        min: 44
-        max: 0
     events:
-
       - name: First iron smelting (melting point of 2,800 °F)
         actual: 3200
         label: 1200 BC
@@ -805,11 +692,7 @@ eras:
 
   - name: Middle Ages
     label: 1,540 years ago
-    window:
-      min: 1382
-      max: 0
     events:
-
       - name: Fall of Roman Empire, beginning of middle ages (Europe)
         actual: 1524
         label: 476
@@ -887,11 +770,7 @@ eras:
 
   - name: Scientific Revolution
     label: 475 years ago
-    window:
-      min: 1382
-      max: 0
     events:
-
       - name: Earth revolves around Sun, Copernican Revolution (Nicolaus Copernicus)
         actual: 457
         label: 1543
@@ -974,11 +853,7 @@ eras:
 
   - name: Industrial Revolution
     label: 250 years ago
-    window:
-      min: 1382
-      max: 0
     events:
-
       - name: Discovery of hydrogen (Henry Cavendish)
         actual: 234
         label: 1766
@@ -1076,11 +951,7 @@ eras:
 
   - name: Technological Revolution
     label: 160 years ago
-    window:
-      min: 1382
-      max: 0
     events:
-
       - name: Invention of refrigeration, first commercially successful ice machine (James Harrison)
         actual: 146
         label: 1854
@@ -1173,11 +1044,7 @@ eras:
 
   - name: Petroleum Age
     label: 115 years ago
-    window:
-      min: 138
-      max: 0
     events:
-
       - name: First transmission of voice by radio, invention of amplitude modulation aka AM (Reginald Fessenden)
         actual: 100
         label: 1900
@@ -1287,11 +1154,7 @@ eras:
 
   - name: Space Age
     label: 60 years ago
-    window:
-      min: 138
-      max: 0
     events:
-
       - name: First artificial satellite (Sputnik 1)
         actual: 43
         label: 1957
@@ -1401,11 +1264,7 @@ eras:
 
   - name: Information Age
     label: 35 years ago
-    window:
-      min: 138
-      max: 0
     events:
-
       - name: First window based graphical user interface and mouse (Xerox Parc)
         actual: 19
         label: 1981
@@ -1466,11 +1325,7 @@ eras:
 
   - name: Mobile Age
     label: 10 years ago
-    window:
-      min: 138
-      max: 0
     events:
-
       - name: First multi-touch smart phone (iPhone)
         actual: -7
         label: 2007
