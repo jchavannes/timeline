@@ -16,7 +16,6 @@
     timeline("{{ $era.Name }}", "{{ $era.Label }}", [
         // {{ range $eventId, $event := $era.Events }}
         {
-            group: 0,
             content: "<b>{{ $event.Label }}</b> {{ $event.Name }}",
             source: "{{ $event.Source }}",
             sourceText: "{{ $event.GetSourceText }}"
