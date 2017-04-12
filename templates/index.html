@@ -4,29 +4,48 @@
 
 <p><a href="https://github.com/jchavannes/timeline">https://github.com/jchavannes/timeline</a></p>
 
-<p class="sources">Sources: <a id="show-sources">Show</a> | <a id="hide-sources">Hide</a></p>
+<p class="sources">Sources: <a id="show-sources">Show</a> | <a id="inline-sources">Inline</a> | <a id="hide-sources">Hide</a></p>
 
-<div id="timelines-list"></div>
+<div id="timelines-list" class="timelines-list"></div>
 
 <script type="text/javascript">
 
     $(function() {
-        $sources = $("#timelines-list li a");
-        if (localStorage.sourcesDisplay && localStorage.sourcesDisplay == "show") {
-            $sources.show();
+        var $sources = $(".timelines-list li span");
+        if (localStorage.sourcesDisplay && localStorage.sourcesDisplay === "hide") {
+            hideSources();
+        } else if (localStorage.sourcesDisplay && localStorage.sourcesDisplay === "show") {
+            showSources();
         } else {
-            $sources.hide();
+            inlineSources();
         }
-    });
 
-    $("#show-sources").click(function() {
-        localStorage.sourcesDisplay = "show";
-        $timeline.find("a").show();
-    });
+        function showSources() {
+            $sources.css("display", "block");
+        }
 
-    $("#hide-sources").click(function() {
-        localStorage.sourcesDisplay = "hide";
-        $timeline.find("a").hide();
+        function hideSources() {
+            $sources.css("display", "none");
+        }
+
+        function inlineSources() {
+            $sources.css("display", "inline");
+        }
+
+        $("#show-sources").click(function() {
+            localStorage.sourcesDisplay = "show";
+            showSources();
+        });
+
+        $("#inline-sources").click(function() {
+            localStorage.sourcesDisplay = "inline";
+            inlineSources();
+        });
+
+        $("#hide-sources").click(function() {
+            localStorage.sourcesDisplay = "hide";
+            hideSources();
+        });
     });
 
     var $timeline = $("#timelines-list");
@@ -65,17 +84,18 @@
         var appendText = "<h4>" + eraName + " (" + eraLabel + ")</h4><ul>";
         for (var i = 0; i < eraData.length; i++) {
             var event = eraData[i];
-            if (event.group == 1) {
+            if (event.group === 1) {
                 appendText += "<hr/>";
                 continue;
             }
             var sourceHtml = "";
             if (event.source.length > 0) {
-                if (event.source.substr(0,4) == "http") {
+                if (event.source.substr(0,4) === "http") {
                     sourceHtml = " <a href='" + event.source + "'>[" + event.sourceText + "]</a>";
                 } else {
                     sourceHtml = " <i>[" + event.sourceText + "]</i>";
                 }
+                sourceHtml = "<span>" + sourceHtml + "</span>";
             }
             appendText += "<li>" + event.content + sourceHtml + "</li>";
         }
