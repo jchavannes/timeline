@@ -459,10 +459,6 @@ eras:
         actual: 19000
         label: 19,000 - 6,000 years ago
 
-      - name: First homo sapiens in America, extinction of American megafauna
-        actual: 16500
-        label: 16,500 years ago
-
   - name: Agriculture
     label: 15,000 years ago
     events:
@@ -470,6 +466,11 @@ eras:
         actual: 15000
         label: 13,000 BC
         source: https://en.wikipedia.org/wiki/History_of_agriculture
+
+      - name: First homo sapiens in America, extinction of American megafauna
+        actual: 12700
+        label: 12,700 years ago
+        source: https://en.wikipedia.org/wiki/Pleistocene_megafauna
 
       - name: First cities, beginning of civilization
         actual: 14000
