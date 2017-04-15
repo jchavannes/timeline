@@ -17,7 +17,7 @@ var (
 		},
 	}
 
-	getEvents = func () events {
+	getEvents = func() events {
 		data, err := ioutil.ReadFile("events.yml")
 		check(err)
 		e := events{}
@@ -44,9 +44,9 @@ type events struct {
 }
 
 type era struct {
-	Name    string
-	Label   string
-	Events  []event
+	Name   string
+	Label  string
+	Events []event
 }
 
 type event struct {
