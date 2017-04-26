@@ -16,15 +16,6 @@ var (
 			r.Render()
 		},
 	}
-
-	getEvents = func() events {
-		data, err := ioutil.ReadFile("events.yml")
-		check(err)
-		e := events{}
-		err = yaml.Unmarshal(data, &e)
-		check(err)
-		return e
-	}
 )
 
 func main() {
@@ -37,6 +28,15 @@ func main() {
 		},
 	}
 	server.Run()
+}
+
+func getEvents() events {
+	data, err := ioutil.ReadFile("events.yml")
+	check(err)
+	e := events{}
+	err = yaml.Unmarshal(data, &e)
+	check(err)
+	return e
 }
 
 type events struct {
