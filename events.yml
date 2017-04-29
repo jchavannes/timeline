@@ -223,6 +223,7 @@ eras:
       - name: Trees evolve from early plants
         actual: 385000000
         label: 385 million years ago
+        source: https://en.wikipedia.org/wiki/Wattieza
 
       - name: Arachnids evolve from early arthropods
         actual: 380000000
