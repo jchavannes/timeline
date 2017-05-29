@@ -4,10 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript">
-        var protocol = (location.protocol === "https:") ? "https" : "http";
-        var path = /(.*\/)[^\/]*$/.exec(window.location.pathname)[1];
-        var base_url = protocol + "://" + location.hostname + ((location.port !== "") ? ":" + location.port : "") + path;
-        document.write("<base href='" + base_url + "' />");
+        var loc;
+        (function() {
+            var protocol = (location.protocol === "https:") ? "https" : "http";
+            var urlParts = /(.*\/)([^\/]*)$/.exec(window.location.pathname);
+            if (urlParts.length < 3) {
+                return;
+            }
+            var path = urlParts[1];
+            loc = urlParts[2];
+            var base_url = protocol + "://" + location.hostname + ((location.port !== "") ? ":" + location.port : "") + path;
+            document.write("<base href='" + base_url + "' />");
+        })();
     </script>
 
     <title>Events Timeline</title>
@@ -37,13 +45,22 @@
             </a>
         </div>
 
-        <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
+            <ul id="nav" class="nav navbar-nav">
                 <li><a href="">Home</a></li>
                 <li><a href="about">About</a></li>
             </ul>
         </div>
+
+        <script type="text/javascript">
+            $(function() {
+                if (loc === "about") {
+                    $("#nav li:eq(1)").addClass("active");
+                } else {
+                    $("#nav li:eq(0)").addClass("active");
+                }
+            });
+        </script>
 
     </div>
 
