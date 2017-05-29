@@ -450,15 +450,15 @@ eras:
         label: 100,000 years ago
         source: https://en.wikipedia.org/wiki/Burial
 
-      - name: First harpoon fishing
-        actual: 90000
-        label: 90,000 years ago
-        source: https://en.wikipedia.org/wiki/Semliki_harpoon
-
       - name: First jewelery
         actual: 100000
         label: 100,000 years ago
         source: https://en.wikipedia.org/wiki/Jewellery
+
+      - name: First harpoon fishing
+        actual: 90000
+        label: 90,000 years ago
+        source: https://en.wikipedia.org/wiki/Semliki_harpoon
 
       - name:
           Toba supereruption, global volcanic winter (Indonesia,
@@ -842,6 +842,11 @@ eras:
         actual: 689
         label: 1311
         source: https://en.wikipedia.org/wiki/List_of_tallest_buildings_and_structures
+
+      - name: First use of coffee drinking - may have replaced alcohol and led to the enlightment (Yemen)
+        actual: 586
+        label: 1414
+        source: https://en.wikipedia.org/wiki/History_of_coffee
 
       - name: Invention of printing press (Johannes Gutenberg)
         actual: 560

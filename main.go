@@ -16,6 +16,13 @@ var (
 			r.Render()
 		},
 	}
+
+	aboutRoute = web.Route{
+		Pattern: "/about",
+		Handler: func(r *web.Response) {
+			r.Render()
+		},
+	}
 )
 
 func main() {
@@ -25,6 +32,7 @@ func main() {
 		StaticFilesDir: "web",
 		Routes: []web.Route{
 			indexRoute,
+			aboutRoute,
 		},
 	}
 	server.Run()

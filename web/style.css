@@ -8,8 +8,24 @@ hr {
     margin: 12px 0;
 }
 
+.navbar {
+    margin-bottom: 0;
+    min-height: 55px;
+}
+.navbar-default {
+    background: #eee;
+}
+.navbar-brand {
+    padding: 8px 15px;
+}
+.navbar-brand h1 {
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
 .container.main-container {
-    padding-top: 0;
+    padding-top: 50px;
 }
 
 #timelines {
@@ -38,9 +54,22 @@ hr {
     margin-bottom: 3px;
 }
 
+.row.head {
+    position: relative;
+}
+
 .sources {
     font-style: italic;
     font-size: 12px;
+}
+
+@media (min-width: 992px) {
+    .sources {
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        text-align: right;
+    }
 }
 
 .sources a {

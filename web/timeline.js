@@ -1,11 +1,14 @@
 $(function() {
     var $sources = $(".timelines-list li span");
-    if (localStorage.sourcesDisplay && localStorage.sourcesDisplay === "hide") {
-        hideSources();
-    } else if (localStorage.sourcesDisplay && localStorage.sourcesDisplay === "show") {
-        showSources();
-    } else {
-        inlineSources();
+    switch(true) {
+        case (localStorage.sourcesDisplay && localStorage.sourcesDisplay === "hide"):
+            hideSources();
+            break;
+        case (localStorage.sourcesDisplay && localStorage.sourcesDisplay === "show"):
+            showSources();
+            break;
+        default:
+            inlineSources();
     }
 
     function showSources() {
