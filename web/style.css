@@ -3,6 +3,9 @@ body {
     color: #000;
     display: none;
 }
+a {
+    cursor: pointer;
+}
 
 hr {
     margin: 12px 0;
@@ -54,7 +57,7 @@ hr {
     margin-bottom: 3px;
 }
 
-.row.head {
+.head {
     position: relative;
 }
 
@@ -69,6 +72,9 @@ hr {
         right: 0;
         bottom: 0;
         text-align: right;
+    }
+    .sources p {
+        margin: 0;
     }
 }
 
