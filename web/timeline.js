@@ -1,5 +1,5 @@
 $(function() {
-    var $sources = $(".timelines-list li span");
+    var $sources = $(".timeline-body li span");
     switch(true) {
         case (localStorage.sourcesDisplay && localStorage.sourcesDisplay === "hide"):
             hideSources();

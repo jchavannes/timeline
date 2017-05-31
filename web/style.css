@@ -40,19 +40,19 @@ hr {
     margin: 0 auto;
 }
 
-.timelines-list {
+.timeline-body {
     background: #fff;
     color: #000;
     padding: 20px;
 }
 
-.timelines-list li a {
+.timeline-body li a {
     font-style: italic;
     font-size: 11px;
     color: rgba(51, 122, 183, 0.8);
 }
 
-.timelines-list li span {
+.timeline-body li span {
     margin-top: -4px;
     margin-bottom: 3px;
 }
