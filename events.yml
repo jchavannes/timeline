@@ -627,7 +627,7 @@ eras:
 
       - name: First written language, first schools (Mesopotamia)
         actual: 5500
-        label: 3300 BC
+        label: 3500 BC
         source: https://en.wikipedia.org/wiki/History_of_education
 
       - name: First wheeled vehicles, pulled by horses
