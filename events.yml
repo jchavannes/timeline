@@ -118,6 +118,11 @@ eras:
         label: 1.7 billion years ago
         source: https://en.wikipedia.org/wiki/Evolutionary_history_of_life
 
+      - name: Fungi diverge from other life
+        actual: 1500000000
+        label: 1.5 billion years ago
+        source: https://en.wikipedia.org/wiki/Evolution_of_fungi
+
       - name: First evidence of sexual reproduction, significant increase in rate of evolution
         actual: 1200000000
         label: 1.2 billion years ago
