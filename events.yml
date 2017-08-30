@@ -23,8 +23,8 @@ eras:
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
 
       - name: First hydrogen atoms begin to form, universe visibility horizon (cosmic microwave background)
-        actual: 13819700000
-        label: 380,000 years after big bang
+        actual: 13819621000
+        label: 379,000 years after big bang
         source: https://en.wikipedia.org/wiki/Cosmic_microwave_background
 
       - name: First stars begin to form
@@ -118,7 +118,7 @@ eras:
         label: 1.7 billion years ago
         source: https://en.wikipedia.org/wiki/Evolutionary_history_of_life
 
-      - name: Fungi diverge from other life
+      - name: Fungi diverge from other life (an aquatic lifeform with flagellum)
         actual: 1500000000
         label: 1.5 billion years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fungi
@@ -163,6 +163,11 @@ eras:
         actual: 545000000
         label: 545 million years ago
         source: https://en.wikipedia.org/wiki/Arthropod
+
+      - name: First fungi on land
+        actual: 542000000
+        label: 542 million years ago
+        source: https://en.wikipedia.org/wiki/Evolution_of_fungi
 
       - name: Cambrian explosion
         actual: 542000000
@@ -257,6 +262,11 @@ eras:
         actual: 252000000
         label: 252 million years ago
         source: https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event
+
+      - name: Fungi briefly become most abundant organisms on Earth
+        actual: 252000000
+        label: 252 million years ago
+        source: https://en.wikipedia.org/wiki/Evolution_of_fungi
 
       - name: Dinosaurs diverge from other archosaurs - which would later include crocodiles
         actual: 234000000
@@ -537,11 +547,6 @@ eras:
         label: 13,000 BC
         source: https://en.wikipedia.org/wiki/History_of_agriculture
 
-      - name: First homo sapiens in America, extinction of American megafauna
-        actual: 12700
-        label: 12,700 years ago
-        source: https://en.wikipedia.org/wiki/Pleistocene_megafauna
-
       - name: First cities, beginning of civilization
         actual: 14000
         label: 12,000 BC
@@ -556,6 +561,11 @@ eras:
         actual: 13000
         label: 11,000 BC
         source: https://en.wikipedia.org/wiki/History_of_the_domestic_sheep
+
+      - name: First homo sapiens in America, extinction of American megafauna
+        actual: 12700
+        label: 10,700 BC
+        source: https://en.wikipedia.org/wiki/Pleistocene_megafauna
 
       - name: Homo floresiensis becomes extinct, homo sapiens last remaining humanoid species
         actual: 12000
