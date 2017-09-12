@@ -655,6 +655,11 @@ eras:
         label: 3300 BC
         source: https://en.wikipedia.org/wiki/Ancient_Near_East
 
+      - name: Earliest human who's name we know (Egypt)
+        actual: 5200
+        label: 3200 BC
+        source: https://en.wikipedia.org/wiki/Iry-Hor
+
       - name: Invention of indoor plumbing and flush toilet (South Asia)
         actual: 5000
         label: 3000 BC
