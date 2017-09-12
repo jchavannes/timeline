@@ -833,6 +833,11 @@ eras:
         label: 1000
         source: https://en.wikipedia.org/wiki/Book_of_Optics
 
+      - name: Invention of magnetic compass (China)
+        actual: 960
+        label: 1040
+        source: https://en.wikipedia.org/wiki/History_of_the_compass
+
       - name: Magna Carta, foundation for individual rights (England)
         actual: 785
         label: 1215
