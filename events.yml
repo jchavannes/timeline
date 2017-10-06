@@ -258,7 +258,7 @@ eras:
         label: 320 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_reptiles
 
-      - name: Largest known extinction event, 90-96% of all species, extinction of all remaining trilobites
+      - name: Largest known extinction event, 90-96% of all species, including trilobites
         actual: 252000000
         label: 252 million years ago
         source: https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event
