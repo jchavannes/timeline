@@ -1371,6 +1371,16 @@ eras:
         label: 1976
         source: https://en.wikipedia.org/wiki/Viking_1
 
+      - name: Invention of public key cryptography, algorithm to establish shared secret key over an insecure channel (Diffie, Hellman, Merkle)
+        actual: 24
+        label: 1976
+        source: https://en.wikipedia.org/wiki/Public-key_cryptography
+
+      - name: First encryption algorithm with separate public and private keys, also allowing digital signatures (Rivest, Shamir, Adleman)
+        actual: 23
+        label: 1977
+        source: https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+
 #      - name: First Saturn flyby (Pioneer 11)
 #        actual: 21
 #        label: 1979
