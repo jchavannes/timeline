@@ -437,6 +437,14 @@ eras:
         image_link: https://commons.wikimedia.org/wiki/File:Scleromochlus_BW.jpg
         image_height: 56.25
 
+      - name: Pangaea supercontinent formed of almost all land mass, mostly in southern hemisphere
+        actual: 225000000
+        label: 225 million years ago
+        source: https://en.wikipedia.org/wiki/Pangaea
+        image: pangaea.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Pangaea_continents.svg
+        image_height: 85.67
+
       - name:
             Mammals evolve from early reptiles - loss of color vision (possibly due to nocturnality),
             warm-blooded, hair, neocortex, mammary glands, ear drum
@@ -454,36 +462,57 @@ eras:
         actual: 201000000
         label: 201 million years ago
         source: https://en.wikipedia.org/wiki/Triassic%E2%80%93Jurassic_extinction_event
+        image: keichousaurus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Keichousaurus_hui_fossil.JPG
+        image_height: 51.38
 
       - name: Dinosaurs become dominant organisms on Earth
         actual: 201000000
         label: 201 million years ago
         source: https://en.wikipedia.org/wiki/Dinosaur
+        image: allosaurus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Allosaurus_Revised.jpg
+        image_height: 56.25
 
       - name: Birds evolve from dinosaurs, first flying vertebrate
         actual: 150000000
         label: 150 million years ago
         source: http://www.sciencemag.org/news/2014/07/flight-may-have-evolved-multiple-times-birds
+        image: archaeopteryx.jpg
+        image_link: https://www.independent.co.uk/news/science/worlds-oldest-bird-archaeopteryx-wore-feather-trousers-9581647.html
+        image_height: 78.75
 
       - name: Flowers evolve
         actual: 125000000
         label: 125 million years ago
         source: https://en.wikipedia.org/wiki/Flower
+        image: archaefructus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Archaefructus_liaoningensis.jpg
+        image_height: 75
 
       - name: Placentals evolve to carry offspring rather than lay eggs
         actual: 120000000
         label: 120 million years ago
         source: https://en.wikipedia.org/wiki/Placentalia
+        image: purgatorius.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Purgatorius_BW.jpg
+        image_height: 64.88
 
       - name: Snakes evolve
         actual: 112000000
         label: 112 million years ago
         source: https://en.wikipedia.org/wiki/Snake
+        image: tetrapodophis.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Tetrapodophis_amplectus_3483.jpg
+        image_height: 89.19
 
       - name: Opposable thumbs evolve in pre-primates
         actual: 70000000
         label: 70 million years ago
         source: https://www.quora.com/How-long-did-it-take-for-opposable-thumbs-to-emerge-from-a-common-ancestor-to-humans-with-a-dewclaw
+        image: tarsier.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Bohol_Tarsier.jpg
+        image_height: 75
 
   - name: Mammals and Primates
     label: 66 million years ago
