@@ -214,7 +214,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Animal
         image: choanoflagellate.jpg
         image_link: https://commons.wikimedia.org/wiki/File:1singlelate.jpg
-        image_height: 98.16
+        image_height: 76.98
 
       - name: Early decentralized nervous system, bilateral symmetry - worm-like creature
         actual: 600000000
@@ -243,35 +243,58 @@ eras:
         actual: 555000000
         label: 555 million years ago
         source: https://en.wikipedia.org/wiki/Urbilaterian
+        image: symsagittifera-roscoffensis.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Symsagittifera_roscoffensis(Jersey).jpg
+        image_height: 75
 
       - name: Brain evolves
         actual: 550000000
         label: 550 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_the_brain
+        image: earthworm-brain.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Earthworm_nervous_system.png
+        image_height: 65.58
 
       - name: First arthropods evolve - which would later include insects, crustaceans, and arachnids
         actual: 545000000
         label: 545 million years ago
         source: https://en.wikipedia.org/wiki/Arthropod
+        image: spriggina-floundensi.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Spriggina_floundersi_-_MUSE.jpg
+        image_height: 50.38
 
       - name: First fungi on land
         actual: 542000000
         label: 542 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fungi
+        image: chytrid-fungus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1392_Scanning_Electron_Micrograph_of_Chytrid_Fungus.jpg
+        image_height: 80.25
 
       - name: Cambrian explosion
         actual: 542000000
         label: 542 - 517 million years ago
         source: https://en.wikipedia.org/wiki/Cambrian_explosion
+        image: opabinia.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Opabinia_BW2.jpg
+        image_height: 75
 
       - name: Eyes evolve
         actual: 540000000
         label: 540 million years ago
-        source: https://en.wikipedia.org/wiki/Eye
+        source: https://en.wikipedia.org/wiki/Evolution_of_the_eye
+        image: planarian.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Smed.jpg
+        image_height: 51.98
 
       - name: Heart evolves
         actual: 540000000
         label: 540 million years ago
+        source: https://en.wikipedia.org/wiki/Circulatory_system
+        image: fish-heart.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Two_chamber_heart.svg
+        image_height: 62.5
+
 
   - name: Vertebrates
     label: 530 million years ago
@@ -280,16 +303,25 @@ eras:
         actual: 530000000
         label: 530 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fish
+        image: lamprey.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:J%C3%B5esilmud2.jpg
+        image_height: 66.63
 
       - name: Trilobites evolve from early arthropods, dominate oceans
         actual: 521000000
         label: 521 million years ago
         source: https://en.wikipedia.org/wiki/Trilobite
+        image: trilobite.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Kainops_invius_lateral_and_ventral.JPG
+        image_height: 87.13
 
       - name: Plants evolve from algae
         actual: 510000000
         label: 510 million years ago
         source: https://en.wikipedia.org/wiki/Evolutionary_history_of_plants
+        image: liverwort.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Lunularia_cruciata.jpg
+        image_height: 75.5
 
       - name: Teeth evolve
         actual: 495000000
@@ -357,6 +389,9 @@ eras:
         actual: 252000000
         label: 252 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fungi
+        image: prototaxites.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Prototaxites_Dawson1888.PNG
+        image_height: 92
 
       - name: Dinosaurs diverge from other archosaurs - which would later include crocodiles
         actual: 234000000
