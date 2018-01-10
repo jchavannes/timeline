@@ -39,6 +39,8 @@ eras:
         actual: 13670000000
         label: 150 million years after big bang
         source: https://en.wikipedia.org/wiki/Chronology_of_the_universe
+        image: star-formation.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:LH_95.jpg
 
       - name: First galaxies begin to form, including the Milky Way
         actual: 13420000000
@@ -61,31 +63,43 @@ eras:
         actual: 9000000000
         label: 9 billion years ago
         source: https://en.wikipedia.org/wiki/Milky_Way
+        image: milky-way.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:236084main_MilkyWay-full-annotated.jpg
 
       - name: Expansion of the universe begins accelerating, dark energy dominated era begins
         actual: 5000000000
         label: 5 billion years ago
         source: https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe
+        image: expanding-universe.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Dark_Energy.jpg
 
       - name: Formation of our solar system, Sun begins burning
         actual: 4600000000
         label: 4.6 billion years ago
         source: https://en.wikipedia.org/wiki/Formation_and_evolution_of_the_Solar_System
+        image: early-solar-system.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Protoplanetary-disk.jpg
 
       - name: Formation of Earth
         actual: 4540000000
         label: 4.54 billion years ago
         source: https://en.wikipedia.org/wiki/History_of_Earth
+        image: early-earth.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Earth_formation.jpg
 
       - name: Formation of Moon - possibly the aftermath of impact with Earth
         actual: 4510000000
         label: 4.51 billion years ago
         source: https://en.wikipedia.org/wiki/Origin_of_the_Moon
+        image: moon.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Cara-oculta-luna.jpg
 
       - name: Liquid water starts accumulating on Earth, beginning of oceans
         actual: 4400000000
         label: 4.4 billion years ago
         source: https://en.wikipedia.org/wiki/Origin_of_water_on_Earth
+        image: water-earth.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:BlueMarble-2001-2002.jpg
 
   - name: Early Life
     label: 4 billion years ago
