@@ -393,21 +393,33 @@ eras:
         actual: 370000000
         label: 370 million years ago
         source: https://en.wikipedia.org/wiki/Amphibian
+        image: ichthyostega.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Ichthyostega_BW.jpg
+        image_height: 56.25
 
       - name: Evolution of hearing
         actual: 350000000
         label: 350 - 250 million years ago
         source: https://www.sciencedaily.com/releases/2015/02/150206125257.htm
+        image: salamander.jpg
+        image_link: https://www.sciencemag.org/news/2015/02/early-land-animals-heard-sounds-their-lungs
+        image_height: 56.25
 
       - name: Reptiles evolve from early amphibians - dry skin
         actual: 320000000
         label: 320 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_reptiles
+        image: casineria.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Casineria_kiddi_reconstruction.jpg
+        image_height: 82
 
       - name: Largest extinction event, 90-96% of all species, including trilobites
         actual: 252000000
         label: 252 million years ago
         source: https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event
+        image: great-dying.jpg
+        image_link: https://news.mit.edu/2014/an-extinction-in-the-blink-of-an-eye-0210
+        image_height: 66.63
 
       - name: Fungi briefly become most abundant organisms on Earth
         actual: 252000000
@@ -421,6 +433,9 @@ eras:
         actual: 234000000
         label: 234 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_dinosaurs
+        image: scleromochlus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Scleromochlus_BW.jpg
+        image_height: 56.25
 
       - name:
             Mammals evolve from early reptiles - loss of color vision (possibly due to nocturnality),
@@ -428,6 +443,9 @@ eras:
         actual: 210000000
         label: 210 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_mammals
+        image: hadrocodium.jpg
+        image_link: https://www.nature.com/news/2011/110519/full/news.2011.302.html
+        image_height: 89.83
 
   - name: Dinosaurs
     label: 201 million years ago
@@ -1339,6 +1357,11 @@ eras:
         label: 1908
         source: https://en.wikipedia.org/wiki/Car
 
+      - name: Idea of continental drift formalized - there once was a supercontinent, Pangaea (Alfred Wegener)
+        actual: 88
+        label: 1912
+        source: https://en.wikipedia.org/wiki/Continental_drift
+
 #      - name: World War I
 #        actual: 86
 #        label: 1914 - 1918
@@ -1481,6 +1504,11 @@ eras:
         actual: 35
         label: 1965
         source: https://en.wikipedia.org/wiki/Programma_101
+
+      - name: Theory of plate tectonics, solid plates move on top of molten interior, creating earthquakes, mountains, and volcanoes (Dan McKenzie)
+        actual: 35
+        label: 1965
+        source: https://en.wikipedia.org/wiki/Plate_tectonics
 
       - name: First successful heart transplant (Christiaan Barnard)
         actual: 33
