@@ -67,7 +67,7 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
             }
             imgHtml =
                 "<a href='" + imgLink + "'>" +
-                "<img src='" + imgUrl + "' />" +
+                "<img src='" + imgUrl + "' width='100px' height='" + event.imageHeight + "' />" +
                 "</a>";
         }
         appendText +=
