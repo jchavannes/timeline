@@ -327,40 +327,64 @@ eras:
         actual: 495000000
         label: 495 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fish
+        image: conodont.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Manticolepis_subrecta.jpg
+        image_height: 75
 
       - name: Insects evolve from crustaceans (part of arthropods)
         actual: 480000000
         label: 480 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_insects
+        image: cockroach.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Baltic_amber_inclusions_-_Cockroach_(Pterygota,_Neoptera,_Dictyoptera,_Blattodea).JPG
+        image_height: 75
 
       - name: Jaw evolves
         actual: 430000000
         label: 430 million years ago
         source: https://en.wikipedia.org/wiki/Fish_jaw#Evolution
+        image: spiny-shark.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Acanthodes_BW.jpg
+        image_height: 56.25
 
       - name: First animals on land (invertebrates)
         actual: 428000000
         label: 428 million years ago
         source: https://en.wikipedia.org/wiki/Pneumodesmus
+        image: pneumodesmus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Pneumodesmus_newmani.jpg
+        image_height: 80
 
       - name: Bones evolve to replace cartilage
         actual: 420000000
         label: 420 million years ago
+        image: sphenacanthus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Sphenacanthus1DB.jpg
+        image_height: 56.25
 
       - name: Flying insects evolve, first flying organism
         actual: 400000000
         label: 400 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_insects
+        image: winged-insect.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Evolution_of_wing_of_insect-V2.png
+        image_height: 91.16
 
       - name: Trees evolve from early plants
         actual: 385000000
         label: 385 million years ago
         source: https://en.wikipedia.org/wiki/Wattieza
+        image: gilboa.jpg
+        image_link: https://en.wikipedia.org/wiki/File:Gilboa2.jpg
+        image_height: 69.16
 
       - name: Arachnids evolve from early arthropods
         actual: 380000000
         label: 380 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_spiders
+        image: kreischeria-spider.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Kreischeria_Vienna.jpg
+        image_height: 73.25
 
   - name: Land
     label: 370 million years ago
