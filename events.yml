@@ -8,7 +8,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Big_Bang
         image: big-bang.jpg
         image_link: https://commons.wikimedia.org/wiki/File:CMB_Timeline300_no_WMAP.jpg
-        image_height: 65px
+        image_height: 65
 
       - name: First hadron particles begin to form, including protons and neutrons
         actual: 13820000000
@@ -16,12 +16,15 @@ eras:
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
         image: proton.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Quark_structure_proton.svg
-        image_height: 100px
+        image_height: 100
 
       - name: First lepton particles begin to form, including electrons
         actual: 13820000000
         label: 1 second after big bang
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
+        image: standard-model.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Standard_Model_of_Elementary_Particles.svg
+        image_height: 95.75
 
       - name: Protons and neutrons start combining to form first atomic nuclei
         actual: 13820000000
@@ -29,7 +32,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
         image: helium-nucleus.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Helium_Nucleus.svg
-        image_height: 99px
+        image_height: 99
 
       - name: First hydrogen atoms begin to form, universe visibility horizon (cosmic microwave background)
         actual: 13819621000
@@ -37,7 +40,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Cosmic_microwave_background
         image: cosmic-microwave-background.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Ilc_9yr_moll4096.png
-        image_height: 50px
+        image_height: 50
 
       - name: First stars begin to form
         actual: 13670000000
@@ -45,7 +48,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Chronology_of_the_universe
         image: star-formation.jpg
         image_link: https://commons.wikimedia.org/wiki/File:LH_95.jpg
-        image_height: 75px
+        image_height: 75
 
       - name: First galaxies begin to form, including the Milky Way
         actual: 13420000000
@@ -53,7 +56,7 @@ eras:
         source: https://en.wikipedia.org/wiki/GN-z11
         image: galaxy-formation.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Hubble_-_infant_galaxy.jpg
-        image_height: 75px
+        image_height: 75
 
       - name: Peak rate of star formation in the universe, cosmic high noon
         actual: 10000000000
@@ -61,7 +64,7 @@ eras:
         source: https://news.ucsc.edu/2017/07/superluminous-supernova.html
         image: hubble-deep-field.jpg
         image_link: https://en.wikipedia.org/wiki/File:Hubble_ultra_deep_field.jpg
-        image_height: 75px
+        image_height: 75
 
   - name: Milky Way and Earth
     label: 9 billion years ago
@@ -72,7 +75,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Milky_Way
         image: milky-way.jpg
         image_link: https://commons.wikimedia.org/wiki/File:236084main_MilkyWay-full-annotated.jpg
-        image_height: 100px
+        image_height: 100
 
       - name: Expansion of the universe begins accelerating, dark energy dominated era begins
         actual: 5000000000
@@ -80,7 +83,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe
         image: expanding-universe.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Dark_Energy.jpg
-        image_height: 62.5px
+        image_height: 62.5
 
       - name: Formation of our solar system, Sun begins burning
         actual: 4600000000
@@ -88,7 +91,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Formation_and_evolution_of_the_Solar_System
         image: early-solar-system.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Protoplanetary-disk.jpg
-        image_height: 54.16px
+        image_height: 54.16
 
       - name: Formation of Earth
         actual: 4540000000
@@ -96,7 +99,7 @@ eras:
         source: https://en.wikipedia.org/wiki/History_of_Earth
         image: early-earth.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Earth_formation.jpg
-        image_height: 100px
+        image_height: 100
 
       - name: Formation of Moon - possibly the aftermath of impact with Earth
         actual: 4510000000
@@ -104,7 +107,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Origin_of_the_Moon
         image: moon.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Cara-oculta-luna.jpg
-        image_height: 102.33px
+        image_height: 102.33
 
       - name: Liquid water starts accumulating on Earth, beginning of oceans
         actual: 4400000000
@@ -112,7 +115,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Origin_of_water_on_Earth
         image: water-earth.jpg
         image_link: https://commons.wikimedia.org/wiki/File:BlueMarble-2001-2002.jpg
-        image_height: 50px
+        image_height: 50
 
   - name: Early Life
     label: 4 billion years ago
@@ -123,7 +126,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Abiogenesis
         image: rna.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Hammerhead_ribozyme_ribbons.png
-        height: 101.25px
+        image_height: 101.25
 
 #      - name: Last universal common ancestor
 #        actual: 3800000000
@@ -136,7 +139,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Prokaryote
         image: prokaryote.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Prokaryote_cell.svg
-        height: 112.13px
+        image_height: 112.13
 
       - name: First bacteria
         actual: 3500000000
@@ -144,7 +147,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Timeline_of_the_evolutionary_history_of_life
         image: bacteria.jpg
         image_link: https://commons.wikimedia.org/wiki/File:EscherichiaColi_NIAID.jpg
-        image_height: 84.13px
+        image_height: 84.13
 
       - name: First organisms to perform photosynthesis
         actual: 3400000000
@@ -152,7 +155,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Evolution_of_photosynthesis
         image: calvin-cycle.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Simple_photosynthesis_overview.svg
-        height: 82.5px
+        image_height: 82.5
 
       - name: First cells to use ATP for energy transfer
         actual: 3000000000
@@ -160,7 +163,7 @@ eras:
         source: https://www.ncbi.nlm.nih.gov/books/NBK26849/
         image: krebs-cycle.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Citric_acid_cycle_with_aconitate_2.svg
-        image_height: 79.5px
+        image_height: 79.5
 
       - name: Eukaryotes evolve from prokaryotes - nucleus, mitochondria
         actual: 2500000000
@@ -168,7 +171,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Eukaryote
         image: animal-cell.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Animal_Cell.svg
-        image_height: 57.75px
+        image_height: 57.75
 
       - name: Oxygen suddenly becomes abundant in atmosphere - possibly due to photosynthesis
         actual: 2300000000
@@ -176,7 +179,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Great_Oxygenation_Event
         image: cyanobacteria.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Cyanobacteria_(248_07)_Mixture;_native_preparation;_green_filter.jpg
-        image_height: 64px
+        image_height: 64
 
       - name: First multicellular organisms, beginning of cell specialization
         actual: 1700000000
@@ -184,7 +187,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Evolutionary_history_of_life
         image: c-elegans.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Adult_Caenorhabditis_elegans.jpg
-        image_height: 32.88px
+        image_height: 32.88
 
       - name: Fungi diverge from other life (an aquatic lifeform with flagellum)
         actual: 1500000000
@@ -192,7 +195,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Evolution_of_fungi
         image: fungi.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Aspergillus.jpg
-        image_height: 66.8px
+        image_height: 66.8
 
       - name: First evidence of sexual reproduction, significant increase in rate of evolution
         actual: 1200000000
@@ -200,7 +203,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Evolution_of_sexual_reproduction
         image: gametic-meiosis.jpg
         image_link: https://commons.wikimedia.org/wiki/File:Gametic_meiosis.png
-        image_height: 73.11px
+        image_height: 73.11
 
   - name: Animals
     label: 655 million years ago
@@ -209,6 +212,9 @@ eras:
         actual: 665000000
         label: 665 - 610 million years ago
         source: https://en.wikipedia.org/wiki/Animal
+        image: choanoflagellate.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:1singlelate.jpg
+        image_height: 98.16
 
       - name: Early decentralized nervous system, bilateral symmetry - worm-like creature
         actual: 600000000
