@@ -1,46 +1,3 @@
-$(function() {
-    var $sources = $(".timeline-body li span");
-    switch(true) {
-        case (localStorage.sourcesDisplay && localStorage.sourcesDisplay === "hide"):
-            hideSources();
-            break;
-        case (localStorage.sourcesDisplay && localStorage.sourcesDisplay === "show"):
-            showSources();
-            break;
-        default:
-            inlineSources();
-    }
-
-    function showSources() {
-        $sources.css("display", "block");
-    }
-
-    function hideSources() {
-        $sources.css("display", "none");
-    }
-
-    function inlineSources() {
-        $sources.css("display", "inline");
-    }
-
-    $("#show-sources").click(function() {
-        localStorage.sourcesDisplay = "show";
-        showSources();
-    });
-
-    $("#inline-sources").click(function() {
-        localStorage.sourcesDisplay = "inline";
-        inlineSources();
-    });
-
-    $("#hide-sources").click(function() {
-        localStorage.sourcesDisplay = "hide";
-        hideSources();
-    });
-
-    $("body").show();
-});
-
 function timeline(eraName, eraLabel, eraData, $timeline) {
     var appendText = "<h4>" + eraName + " (" + eraLabel + ")</h4><ul>";
     for (var i = 0; i < eraData.length; i++) {
@@ -58,7 +15,7 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
             }
             sourceHtml = "<span>" + sourceHtml + "</span>";
         }
-        var imgHtml = "<div class='img'></div>";
+        var imgHtml = "";
         if (event.image.length > 0) {
             var imgUrl = "img/" + event.image;
             var imgLink = imgUrl;

@@ -1,7 +1,6 @@
 body {
     background: #ddd;
     color: #000;
-    display: none;
 }
 a {
     cursor: pointer;
@@ -25,10 +24,6 @@ hr {
     margin: 0;
     padding: 0;
     color: #333;
-}
-
-.container.main-container {
-    padding-top: 50px;
 }
 
 #timelines {
@@ -72,12 +67,6 @@ hr {
     max-width: 100px;
     margin-right: 10px;
 }
-/*.timeline-body li .img {
-    float: left;
-    width: 100px;
-    height: 35px;
-    margin-right: 10px;
-}*/
 
 .timeline-body li a {
     font-style: italic;
