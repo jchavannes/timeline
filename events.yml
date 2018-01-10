@@ -523,36 +523,57 @@ eras:
         actual: 66000000
         label: 66 million years ago
         source: https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event
+        image: mass-extinction.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Impact_event.jpg
+        image_height: 69.63
 
       - name: Mammals become dominant organisms on Earth
         actual: 66000000
         label: 66 million years ago
         source: https://en.wikipedia.org/wiki/Mammal
+        image: mouse.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:%D0%9C%D1%8B%D1%88%D1%8C_2.jpg
+        image_height: 52.75
 
       - name: Primates evolve
         actual: 65000000
         label: 65 million years ago
         source: https://en.wikipedia.org/wiki/Primate
+        image: plesiadapis.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Plesiadapis_NT.jpg
+        image_height: 63.16
 
       - name: Bats evolve, only flying mammals
         actual: 52000000
         label: 52 million years ago
         source: https://en.wikipedia.org/wiki/Bat
+        image: bat.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Big-eared-townsend-fledermaus.jpg
+        image_height: 60.77
 
       - name: Branch of mammals begin evolving in water, leading to whales, dolphins, seals, etc (closest living land relative - hippo)
         actual: 50000000
         label: 50 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_cetaceans
+        image: rodhocetus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Rhodocetus_BW.jpg
+        image_height: 50.5
 
       - name: Simians diverge from other primates (monkeys and apes)
         actual: 42000000
         label: 42 million years ago
         source: https://en.wikipedia.org/wiki/Simian
+        image: simian.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:BrownSpiderMonkey_(edit2).jpg
+        image_height: 87.3
 
       - name: Early simians regain color vision (possibly to see ripe fruit)
         actual: 40000000
         label: 40 - 30 million years ago
         source: http://anthro.palomar.edu/primate/color.htm
+        image: monkey-fruit.jpg
+        image_link: https://www.zsl.org/zsl-london-zoo/news/game-set-and-match-for-zsl-london-zoos-squirrel-monkeys
+        image_height: 67.56
 
       - name:
           Catarrhines diverge from other simians - no tail, more
@@ -560,6 +581,9 @@ eras:
         actual: 35000000
         label: 35 million years ago
         source: https://en.wikipedia.org/wiki/Catarrhini
+        image: stumptail-monkeys.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Macaca_arctoides.png
+        image_height: 73.38
 
       - name:
           Hominids diverge from other catarrhines - more freedom of
@@ -567,11 +591,17 @@ eras:
         actual: 20000000
         label: 20 million years ago
         source: https://en.wikipedia.org/wiki/Hominidae
+        image: proconsul.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Proconsul_NT.jpg
+        image_height: 68.33
 
       - name: Last common ancestor of humans and apes
         actual: 13000000
         label: 13 - 4 million years ago
         source: https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor
+        image: chimpanzee.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Pan_troglodytes_(male).jpg
+        image_height: 75
 
   - name: Early Humans
     label: 5 million years ago
