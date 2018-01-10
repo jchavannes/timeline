@@ -6,11 +6,15 @@ eras:
         actual: 13820000000
         label: 13.82 billion years ago
         source: https://en.wikipedia.org/wiki/Big_Bang
+        image: big-bang.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:CMB_Timeline300_no_WMAP.jpg
 
       - name: First hadron particles begin to form, including protons and neutrons
         actual: 13820000000
         label: 10<sup>-6</sup> seconds after big bang
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
+        image: proton.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Quark_structure_proton.svg
 
       - name: First lepton particles begin to form, including electrons
         actual: 13820000000
@@ -21,11 +25,15 @@ eras:
         actual: 13820000000
         label: Few minutes after big bang
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
+        image: helium-nucleus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Helium_Nucleus.svg
 
       - name: First hydrogen atoms begin to form, universe visibility horizon (cosmic microwave background)
         actual: 13819621000
         label: 379,000 years after big bang
         source: https://en.wikipedia.org/wiki/Cosmic_microwave_background
+        image: cosmic-microwave-background.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Ilc_9yr_moll4096.png
 
       - name: First stars begin to form
         actual: 13670000000
@@ -36,6 +44,15 @@ eras:
         actual: 13420000000
         label: 400 million years after big bang
         source: https://en.wikipedia.org/wiki/GN-z11
+        image: galaxy-formation.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Hubble_-_infant_galaxy.jpg
+
+      - name: Peak rate of star formation in the universe, cosmic high noon
+        actual: 10000000000
+        label: 3.5 billion years after big bang (10 billion years ago)
+        source: https://news.ucsc.edu/2017/07/superluminous-supernova.html
+        image: hubble-deep-field.jpg
+        image_link: https://en.wikipedia.org/wiki/File:Hubble_ultra_deep_field.jpg
 
   - name: Milky Way and Earth
     label: 9 billion years ago

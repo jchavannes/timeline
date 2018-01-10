@@ -58,9 +58,27 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
             }
             sourceHtml = "<span>" + sourceHtml + "</span>";
         }
-        appendText += "<li>" + event.content + sourceHtml + "</li>";
+        var imgHtml = "<div class='img'></div>";
+        if (event.image.length > 0) {
+            var imgUrl = "img/" + event.image;
+            var imgLink = imgUrl;
+            if (event.imageLink.length > 0) {
+                imgLink = event.imageLink;
+            }
+            imgHtml =
+                "<a href='" + imgLink + "'>" +
+                "<img src='" + imgUrl + "' />" +
+                "</a>";
+        }
+        appendText +=
+            "<li>" +
+            imgHtml +
+            event.content +
+            sourceHtml +
+            "<div style='clear:both;'></div>" +
+            "</li>";
     }
-    appendText += "</ul>";
+    appendText += "</ul><hr/>";
     $timeline.append(appendText);
 }
 

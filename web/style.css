@@ -46,6 +46,39 @@ hr {
     padding: 20px;
 }
 
+.timeline-body h4 {
+    font-weight: bold;
+}
+
+.timeline-body ul {
+    list-style: none;
+    padding: 0;
+}
+
+.timeline-body li {
+    clear: both;
+    padding: 12px 10px;
+}
+
+.timeline-body li:nth-child(2n) {
+    background: rgba(0,0,0,0.05);
+}
+.timeline-body li:nth-child(2n+1) {
+    background: rgba(0,0,0,0.02);
+}
+
+.timeline-body li img {
+    float: left;
+    max-width: 100px;
+    margin-right: 10px;
+}
+/*.timeline-body li .img {
+    float: left;
+    width: 100px;
+    height: 35px;
+    margin-right: 10px;
+}*/
+
 .timeline-body li a {
     font-style: italic;
     font-size: 11px;
@@ -55,6 +88,10 @@ hr {
 .timeline-body li span {
     margin-top: -4px;
     margin-bottom: 3px;
+}
+
+.timeline-body hr {
+    margin: 25px 0;
 }
 
 .head {

@@ -1,11 +1,11 @@
 package main
 
 import (
+	"github.com/jchavannes/browser-history-parser/wikipedia"
 	"github.com/jchavannes/jgo/web"
 	"gopkg.in/yaml.v2"
-	"log"
 	"io/ioutil"
-	"github.com/jchavannes/browser-history-parser/wikipedia"
+	"log"
 )
 
 var (
@@ -27,8 +27,8 @@ var (
 
 func main() {
 	server := web.Server{
-		Port: 2040,
-		TemplatesDir: "web",
+		Port:           2040,
+		TemplatesDir:   "web",
 		StaticFilesDir: "web",
 		Routes: []web.Route{
 			indexRoute,
@@ -58,10 +58,12 @@ type era struct {
 }
 
 type event struct {
-	Name   string
-	Actual int64
-	Label  string
-	Source string
+	Name      string
+	Actual    int64
+	Label     string
+	Source    string
+	Image     string
+	ImageLink string `yaml:"image_link"`
 }
 
 func (e event) GetSourceText() string {
