@@ -220,14 +220,24 @@ eras:
         actual: 600000000
         label: 600 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_nervous_systems
+        image: neuron.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Neuron1.jpg
+        image_height: 87.38
 
       - name: Mouth evolves, early digestive system
         actual: 600000000
         label: 600 million years ago
+        image: earthworm.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Earthworm_head.svg
+        image_height: 59.75
 
       - name: Skeletal system evolves
         actual: 560000000
         label: 560 million years ago
+        source: https://www.livescience.com/18933-oldest-skeleton-animal.html
+        image: coronacollina-acula.jpg
+        image_link: https://www.livescience.com/18933-oldest-skeleton-animal.html
+        image_height: 51.5
 
       - name: Last common ancestor of all bilateral animals
         actual: 555000000

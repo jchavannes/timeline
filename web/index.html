@@ -28,7 +28,7 @@
     timeline("{{ $era.Name }}", "{{ $era.Label }}", [
         // {{ range $eventId, $event := $era.Events }}
         {
-            content: "<b>{{ $event.Label }}</b> {{ $event.Name }}",
+            content: "<b>{{ $event.Label }}</b><br/>{{ $event.Name }}",
             image: "{{ $event.Image }}",
             imageLink: "{{ $event.ImageLink }}",
             imageHeight: "{{ $event.ImageHeight }}",
