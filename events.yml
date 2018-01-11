@@ -790,11 +790,17 @@ eras:
         actual: 60000
         label: 60,000 years ago
         source: https://en.wikipedia.org/wiki/Prehistory_of_Australia
+        image: diprotodon.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Diprotodon11122.jpg
+        image_height: 59
 
       - name: First instrument (wooden flute, Europe)
         actual: 41000
         label: 41,000 years ago
         source: https://en.wikipedia.org/wiki/Prehistoric_music
+        image: flute.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Fl%C3%BBte_pal%C3%A9olithique_(mus%C3%A9e_national_de_Slov%C3%A9nie,_Ljubljana)_(9420310527).jpg
+        image_height: 81.88
 
       - name: Neanderthals become extinct
         actual: 40000
@@ -808,31 +814,49 @@ eras:
         actual: 40000
         label: 40,000 - 27,000 years ago
         source: https://en.wikipedia.org/wiki/Origin_of_the_domestic_dog
+        image: wolf.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Gray_wolf_(Canis_Lupis).jpg
+        image_height: 66
 
-      - name: First cave paintings (animals, Spain)
+      - name: First cave paintings (hands/animals, Spain)
         actual: 35400
         label: 35,400 years ago
         source: https://en.wikipedia.org/wiki/Cave_painting
+        image: cave-paintings.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Hands_in_Pettakere_Cave_DYK_crop.jpg
+        image_height: 89
 
       - name: Invention of weaving
         actual: 27000
         label: 27,000 years ago
         source: https://en.wikipedia.org/wiki/Weaving
+        image: sewing-needle.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Aiguille_os_246.1_Global.jpg
+        image_height: 57.38
 
       - name: First fish hook
         actual: 23000
         label: 23,000 years ago
         source: https://en.wikipedia.org/wiki/Fish_hook
+        image: fish-hook.jpg
+        image_link: https://www.nature.com/news/archaeologists-land-world-s-oldest-fish-hook-1.9461
+        image_height: 66.59
 
       - name: First use of bread (Middle East)
         actual: 23000
         label: 23,000 years ago
         source: http://www.nature.com/news/2009/091217/full/news.2009.1147.html
+        image: early-bread.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Conical_loaves_of_bread,_Gebelein,_5th_Dynasty_c_2400_BC.jpg
+        image_height: 74.38
 
       - name: End of ice age, sea levels rise 400 ft over 13,000 years
         actual: 19000
         label: 19,000 - 6,000 years ago
         source: https://en.wikipedia.org/wiki/Holocene
+        image: megatherium.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Megatherum_DB.jpg
+        image_height: 85.44
 
   - name: Agriculture
     label: 15,000 years ago
