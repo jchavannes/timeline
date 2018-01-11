@@ -675,21 +675,33 @@ eras:
         actual: 200000
         label: 200,000 years ago
         source: https://en.wikipedia.org/wiki/Homo_sapiens
+        image: homo-sapiens.jpg
+        image_link: https://www.sapiens.org/evolution/homo-sapiens-and-tool-making/
+        image_height: 54.63
 
       - name: First use of adhesives (tar), stronger tools
         actual: 200000
         label: 200,000 years ago
         source: https://en.wikipedia.org/wiki/Adhesive
+        image: spear-adhesive.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Mesa_Verde_spear_and_knife.jpg
+        image_height: 64.75
 
       - name: First use of clothing
         actual: 500000
         label: 170,000 years ago
         source: http://news.ufl.edu/archive/2011/01/uf-study-of-lice-dna-shows-humans-first-wore-clothes-170000-years-ago.html
+        image: clothes.jpg
+        image_link: http://handbill.us/2013/12/08/uf-study-of-lice-dna-shows-first-clothes-170000-years-ago/
+        image_height: 74.83
 
       - name: First wave of homo sapiens leave Africa
         actual: 125000
         label: 125,000 years ago
         source: https://en.wikipedia.org/wiki/Recent_African_origin_of_modern_humans
+        image: human-migration.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Map-of-human-migrations.jpg
+        image_height: 71.38
 
       - name:
           Beginning of most recent glacial period, 18°F drop
@@ -697,31 +709,49 @@ eras:
         actual: 110000
         label: 110,000 years ago
         source: https://en.wikipedia.org/wiki/Last_glacial_period
+        image: ice-age.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Fryxellsee_Opt.jpg
+        image_height: 69.38
 
       - name: First evidence of collecting and eating wild grains
         actual: 105000
         label: 105,000 years ago
         source: http://www.nature.com/news/2009/091217/full/news.2009.1147.html
+        image: grains.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Wheat_close-up.JPG
+        image_height: 75
 
       - name: First homo sapiens in China
         actual: 100000
         label: 100,000 years ago
         source: https://en.wikipedia.org/wiki/Early_human_migrations
+        image: human-migration-2.jpg
+        image_link: https://www.nature.com/news/teeth-from-china-reveal-early-human-trek-out-of-africa-1.18566
+        image_height: 88.88
 
       - name: First human burials
         actual: 100000
         label: 100,000 years ago
         source: https://en.wikipedia.org/wiki/Burial
+        image: burial.jpg
+        image_link: https://www.heritagedaily.com/2013/02/early-human-burials-varied-widely-but-most-were-simple/77394
+        image_height: 64.13
 
       - name: First jewelery
         actual: 100000
         label: 100,000 years ago
         source: https://en.wikipedia.org/wiki/Jewellery
+        image: first-jewelery.jpg
+        image_link: https://www.sciencedaily.com/releases/2015/03/150311160442.htm
+        image_height: 75
 
       - name: First harpoon fishing
         actual: 90000
         label: 90,000 years ago
         source: https://en.wikipedia.org/wiki/Semliki_harpoon
+        image: harpoons.jpg
+        image_link: https://www.cam.ac.uk/research/features/sharpening-our-knowledge-of-prehistory-on-east-africas-bone-harpoons
+        image_height: 67.78
 
       - name:
           Toba supereruption, global volcanic winter (Indonesia,
@@ -729,16 +759,25 @@ eras:
         actual: 75000
         label: 75,000 years ago
         source: https://en.wikipedia.org/wiki/Toba_catastrophe_theory
+        image: toba-supereruption.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Tobaeruption.png
+        image_height: 74.13
 
       - name: Homo erectus becomes extinct
         actual: 70000
         label: 70,000 years ago
         source: https://en.wikipedia.org/wiki/Homo_erectus
+        image: homo-erectus-2.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Homo_erectus_adult_female_-_head_model_-_Smithsonian_Museum_of_Natural_History_-_2012-05-17.jpg
+        image_height: 85.75
 
       - name: First use of compound adhesives, stronger tools (South Africa)
         actual: 70000
         label: 70,000 years ago
         source: https://en.wikipedia.org/wiki/Adhesive
+        image: adhesive.jpg
+        image_link: http://www.pbs.org/wgbh/nova/evolution/neanderthal-superglue.html
+        image_height: 56.25
 
   - name: Global Inhabitation
     label: 60,000 years ago
@@ -761,6 +800,9 @@ eras:
         actual: 40000
         label: 40,000 years ago
         source: https://en.wikipedia.org/wiki/Neanderthal
+        image: neanderthal.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Neandertaler_reconst.jpg
+        image_height: 93.25
 
       - name: Domestication of dogs
         actual: 40000
