@@ -6,65 +6,73 @@ eras:
         actual: 13820000000
         label: 13.82 billion years ago
         source: https://en.wikipedia.org/wiki/Big_Bang
-        image: big-bang.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:CMB_Timeline300_no_WMAP.jpg
-        image_height: 65
+        image:
+          name: big-bang.jpg
+          link: https://commons.wikimedia.org/wiki/File:CMB_Timeline300_no_WMAP.jpg
+          height: 65
 
       - name: First hadron particles begin to form, including protons and neutrons
         actual: 13820000000
         label: 10<sup>-6</sup> seconds after big bang
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
-        image: proton.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Quark_structure_proton.svg
-        image_height: 100
+        image:
+          name: proton.jpg
+          link: https://commons.wikimedia.org/wiki/File:Quark_structure_proton.svg
+          height: 100
 
       - name: First lepton particles begin to form, including electrons
         actual: 13820000000
         label: 1 second after big bang
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
-        image: standard-model.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Standard_Model_of_Elementary_Particles.svg
-        image_height: 95.75
+        image:
+          name: standard-model.jpg
+          link: https://commons.wikimedia.org/wiki/File:Standard_Model_of_Elementary_Particles.svg
+          height: 95.75
 
       - name: Protons and neutrons start combining to form first atomic nuclei
         actual: 13820000000
         label: Few minutes after big bang
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
-        image: helium-nucleus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Helium_Nucleus.svg
-        image_height: 99
+        image:
+          name: helium-nucleus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Helium_Nucleus.svg
+          height: 99
 
       - name: First hydrogen atoms begin to form, universe visibility horizon (cosmic microwave background)
         actual: 13819621000
         label: 379,000 years after big bang
         source: https://en.wikipedia.org/wiki/Cosmic_microwave_background
-        image: cosmic-microwave-background.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Ilc_9yr_moll4096.png
-        image_height: 50
+        image:
+          name: cosmic-microwave-background.jpg
+          link: https://commons.wikimedia.org/wiki/File:Ilc_9yr_moll4096.png
+          height: 50
 
       - name: First stars begin to form
         actual: 13670000000
         label: 150 million years after big bang
         source: https://en.wikipedia.org/wiki/Chronology_of_the_universe
-        image: star-formation.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:LH_95.jpg
-        image_height: 75
+        image:
+          name: star-formation.jpg
+          link: https://commons.wikimedia.org/wiki/File:LH_95.jpg
+          height: 75
 
       - name: First galaxies begin to form, including the Milky Way
         actual: 13420000000
         label: 400 million years after big bang
         source: https://en.wikipedia.org/wiki/GN-z11
-        image: galaxy-formation.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Hubble_-_infant_galaxy.jpg
-        image_height: 75
+        image:
+          name: galaxy-formation.jpg
+          link: https://commons.wikimedia.org/wiki/File:Hubble_-_infant_galaxy.jpg
+          height: 75
 
       - name: Peak rate of star formation in the universe, cosmic high noon
         actual: 10000000000
         label: 3.5 billion years after big bang (10 billion years ago)
         source: https://news.ucsc.edu/2017/07/superluminous-supernova.html
-        image: hubble-deep-field.jpg
-        image_link: https://en.wikipedia.org/wiki/File:Hubble_ultra_deep_field.jpg
-        image_height: 75
+        image:
+          name: hubble-deep-field.jpg
+          link: https://en.wikipedia.org/wiki/File:Hubble_ultra_deep_field.jpg
+          height: 75
 
   - name: Milky Way and Earth
     label: 9 billion years ago
@@ -73,49 +81,55 @@ eras:
         actual: 9000000000
         label: 9 billion years ago
         source: https://en.wikipedia.org/wiki/Milky_Way
-        image: milky-way.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:236084main_MilkyWay-full-annotated.jpg
-        image_height: 100
+        image:
+          name: milky-way.jpg
+          link: https://commons.wikimedia.org/wiki/File:236084main_MilkyWay-full-annotated.jpg
+          height: 100
 
       - name: Expansion of the universe begins accelerating, dark energy dominated era begins
         actual: 5000000000
         label: 5 billion years ago
         source: https://en.wikipedia.org/wiki/Accelerating_expansion_of_the_universe
-        image: expanding-universe.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Dark_Energy.jpg
-        image_height: 62.5
+        image:
+          name: expanding-universe.jpg
+          link: https://commons.wikimedia.org/wiki/File:Dark_Energy.jpg
+          height: 62.5
 
       - name: Formation of our solar system, Sun begins burning
         actual: 4600000000
         label: 4.6 billion years ago
         source: https://en.wikipedia.org/wiki/Formation_and_evolution_of_the_Solar_System
-        image: early-solar-system.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Protoplanetary-disk.jpg
-        image_height: 54.16
+        image:
+          name: early-solar-system.jpg
+          link: https://commons.wikimedia.org/wiki/File:Protoplanetary-disk.jpg
+          height: 54.16
 
       - name: Formation of Earth
         actual: 4540000000
         label: 4.54 billion years ago
         source: https://en.wikipedia.org/wiki/History_of_Earth
-        image: early-earth.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Earth_formation.jpg
-        image_height: 100
+        image:
+          name: early-earth.jpg
+          link: https://commons.wikimedia.org/wiki/File:Earth_formation.jpg
+          height: 100
 
       - name: Formation of Moon - possibly the aftermath of impact with Earth
         actual: 4510000000
         label: 4.51 billion years ago
         source: https://en.wikipedia.org/wiki/Origin_of_the_Moon
-        image: moon.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Cara-oculta-luna.jpg
-        image_height: 102.33
+        image:
+          name: moon.jpg
+          link: https://commons.wikimedia.org/wiki/File:Cara-oculta-luna.jpg
+          height: 102.33
 
       - name: Liquid water starts accumulating on Earth, beginning of oceans
         actual: 4400000000
         label: 4.4 billion years ago
         source: https://en.wikipedia.org/wiki/Origin_of_water_on_Earth
-        image: water-earth.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:BlueMarble-2001-2002.jpg
-        image_height: 50
+        image:
+          name: water-earth.jpg
+          link: https://commons.wikimedia.org/wiki/File:BlueMarble-2001-2002.jpg
+          height: 50
 
   - name: Early Life
     label: 4 billion years ago
@@ -124,9 +138,10 @@ eras:
         actual: 4100000000
         label: 4.1 - 3.8 billion years ago
         source: https://en.wikipedia.org/wiki/Abiogenesis
-        image: rna.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Hammerhead_ribozyme_ribbons.png
-        image_height: 101.25
+        image:
+          name: rna.jpg
+          link: https://commons.wikimedia.org/wiki/File:Hammerhead_ribozyme_ribbons.png
+          height: 101.25
 
 #      - name: Last universal common ancestor
 #        actual: 3800000000
@@ -137,73 +152,82 @@ eras:
         actual: 3500000000
         label: 3.5 billion years ago
         source: https://en.wikipedia.org/wiki/Prokaryote
-        image: prokaryote.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Prokaryote_cell.svg
-        image_height: 112.13
+        image:
+          name: prokaryote.jpg
+          link: https://commons.wikimedia.org/wiki/File:Prokaryote_cell.svg
+          height: 112.13
 
       - name: First bacteria
         actual: 3500000000
         label: 3.5 billion years ago
         source: https://en.wikipedia.org/wiki/Timeline_of_the_evolutionary_history_of_life
-        image: bacteria.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:EscherichiaColi_NIAID.jpg
-        image_height: 84.13
+        image:
+          name: bacteria.jpg
+          link: https://commons.wikimedia.org/wiki/File:EscherichiaColi_NIAID.jpg
+          height: 84.13
 
       - name: First organisms to perform photosynthesis
         actual: 3400000000
         label: 3.4 billion years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_photosynthesis
-        image: calvin-cycle.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Simple_photosynthesis_overview.svg
-        image_height: 82.5
+        image:
+          name: calvin-cycle.jpg
+          link: https://commons.wikimedia.org/wiki/File:Simple_photosynthesis_overview.svg
+          height: 82.5
 
       - name: First cells to use ATP for energy transfer
         actual: 3000000000
         label: 3 billion years ago
         source: https://www.ncbi.nlm.nih.gov/books/NBK26849/
-        image: krebs-cycle.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Citric_acid_cycle_with_aconitate_2.svg
-        image_height: 79.5
+        image:
+          name: krebs-cycle.jpg
+          link: https://commons.wikimedia.org/wiki/File:Citric_acid_cycle_with_aconitate_2.svg
+          height: 79.5
 
       - name: Eukaryotes evolve from prokaryotes - nucleus, mitochondria
         actual: 2500000000
         label: 2.5 billion years ago
         source: https://en.wikipedia.org/wiki/Eukaryote
-        image: animal-cell.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Animal_Cell.svg
-        image_height: 57.75
+        image:
+          name: animal-cell.jpg
+          link: https://commons.wikimedia.org/wiki/File:Animal_Cell.svg
+          height: 57.75
 
       - name: Oxygen suddenly becomes abundant in atmosphere - possibly due to photosynthesis
         actual: 2300000000
         label: 2.3 billion years ago
         source: https://en.wikipedia.org/wiki/Great_Oxygenation_Event
-        image: cyanobacteria.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Cyanobacteria_(248_07)_Mixture;_native_preparation;_green_filter.jpg
-        image_height: 64
+        image:
+          name: cyanobacteria.jpg
+          link: https://commons.wikimedia.org/wiki/File:Cyanobacteria_(248_07)_Mixture;_native_preparation;_green_filter.jpg
+          height: 64
 
       - name: First multicellular organisms, beginning of cell specialization
         actual: 1700000000
         label: 1.7 billion years ago
         source: https://en.wikipedia.org/wiki/Evolutionary_history_of_life
-        image: c-elegans.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Adult_Caenorhabditis_elegans.jpg
-        image_height: 32.88
+        image:
+          name: c-elegans.jpg
+          link: https://commons.wikimedia.org/wiki/File:Adult_Caenorhabditis_elegans.jpg
+          height: 32.88
 
       - name: Fungi diverge from other life (an aquatic lifeform with flagellum)
         actual: 1500000000
         label: 1.5 billion years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fungi
-        image: fungi.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Aspergillus.jpg
-        image_height: 66.8
+        image:
+          name: fungi.jpg
+          link: https://commons.wikimedia.org/wiki/File:Aspergillus.jpg
+          height: 66.8
 
       - name: First evidence of sexual reproduction, significant increase in rate of evolution
         actual: 1200000000
         label: 1.2 billion years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_sexual_reproduction
-        image: gametic-meiosis.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Gametic_meiosis.png
-        image_height: 73.11
+        image:
+          name: gametic-meiosis.jpg
+          link: https://commons.wikimedia.org/wiki/File:Gametic_meiosis.png
+          height: 73.11
 
   - name: Animals
     label: 655 million years ago
@@ -212,88 +236,99 @@ eras:
         actual: 665000000
         label: 665 - 610 million years ago
         source: https://en.wikipedia.org/wiki/Animal
-        image: choanoflagellate.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:1singlelate.jpg
-        image_height: 76.98
+        image:
+          name: choanoflagellate.jpg
+          link: https://commons.wikimedia.org/wiki/File:1singlelate.jpg
+          height: 76.98
 
       - name: Early decentralized nervous system, bilateral symmetry - worm-like creature
         actual: 600000000
         label: 600 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_nervous_systems
-        image: neuron.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Neuron1.jpg
-        image_height: 87.38
+        image:
+          name: neuron.jpg
+          link: https://commons.wikimedia.org/wiki/File:Neuron1.jpg
+          height: 87.38
 
       - name: Mouth evolves, early digestive system
         actual: 600000000
         label: 600 million years ago
-        image: earthworm.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Earthworm_head.svg
-        image_height: 59.75
+        image:
+          name: earthworm.jpg
+          link: https://commons.wikimedia.org/wiki/File:Earthworm_head.svg
+          height: 59.75
 
       - name: Skeletal system evolves
         actual: 560000000
         label: 560 million years ago
         source: https://www.livescience.com/18933-oldest-skeleton-animal.html
-        image: coronacollina-acula.jpg
-        image_link: https://www.livescience.com/18933-oldest-skeleton-animal.html
-        image_height: 51.5
+        image:
+          name: coronacollina-acula.jpg
+          link: https://www.livescience.com/18933-oldest-skeleton-animal.html
+          height: 51.5
 
       - name: Last common ancestor of all bilateral animals
         actual: 555000000
         label: 555 million years ago
         source: https://en.wikipedia.org/wiki/Urbilaterian
-        image: symsagittifera-roscoffensis.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Symsagittifera_roscoffensis(Jersey).jpg
-        image_height: 75
+        image:
+          name: symsagittifera-roscoffensis.jpg
+          link: https://commons.wikimedia.org/wiki/File:Symsagittifera_roscoffensis(Jersey).jpg
+          height: 75
 
       - name: Brain evolves
         actual: 550000000
         label: 550 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_the_brain
-        image: earthworm-brain.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Earthworm_nervous_system.png
-        image_height: 65.58
+        image:
+          name: earthworm-brain.jpg
+          link: https://commons.wikimedia.org/wiki/File:Earthworm_nervous_system.png
+          height: 65.58
 
       - name: First arthropods evolve - which would later include insects, crustaceans, and arachnids
         actual: 545000000
         label: 545 million years ago
         source: https://en.wikipedia.org/wiki/Arthropod
-        image: spriggina-floundensi.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Spriggina_floundersi_-_MUSE.jpg
-        image_height: 50.38
+        image:
+          name: spriggina-floundensi.jpg
+          link: https://commons.wikimedia.org/wiki/File:Spriggina_floundersi_-_MUSE.jpg
+          height: 50.38
 
       - name: First fungi on land
         actual: 542000000
         label: 542 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fungi
-        image: chytrid-fungus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1392_Scanning_Electron_Micrograph_of_Chytrid_Fungus.jpg
-        image_height: 80.25
+        image:
+          name: chytrid-fungus.jpg
+          link: https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_1392_Scanning_Electron_Micrograph_of_Chytrid_Fungus.jpg
+          height: 80.25
 
       - name: Cambrian explosion
         actual: 542000000
         label: 542 - 517 million years ago
         source: https://en.wikipedia.org/wiki/Cambrian_explosion
-        image: opabinia.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Opabinia_BW2.jpg
-        image_height: 75
+        image:
+          name: opabinia.jpg
+          link: https://commons.wikimedia.org/wiki/File:Opabinia_BW2.jpg
+          height: 75
 
       - name: Eyes evolve
         actual: 540000000
         label: 540 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_the_eye
-        image: planarian.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Smed.jpg
-        image_height: 51.98
+        image:
+          name: planarian.jpg
+          link: https://commons.wikimedia.org/wiki/File:Smed.jpg
+          height: 51.98
 
       - name: Heart evolves
         actual: 540000000
         label: 540 million years ago
         source: https://en.wikipedia.org/wiki/Circulatory_system
-        image: fish-heart.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Two_chamber_heart.svg
-        image_height: 62.5
+        image:
+          name: fish-heart.jpg
+          link: https://commons.wikimedia.org/wiki/File:Two_chamber_heart.svg
+          height: 62.5
 
 
   - name: Vertebrates
@@ -303,88 +338,99 @@ eras:
         actual: 530000000
         label: 530 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fish
-        image: lamprey.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:J%C3%B5esilmud2.jpg
-        image_height: 66.63
+        image:
+          name: lamprey.jpg
+          link: https://commons.wikimedia.org/wiki/File:J%C3%B5esilmud2.jpg
+          height: 66.63
 
       - name: Trilobites evolve from early arthropods, dominate oceans
         actual: 521000000
         label: 521 million years ago
         source: https://en.wikipedia.org/wiki/Trilobite
-        image: trilobite.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Kainops_invius_lateral_and_ventral.JPG
-        image_height: 87.13
+        image:
+          name: trilobite.jpg
+          link: https://commons.wikimedia.org/wiki/File:Kainops_invius_lateral_and_ventral.JPG
+          height: 87.13
 
       - name: Plants evolve from algae
         actual: 510000000
         label: 510 million years ago
         source: https://en.wikipedia.org/wiki/Evolutionary_history_of_plants
-        image: liverwort.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Lunularia_cruciata.jpg
-        image_height: 75.5
+        image:
+          name: liverwort.jpg
+          link: https://commons.wikimedia.org/wiki/File:Lunularia_cruciata.jpg
+          height: 75.5
 
       - name: Teeth evolve
         actual: 495000000
         label: 495 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fish
-        image: conodont.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Manticolepis_subrecta.jpg
-        image_height: 75
+        image:
+          name: conodont.jpg
+          link: https://commons.wikimedia.org/wiki/File:Manticolepis_subrecta.jpg
+          height: 75
 
       - name: Insects evolve from crustaceans (part of arthropods)
         actual: 480000000
         label: 480 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_insects
-        image: cockroach.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Baltic_amber_inclusions_-_Cockroach_(Pterygota,_Neoptera,_Dictyoptera,_Blattodea).JPG
-        image_height: 75
+        image:
+          name: cockroach.jpg
+          link: https://commons.wikimedia.org/wiki/File:Baltic_amber_inclusions_-_Cockroach_(Pterygota,_Neoptera,_Dictyoptera,_Blattodea).JPG
+          height: 75
 
       - name: Jaw evolves
         actual: 430000000
         label: 430 million years ago
         source: https://en.wikipedia.org/wiki/Fish_jaw#Evolution
-        image: spiny-shark.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Acanthodes_BW.jpg
-        image_height: 56.25
+        image:
+          name: spiny-shark.jpg
+          link: https://commons.wikimedia.org/wiki/File:Acanthodes_BW.jpg
+          height: 56.25
 
       - name: First animals on land (invertebrates)
         actual: 428000000
         label: 428 million years ago
         source: https://en.wikipedia.org/wiki/Pneumodesmus
-        image: pneumodesmus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Pneumodesmus_newmani.jpg
-        image_height: 80
+        image:
+          name: pneumodesmus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Pneumodesmus_newmani.jpg
+          height: 80
 
       - name: Bones evolve to replace cartilage
         actual: 420000000
         label: 420 million years ago
-        image: sphenacanthus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Sphenacanthus1DB.jpg
-        image_height: 56.25
+        image:
+          name: sphenacanthus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Sphenacanthus1DB.jpg
+          height: 56.25
 
       - name: Flying insects evolve, first flying organism
         actual: 400000000
         label: 400 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_insects
-        image: winged-insect.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Evolution_of_wing_of_insect-V2.png
-        image_height: 91.16
+        image:
+          name: winged-insect.jpg
+          link: https://commons.wikimedia.org/wiki/File:Evolution_of_wing_of_insect-V2.png
+          height: 91.16
 
       - name: Trees evolve from early plants
         actual: 385000000
         label: 385 million years ago
         source: https://en.wikipedia.org/wiki/Wattieza
-        image: gilboa.jpg
-        image_link: https://en.wikipedia.org/wiki/File:Gilboa2.jpg
-        image_height: 69.16
+        image:
+          name: gilboa.jpg
+          link: https://en.wikipedia.org/wiki/File:Gilboa2.jpg
+          height: 69.16
 
       - name: Arachnids evolve from early arthropods
         actual: 380000000
         label: 380 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_spiders
-        image: kreischeria-spider.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Kreischeria_Vienna.jpg
-        image_height: 73.25
+        image:
+          name: kreischeria-spider.jpg
+          link: https://commons.wikimedia.org/wiki/File:Kreischeria_Vienna.jpg
+          height: 73.25
 
   - name: Land
     label: 370 million years ago
@@ -393,57 +439,64 @@ eras:
         actual: 370000000
         label: 370 million years ago
         source: https://en.wikipedia.org/wiki/Amphibian
-        image: ichthyostega.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Ichthyostega_BW.jpg
-        image_height: 56.25
+        image:
+          name: ichthyostega.jpg
+          link: https://commons.wikimedia.org/wiki/File:Ichthyostega_BW.jpg
+          height: 56.25
 
       - name: Evolution of hearing
         actual: 350000000
         label: 350 - 250 million years ago
         source: https://www.sciencedaily.com/releases/2015/02/150206125257.htm
-        image: salamander.jpg
-        image_link: https://www.sciencemag.org/news/2015/02/early-land-animals-heard-sounds-their-lungs
-        image_height: 56.25
+        image:
+          name: salamander.jpg
+          link: https://www.sciencemag.org/news/2015/02/early-land-animals-heard-sounds-their-lungs
+          height: 56.25
 
       - name: Reptiles evolve from early amphibians - dry skin
         actual: 320000000
         label: 320 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_reptiles
-        image: casineria.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Casineria_kiddi_reconstruction.jpg
-        image_height: 82
+        image:
+          name: casineria.jpg
+          link: https://commons.wikimedia.org/wiki/File:Casineria_kiddi_reconstruction.jpg
+          height: 82
 
       - name: Largest extinction event, 90-96% of all species, including trilobites
         actual: 252000000
         label: 252 million years ago
         source: https://en.wikipedia.org/wiki/Permian%E2%80%93Triassic_extinction_event
-        image: great-dying.jpg
-        image_link: https://news.mit.edu/2014/an-extinction-in-the-blink-of-an-eye-0210
-        image_height: 66.63
+        image:
+          name: great-dying.jpg
+          link: https://news.mit.edu/2014/an-extinction-in-the-blink-of-an-eye-0210
+          height: 66.63
 
       - name: Fungi briefly become most abundant organisms on Earth
         actual: 252000000
         label: 252 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fungi
-        image: prototaxites.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Prototaxites_Dawson1888.PNG
-        image_height: 92
+        image:
+          name: prototaxites.jpg
+          link: https://commons.wikimedia.org/wiki/File:Prototaxites_Dawson1888.PNG
+          height: 92
 
       - name: Dinosaurs diverge from other archosaurs - which would later include crocodiles
         actual: 234000000
         label: 234 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_dinosaurs
-        image: scleromochlus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Scleromochlus_BW.jpg
-        image_height: 56.25
+        image:
+          name: scleromochlus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Scleromochlus_BW.jpg
+          height: 56.25
 
       - name: Pangaea supercontinent formed of almost all land mass, mostly in southern hemisphere
         actual: 225000000
         label: 225 million years ago
         source: https://en.wikipedia.org/wiki/Pangaea
-        image: pangaea.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Pangaea_continents.svg
-        image_height: 85.67
+        image:
+          name: pangaea.jpg
+          link: https://commons.wikimedia.org/wiki/File:Pangaea_continents.svg
+          height: 85.67
 
       - name:
             Mammals evolve from early reptiles - loss of color vision (possibly due to nocturnality),
@@ -451,9 +504,10 @@ eras:
         actual: 210000000
         label: 210 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_mammals
-        image: hadrocodium.jpg
-        image_link: https://www.nature.com/news/2011/110519/full/news.2011.302.html
-        image_height: 89.83
+        image:
+          name: hadrocodium.jpg
+          link: https://www.nature.com/news/2011/110519/full/news.2011.302.html
+          height: 89.83
 
   - name: Dinosaurs
     label: 201 million years ago
@@ -462,57 +516,64 @@ eras:
         actual: 201000000
         label: 201 million years ago
         source: https://en.wikipedia.org/wiki/Triassic%E2%80%93Jurassic_extinction_event
-        image: keichousaurus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Keichousaurus_hui_fossil.JPG
-        image_height: 51.38
+        image:
+          name: keichousaurus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Keichousaurus_hui_fossil.JPG
+          height: 51.38
 
       - name: Dinosaurs become dominant organisms on Earth
         actual: 201000000
         label: 201 million years ago
         source: https://en.wikipedia.org/wiki/Dinosaur
-        image: allosaurus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Allosaurus_Revised.jpg
-        image_height: 56.25
+        image:
+          name: allosaurus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Allosaurus_Revised.jpg
+          height: 56.25
 
       - name: Birds evolve from dinosaurs, first flying vertebrate
         actual: 150000000
         label: 150 million years ago
         source: http://www.sciencemag.org/news/2014/07/flight-may-have-evolved-multiple-times-birds
-        image: archaeopteryx.jpg
-        image_link: https://www.independent.co.uk/news/science/worlds-oldest-bird-archaeopteryx-wore-feather-trousers-9581647.html
-        image_height: 78.75
+        image:
+          name: archaeopteryx.jpg
+          link: https://www.independent.co.uk/news/science/worlds-oldest-bird-archaeopteryx-wore-feather-trousers-9581647.html
+          height: 78.75
 
       - name: Flowers evolve
         actual: 125000000
         label: 125 million years ago
         source: https://en.wikipedia.org/wiki/Flower
-        image: archaefructus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Archaefructus_liaoningensis.jpg
-        image_height: 75
+        image:
+          name: archaefructus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Archaefructus_liaoningensis.jpg
+          height: 75
 
       - name: Placentals evolve to carry offspring rather than lay eggs
         actual: 120000000
         label: 120 million years ago
         source: https://en.wikipedia.org/wiki/Placentalia
-        image: purgatorius.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Purgatorius_BW.jpg
-        image_height: 64.88
+        image:
+          name: purgatorius.jpg
+          link: https://commons.wikimedia.org/wiki/File:Purgatorius_BW.jpg
+          height: 64.88
 
       - name: Snakes evolve
         actual: 112000000
         label: 112 million years ago
         source: https://en.wikipedia.org/wiki/Snake
-        image: tetrapodophis.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Tetrapodophis_amplectus_3483.jpg
-        image_height: 89.19
+        image:
+          name: tetrapodophis.jpg
+          link: https://commons.wikimedia.org/wiki/File:Tetrapodophis_amplectus_3483.jpg
+          height: 89.19
 
       - name: Opposable thumbs evolve in pre-primates
         actual: 70000000
         label: 70 million years ago
         source: https://www.quora.com/How-long-did-it-take-for-opposable-thumbs-to-emerge-from-a-common-ancestor-to-humans-with-a-dewclaw
-        image: tarsier.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Bohol_Tarsier.jpg
-        image_height: 75
+        image:
+          name: tarsier.jpg
+          link: https://commons.wikimedia.org/wiki/File:Bohol_Tarsier.jpg
+          height: 75
 
   - name: Mammals and Primates
     label: 66 million years ago
@@ -523,57 +584,64 @@ eras:
         actual: 66000000
         label: 66 million years ago
         source: https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event
-        image: mass-extinction.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Impact_event.jpg
-        image_height: 69.63
+        image:
+          name: mass-extinction.jpg
+          link: https://commons.wikimedia.org/wiki/File:Impact_event.jpg
+          height: 69.63
 
       - name: Mammals become dominant organisms on Earth
         actual: 66000000
         label: 66 million years ago
         source: https://en.wikipedia.org/wiki/Mammal
-        image: mouse.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:%D0%9C%D1%8B%D1%88%D1%8C_2.jpg
-        image_height: 52.75
+        image:
+          name: mouse.jpg
+          link: https://commons.wikimedia.org/wiki/File:%D0%9C%D1%8B%D1%88%D1%8C_2.jpg
+          height: 52.75
 
       - name: Primates evolve
         actual: 65000000
         label: 65 million years ago
         source: https://en.wikipedia.org/wiki/Primate
-        image: plesiadapis.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Plesiadapis_NT.jpg
-        image_height: 63.16
+        image:
+          name: plesiadapis.jpg
+          link: https://commons.wikimedia.org/wiki/File:Plesiadapis_NT.jpg
+          height: 63.16
 
       - name: Bats evolve, only flying mammals
         actual: 52000000
         label: 52 million years ago
         source: https://en.wikipedia.org/wiki/Bat
-        image: bat.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Big-eared-townsend-fledermaus.jpg
-        image_height: 60.77
+        image:
+          name: bat.jpg
+          link: https://commons.wikimedia.org/wiki/File:Big-eared-townsend-fledermaus.jpg
+          height: 60.77
 
       - name: Branch of mammals begin evolving in water, leading to whales, dolphins, seals, etc (closest living land relative - hippo)
         actual: 50000000
         label: 50 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_cetaceans
-        image: rodhocetus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Rhodocetus_BW.jpg
-        image_height: 50.5
+        image:
+          name: rodhocetus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Rhodocetus_BW.jpg
+          height: 50.5
 
       - name: Simians diverge from other primates (monkeys and apes)
         actual: 42000000
         label: 42 million years ago
         source: https://en.wikipedia.org/wiki/Simian
-        image: simian.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:BrownSpiderMonkey_(edit2).jpg
-        image_height: 87.3
+        image:
+          name: simian.jpg
+          link: https://commons.wikimedia.org/wiki/File:BrownSpiderMonkey_(edit2).jpg
+          height: 87.3
 
       - name: Early simians regain color vision (possibly to see ripe fruit)
         actual: 40000000
         label: 40 - 30 million years ago
         source: http://anthro.palomar.edu/primate/color.htm
-        image: monkey-fruit.jpg
-        image_link: https://www.zsl.org/zsl-london-zoo/news/game-set-and-match-for-zsl-london-zoos-squirrel-monkeys
-        image_height: 67.56
+        image:
+          name: monkey-fruit.jpg
+          link: https://www.zsl.org/zsl-london-zoo/news/game-set-and-match-for-zsl-london-zoos-squirrel-monkeys
+          height: 67.56
 
       - name:
           Catarrhines diverge from other simians - no tail, more
@@ -581,9 +649,10 @@ eras:
         actual: 35000000
         label: 35 million years ago
         source: https://en.wikipedia.org/wiki/Catarrhini
-        image: stumptail-monkeys.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Macaca_arctoides.png
-        image_height: 73.38
+        image:
+          name: stumptail-monkeys.jpg
+          link: https://commons.wikimedia.org/wiki/File:Macaca_arctoides.png
+          height: 73.38
 
       - name:
           Hominids diverge from other catarrhines - more freedom of
@@ -591,17 +660,19 @@ eras:
         actual: 20000000
         label: 20 million years ago
         source: https://en.wikipedia.org/wiki/Hominidae
-        image: proconsul.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Proconsul_NT.jpg
-        image_height: 68.33
+        image:
+          name: proconsul.jpg
+          link: https://commons.wikimedia.org/wiki/File:Proconsul_NT.jpg
+          height: 68.33
 
       - name: Last common ancestor of humans and apes
         actual: 13000000
         label: 13 - 4 million years ago
         source: https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor
-        image: chimpanzee.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Pan_troglodytes_(male).jpg
-        image_height: 75
+        image:
+          name: chimpanzee.jpg
+          link: https://commons.wikimedia.org/wiki/File:Pan_troglodytes_(male).jpg
+          height: 75
 
   - name: Early Humans
     label: 5 million years ago
@@ -610,26 +681,29 @@ eras:
         actual: 5000000
         label: 5 million years ago
         source: https://en.wikipedia.org/wiki/Thumb
-        image: baboon-hand.jpg
-        image_link: https://peterkarlladage.wordpress.com/2012/11/20/review-of-ecology-a-new-story-by-dr-brian-swimme/
-        image_height: 66.5
+        image:
+          name: baboon-hand.jpg
+          link: https://peterkarlladage.wordpress.com/2012/11/20/review-of-ecology-a-new-story-by-dr-brian-swimme/
+          height: 66.5
 
       - name: First bipedal humans (possibly to carry food)
         actual: 4000000
         label: 4 million years ago
         source: https://en.wikipedia.org/wiki/Bipedalism
-        image: australopithecus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:A.afarensis.jpg
-        image_height: 93.36
+        image:
+          name: australopithecus.jpg
+          link: https://commons.wikimedia.org/wiki/File:A.afarensis.jpg
+          height: 93.36
 
 
       - name: First stone tools, beginning of stone age
         actual: 3400000
         label: 3.4 million years ago
         source: https://en.wikipedia.org/wiki/Stone_Age
-        image: stone-tools.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:National_park_stone_tools.jpg
-        image_height: 66.48
+        image:
+          name: stone-tools.jpg
+          link: https://commons.wikimedia.org/wiki/File:National_park_stone_tools.jpg
+          height: 66.48
 
       - name:
           Homo erectus evolves (originated in Africa, eventually
@@ -637,34 +711,38 @@ eras:
         actual: 1900000
         label: 1.9 million years ago
         source: https://en.wikipedia.org/wiki/Homo
-        image: homo-erectus.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Homo_erectus_new.JPG
-        image_height: 85
+        image:
+          name: homo-erectus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Homo_erectus_new.JPG
+          height: 85
 
       - name:
           First use of fire, cooking
         actual: 1900000
         label: 1.9 million years ago
         source: https://en.wikipedia.org/wiki/Cooking
-        image: early-cooking.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Diorama,_cavemen_-_National_Museum_of_Mongolian_History.jpg
-        image_height: 66.63
+        image:
+          name: early-cooking.jpg
+          link: https://commons.wikimedia.org/wiki/File:Diorama,_cavemen_-_National_Museum_of_Mongolian_History.jpg
+          height: 66.63
 
       - name: First use of paint
         actual: 500000
         label: 500,000 years ago
         source: http://www.telegraph.co.uk/news/1528419/Art-of-body-painting-may-date-back-500000-years.html
-        image: homo-heidelbergensis.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Homo_heidelbergensis_(10233446).jpg
-        image_height: 80.38
+        image:
+          name: homo-heidelbergensis.jpg
+          link: https://commons.wikimedia.org/wiki/File:Homo_heidelbergensis_(10233446).jpg
+          height: 80.38
 
       - name: Invention of stone spear heads
         actual: 400000
         label: 400,000 years ago
         source: https://en.wikipedia.org/wiki/Spear
-        image: cavemen-spears.jpg
-        image_link: http://www.navarroilustracion.com/pleistoceno-en-murcia/
-        image_height: 70.88
+        image:
+          name: cavemen-spears.jpg
+          link: http://www.navarroilustracion.com/pleistoceno-en-murcia/
+          height: 70.88
 
   - name: Homo Sapiens
     label: 200,000 years ago
@@ -675,33 +753,37 @@ eras:
         actual: 200000
         label: 200,000 years ago
         source: https://en.wikipedia.org/wiki/Homo_sapiens
-        image: homo-sapiens.jpg
-        image_link: https://www.sapiens.org/evolution/homo-sapiens-and-tool-making/
-        image_height: 54.63
+        image:
+          name: homo-sapiens.jpg
+          link: https://www.sapiens.org/evolution/homo-sapiens-and-tool-making/
+          height: 54.63
 
       - name: First use of adhesives (tar), stronger tools
         actual: 200000
         label: 200,000 years ago
         source: https://en.wikipedia.org/wiki/Adhesive
-        image: spear-adhesive.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Mesa_Verde_spear_and_knife.jpg
-        image_height: 64.75
+        image:
+          name: spear-adhesive.jpg
+          link: https://commons.wikimedia.org/wiki/File:Mesa_Verde_spear_and_knife.jpg
+          height: 64.75
 
       - name: First use of clothing
         actual: 500000
         label: 170,000 years ago
         source: http://news.ufl.edu/archive/2011/01/uf-study-of-lice-dna-shows-humans-first-wore-clothes-170000-years-ago.html
-        image: clothes.jpg
-        image_link: http://handbill.us/2013/12/08/uf-study-of-lice-dna-shows-first-clothes-170000-years-ago/
-        image_height: 74.83
+        image:
+          name: clothes.jpg
+          link: http://handbill.us/2013/12/08/uf-study-of-lice-dna-shows-first-clothes-170000-years-ago/
+          height: 74.83
 
       - name: First wave of homo sapiens leave Africa
         actual: 125000
         label: 125,000 years ago
         source: https://en.wikipedia.org/wiki/Recent_African_origin_of_modern_humans
-        image: human-migration.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Map-of-human-migrations.jpg
-        image_height: 71.38
+        image:
+          name: human-migration.jpg
+          link: https://commons.wikimedia.org/wiki/File:Map-of-human-migrations.jpg
+          height: 71.38
 
       - name:
           Beginning of most recent glacial period, 18°F drop
@@ -709,49 +791,55 @@ eras:
         actual: 110000
         label: 110,000 years ago
         source: https://en.wikipedia.org/wiki/Last_glacial_period
-        image: ice-age.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Fryxellsee_Opt.jpg
-        image_height: 69.38
+        image:
+          name: ice-age.jpg
+          link: https://commons.wikimedia.org/wiki/File:Fryxellsee_Opt.jpg
+          height: 69.38
 
       - name: First evidence of collecting and eating wild grains
         actual: 105000
         label: 105,000 years ago
         source: http://www.nature.com/news/2009/091217/full/news.2009.1147.html
-        image: grains.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Wheat_close-up.JPG
-        image_height: 75
+        image:
+          name: grains.jpg
+          link: https://commons.wikimedia.org/wiki/File:Wheat_close-up.JPG
+          height: 75
 
       - name: First homo sapiens in China
         actual: 100000
         label: 100,000 years ago
         source: https://en.wikipedia.org/wiki/Early_human_migrations
-        image: human-migration-2.jpg
-        image_link: https://www.nature.com/news/teeth-from-china-reveal-early-human-trek-out-of-africa-1.18566
-        image_height: 88.88
+        image:
+          name: human-migration-2.jpg
+          link: https://www.nature.com/news/teeth-from-china-reveal-early-human-trek-out-of-africa-1.18566
+          height: 88.88
 
       - name: First human burials
         actual: 100000
         label: 100,000 years ago
         source: https://en.wikipedia.org/wiki/Burial
-        image: burial.jpg
-        image_link: https://www.heritagedaily.com/2013/02/early-human-burials-varied-widely-but-most-were-simple/77394
-        image_height: 64.13
+        image:
+          name: burial.jpg
+          link: https://www.heritagedaily.com/2013/02/early-human-burials-varied-widely-but-most-were-simple/77394
+          height: 64.13
 
       - name: First jewelery
         actual: 100000
         label: 100,000 years ago
         source: https://en.wikipedia.org/wiki/Jewellery
-        image: first-jewelery.jpg
-        image_link: https://www.sciencedaily.com/releases/2015/03/150311160442.htm
-        image_height: 75
+        image:
+          name: first-jewelery.jpg
+          link: https://www.sciencedaily.com/releases/2015/03/150311160442.htm
+          height: 75
 
       - name: First harpoon fishing
         actual: 90000
         label: 90,000 years ago
         source: https://en.wikipedia.org/wiki/Semliki_harpoon
-        image: harpoons.jpg
-        image_link: https://www.cam.ac.uk/research/features/sharpening-our-knowledge-of-prehistory-on-east-africas-bone-harpoons
-        image_height: 67.78
+        image:
+          name: harpoons.jpg
+          link: https://www.cam.ac.uk/research/features/sharpening-our-knowledge-of-prehistory-on-east-africas-bone-harpoons
+          height: 67.78
 
       - name:
           Toba supereruption, global volcanic winter (Indonesia,
@@ -759,25 +847,28 @@ eras:
         actual: 75000
         label: 75,000 years ago
         source: https://en.wikipedia.org/wiki/Toba_catastrophe_theory
-        image: toba-supereruption.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Tobaeruption.png
-        image_height: 74.13
+        image:
+          name: toba-supereruption.jpg
+          link: https://commons.wikimedia.org/wiki/File:Tobaeruption.png
+          height: 74.13
 
       - name: Homo erectus becomes extinct
         actual: 70000
         label: 70,000 years ago
         source: https://en.wikipedia.org/wiki/Homo_erectus
-        image: homo-erectus-2.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Homo_erectus_adult_female_-_head_model_-_Smithsonian_Museum_of_Natural_History_-_2012-05-17.jpg
-        image_height: 85.75
+        image:
+          name: homo-erectus-2.jpg
+          link: https://commons.wikimedia.org/wiki/File:Homo_erectus_adult_female_-_head_model_-_Smithsonian_Museum_of_Natural_History_-_2012-05-17.jpg
+          height: 85.75
 
       - name: First use of compound adhesives, stronger tools (South Africa)
         actual: 70000
         label: 70,000 years ago
         source: https://en.wikipedia.org/wiki/Adhesive
-        image: adhesive.jpg
-        image_link: http://www.pbs.org/wgbh/nova/evolution/neanderthal-superglue.html
-        image_height: 56.25
+        image:
+          name: adhesive.jpg
+          link: http://www.pbs.org/wgbh/nova/evolution/neanderthal-superglue.html
+          height: 56.25
 
   - name: Global Inhabitation
     label: 60,000 years ago
@@ -790,73 +881,82 @@ eras:
         actual: 60000
         label: 60,000 years ago
         source: https://en.wikipedia.org/wiki/Prehistory_of_Australia
-        image: diprotodon.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Diprotodon11122.jpg
-        image_height: 59
+        image:
+          name: diprotodon.jpg
+          link: https://commons.wikimedia.org/wiki/File:Diprotodon11122.jpg
+          height: 59
 
       - name: First instrument (wooden flute, Europe)
         actual: 41000
         label: 41,000 years ago
         source: https://en.wikipedia.org/wiki/Prehistoric_music
-        image: flute.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Fl%C3%BBte_pal%C3%A9olithique_(mus%C3%A9e_national_de_Slov%C3%A9nie,_Ljubljana)_(9420310527).jpg
-        image_height: 81.88
+        image:
+          name: flute.jpg
+          link: https://commons.wikimedia.org/wiki/File:Fl%C3%BBte_pal%C3%A9olithique_(mus%C3%A9e_national_de_Slov%C3%A9nie,_Ljubljana)_(9420310527).jpg
+          height: 81.88
 
       - name: Neanderthals become extinct
         actual: 40000
         label: 40,000 years ago
         source: https://en.wikipedia.org/wiki/Neanderthal
-        image: neanderthal.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Neandertaler_reconst.jpg
-        image_height: 93.25
+        image:
+          name: neanderthal.jpg
+          link: https://commons.wikimedia.org/wiki/File:Neandertaler_reconst.jpg
+          height: 93.25
 
       - name: Domestication of dogs
         actual: 40000
         label: 40,000 - 27,000 years ago
         source: https://en.wikipedia.org/wiki/Origin_of_the_domestic_dog
-        image: wolf.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Gray_wolf_(Canis_Lupis).jpg
-        image_height: 66
+        image:
+          name: wolf.jpg
+          link: https://commons.wikimedia.org/wiki/File:Gray_wolf_(Canis_Lupis).jpg
+          height: 66
 
       - name: First cave paintings (hands/animals, Spain)
         actual: 35400
         label: 35,400 years ago
         source: https://en.wikipedia.org/wiki/Cave_painting
-        image: cave-paintings.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Hands_in_Pettakere_Cave_DYK_crop.jpg
-        image_height: 89
+        image:
+          name: cave-paintings.jpg
+          link: https://commons.wikimedia.org/wiki/File:Hands_in_Pettakere_Cave_DYK_crop.jpg
+          height: 89
 
       - name: Invention of weaving
         actual: 27000
         label: 27,000 years ago
         source: https://en.wikipedia.org/wiki/Weaving
-        image: sewing-needle.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Aiguille_os_246.1_Global.jpg
-        image_height: 57.38
+        image:
+          name: sewing-needle.jpg
+          link: https://commons.wikimedia.org/wiki/File:Aiguille_os_246.1_Global.jpg
+          height: 57.38
 
       - name: First fish hook
         actual: 23000
         label: 23,000 years ago
         source: https://en.wikipedia.org/wiki/Fish_hook
-        image: fish-hook.jpg
-        image_link: https://www.nature.com/news/archaeologists-land-world-s-oldest-fish-hook-1.9461
-        image_height: 66.59
+        image:
+          name: fish-hook.jpg
+          link: https://www.nature.com/news/archaeologists-land-world-s-oldest-fish-hook-1.9461
+          height: 66.59
 
       - name: First use of bread (Middle East)
         actual: 23000
         label: 23,000 years ago
         source: http://www.nature.com/news/2009/091217/full/news.2009.1147.html
-        image: early-bread.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Conical_loaves_of_bread,_Gebelein,_5th_Dynasty_c_2400_BC.jpg
-        image_height: 74.38
+        image:
+          name: early-bread.jpg
+          link: https://commons.wikimedia.org/wiki/File:Conical_loaves_of_bread,_Gebelein,_5th_Dynasty_c_2400_BC.jpg
+          height: 74.38
 
       - name: End of ice age, sea levels rise 400 ft over 13,000 years
         actual: 19000
         label: 19,000 - 6,000 years ago
         source: https://en.wikipedia.org/wiki/Holocene
-        image: megatherium.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Megatherum_DB.jpg
-        image_height: 85.44
+        image:
+          name: megatherium.jpg
+          link: https://commons.wikimedia.org/wiki/File:Megatherum_DB.jpg
+          height: 85.44
 
   - name: Agriculture
     label: 15,000 years ago
@@ -865,113 +965,127 @@ eras:
         actual: 15000
         label: 13,000 BC
         source: https://en.wikipedia.org/wiki/History_of_agriculture
-        image: pig.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Wild_Pig_KSC02pd0873.jpg
-        image_height: 61.13
+        image:
+          name: pig.jpg
+          link: https://commons.wikimedia.org/wiki/File:Wild_Pig_KSC02pd0873.jpg
+          height: 61.13
 
       - name: First cities, beginning of civilization
         actual: 14000
         label: 12,000 BC
         source: https://en.wikipedia.org/wiki/Cradle_of_civilization
-        image: fertile-crescent.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Fertile_Crescent_map.png
-        image_height: 88.83
+        image:
+          name: fertile-crescent.jpg
+          link: https://commons.wikimedia.org/wiki/File:Fertile_Crescent_map.png
+          height: 88.83
 
       - name: Domestication of rice (China)
         actual: 13500
         label: 11,500 BC
         source: https://en.wikipedia.org/wiki/Rice
-        image: rice.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:White,_Brown,_Red_%26_Wild_rice.jpg
-        image_height: 75
+        image:
+          name: rice.jpg
+          link: https://commons.wikimedia.org/wiki/File:White,_Brown,_Red_%26_Wild_rice.jpg
+          height: 75
 
       - name: Domestication of sheep (Mesopotamia)
         actual: 13000
         label: 11,000 BC
         source: https://en.wikipedia.org/wiki/History_of_the_domestic_sheep
-        image: sheep.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Muffelwild12.4.2008_007.jpg
-        image_height: 75
+        image:
+          name: sheep.jpg
+          link: https://commons.wikimedia.org/wiki/File:Muffelwild12.4.2008_007.jpg
+          height: 75
 
       - name: First homo sapiens in America, extinction of American megafauna
         actual: 12700
         label: 10,700 BC
         source: https://en.wikipedia.org/wiki/Pleistocene_megafauna
-        image: mammoth.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Woolly_mammoth.jpg
-        image_height: 66.38
+        image:
+          name: mammoth.jpg
+          link: https://commons.wikimedia.org/wiki/File:Woolly_mammoth.jpg
+          height: 66.38
 
       - name: Homo floresiensis becomes extinct, homo sapiens last remaining humanoid species
         actual: 12000
         label: 10,000 BC
         source: https://en.wikipedia.org/wiki/Homo_floresiensis
-        image: homo-floresiensis.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Homo_floresiensis_v_2-0.jpg
-        image_height: 81
+        image:
+          name: homo-floresiensis.jpg
+          link: https://commons.wikimedia.org/wiki/File:Homo_floresiensis_v_2-0.jpg
+          height: 81
 
       - name: First bow and arrow (Europe)
         actual: 11000
         label: 9000 BC
         source: https://en.wikipedia.org/wiki/History_of_archery
-        image: bow-arrow-cave-painting.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Morella_(combate-de-arquero.png
-        image_height: 79.69
+        image:
+          name: bow-arrow-cave-painting.jpg
+          link: https://commons.wikimedia.org/wiki/File:Morella_(combate-de-arquero.png
+          height: 79.69
 
       - name: Domestication of corn (Mexico)
         actual: 11000
         label: 9000 BC
         source: https://en.wikipedia.org/wiki/Maize
-        image: corn.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Maize-teosinte.jpg
-        image_height: 62
+        image:
+          name: corn.jpg
+          link: https://commons.wikimedia.org/wiki/File:Maize-teosinte.jpg
+          height: 62
 
       - name: Domestication of cattle (Turkey)
         actual: 10500
         label: 8500 BC
         source: https://en.wikipedia.org/wiki/Cattle
-        image: cattle.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Lascaux_painting.jpg
-        image_height: 65.55
+        image:
+          name: cattle.jpg
+          link: https://commons.wikimedia.org/wiki/File:Lascaux_painting.jpg
+          height: 65.55
 
       - name: First calendar (Scotland)
         actual: 10000
         label: 8000 BC
         source: https://en.wikipedia.org/wiki/History_of_calendars
-        image: scotish-calendar.jpg
-        image_link: http://www.bbc.com/news/uk-scotland-north-east-orkney-shetland-23286928
-        image_height: 73.7
+        image:
+          name: scotish-calendar.jpg
+          link: http://www.bbc.com/news/uk-scotland-north-east-orkney-shetland-23286928
+          height: 73.7
 
       - name: Domestication of cats (possibly to keep rodents out of food stores)
         actual: 9500
         label: 7500 BC
         source: https://en.wikipedia.org/wiki/Cat
-        image: wild-cat.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Felis_Lybica_Sarda_05.JPG
-        image_height: 56.25
+        image:
+          name: wild-cat.jpg
+          link: https://commons.wikimedia.org/wiki/File:Felis_Lybica_Sarda_05.JPG
+          height: 56.25
 
       - name: First cities with over 10,000 people (Turkey)
         actual: 9000
         label: 7000 BC
         source: https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk
-        image: turkey-ruins.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:%C3%87atalh%C3%B6y%C3%BCk_with_surroundings..jpg
-        image_height: 66.63
+        image:
+          name: turkey-ruins.jpg
+          link: https://commons.wikimedia.org/wiki/File:%C3%87atalh%C3%B6y%C3%BCk_with_surroundings..jpg
+          height: 66.63
 
       - name: First use of dairy animals, milk (Southeast Asia)
         actual: 9000
         label: 7000 BC
         source: https://en.wikipedia.org/wiki/Milk
-        image: goat-milk.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Goat_kid_feeding_on_mothers_milk.jpg
-        image_height: 66.75
+        image:
+          name: goat-milk.jpg
+          link: https://commons.wikimedia.org/wiki/File:Goat_kid_feeding_on_mothers_milk.jpg
+          height: 66.75
 
       - name: First use of alcoholic drinks (China, Middle East)
         actual: 9000
         label: 7000 BC
         source: https://en.wikipedia.org/wiki/History_of_alcoholic_drinks
-        image: ancient-alcohol.jpg
-        image_link: https://www.messagetoeagle.com/ancient-civilizations-invented-alcohol-10000-years-ago/
-        image_height: 72.84
+        image:
+          name: ancient-alcohol.jpg
+          link: https://www.messagetoeagle.com/ancient-civilizations-invented-alcohol-10000-years-ago/
+          height: 72.84
 
   - name: Ancient History
     label: 8,000 years ago
@@ -980,67 +1094,83 @@ eras:
         actual: 8000
         label: 6000 BC
         source: https://en.wikipedia.org/wiki/History_of_writing
-        image: ancient-writing.jpg
-        image_link: https://www.ancient-code.com/the-earliest-form-of-writing-on-earth-dating-back-to-5500bc-the-incredible-tartaria-tablets/
-        image_height: 50
+        image:
+          name: ancient-writing.jpg
+          link: https://www.ancient-code.com/the-earliest-form-of-writing-on-earth-dating-back-to-5500bc-the-incredible-tartaria-tablets/
+          height: 50
 
       - name: Domestication of chickens (China)
         actual: 8000
         label: 6000 BC
         source: https://en.wikipedia.org/wiki/Chicken
-        image: junglefowl.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Gallus_gallus_male_Kaziranga_0.jpg
-        image_height: 75
+        image:
+          name: junglefowl.jpg
+          link: https://commons.wikimedia.org/wiki/File:Gallus_gallus_male_Kaziranga_0.jpg
+          height: 75
 
       - name: First copper weapons, end of stone age (Serbia)
         actual: 7500
         label: 5500 BC
         source: https://en.wikipedia.org/wiki/History_of_weapons
-        image: copper-axe.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:ReconstructedOetziAxe.jpg
-        image_height: 89.38
+        image:
+          name: copper-axe.jpg
+          link: https://commons.wikimedia.org/wiki/File:ReconstructedOetziAxe.jpg
+          height: 89.38
 
       - name: Horses domesticated (Northern Asia)
         actual: 5500
         label: 3500 BC
         source: https://en.wikipedia.org/wiki/Domestication_of_the_horse
-        image: horse-cave-painting.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Lascaux_horse_replica.jpg
-        image_height: 71.5
+        image:
+          name: horse-cave-painting.jpg
+          link: https://commons.wikimedia.org/wiki/File:Lascaux_horse_replica.jpg
+          height: 71.5
 
       - name: First man-made glass objects (Mesopotamia)
         actual: 5500
         label: 3500 BC
         source: https://en.wikipedia.org/wiki/History_of_glass
-        image: glass-beads.jpg
-        image_link: https://www.sciencenews.org/article/ancient-egyptian-blue-glass-beads-reached-scandinavia
-        image_height: 56.25
+        image:
+          name: glass-beads.jpg
+          link: https://www.sciencenews.org/article/ancient-egyptian-blue-glass-beads-reached-scandinavia
+          height: 56.25
 
       - name: First written language, first schools (Mesopotamia)
         actual: 5500
         label: 3500 BC
         source: https://en.wikipedia.org/wiki/History_of_education
-        image: early-language.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Peribsen.jpg
-        image_height: 78
+        image:
+          name: early-language.jpg
+          link: https://commons.wikimedia.org/wiki/File:Peribsen.jpg
+          height: 78
 
       - name: First wheeled vehicles, pulled by horses
         actual: 5350
         label: 3350 BC
         source: https://en.wikipedia.org/wiki/Wheel
-        image: wheel.jpg
-        image_link: https://commons.wikimedia.org/wiki/File:Ur_chariot.jpg
-        image_height: 51
+        image:
+          name: wheel.jpg
+          link: https://commons.wikimedia.org/wiki/File:Ur_chariot.jpg
+          height: 51
 
       - name: First metal alloy, bronze (Mesopotamia)
         actual: 5300
         label: 3300 BC
         source: https://en.wikipedia.org/wiki/Ancient_Near_East
+        image:
+          name: bronze-dagger.jpg
+          link: https://commons.wikimedia.org/wiki/File:Poignard_IMG_4977-white.jpg
+          height: 88
 
       - name: Earliest human who's name we know (Egypt)
         actual: 5200
         label: 3200 BC
         source: https://en.wikipedia.org/wiki/Iry-Hor
+        image:
+          name: iry-hor.jpg
+          link: https://commons.wikimedia.org/wiki/File:Iry_Hor_name.jpg
+          width: 800
+          height: 580
 
       - name: Invention of indoor plumbing and flush toilet (South Asia)
         actual: 5000

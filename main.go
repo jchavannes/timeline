@@ -58,13 +58,16 @@ type era struct {
 }
 
 type event struct {
-	Name        string
-	Actual      int64
-	Label       string
-	Source      string
-	Image       string
-	ImageLink   string `yaml:"image_link"`
-	ImageHeight string `yaml:"image_height"`
+	Name   string
+	Actual int64
+	Label  string
+	Source string
+	Image struct {
+		Name   string
+		Link   string
+		Width  string
+		Height string
+	}
 }
 
 func (e event) GetSourceText() string {

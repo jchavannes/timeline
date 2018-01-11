@@ -22,9 +22,15 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
             if (event.imageLink.length > 0) {
                 imgLink = event.imageLink;
             }
+            var imageWidth = event.imageWidth > 0 ? event.imageWidth : 100;
+            var imageHeight = event.imageHeight;
+            var desiredWidth = 250;
+            var factor = desiredWidth / imageWidth;
+            imageWidth = imageWidth * factor;
+            imageHeight = imageHeight > 0 ? imageHeight * factor : "";
             imgHtml =
                 "<a href='" + imgLink + "'>" +
-                "<img src='" + imgUrl + "' width='250' height='" + (event.imageHeight * 2.5) + "' />" +
+                "<img src='" + imgUrl + "' width='" + imageWidth + "' height='" + imageHeight + "' />" +
                 "</a>";
         }
         appendText +=
