@@ -865,31 +865,49 @@ eras:
         actual: 15000
         label: 13,000 BC
         source: https://en.wikipedia.org/wiki/History_of_agriculture
+        image: pig.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Wild_Pig_KSC02pd0873.jpg
+        image_height: 61.13
 
       - name: First cities, beginning of civilization
         actual: 14000
         label: 12,000 BC
         source: https://en.wikipedia.org/wiki/Cradle_of_civilization
+        image: fertile-crescent.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Fertile_Crescent_map.png
+        image_height: 88.83
 
       - name: Domestication of rice (China)
         actual: 13500
         label: 11,500 BC
         source: https://en.wikipedia.org/wiki/Rice
+        image: rice.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:White,_Brown,_Red_%26_Wild_rice.jpg
+        image_height: 75
 
       - name: Domestication of sheep (Mesopotamia)
         actual: 13000
         label: 11,000 BC
         source: https://en.wikipedia.org/wiki/History_of_the_domestic_sheep
+        image: sheep.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Muffelwild12.4.2008_007.jpg
+        image_height: 75
 
       - name: First homo sapiens in America, extinction of American megafauna
         actual: 12700
         label: 10,700 BC
         source: https://en.wikipedia.org/wiki/Pleistocene_megafauna
+        image: mammoth.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Woolly_mammoth.jpg
+        image_height: 66.38
 
       - name: Homo floresiensis becomes extinct, homo sapiens last remaining humanoid species
         actual: 12000
         label: 10,000 BC
         source: https://en.wikipedia.org/wiki/Homo_floresiensis
+        image: homo-floresiensis.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Homo_floresiensis_v_2-0.jpg
+        image_height: 81
 
       - name: First bow and arrow (Europe)
         actual: 11000
