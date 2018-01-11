@@ -913,41 +913,65 @@ eras:
         actual: 11000
         label: 9000 BC
         source: https://en.wikipedia.org/wiki/History_of_archery
+        image: bow-arrow-cave-painting.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Morella_(combate-de-arquero.png
+        image_height: 79.69
 
       - name: Domestication of corn (Mexico)
         actual: 11000
         label: 9000 BC
         source: https://en.wikipedia.org/wiki/Maize
+        image: corn.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Maize-teosinte.jpg
+        image_height: 62
 
       - name: Domestication of cattle (Turkey)
         actual: 10500
         label: 8500 BC
         source: https://en.wikipedia.org/wiki/Cattle
+        image: cattle.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Lascaux_painting.jpg
+        image_height: 65.55
 
       - name: First calendar (Scotland)
         actual: 10000
         label: 8000 BC
         source: https://en.wikipedia.org/wiki/History_of_calendars
+        image: scotish-calendar.jpg
+        image_link: http://www.bbc.com/news/uk-scotland-north-east-orkney-shetland-23286928
+        image_height: 73.7
 
       - name: Domestication of cats (possibly to keep rodents out of food stores)
         actual: 9500
         label: 7500 BC
         source: https://en.wikipedia.org/wiki/Cat
+        image: wild-cat.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Felis_Lybica_Sarda_05.JPG
+        image_height: 56.25
 
       - name: First cities with over 10,000 people (Turkey)
         actual: 9000
         label: 7000 BC
         source: https://en.wikipedia.org/wiki/%C3%87atalh%C3%B6y%C3%BCk
+        image: turkey-ruins.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:%C3%87atalh%C3%B6y%C3%BCk_with_surroundings..jpg
+        image_height: 66.63
 
       - name: First use of dairy animals, milk (Southeast Asia)
         actual: 9000
         label: 7000 BC
         source: https://en.wikipedia.org/wiki/Milk
+        image: goat-milk.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Goat_kid_feeding_on_mothers_milk.jpg
+        image_height: 66.75
 
       - name: First use of alcoholic drinks (China, Middle East)
         actual: 9000
         label: 7000 BC
         source: https://en.wikipedia.org/wiki/History_of_alcoholic_drinks
+        image: ancient-alcohol.jpg
+        image_link: https://www.messagetoeagle.com/ancient-civilizations-invented-alcohol-10000-years-ago/
+        image_height: 72.84
 
   - name: Ancient History
     label: 8,000 years ago
