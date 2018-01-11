@@ -980,36 +980,57 @@ eras:
         actual: 8000
         label: 6000 BC
         source: https://en.wikipedia.org/wiki/History_of_writing
+        image: ancient-writing.jpg
+        image_link: https://www.ancient-code.com/the-earliest-form-of-writing-on-earth-dating-back-to-5500bc-the-incredible-tartaria-tablets/
+        image_height: 50
 
       - name: Domestication of chickens (China)
         actual: 8000
         label: 6000 BC
         source: https://en.wikipedia.org/wiki/Chicken
+        image: junglefowl.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Gallus_gallus_male_Kaziranga_0.jpg
+        image_height: 75
 
       - name: First copper weapons, end of stone age (Serbia)
         actual: 7500
         label: 5500 BC
         source: https://en.wikipedia.org/wiki/History_of_weapons
+        image: copper-axe.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:ReconstructedOetziAxe.jpg
+        image_height: 89.38
 
       - name: Horses domesticated (Northern Asia)
         actual: 5500
         label: 3500 BC
         source: https://en.wikipedia.org/wiki/Domestication_of_the_horse
+        image: horse-cave-painting.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Lascaux_horse_replica.jpg
+        image_height: 71.5
 
       - name: First man-made glass objects (Mesopotamia)
         actual: 5500
         label: 3500 BC
         source: https://en.wikipedia.org/wiki/History_of_glass
+        image: glass-beads.jpg
+        image_link: https://www.sciencenews.org/article/ancient-egyptian-blue-glass-beads-reached-scandinavia
+        image_height: 56.25
 
       - name: First written language, first schools (Mesopotamia)
         actual: 5500
         label: 3500 BC
         source: https://en.wikipedia.org/wiki/History_of_education
+        image: early-language.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Peribsen.jpg
+        image_height: 78
 
       - name: First wheeled vehicles, pulled by horses
         actual: 5350
         label: 3350 BC
         source: https://en.wikipedia.org/wiki/Wheel
+        image: wheel.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Ur_chariot.jpg
+        image_height: 51
 
       - name: First metal alloy, bronze (Mesopotamia)
         actual: 5300
