@@ -610,16 +610,26 @@ eras:
         actual: 5000000
         label: 5 million years ago
         source: https://en.wikipedia.org/wiki/Thumb
+        image: baboon-hand.jpg
+        image_link: https://peterkarlladage.wordpress.com/2012/11/20/review-of-ecology-a-new-story-by-dr-brian-swimme/
+        image_height: 66.5
 
       - name: First bipedal humans (possibly to carry food)
         actual: 4000000
         label: 4 million years ago
         source: https://en.wikipedia.org/wiki/Bipedalism
+        image: australopithecus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:A.afarensis.jpg
+        image_height: 93.36
+
 
       - name: First stone tools, beginning of stone age
         actual: 3400000
         label: 3.4 million years ago
         source: https://en.wikipedia.org/wiki/Stone_Age
+        image: stone-tools.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:National_park_stone_tools.jpg
+        image_height: 66.48
 
       - name:
           Homo erectus evolves (originated in Africa, eventually
@@ -627,22 +637,34 @@ eras:
         actual: 1900000
         label: 1.9 million years ago
         source: https://en.wikipedia.org/wiki/Homo
+        image: homo-erectus.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Homo_erectus_new.JPG
+        image_height: 85
 
       - name:
           First use of fire, cooking
         actual: 1900000
         label: 1.9 million years ago
         source: https://en.wikipedia.org/wiki/Cooking
+        image: early-cooking.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Diorama,_cavemen_-_National_Museum_of_Mongolian_History.jpg
+        image_height: 66.63
 
       - name: First use of paint
         actual: 500000
         label: 500,000 years ago
         source: http://www.telegraph.co.uk/news/1528419/Art-of-body-painting-may-date-back-500000-years.html
+        image: homo-heidelbergensis.jpg
+        image_link: https://commons.wikimedia.org/wiki/File:Homo_heidelbergensis_(10233446).jpg
+        image_height: 80.38
 
       - name: Invention of stone spear heads
         actual: 400000
         label: 400,000 years ago
         source: https://en.wikipedia.org/wiki/Spear
+        image: cavemen-spears.jpg
+        image_link: http://www.navarroilustracion.com/pleistoceno-en-murcia/
+        image_height: 70.88
 
   - name: Homo Sapiens
     label: 200,000 years ago
