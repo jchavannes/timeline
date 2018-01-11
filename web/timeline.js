@@ -8,7 +8,7 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
         }
         var sourceHtml = "";
         if (event.source.length > 0) {
-            if (event.source.substr(0,4) === "http") {
+            if (event.source.substr(0, 4) === "http") {
                 sourceHtml = " <a href='" + event.source + "'>[" + event.sourceText + "]</a>";
             } else {
                 sourceHtml = " <i>[" + event.sourceText + "]</i>";
@@ -24,7 +24,7 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
             }
             imgHtml =
                 "<a href='" + imgLink + "'>" +
-                "<img src='" + imgUrl + "' width='100' height='" + event.imageHeight + "' />" +
+                "<img src='" + imgUrl + "' width='250' height='" + (event.imageHeight * 2.5) + "' />" +
                 "</a>";
         }
         appendText +=
