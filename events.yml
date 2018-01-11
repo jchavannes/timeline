@@ -1176,26 +1176,51 @@ eras:
         actual: 5000
         label: 3000 BC
         source: https://en.wikipedia.org/wiki/History_of_water_supply_and_sanitation
+        image:
+          name: skara-brae.jpg
+          link: https://commons.wikimedia.org/wiki/File:Skara_Brae_house_1_5.jpg
+          width: 800
+          height: 600
 
       - name: Decimal mathematics (Egypt)
         actual: 5000
         label: 3000 BC
         source: https://en.wikipedia.org/wiki/Decimal
+        image:
+          name: egyptian-decimal.jpg
+          link: http://www.egykingblog.com/2012/11/can-you-answer-this-questions-about.html
+          width: 800
+          height: 448
 
       - name: Invention of abacus (Middle East)
         actual: 4700
         label: 2700 BC
         source: https://en.wikipedia.org/wiki/Abacus
+        image:
+          name: abacus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Chinese-abacus.jpg
+          width: 800
+          height: 526
 
       - name: Great Pyramid of Giza (completed in only 20 years), remained tallest manmade structure for 3,800 years (height of 481 feet), still heaviest building ever made
         actual: 4560
         label: 2560 BC
         source: https://en.wikipedia.org/wiki/Great_Pyramid_of_Giza
+        image:
+          name: giza-pyramid.jpg
+          link: https://commons.wikimedia.org/wiki/File:Kheops-Pyramid.jpg
+          width: 800
+          height: 491
 
       - name: First horses used for transporting people, chariot becomes primary branch of the military
         actual: 4000
         label: 2000 BC
         source: https://en.wikipedia.org/wiki/Chariot
+        image:
+          name: chariot.jpg
+          link: https://commons.wikimedia.org/wiki/File:Parade_charriots_Louvre_CA2503.jpg
+          width: 800
+          height: 450
 
   - name: Iron Age
     label: 3,300 years ago
