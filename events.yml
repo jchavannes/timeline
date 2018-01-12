@@ -1229,71 +1229,141 @@ eras:
         actual: 3200
         label: 1200 BC
         source: https://en.wikipedia.org/wiki/Smelting
+        image:
+          name: iron-dagger.jpg
+          link: https://www.history.com/news/researchers-say-king-tuts-dagger-was-made-from-a-meteorite
+          width: 686
+          height: 385
 
       - name: Major collapse of civilization (Mediterranean, possibly triggered by drought and famine), beginning of Greek dark ages
         actual: 3177
         label: 1177 BC
         source: https://en.wikipedia.org/wiki/Late_Bronze_Age_collapse
+        image:
+          name: late-bronze-age-collapse.jpg
+          link: https://commons.wikimedia.org/wiki/File:Invasions,_destructions_and_possible_population_movements_during_the_Bronze_Age_Collapse,_ca._1200_BC.png
+          width: 800
+          height: 449
 
       - name: First standardized coinage (China)
         actual: 3000
         label: 1000 BC
         source: https://en.wikipedia.org/wiki/History_of_money
+        image:
+          name: coinage.jpg
+          link: https://commons.wikimedia.org/wiki/File:BMC_06.jpg
+          width: 500
+          height: 275
 
       - name: First glass lenses (Middle East)
         actual: 2700
         label: 700 BC
         source: https://en.wikipedia.org/wiki/Lens_(optics)
+        image:
+          name: nimrud-lense.jpg
+          link: https://commons.wikimedia.org/wiki/File:Nimrud_lens_British_Museum.jpg
+          width: 800
+          height: 600
 
       - name: Torah written, beginning of Abrahamic religions, currently 54% of world population adheres to an Abrahamic religion (Babylonia)
         actual: 2600
         label: 600 - 400 BC
         source: https://en.wikipedia.org/wiki/Abrahamic_religions
+        image:
+          name: jehu-obelisk.jpg
+          link: https://commons.wikimedia.org/wiki/File:Jehu-Obelisk-cropped.jpg
+          width: 800
+          height: 513
 
       - name: Democracy (Cleisthenes, Greece)
         actual: 2508
         label: 508 BC
         source: https://en.wikipedia.org/wiki/History_of_democracy
+        image:
+          name: athens.jpg
+          link: https://commons.wikimedia.org/wiki/File:The_Acropolis_of_Athens_viewed_from_the_Hill_of_the_Muses_(14220794964).jpg
+          width: 800
+          height: 530
 
       - name: Discovery that Earth is round (Pythagoras, Greece)
         actual: 2500
         label: 500 BC
         source: https://en.wikipedia.org/wiki/Spherical_Earth
+        image:
+          name: curve-earth-shadow.jpg
+          link: https://commons.wikimedia.org/wiki/File:20080816eclipsed2.jpg
+          width: 650
+          height: 551
 
       - name: Discovery of the Phythagorean theorem (Pythagoras, Greece)
         actual: 2500
         label: 500 BC
         source: https://en.wikipedia.org/wiki/Pythagorean_theorem
+        image:
+          name: pythagorean-theorem.jpg
+          link: https://commons.wikimedia.org/wiki/File:Pythagorean.svg
+          width: 800
+          height: 646
 
       - name: Horses bred large enough to carry men, beginning of cavalry (Middle East)
         actual: 2490
         label: 490 BC
         source: https://en.wikipedia.org/wiki/Cavalry
+        image:
+          name: cavalry.jpg
+          link: https://commons.wikimedia.org/wiki/File:Assyriancavalry.JPG
+          width: 800
+          height: 508
 
       - name: First record of camera obscura phenomenon, light travels in straight lines (Mozi, China)
         actual: 2400
         label: 400 BC
         source: https://en.wikipedia.org/wiki/Camera_obscura
+        image:
+          name: camera-obscura.jpg
+          link: https://evolutionnews.org/2014/04/on_cosmos_neil_/
+          width: 500
+          height: 281
 
       - name: First higher learning institution founded, The Academy (Plato, Greece)
         actual: 2387
         label: 387 BC
         source: https://en.wikipedia.org/wiki/Academy
+        image:
+          name: athens-academy.jpg
+          link: https://commons.wikimedia.org/wiki/File:Raffael_058.jpg
+          width: 800
+          height: 509
 
       - name: Foundation of western philosophy, science, western religion, and spirituality (Plato, Greece)
         actual: 2375
         label: 375 BC
         source: https://en.wikipedia.org/wiki/Plato
+        image:
+          name: plato.jpg
+          link: https://commons.wikimedia.org/wiki/File:Plato_Silanion_Musei_Capitolini_MC1377.jpg
+          width: 800
+          height: 684
 
       - name: Development of geometry (Euclid, Greece)
         actual: 2300
         label: 300 BC
         source: https://en.wikipedia.org/wiki/Euclid%27s_Elements
+        image:
+          name: euclid-elements.jpg
+          link: https://commons.wikimedia.org/wiki/File:Euclid_Vat_ms_no_190_I_prop_47.jpg
+          width: 800
+          height: 491
 
       - name: Estimation of pi, invention of exponents (Archimedes, Greece)
         actual: 2250
         label: 250 BC
         source: https://en.wikipedia.org/wiki/Archimedes
+        image:
+          name: estimate-pi.jpg
+          link: https://commons.wikimedia.org/wiki/File:Archimedes_pi.svg
+          width: 800
+          height: 480
 
       - name:
           Accurate measurement of Earth’s circumference, tilt, and distance from the sun;
@@ -1301,36 +1371,71 @@ eras:
         actual: 2200
         label: 200 BC
         source: https://en.wikipedia.org/wiki/History_of_geodesy
+        image:
+          name: earth-circumference.jpg
+          link: https://commons.wikimedia.org/wiki/File:Eratosthenes_measure_of_Earth_circumference.svg
+          width: 800
+          height: 533
 
       - name: Invention of paper (China)
         actual: 2179
         label: 179 BC
         source: https://en.wikipedia.org/wiki/History_of_paper
+        image:
+          name: paper.jpg
+          link: https://commons.wikimedia.org/wiki/File:Paperbook%2B256.jpg
+          width: 800
+          height: 700
 
       - name: Intromission theory - light is not a property of the eye (Lucretius, Roman)
         actual: 2055
         label: 55 BC
         source: https://en.wikipedia.org/wiki/Emission_theory_(vision)
+        image:
+          name: intromission-light-theory.jpg
+          link: https://commons.wikimedia.org/wiki/File:Thesaurus_opticus_Titelblatt.jpg
+          width: 800
+          height: 640
 
       - name: Christianity (Jesus)
-        actual: 2000
-        label: 0
+        actual: 2004
+        label: 4 BC
         source: https://en.wikipedia.org/wiki/History_of_Christianity
+        image:
+          name: last-supper.jpg
+          link: https://commons.wikimedia.org/wiki/File:%C3%9Altima_Cena_-_Juan_de_Juanes.jpg
+          width: 800
+          height: 506
 
       - name: First cities with population over 1 million (Rome / Alexandria)
         actual: 2001
         label: 1
         source: https://en.wikipedia.org/wiki/List_of_largest_cities_throughout_history
+        image:
+          name: colosseum.jpg
+          link: https://commons.wikimedia.org/wiki/File:Colosseo_2008.jpg
+          width: 800
+          height: 533
 
       - name: Invention of glass mirror (Rome)
         actual: 1923
         label: 77
         source: https://en.wikipedia.org/wiki/Mirror
+        image:
+          name: mirror.jpg
+          link: https://commons.wikimedia.org/wiki/File:Naples_National_Archaeological_Museum_(14842094122).jpg
+          width: 800
+          height: 657
 
       - name: First light refraction tables (Claudius Ptolemy)
         actual: 1850
         label: 150
         source: https://en.wikipedia.org/wiki/History_of_optics
+        image:
+          name: ptolemy.jpg
+          link: https://commons.wikimedia.org/wiki/File:Ptolemy_urania.jpg
+          width: 500
+          height: 367
 
   - name: Middle Ages
     label: 1,540 years ago
