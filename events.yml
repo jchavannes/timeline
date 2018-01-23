@@ -435,7 +435,7 @@ eras:
   - name: Land
     label: 370 million years ago
     events:
-      - name: Amphibians evolve from fish - lungs, limbs, digits
+      - name: Amphibians evolve from fish - lungs, limbs, digits, tongue
         actual: 370000000
         label: 370 million years ago
         source: https://en.wikipedia.org/wiki/Amphibian
