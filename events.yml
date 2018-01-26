@@ -489,6 +489,16 @@ eras:
           link: https://commons.wikimedia.org/wiki/File:Scleromochlus_BW.jpg
           height: 56.25
 
+      - name: First flying vertebrate, reptile group called pterosaurs (includes pterodactyls)
+        actual: 232000000
+        label: 232 million years ago
+        source: https://en.wikipedia.org/wiki/Pterosaur
+        image:
+          name: pterosaur.jpg
+          link: https://commons.wikimedia.org/wiki/File:Pterodactylus_kochi_in_Wien.JPG
+          width: 600
+          height: 400
+
       - name: Pangaea supercontinent formed of almost all land mass, mostly in southern hemisphere
         actual: 225000000
         label: 225 million years ago
@@ -530,7 +540,7 @@ eras:
           link: https://commons.wikimedia.org/wiki/File:Allosaurus_Revised.jpg
           height: 56.25
 
-      - name: Birds evolve from dinosaurs, first flying vertebrate
+      - name: Birds evolve from dinosaurs, only dinosaurs still living today
         actual: 150000000
         label: 150 million years ago
         source: http://www.sciencemag.org/news/2014/07/flight-may-have-evolved-multiple-times-birds
@@ -566,6 +576,16 @@ eras:
           link: https://commons.wikimedia.org/wiki/File:Tetrapodophis_amplectus_3483.jpg
           height: 89.19
 
+      - name: Largest land animal of all time, Patagotitan - 120 ft long, 75 tons
+        actual: 100000000
+        label: 100 million years ago
+        source: https://en.wikipedia.org/wiki/Patagotitan
+        image:
+          name: largest-land-animal.jpg
+          link: https://commons.wikimedia.org/wiki/File:Patagotitan-Scale-Diagram-Steveoc86.svg
+          width: 600
+          height: 300
+
       - name: Opposable thumbs evolve in pre-primates
         actual: 70000000
         label: 70 million years ago
@@ -575,12 +595,23 @@ eras:
           link: https://commons.wikimedia.org/wiki/File:Bohol_Tarsier.jpg
           height: 75
 
+      - name: Largest flying animal of all time, pterosaur called Quetzalcoatlus - 40 ft wingspan
+        actual: 68000000
+        label: 68 million years ago
+        source: https://en.wikipedia.org/wiki/Quetzalcoatlus
+        image:
+          name: largest-flying-animal.jpg
+          link: https://commons.wikimedia.org/wiki/File:Mesa-Museum_of_Natural_History-Pterosaurs.JPG
+          width: 600
+          height: 349
+
   - name: Mammals and Primates
     label: 66 million years ago
     events:
       - name:
           Mass extinction event, 75% of all species,
-          extinction of all dinosaurs except birds
+          extinction of all dinosaurs except birds,
+          extinction of all pterosaurs
         actual: 66000000
         label: 66 million years ago
         source: https://en.wikipedia.org/wiki/Cretaceous%E2%80%93Paleogene_extinction_event
@@ -601,7 +632,7 @@ eras:
       - name: Primates evolve
         actual: 65000000
         label: 65 million years ago
-        source: https://en.wikipedia.org/wiki/Primate
+        source: https://en.wikipedia.org/wiki/Evolution_of_primates
         image:
           name: plesiadapis.jpg
           link: https://commons.wikimedia.org/wiki/File:Plesiadapis_NT.jpg
@@ -1764,6 +1795,16 @@ eras:
         label: 1877
         source: https://en.wikipedia.org/wiki/Phonograph
 
+      - name: First motion picture, galloping horse (Eadweard Muybridge)
+        actual: 122
+        label: 1878
+        source: https://en.wikipedia.org/wiki/Sallie_Gardner_at_a_Gallop
+        image:
+          name: motion-picture-horse.jpg
+          link: https://commons.wikimedia.org/wiki/File:The_Horse_in_Motion_high_res.jpg
+          width: 600
+          height: 370
+
       - name: Modern QWERTY key layout established (Christopher Latham Sholes)
         actual: 122
         label: 1878
@@ -1778,6 +1819,16 @@ eras:
         actual: 117
         label: 1883
         source: https://en.wikipedia.org/wiki/Organ_transplantation
+
+      - name: Invention of kinetoscope, first movie player, standardization of 35mm film (Thomas Edison)
+        actual: 117
+        label: 1883
+        source: https://en.wikipedia.org/wiki/Kinetoscope
+        image:
+          name: 35mm-film.jpg
+          link: https://commons.wikimedia.org/wiki/File:ButterflyDancebis.jpg
+          width: 600
+          height: 449
 
       - name: Invention of automobile (Karl Benz)
         actual: 114
