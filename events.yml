@@ -1820,16 +1820,6 @@ eras:
         label: 1883
         source: https://en.wikipedia.org/wiki/Organ_transplantation
 
-      - name: Invention of kinetoscope, first movie player, standardization of 35mm film (Thomas Edison)
-        actual: 117
-        label: 1883
-        source: https://en.wikipedia.org/wiki/Kinetoscope
-        image:
-          name: 35mm-film.jpg
-          link: https://commons.wikimedia.org/wiki/File:ButterflyDancebis.jpg
-          width: 600
-          height: 449
-
       - name: Invention of automobile (Karl Benz)
         actual: 114
         label: 1886
@@ -1839,6 +1829,16 @@ eras:
         actual: 113
         label: 1887
         source: https://en.wikipedia.org/wiki/History_of_radio
+
+      - name: Invention of kinetoscope, first movie player, standardization of 35mm film (Thomas Edison)
+        actual: 107
+        label: 1893
+        source: https://en.wikipedia.org/wiki/Kinetoscope
+        image:
+          name: 35mm-film.jpg
+          link: https://commons.wikimedia.org/wiki/File:ButterflyDancebis.jpg
+          width: 600
+          height: 449
 
       - name: Discovery of electrons (J. J. Thomson)
         actual: 103
