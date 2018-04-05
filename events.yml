@@ -1,3 +1,4 @@
+# https://en.wikipedia.org/wiki/Timeline_of_human_evolution
 eras:
   - name: Big Bang
     label: 13.82 billion years ago
@@ -542,7 +543,7 @@ eras:
 
       - name:
             Mammals evolve from early reptiles - loss of color vision (possibly due to nocturnality),
-            warm-blooded, hair, neocortex, mammary glands, ear drum
+            warm-blooded, hair, neocortex, mammary glands, ear drum, Y-chromosome for determining sex
         necessary: true
         actual: 210000000
         label: 210 million years ago
