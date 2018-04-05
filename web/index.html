@@ -7,7 +7,6 @@
         <h2>Important Events of Known History</h2>
 
         <p>
-            These are the giants whose shoulders we stand upon.
             <a href="https://github.com/jchavannes/timeline">https://github.com/jchavannes/timeline</a>
         </p>
 
@@ -24,6 +23,7 @@
     //{{ range $eraId, $era := .Events.Eras }}
     timeline("{{ $era.Name }}", "{{ $era.Label }}", [
         // {{ range $eventId, $event := $era.Events }}
+        // {{ if $event.Necessary }}
         {
             content: "<b>{{ $event.Label }}</b><br/>{{ $event.Name }}",
             image: "{{ $event.Image.Name }}",
@@ -33,6 +33,7 @@
             source: "{{ $event.Source }}",
             sourceText: "{{ $event.GetSourceText }}"
         },
+        // {{ end }}
         // {{ end }}
     ], $timeline);
     //{{ end }}

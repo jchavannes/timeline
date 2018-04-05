@@ -17,6 +17,20 @@ var (
 		},
 	}
 
+	allRoute = web.Route{
+		Pattern: "/all",
+		Handler: func(r *web.Response) {
+			events := getEvents()
+			for eraId := range events.Eras {
+				for eventId := range events.Eras[eraId].Events {
+					events.Eras[eraId].Events[eventId].Necessary = true
+				}
+			}
+			r.Helper["Events"] = events
+			r.RenderTemplate("index")
+		},
+	}
+
 	aboutRoute = web.Route{
 		Pattern: "/about",
 		Handler: func(r *web.Response) {
@@ -32,6 +46,7 @@ func main() {
 		StaticFilesDir: "web",
 		Routes: []web.Route{
 			indexRoute,
+			allRoute,
 			aboutRoute,
 		},
 	}
@@ -58,10 +73,11 @@ type era struct {
 }
 
 type event struct {
-	Name   string
-	Actual int64
-	Label  string
-	Source string
+	Name      string
+	Necessary bool
+	Actual    int64
+	Label     string
+	Source    string
 	Image struct {
 		Name   string
 		Link   string

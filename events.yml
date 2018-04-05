@@ -3,6 +3,7 @@ eras:
     label: 13.82 billion years ago
     events:
       - name: Big Bang, universe appears
+        necessary: true
         actual: 13820000000
         label: 13.82 billion years ago
         source: https://en.wikipedia.org/wiki/Big_Bang
@@ -12,6 +13,7 @@ eras:
           height: 65
 
       - name: First hadron particles begin to form, including protons and neutrons
+        necessary: true
         actual: 13820000000
         label: 10<sup>-6</sup> seconds after big bang
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
@@ -21,6 +23,7 @@ eras:
           height: 100
 
       - name: First lepton particles begin to form, including electrons
+        necessary: true
         actual: 13820000000
         label: 1 second after big bang
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
@@ -30,6 +33,7 @@ eras:
           height: 95.75
 
       - name: Protons and neutrons start combining to form first atomic nuclei
+        necessary: true
         actual: 13820000000
         label: Few minutes after big bang
         source: https://en.wikipedia.org/wiki/Timeline_of_the_formation_of_the_Universe
@@ -39,6 +43,7 @@ eras:
           height: 99
 
       - name: First hydrogen atoms begin to form, universe visibility horizon (cosmic microwave background)
+        necessary: true
         actual: 13819621000
         label: 379,000 years after big bang
         source: https://en.wikipedia.org/wiki/Cosmic_microwave_background
@@ -48,6 +53,7 @@ eras:
           height: 50
 
       - name: First stars begin to form
+        necessary: true
         actual: 13670000000
         label: 150 million years after big bang
         source: https://en.wikipedia.org/wiki/Chronology_of_the_universe
@@ -57,6 +63,7 @@ eras:
           height: 75
 
       - name: First galaxies begin to form, including the Milky Way
+        necessary: true
         actual: 13420000000
         label: 400 million years after big bang
         source: https://en.wikipedia.org/wiki/GN-z11
@@ -96,6 +103,7 @@ eras:
           height: 62.5
 
       - name: Formation of our solar system, Sun begins burning
+        necessary: true
         actual: 4600000000
         label: 4.6 billion years ago
         source: https://en.wikipedia.org/wiki/Formation_and_evolution_of_the_Solar_System
@@ -105,6 +113,7 @@ eras:
           height: 54.16
 
       - name: Formation of Earth
+        necessary: true
         actual: 4540000000
         label: 4.54 billion years ago
         source: https://en.wikipedia.org/wiki/History_of_Earth
@@ -123,6 +132,7 @@ eras:
           height: 102.33
 
       - name: Liquid water starts accumulating on Earth, beginning of oceans
+        necessary: true
         actual: 4400000000
         label: 4.4 billion years ago
         source: https://en.wikipedia.org/wiki/Origin_of_water_on_Earth
@@ -135,6 +145,7 @@ eras:
     label: 4 billion years ago
     events:
       - name: RNA molecules (made of amino acids) grow so large that they split in half, cloning themselves - beginning of life and genetics
+        necessary: true
         actual: 4100000000
         label: 4.1 - 3.8 billion years ago
         source: https://en.wikipedia.org/wiki/Abiogenesis
@@ -149,6 +160,7 @@ eras:
 #        source: https://en.wikipedia.org/wiki/Last_universal_common_ancestor
 
       - name: First cells and membranes, prokaryotes
+        necessary: true
         actual: 3500000000
         label: 3.5 billion years ago
         source: https://en.wikipedia.org/wiki/Prokaryote
@@ -158,6 +170,7 @@ eras:
           height: 112.13
 
       - name: First bacteria
+        necessary: true
         actual: 3500000000
         label: 3.5 billion years ago
         source: https://en.wikipedia.org/wiki/Timeline_of_the_evolutionary_history_of_life
@@ -176,6 +189,7 @@ eras:
           height: 82.5
 
       - name: First cells to use ATP for energy transfer
+        necessary: true
         actual: 3000000000
         label: 3 billion years ago
         source: https://www.ncbi.nlm.nih.gov/books/NBK26849/
@@ -185,6 +199,7 @@ eras:
           height: 79.5
 
       - name: Eukaryotes evolve from prokaryotes - nucleus, mitochondria
+        necessary: true
         actual: 2500000000
         label: 2.5 billion years ago
         source: https://en.wikipedia.org/wiki/Eukaryote
@@ -194,6 +209,7 @@ eras:
           height: 57.75
 
       - name: Oxygen suddenly becomes abundant in atmosphere - possibly due to photosynthesis
+        necessary: true
         actual: 2300000000
         label: 2.3 billion years ago
         source: https://en.wikipedia.org/wiki/Great_Oxygenation_Event
@@ -203,6 +219,7 @@ eras:
           height: 64
 
       - name: First multicellular organisms, beginning of cell specialization
+        necessary: true
         actual: 1700000000
         label: 1.7 billion years ago
         source: https://en.wikipedia.org/wiki/Evolutionary_history_of_life
@@ -221,6 +238,7 @@ eras:
           height: 66.8
 
       - name: First evidence of sexual reproduction, significant increase in rate of evolution
+        necessary: true
         actual: 1200000000
         label: 1.2 billion years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_sexual_reproduction
@@ -233,6 +251,7 @@ eras:
     label: 655 million years ago
     events:
       - name: Animals evolve from flagellated eukaryotes - single-celled organisms with whip-like tail, similar to sperm
+        necessary: true
         actual: 665000000
         label: 665 - 610 million years ago
         source: https://en.wikipedia.org/wiki/Animal
@@ -242,6 +261,7 @@ eras:
           height: 76.98
 
       - name: Early decentralized nervous system, bilateral symmetry - worm-like creature
+        necessary: true
         actual: 600000000
         label: 600 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_nervous_systems
@@ -251,6 +271,7 @@ eras:
           height: 87.38
 
       - name: Mouth evolves, early digestive system
+        necessary: true
         actual: 600000000
         label: 600 million years ago
         image:
@@ -259,6 +280,7 @@ eras:
           height: 59.75
 
       - name: Skeletal system evolves
+        necessary: true
         actual: 560000000
         label: 560 million years ago
         source: https://www.livescience.com/18933-oldest-skeleton-animal.html
@@ -277,6 +299,7 @@ eras:
           height: 75
 
       - name: Brain evolves
+        necessary: true
         actual: 550000000
         label: 550 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_the_brain
@@ -313,6 +336,7 @@ eras:
           height: 75
 
       - name: Eyes evolve
+        necessary: true
         actual: 540000000
         label: 540 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_the_eye
@@ -322,6 +346,7 @@ eras:
           height: 51.98
 
       - name: Heart evolves
+        necessary: true
         actual: 540000000
         label: 540 million years ago
         source: https://en.wikipedia.org/wiki/Circulatory_system
@@ -335,6 +360,7 @@ eras:
     label: 530 million years ago
     events:
       - name: Vertebrates evolve in water, including fish
+        necessary: true
         actual: 530000000
         label: 530 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fish
@@ -362,6 +388,7 @@ eras:
           height: 75.5
 
       - name: Teeth evolve
+        necessary: true
         actual: 495000000
         label: 495 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_fish
@@ -380,6 +407,7 @@ eras:
           height: 75
 
       - name: Jaw evolves
+        necessary: true
         actual: 430000000
         label: 430 million years ago
         source: https://en.wikipedia.org/wiki/Fish_jaw#Evolution
@@ -398,6 +426,7 @@ eras:
           height: 80
 
       - name: Bones evolve to replace cartilage
+        necessary: true
         actual: 420000000
         label: 420 million years ago
         image:
@@ -436,6 +465,7 @@ eras:
     label: 370 million years ago
     events:
       - name: Amphibians evolve from fish - lungs, limbs, digits, tongue
+        necessary: true
         actual: 370000000
         label: 370 million years ago
         source: https://en.wikipedia.org/wiki/Amphibian
@@ -445,6 +475,7 @@ eras:
           height: 56.25
 
       - name: Evolution of hearing
+        necessary: true
         actual: 350000000
         label: 350 - 250 million years ago
         source: https://www.sciencedaily.com/releases/2015/02/150206125257.htm
@@ -454,6 +485,7 @@ eras:
           height: 56.25
 
       - name: Reptiles evolve from early amphibians - dry skin
+        necessary: true
         actual: 320000000
         label: 320 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_reptiles
@@ -511,6 +543,7 @@ eras:
       - name:
             Mammals evolve from early reptiles - loss of color vision (possibly due to nocturnality),
             warm-blooded, hair, neocortex, mammary glands, ear drum
+        necessary: true
         actual: 210000000
         label: 210 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_mammals
@@ -559,6 +592,7 @@ eras:
           height: 75
 
       - name: Placentals evolve to carry offspring rather than lay eggs
+        necessary: true
         actual: 120000000
         label: 120 million years ago
         source: https://en.wikipedia.org/wiki/Placentalia
@@ -587,6 +621,7 @@ eras:
           height: 300
 
       - name: Opposable thumbs evolve in pre-primates
+        necessary: true
         actual: 70000000
         label: 70 million years ago
         source: https://www.quora.com/How-long-did-it-take-for-opposable-thumbs-to-emerge-from-a-common-ancestor-to-humans-with-a-dewclaw
@@ -621,6 +656,7 @@ eras:
           height: 69.63
 
       - name: Mammals become dominant organisms on Earth
+        necessary: true
         actual: 66000000
         label: 66 million years ago
         source: https://en.wikipedia.org/wiki/Mammal
@@ -630,6 +666,7 @@ eras:
           height: 52.75
 
       - name: Primates evolve
+        necessary: true
         actual: 65000000
         label: 65 million years ago
         source: https://en.wikipedia.org/wiki/Evolution_of_primates
@@ -657,6 +694,7 @@ eras:
           height: 50.5
 
       - name: Simians diverge from other primates (monkeys and apes)
+        necessary: true
         actual: 42000000
         label: 42 million years ago
         source: https://en.wikipedia.org/wiki/Simian
@@ -666,6 +704,7 @@ eras:
           height: 87.3
 
       - name: Early simians regain color vision (possibly to see ripe fruit)
+        necessary: true
         actual: 40000000
         label: 40 - 30 million years ago
         source: http://anthro.palomar.edu/primate/color.htm
@@ -677,6 +716,7 @@ eras:
       - name:
           Catarrhines diverge from other simians - no tail, more
           ground-dwelling, greater sexual dimorphism, less pair bonding
+        necessary: true
         actual: 35000000
         label: 35 million years ago
         source: https://en.wikipedia.org/wiki/Catarrhini
@@ -688,6 +728,7 @@ eras:
       - name:
           Hominids diverge from other catarrhines - more freedom of
           motion in shoulders (possibly for tree swinging)
+        necessary: true
         actual: 20000000
         label: 20 million years ago
         source: https://en.wikipedia.org/wiki/Hominidae
@@ -697,6 +738,7 @@ eras:
           height: 68.33
 
       - name: Last common ancestor of humans and apes
+        necessary: true
         actual: 13000000
         label: 13 - 4 million years ago
         source: https://en.wikipedia.org/wiki/Chimpanzee%E2%80%93human_last_common_ancestor
@@ -709,6 +751,7 @@ eras:
     label: 5 million years ago
     events:
       - name: Modern human thumb evolves
+        necessary: true
         actual: 5000000
         label: 5 million years ago
         source: https://en.wikipedia.org/wiki/Thumb
@@ -718,6 +761,7 @@ eras:
           height: 66.5
 
       - name: First bipedal humans (possibly to carry food)
+        necessary: true
         actual: 4000000
         label: 4 million years ago
         source: https://en.wikipedia.org/wiki/Bipedalism
@@ -728,6 +772,7 @@ eras:
 
 
       - name: First stone tools, beginning of stone age
+        necessary: true
         actual: 3400000
         label: 3.4 million years ago
         source: https://en.wikipedia.org/wiki/Stone_Age
@@ -739,6 +784,7 @@ eras:
       - name:
           Homo erectus evolves (originated in Africa, eventually
           spread into Europe and as far east as China)
+        necessary: true
         actual: 1900000
         label: 1.9 million years ago
         source: https://en.wikipedia.org/wiki/Homo
@@ -749,6 +795,7 @@ eras:
 
       - name:
           First use of fire, cooking
+        necessary: true
         actual: 1900000
         label: 1.9 million years ago
         source: https://en.wikipedia.org/wiki/Cooking
@@ -758,6 +805,7 @@ eras:
           height: 66.63
 
       - name: First use of paint
+        necessary: true
         actual: 500000
         label: 500,000 years ago
         source: http://www.telegraph.co.uk/news/1528419/Art-of-body-painting-may-date-back-500000-years.html
@@ -766,7 +814,8 @@ eras:
           link: https://commons.wikimedia.org/wiki/File:Homo_heidelbergensis_(10233446).jpg
           height: 80.38
 
-      - name: Invention of stone spear heads
+      - name: Invention of spears using stone spear heads
+        necessary: true
         actual: 400000
         label: 400,000 years ago
         source: https://en.wikipedia.org/wiki/Spear
@@ -781,6 +830,7 @@ eras:
       - name:
           Homo sapiens evolve from homo erectus (Africa) - larger brain,
           proper language, less hair, shorter, less sexual dimorphism
+        necessary: true
         actual: 200000
         label: 200,000 years ago
         source: https://en.wikipedia.org/wiki/Homo_sapiens
@@ -799,6 +849,7 @@ eras:
           height: 64.75
 
       - name: First use of clothing
+        necessary: true
         actual: 500000
         label: 170,000 years ago
         source: http://news.ufl.edu/archive/2011/01/uf-study-of-lice-dna-shows-humans-first-wore-clothes-170000-years-ago.html
@@ -828,6 +879,7 @@ eras:
           height: 69.38
 
       - name: First evidence of collecting and eating wild grains
+        necessary: true
         actual: 105000
         label: 105,000 years ago
         source: http://www.nature.com/news/2009/091217/full/news.2009.1147.html
@@ -864,6 +916,7 @@ eras:
           height: 75
 
       - name: First harpoon fishing
+        necessary: true
         actual: 90000
         label: 90,000 years ago
         source: https://en.wikipedia.org/wiki/Semliki_harpoon
@@ -918,6 +971,7 @@ eras:
           height: 59
 
       - name: First instrument (wooden flute, Europe)
+        necessary: true
         actual: 41000
         label: 41,000 years ago
         source: https://en.wikipedia.org/wiki/Prehistoric_music
@@ -936,6 +990,7 @@ eras:
           height: 93.25
 
       - name: Domestication of dogs
+        necessary: true
         actual: 40000
         label: 40,000 - 27,000 years ago
         source: https://en.wikipedia.org/wiki/Origin_of_the_domestic_dog
@@ -945,6 +1000,7 @@ eras:
           height: 66
 
       - name: First cave paintings (hands/animals, Spain)
+        necessary: true
         actual: 35400
         label: 35,400 years ago
         source: https://en.wikipedia.org/wiki/Cave_painting
@@ -993,6 +1049,7 @@ eras:
     label: 15,000 years ago
     events:
       - name: Domestication of pigs, beginning of agriculture (Mesopotamia)
+        necessary: true
         actual: 15000
         label: 13,000 BC
         source: https://en.wikipedia.org/wiki/History_of_agriculture
@@ -1002,6 +1059,7 @@ eras:
           height: 61.13
 
       - name: First cities, beginning of civilization
+        necessary: true
         actual: 14000
         label: 12,000 BC
         source: https://en.wikipedia.org/wiki/Cradle_of_civilization
@@ -1047,6 +1105,7 @@ eras:
           height: 81
 
       - name: First bow and arrow (Europe)
+        necessary: true
         actual: 11000
         label: 9000 BC
         source: https://en.wikipedia.org/wiki/History_of_archery
@@ -1074,6 +1133,7 @@ eras:
           height: 65.55
 
       - name: First calendar (Scotland)
+        necessary: true
         actual: 10000
         label: 8000 BC
         source: https://en.wikipedia.org/wiki/History_of_calendars
@@ -1110,6 +1170,7 @@ eras:
           height: 66.75
 
       - name: First use of alcoholic drinks (China, Middle East)
+        necessary: true
         actual: 9000
         label: 7000 BC
         source: https://en.wikipedia.org/wiki/History_of_alcoholic_drinks
@@ -1122,6 +1183,7 @@ eras:
     label: 8,000 years ago
     events:
       - name: Invention of writing, beginning of recorded history
+        necessary: true
         actual: 8000
         label: 6000 BC
         source: https://en.wikipedia.org/wiki/History_of_writing
@@ -1140,6 +1202,7 @@ eras:
           height: 75
 
       - name: First copper weapons, end of stone age (Serbia)
+        necessary: true
         actual: 7500
         label: 5500 BC
         source: https://en.wikipedia.org/wiki/History_of_weapons
@@ -1167,6 +1230,7 @@ eras:
           height: 56.25
 
       - name: First written language, first schools (Mesopotamia)
+        necessary: true
         actual: 5500
         label: 3500 BC
         source: https://en.wikipedia.org/wiki/History_of_education
@@ -1176,6 +1240,7 @@ eras:
           height: 78
 
       - name: First wheeled vehicles, pulled by horses
+        necessary: true
         actual: 5350
         label: 3350 BC
         source: https://en.wikipedia.org/wiki/Wheel
@@ -1257,6 +1322,7 @@ eras:
     label: 3,300 years ago
     events:
       - name: First iron smelting (melting point of 2,800 °F)
+        necessary: true
         actual: 3200
         label: 1200 BC
         source: https://en.wikipedia.org/wiki/Smelting
@@ -1277,6 +1343,7 @@ eras:
           height: 449
 
       - name: First standardized coinage (China)
+        necessary: true
         actual: 3000
         label: 1000 BC
         source: https://en.wikipedia.org/wiki/History_of_money
@@ -1287,6 +1354,7 @@ eras:
           height: 275
 
       - name: First glass lenses (Middle East)
+        necessary: true
         actual: 2700
         label: 700 BC
         source: https://en.wikipedia.org/wiki/Lens_(optics)
@@ -1307,6 +1375,7 @@ eras:
           height: 513
 
       - name: Democracy (Cleisthenes, Greece)
+        necessary: true
         actual: 2508
         label: 508 BC
         source: https://en.wikipedia.org/wiki/History_of_democracy
@@ -1317,6 +1386,7 @@ eras:
           height: 530
 
       - name: Discovery that Earth is round (Pythagoras, Greece)
+        necessary: true
         actual: 2500
         label: 500 BC
         source: https://en.wikipedia.org/wiki/Spherical_Earth
@@ -1337,6 +1407,7 @@ eras:
           height: 646
 
       - name: Horses bred large enough to carry men, beginning of cavalry (Middle East)
+        necessary: true
         actual: 2490
         label: 490 BC
         source: https://en.wikipedia.org/wiki/Cavalry
@@ -1357,6 +1428,7 @@ eras:
           height: 281
 
       - name: First higher learning institution founded, The Academy (Plato, Greece)
+        necessary: true
         actual: 2387
         label: 387 BC
         source: https://en.wikipedia.org/wiki/Academy
@@ -1367,6 +1439,7 @@ eras:
           height: 509
 
       - name: Foundation of western philosophy, science, western religion, and spirituality (Plato, Greece)
+        necessary: true
         actual: 2375
         label: 375 BC
         source: https://en.wikipedia.org/wiki/Plato
@@ -1377,6 +1450,7 @@ eras:
           height: 684
 
       - name: Development of geometry (Euclid, Greece)
+        necessary: true
         actual: 2300
         label: 300 BC
         source: https://en.wikipedia.org/wiki/Euclid%27s_Elements
@@ -1387,6 +1461,7 @@ eras:
           height: 491
 
       - name: Estimation of pi, invention of exponents (Archimedes, Greece)
+        necessary: true
         actual: 2250
         label: 250 BC
         source: https://en.wikipedia.org/wiki/Archimedes
@@ -1399,6 +1474,7 @@ eras:
       - name:
           Accurate measurement of Earth’s circumference, tilt, and distance from the sun;
           development of geography (Eratosthenes, Greece)
+        necessary: true
         actual: 2200
         label: 200 BC
         source: https://en.wikipedia.org/wiki/History_of_geodesy
@@ -1409,6 +1485,7 @@ eras:
           height: 533
 
       - name: Invention of paper (China)
+        necessary: true
         actual: 2179
         label: 179 BC
         source: https://en.wikipedia.org/wiki/History_of_paper
@@ -1477,21 +1554,25 @@ eras:
         source: https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire
 
       - name: Method to solve quadratic equations, understanding of zero (Brahmagupta, India)
+        necessary: true
         actual: 1372
         label: 628
         source: https://en.wikipedia.org/wiki/Br%C4%81hmasphu%E1%B9%ADasiddh%C4%81nta
 
       - name: First paper currency (China)
+        necessary: true
         actual: 1194
         label: 806
         source: http://www.pbs.org/wgbh/nova/ancient/history-money.html
 
       - name: Development of algebra (Muhammad ibn Musa al-Khwarizmi, Middle East)
+        necessary: true
         actual: 1170
         label: 830
         source: https://en.wikipedia.org/wiki/History_of_algebra
 
       - name: Invention of gunpowder (China)
+        necessary: true
         actual: 1150
         label: 850
         source: https://en.wikipedia.org/wiki/History_of_gunpowder
@@ -1507,6 +1588,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Book_of_Optics
 
       - name: Invention of magnetic compass (China)
+        necessary: true
         actual: 960
         label: 1040
         source: https://en.wikipedia.org/wiki/History_of_the_compass
@@ -1517,11 +1599,13 @@ eras:
         source: https://en.wikipedia.org/wiki/Magna_Carta
 
       - name: First joint-stock company (Bazacle Milling Company, France)
+        necessary: true
         actual: 750
         label: 1250
         source: https://en.wikipedia.org/wiki/Joint-stock_company
 
       - name: First firearm, cannon (Middle East)
+        necessary: true
         actual: 740
         label: 1260
         source: https://en.wikipedia.org/wiki/History_of_the_firearm
@@ -1542,11 +1626,13 @@ eras:
         source: https://en.wikipedia.org/wiki/List_of_tallest_buildings_and_structures
 
       - name: First use of coffee drinking - may have replaced alcohol and led to the enlightment (Yemen)
+        necessary: true
         actual: 586
         label: 1414
         source: https://en.wikipedia.org/wiki/History_of_coffee
 
       - name: Invention of printing press (Johannes Gutenberg)
+        necessary: true
         actual: 560
         label: 1440
         source: https://en.wikipedia.org/wiki/Printing_press
@@ -1560,6 +1646,7 @@ eras:
     label: 475 years ago
     events:
       - name: Earth revolves around Sun, Copernican Revolution (Nicolaus Copernicus)
+        necessary: true
         actual: 457
         label: 1543
         source: https://en.wikipedia.org/wiki/Copernican_Revolution
@@ -1570,16 +1657,19 @@ eras:
         source: https://en.wikipedia.org/wiki/Camera_obscura
 
       - name: Invention of microscope (Zacharias Janssen)
+        necessary: true
         actual: 410
         label: 1590
         source: https://en.wikipedia.org/wiki/Microscope
 
       - name: First stock market (Amsterdam Stock Exchange)
+        necessary: true
         actual: 398
         label: 1602
         source: https://en.wikipedia.org/wiki/Stock_market
 
       - name: Invention of telescope (Hans Lippershey)
+        necessary: true
         actual: 392
         label: 1608
         source: https://en.wikipedia.org/wiki/History_of_the_telescope
@@ -1600,11 +1690,13 @@ eras:
         source: https://en.wikipedia.org/wiki/Economic_bubble
 
       - name: Theory of chemical elements (Robert Boyle)
+        necessary: true
         actual: 339
         label: 1661
         source: https://en.wikipedia.org/wiki/Chemical_element
 
       - name: Development of calculus (Gottfried Leibniz and Isaac Newton)
+        necessary: true
         actual: 325
         label: 1675
         source: https://en.wikipedia.org/wiki/History_of_calculus
@@ -1635,6 +1727,7 @@ eras:
         source: https://en.wikipedia.org/wiki/History_of_electrical_engineering
 
       - name: Discovery of electromagnetism (Franz Aepinus)
+        necessary: true
         actual: 241
         label: 1759
         source: https://en.wikipedia.org/wiki/History_of_electromagnetic_theory
@@ -1643,11 +1736,13 @@ eras:
     label: 250 years ago
     events:
       - name: Discovery of hydrogen (Henry Cavendish)
+        necessary: true
         actual: 234
         label: 1766
         source: https://en.wikipedia.org/wiki/Hydrogen
 
       - name: Invention of rotary steam engine (James Watt)
+        necessary: true
         actual: 219
         label: 1781
         source: https://en.wikipedia.org/wiki/History_of_the_steam_engine
@@ -1658,16 +1753,19 @@ eras:
         source: https://en.wikipedia.org/wiki/Black_hole
 
       - name: Development of chemistry, first list of elements (Antoine Lavoisier)
+        necessary: true
         actual: 213
         label: 1789
         source: https://en.wikipedia.org/wiki/Chemical_revolution
 
       - name: First vaccine, smallpox (Edward Jenner)
+        necessary: true
         actual: 204
         label: 1796
         source: https://en.wikipedia.org/wiki/Vaccine
 
       - name: Invention of internal combustion engine (John Stevens)
+        necessary: true
         actual: 202
         label: 1798
         source: https://en.wikipedia.org/wiki/History_of_the_internal_combustion_engine
@@ -1678,11 +1776,13 @@ eras:
         source: https://en.wikipedia.org/wiki/Rosetta_Stone
 
       - name: Invention of continuous current electric battery (Alessandro Volta)
+        necessary: true
         actual: 201
         label: 1799
         source: https://en.wikipedia.org/wiki/History_of_the_battery
 
       - name: Invention of photography (Thomas Wedgwood)
+        necessary: true
         actual: 201
         label: 1800
         source: https://en.wikipedia.org/wiki/History_of_photography
@@ -1698,6 +1798,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Ultraviolet
 
       - name: Atomic theory (John Dalton)
+        necessary: true
         actual: 197
         label: 1803
         source: https://en.wikipedia.org/wiki/Atomic_theory
@@ -1708,6 +1809,7 @@ eras:
         source: https://en.wikipedia.org/wiki/History_of_rail_transport
 
       - name: Invention of electric motor (Michael Faraday)
+        necessary: true
         actual: 179
         label: 1821
         source: https://en.wikipedia.org/wiki/Timeline_of_the_electric_motor
@@ -1723,6 +1825,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Silvering
 
       - name: First telegram, invention of Morse code (Samuel F.B. Morse)
+        necessary: true
         actual: 162
         label: 1838
         source: https://en.wikipedia.org/wiki/Electrical_telegraph
@@ -1741,16 +1844,19 @@ eras:
     label: 160 years ago
     events:
       - name: Invention of refrigeration, first commercially successful ice machine (James Harrison)
+        necessary: true
         actual: 146
         label: 1854
         source: https://en.wikipedia.org/wiki/Refrigeration
 
       - name: First plastic patent (Alexander Parkes)
+        necessary: true
         actual: 144
         label: 1856
         source: https://en.wikipedia.org/wiki/Timeline_of_plastic_development
 
       - name: Discovery of natural selection (Charles Darwin)
+        necessary: true
         actual: 142
         label: 1858
         source: https://en.wikipedia.org/wiki/Natural_selection
@@ -1771,6 +1877,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Antiseptic
 
       - name: First commercially successful typewriter (Sholes, Hall, Glidden, Soule)
+        necessary: true
         actual: 132
         label: 1868
         source: https://en.wikipedia.org/wiki/Typewriter
@@ -1786,16 +1893,19 @@ eras:
         source: https://en.wikipedia.org/wiki/First_Transcontinental_Railroad
 
       - name: Invention of voice telephone (Alexander Graham Bell)
+        necessary: true
         actual: 124
         label: 1876
         source: https://en.wikipedia.org/wiki/Telephone
 
       - name: Invention of phonograph for recording and playing sound (Thomas Edison)
+        necessary: true
         actual: 123
         label: 1877
         source: https://en.wikipedia.org/wiki/Phonograph
 
       - name: First motion picture, galloping horse (Eadweard Muybridge)
+        necessary: true
         actual: 122
         label: 1878
         source: https://en.wikipedia.org/wiki/Sallie_Gardner_at_a_Gallop
@@ -1811,21 +1921,25 @@ eras:
         source: https://en.wikipedia.org/wiki/QWERTY
 
       - name: Invention of viable light bulb and continuous electrical system (Thomas Edison)
+        necessary: true
         actual: 121
         label: 1879
         source: https://www.nps.gov/edis/learn/kidsyouth/the-electric-light-system-phonograph-motion-pictures.htm
 
       - name: First successful organ transplant, thyroid (Theodor Kocher)
+        necessary: true
         actual: 117
         label: 1883
         source: https://en.wikipedia.org/wiki/Organ_transplantation
 
       - name: Invention of automobile (Karl Benz)
+        necessary: true
         actual: 114
         label: 1886
         source: https://en.wikipedia.org/wiki/Car
 
       - name: Discovery of radio waves (Heinrich Hertz)
+        necessary: true
         actual: 113
         label: 1887
         source: https://en.wikipedia.org/wiki/History_of_radio
@@ -1859,11 +1973,13 @@ eras:
         source: https://en.wikipedia.org/wiki/Amplitude_modulation
 
       - name: First flight of an airplane (Orville and Wilbur Wright)
+        necessary: true
         actual: 97
         label: 1903
         source: https://en.wikipedia.org/wiki/Airplane
 
       - name: Special relativity, spacetime continuum (Albert Einstein)
+        necessary: true
         actual: 95
         label: 1905
         source: https://en.wikipedia.org/wiki/Special_relativity
@@ -1917,6 +2033,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Big_Bang
 
       - name: Invention of radio telescope, first search for extraterrestrial intelligence (Grote Reber)
+        necessary: true
         actual: 63
         label: 1937
         source: https://en.wikipedia.org/wiki/Radio_telescope
@@ -1926,31 +2043,37 @@ eras:
 #        label: 1939 - 1945
 
       - name: First usage of antibiotics to treat infections (Allied military)
+        necessary: true
         actual: 58
         label: 1942
         source: https://en.wikipedia.org/wiki/Antibiotics
 
       - name: DNA identified as genetic transformer (Avery, MacLeod, McCarty)
+        necessary: true
         actual: 57
         label: 1943
         source: https://en.wikipedia.org/wiki/Avery%E2%80%93MacLeod%E2%80%93McCarty_experiment
 
       - name: Atomic bomb (Manhattan Project)
+        necessary: true
         actual: 55
         label: 1945
         source: https://en.wikipedia.org/wiki/Nuclear_weapon
 
       - name: Invention of microwave oven (Percy Lebaron Spencer)
+        necessary: true
         actual: 55
         label: 1945
         source: https://en.wikipedia.org/wiki/Microwave_oven
 
       - name: Invention of transistor (Bardeen, Brattain, Shockley)
+        necessary: true
         actual: 53
         label: 1947
         source: https://en.wikipedia.org/wiki/Transistor
 
       - name: First stored-program computer (Victoria University of Manchester)
+        necessary: true
         actual: 52
         label: 1948
         source: https://en.wikipedia.org/wiki/Stored-program_computer
@@ -1961,11 +2084,13 @@ eras:
         source: https://en.wikipedia.org/wiki/DNA
 
       - name: First practical solar cell (Bell Labs)
+        necessary: true
         actual: 46
         label: 1954
         source: https://en.wikipedia.org/wiki/Solar_cell
 
       - name: First nuclear power plant (England)
+        necessary: true
         actual: 44
         label: 1956
         source: https://en.wikipedia.org/wiki/Nuclear_power_plant
@@ -1974,6 +2099,7 @@ eras:
     label: 60 years ago
     events:
       - name: First artificial satellite (Sputnik 1)
+        necessary: true
         actual: 43
         label: 1957
         source: https://en.wikipedia.org/wiki/Sputnik_1
@@ -1993,6 +2119,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Luna_1
 
       - name: First human in orbit (Yuri Gagarin, Vostok 1)
+        necessary: true
         actual: 39
         label: 1961
         source: https://en.wikipedia.org/wiki/Vostok_1
@@ -2008,6 +2135,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Compact_Cassette
 
       - name: Invention of liquid crystal displays (George H. Heilmeier)
+        necessary: true
         actual: 36
         label: 1964
         source: https://en.wikipedia.org/wiki/Liquid-crystal_display
@@ -2022,6 +2150,7 @@ eras:
 #        label: 1965
 
       - name: First personal computer (Programma 101)
+        necessary: true
         actual: 35
         label: 1965
         source: https://en.wikipedia.org/wiki/Programma_101
@@ -2031,12 +2160,19 @@ eras:
         label: 1965
         source: https://en.wikipedia.org/wiki/Plate_tectonics
 
+      - name: First spacewalk (Alexey Leonov, Voskhod 2)
+        necessary: true
+        actual: 35
+        label: 1965
+        source: https://en.wikipedia.org/wiki/Voskhod_2
+
       - name: First successful heart transplant (Christiaan Barnard)
         actual: 33
         label: 1967
         source: https://en.wikipedia.org/wiki/Heart_transplantation
 
       - name: First human on the Moon (Neil Armstrong, Apollo 11)
+        necessary: true
         actual: 31
         label: 1969
         source: https://en.wikipedia.org/wiki/Apollo_11
@@ -2046,6 +2182,7 @@ eras:
 #        label: 1971
 
       - name: First computer virus, Creeper (Bob Thomas)
+        necessary: true
         actual: 29
         label: 1971
         source: https://en.wikipedia.org/wiki/Computer_virus
@@ -2065,11 +2202,13 @@ eras:
 #        label: 1974
 
       - name: First Mars lander (Viking 1)
+        necessary: true
         actual: 24
         label: 1976
         source: https://en.wikipedia.org/wiki/Viking_1
 
       - name: Invention of public key cryptography, algorithm to establish shared secret key over an insecure channel (Diffie, Hellman, Merkle)
+        necessary: true
         actual: 24
         label: 1976
         source: https://en.wikipedia.org/wiki/Public-key_cryptography
@@ -2084,6 +2223,7 @@ eras:
 #        label: 1979
 
       - name: First commercial cellular phone network (Japan)
+        necessary: true
         actual: 21
         label: 1979
         source: https://en.wikipedia.org/wiki/1G
@@ -2099,11 +2239,13 @@ eras:
     label: 35 years ago
     events:
       - name: First window based graphical user interface and mouse (Xerox Parc)
+        necessary: true
         actual: 19
         label: 1981
         source: https://en.wikipedia.org/wiki/Xerox_Star
 
       - name: TCP/IP (Internet Protocol) standardized
+        necessary: true
         actual: 18
         label: 1982
         source: https://en.wikipedia.org/wiki/Internet_protocol_suite
@@ -2117,11 +2259,13 @@ eras:
 #        label: 1989
 
       - name: First internet search engine (Archie)
+        necessary: true
         actual: 10
         label: 1990
         source: https://en.wikipedia.org/wiki/Web_search_engine
 
       - name: First exoplanet discovered (Aleksander Wolszczan and Dale Frail)
+        necessary: true
         actual: 8
         label: 1992
         source: https://en.wikipedia.org/wiki/Exoplanet
@@ -2132,16 +2276,19 @@ eras:
         source: https://en.wikipedia.org/wiki/Internet
 
       - name: First computer to beat best human chess player (Deep Blue)
+        necessary: true
         actual: 4
         label: 1996
         source: https://en.wikipedia.org/wiki/Computer_chess
 
       - name: First major peer-to-peer file sharing network (Napster)
+        necessary: true
         actual: 1
         label: 1999
         source: https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing
 
       - name: Last time there wasn’t a human in orbit
+        necessary: true
         actual: 0
         label: 2000
         source: https://en.wikipedia.org/wiki/International_Space_Station
@@ -2152,6 +2299,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Wikipedia
 
       - name: Complete mapping of human genome (Human Genome Project)
+        necessary: true
         actual: -3
         label: 2003
         source: https://en.wikipedia.org/wiki/Human_Genome_Project
@@ -2160,11 +2308,13 @@ eras:
     label: 10 years ago
     events:
       - name: First multi-touch smart phone (iPhone)
+        necessary: true
         actual: -7
         label: 2007
         source: https://en.wikipedia.org/wiki/Smartphone
 
       - name: First decentralized digital currency (Bitcoin)
+        necessary: true
         actual: -9
         label: 2009
         source: https://en.wikipedia.org/wiki/Cryptocurrency
@@ -2190,10 +2340,12 @@ eras:
         source: https://en.wikipedia.org/wiki/Higgs_boson
 
       - name: First autonomous cars in public traffic
+        necessary: true
         actual: -13
         label: 2013
 
       - name: First lag-free virtual reality headsets
+        necessary: true
         actual: -15
         label: 2013
         source: https://en.wikipedia.org/wiki/Virtual_reality
@@ -2204,11 +2356,13 @@ eras:
         source: https://en.wikipedia.org/wiki/AlphaGo
 
       - name: First cheap, targeted DNA editing (CRISPR)
+        necessary: true
         actual: -15
         label: 2015
         source: https://en.wikipedia.org/wiki/Genome_editing
 
       - name: Discovery of gravitational waves (LIGO)
+        necessary: true
         actual: -16
         label: 2016
         source: https://en.wikipedia.org/wiki/Gravitational_wave
