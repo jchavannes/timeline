@@ -1753,6 +1753,13 @@ eras:
         label: 1783
         source: https://en.wikipedia.org/wiki/Black_hole
 
+      - name:
+          Determination of solar apex, the direction the Sun is traveling relative to local stars,
+          calculated within 10° of the value accepted today (William Herschel)
+        actual: 217
+        label: 1783
+        source: https://en.wikipedia.org/wiki/Solar_apex
+
       - name: Development of chemistry, first list of elements (Antoine Lavoisier)
         necessary: true
         actual: 213

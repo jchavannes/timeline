@@ -51,7 +51,7 @@
         <div class="collapse navbar-collapse" id="navbar">
             <ul id="nav" class="nav navbar-nav">
                 <li><a href="">Home</a></li>
-                <li><a href="all">All</a></li>
+                <li><a href="necessary">Necessary Only</a></li>
                 <li><a href="about">About</a></li>
             </ul>
         </div>
@@ -60,7 +60,7 @@
             $(function() {
                 if (loc === "about") {
                     $("#nav li:eq(2)").addClass("active");
-                } else if (loc === "all") {
+                } else if (loc === "necessary") {
                     $("#nav li:eq(1)").addClass("active");
                 } else {
                     $("#nav li:eq(0)").addClass("active");

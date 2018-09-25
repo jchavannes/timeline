@@ -17,16 +17,11 @@ var (
 		},
 	}
 
-	allRoute = web.Route{
-		Pattern: "/all",
+	necessaryRoute = web.Route{
+		Pattern: "/necessary",
 		Handler: func(r *web.Response) {
-			events := getEvents()
-			for eraId := range events.Eras {
-				for eventId := range events.Eras[eraId].Events {
-					events.Eras[eraId].Events[eventId].Necessary = true
-				}
-			}
-			r.Helper["Events"] = events
+			r.Helper["OnlyNecessary"] = true
+			r.Helper["Events"] = getEvents()
 			r.RenderTemplate("index")
 		},
 	}
@@ -46,7 +41,7 @@ func main() {
 		StaticFilesDir: "web",
 		Routes: []web.Route{
 			indexRoute,
-			allRoute,
+			necessaryRoute,
 			aboutRoute,
 		},
 	}
@@ -78,7 +73,7 @@ type event struct {
 	Actual    int64
 	Label     string
 	Source    string
-	Image struct {
+	Image     struct {
 		Name   string
 		Link   string
 		Width  string

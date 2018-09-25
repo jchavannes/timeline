@@ -20,10 +20,11 @@
 
     var $timeline = $("#timelines-list");
 
+    {{ $onlyNecessary := .OnlyNecessary }}
     //{{ range $eraId, $era := .Events.Eras }}
     timeline("{{ $era.Name }}", "{{ $era.Label }}", [
         // {{ range $eventId, $event := $era.Events }}
-        // {{ if $event.Necessary }}
+        // {{ if or (not $onlyNecessary) $event.Necessary }}
         {
             content: "<b>{{ $event.Label }}</b><br/>{{ $event.Name }}",
             image: "{{ $event.Image.Name }}",
