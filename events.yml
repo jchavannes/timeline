@@ -1583,7 +1583,7 @@ eras:
         label: 859
         source: https://en.wikipedia.org/wiki/University_of_Al_Quaraouiyine
 
-      - name: Experimental evidence for intromission light theory (Ibn al-Haytham, Middle East)
+      - name: Experimental evidence for intromission light theory, predicted light has a finite speed (Ibn al-Haytham, Middle East)
         actual: 1000
         label: 1000
         source: https://en.wikipedia.org/wiki/Book_of_Optics
@@ -1707,6 +1707,12 @@ eras:
         label: 1676
         source: https://en.wikipedia.org/wiki/Bacteria
 
+      - name: First quantatitive estimate of the speed of light, only 25% off (Ole Rømer)
+        necessary: true
+        actual: 324
+        label: 1676
+        source: https://en.wikipedia.org/wiki/Speed_of_light
+
       - name: Discovery of gravitational force (Isaac Newton)
         actual: 313
         label: 1687
@@ -1747,6 +1753,11 @@ eras:
         actual: 219
         label: 1781
         source: https://en.wikipedia.org/wiki/History_of_the_steam_engine
+
+      - name: Discovery of Uranus (William Herschel)
+        actual: 219
+        label: 1781
+        source: https://en.wikipedia.org/wiki/Uranus
 
       - name: Theory of black holes (John Michell)
         actual: 217
@@ -1842,6 +1853,11 @@ eras:
         actual: 161
         label: 1839
         source: https://en.wikipedia.org/wiki/History_of_the_camera
+
+      - name: Correct prediction and discovery of Neptune (Johann Galle)
+        actual: 154
+        label: 1846
+        source: https://en.wikipedia.org/wiki/Neptune
 
       - name: Germ theory of disease, sterilization (John Snow)
         actual: 151
