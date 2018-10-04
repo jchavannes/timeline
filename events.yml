@@ -1718,6 +1718,11 @@ eras:
         label: 1687
         source: https://en.wikipedia.org/wiki/Gravity
 
+      - name: Accurate measurement of speed of sound (William Derham)
+        actual: 291
+        label: 1709
+        source: https://en.wikipedia.org/wiki/Speed_of_sound
+
       - name: Invention of electrical capacitor (Pieter van Musschenbroek)
         actual: 254
         label: 1746
@@ -2096,6 +2101,12 @@ eras:
         label: 1947
         source: https://en.wikipedia.org/wiki/Transistor
 
+      - name: First manned supersonic flight (Chuck Yeager)
+        necessary: true
+        actual: 53
+        label: 1947
+        source: https://en.wikipedia.org/wiki/Sound_barrier
+
       - name: First stored-program computer (Victoria University of Manchester)
         necessary: true
         actual: 52
@@ -2390,3 +2401,8 @@ eras:
         actual: -16
         label: 2016
         source: https://en.wikipedia.org/wiki/Gravitational_wave
+
+      - name: Discovery of first interstellar object in our solar system, ʻOumuamua (Robert Weryk)
+        actual: -17
+        label: 2017
+        source: https://en.wikipedia.org/wiki/%CA%BBOumuamua
