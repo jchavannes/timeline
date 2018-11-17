@@ -2023,6 +2023,17 @@ eras:
         label: 1908
         source: https://en.wikipedia.org/wiki/Car
 
+      - name: First expedition to geographic South Pole (Norway)
+        actual: 89
+        label: 1911
+        source: https://en.wikipedia.org/wiki/Amundsen%27s_South_Pole_expedition
+        image:
+          name: south-pole.jpg
+          link: https://en.wikipedia.org/wiki/File:At_the_South_Pole,_December_1911.jpg
+          width: 484
+          height: 321
+
+
       - name: Idea of continental drift formalized - there once was a supercontinent, Pangaea (Alfred Wegener)
         actual: 88
         label: 1912
@@ -2117,6 +2128,16 @@ eras:
         actual: 47
         label: 1953
         source: https://en.wikipedia.org/wiki/DNA
+
+      - name: First ascent of Mount Everest, Earth's highest mountain (Britain)
+        actual: 47
+        label: 1953
+        source: https://en.wikipedia.org/wiki/1953_British_Mount_Everest_expedition
+        image:
+          name: everest.jpg
+          link: https://www.worldatlas.com/articles/where-is-mount-everest.html
+          width: 729
+          height: 425
 
       - name: First practical solar cell (Bell Labs)
         necessary: true
