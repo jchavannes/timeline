@@ -1599,6 +1599,16 @@ eras:
         label: 1215
         source: https://en.wikipedia.org/wiki/Magna_Carta
 
+      - name: First rockets (China)
+        actual: 768
+        label: 1232
+        source: https://en.wikipedia.org/wiki/History_of_rockets
+        image:
+          name: rocket-arrows.jpg
+          link: https://commons.wikimedia.org/wiki/File:Oldest_depiction_of_rocket_arrows.jpg
+          width: 465
+          height: 578
+
       - name: First joint-stock company (Bazacle Milling Company, France)
         necessary: true
         actual: 750
@@ -1643,6 +1653,26 @@ eras:
         label: 1492
         source: https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus
 
+      - name: Realization that America was a new land mass, not Asia (Amerigo Vespucci, Italy)
+        actual: 498
+        label: 1502
+        source: https://en.wikipedia.org/wiki/Amerigo_Vespucci
+        image:
+          name: america.jpg
+          link: https://commons.wikimedia.org/wiki/File:Waldseem%C3%BCller_world_map_1508.jpg
+          width: 800
+          height: 445
+
+      - name: First global circumnavigation (Magellan, Spain)
+        actual: 478
+        label: 1522
+        source: https://en.wikipedia.org/wiki/Circumnavigation
+        image:
+          name: magellan.jpg
+          link: https://commons.wikimedia.org/wiki/File:ReplicaNaoVictoriaMagallanes.jpg
+          width: 595
+          height: 397
+
   - name: Scientific Revolution
     label: 475 years ago
     events:
@@ -1684,6 +1714,16 @@ eras:
         actual: 381
         label: 1619
         source: https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion
+
+      - name: First submarine (Cornelis Drebbel, Dutch)
+        actual: 380
+        label: 1620
+        source: https://en.wikipedia.org/wiki/History_of_submarines
+        image:
+          name: submarine.jpg
+          link: https://commons.wikimedia.org/wiki/File:Van_Drebbel.jpg
+          width: 584
+          height: 400
 
       - name: First economic bubble (tulip mania, Netherlands)
         actual: 363
@@ -1752,6 +1792,16 @@ eras:
         actual: 234
         label: 1766
         source: https://en.wikipedia.org/wiki/Hydrogen
+
+      - name: First iron-cased rockets (India)
+        actual: 220
+        label: 1780
+        source: https://en.wikipedia.org/wiki/Mysorean_rockets
+        image:
+          name: mysorean-rockets.jpg
+          link: https://commons.wikimedia.org/wiki/File:Rocket_warfare.jpg
+          width: 616
+          height: 423
 
       - name: Invention of rotary steam engine (James Watt)
         necessary: true
