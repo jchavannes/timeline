@@ -1818,6 +1818,21 @@ eras:
         actual: 217
         label: 1783
         source: https://en.wikipedia.org/wiki/Black_hole
+        image:
+          name: black-hole.jpg
+          link: https://commons.wikimedia.org/wiki/File:BH_LMC.png
+          width: 600
+          height: 480
+
+      - name: First manned flight, hot-air balloon (Montgolfier brothers)
+        actual: 217
+        label: 1783
+        source: https://en.wikipedia.org/wiki/Hot_air_balloon
+        image:
+          name: hot-air-balloon.jpg
+          link: https://commons.wikimedia.org/wiki/File:1783_balloonj.jpg
+          width: 440
+          height: 600
 
       - name:
           Determination of solar apex, the direction the Sun is traveling relative to local stars,
