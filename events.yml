@@ -1319,6 +1319,16 @@ eras:
           width: 800
           height: 450
 
+      - name: First scissors, spring scissors (Mesopotamia)
+        actual: 4000
+        label: 2000 BC
+        source: https://en.wikipedia.org/wiki/Scissors
+        image:
+          name: spring-scissors.jpg
+          link: https://commons.wikimedia.org/wiki/File:Shears_MET_29I_E08R4.jpg
+          width: 800
+          height: 700
+
   - name: Iron Age
     label: 3,300 years ago
     events:
@@ -1535,6 +1545,16 @@ eras:
           link: https://commons.wikimedia.org/wiki/File:Naples_National_Archaeological_Museum_(14842094122).jpg
           width: 800
           height: 657
+
+      - name: First modern scissors, pivot scissors (Rome)
+        actual: 1900
+        label: 100
+        source: https://en.wikipedia.org/wiki/Scissors
+        image:
+          name: pivot-scissors.jpg
+          link: https://medium.com/@susiperedo/scissors-b890c78dee08
+          width: 500
+          height: 340
 
       - name: First light refraction tables (Claudius Ptolemy)
         actual: 1850
@@ -2439,56 +2459,131 @@ eras:
         actual: -9
         label: 2009
         source: https://en.wikipedia.org/wiki/Cryptocurrency
+        image:
+          name: bitcoin.jpg
+          link: https://ftalphaville.ft.com/2020/03/09/1583742985000/Isn-t-bitcoin-meant-to-be-a-safe-haven-/
+          width: 800
+          height: 450
 
       - name: First mainstream tablet computer (iPad)
         actual: -10
         label: 2010
         source: https://en.wikipedia.org/wiki/Tablet_computer
+        image:
+          name: ipad.jpg
+          link: https://commons.wikimedia.org/wiki/File:Steve_Jobs_with_the_Apple_iPad_no_logo_(cropped).jpg
+          width: 800
+          height: 591
 
       - name: First computer to beat best Jeopardy player (Watson)
         actual: -11
         label: 2011
         source: https://en.wikipedia.org/wiki/Watson_(computer)
+        image:
+          name: watson-jeopardy.jpg
+          link: https://www.youtube.com/watch?v=P18EdAKuC1U
+          width: 800
+          height: 450
 
       - name: First social network with 1 billion monthly active users (Facebook)
         actual: -12
         label: 2012
         source: https://en.wikipedia.org/wiki/Facebook
+        image:
+          name: facebook-datacenter.jpg
+          link: https://www.datacenterknowledge.com/archives/2016/05/24/inside-facebook-data-center-sweden-video
+          width: 800
+          height: 416
 
       - name: Discovery of Higgs boson (CERN)
         actual: -12
         label: 2012
         source: https://en.wikipedia.org/wiki/Higgs_boson
+        image:
+          name: higgs-boson.jpg
+          link: https://commons.wikimedia.org/wiki/File:Candidate_Higgs_Events_in_ATLAS_and_CMS.png
+          width: 720
+          height: 462
 
       - name: First autonomous cars in public traffic
         necessary: true
         actual: -13
         label: 2013
+        image:
+          name: self-driving-car.jpg
+          link: https://electrek.co/2020/08/14/elon-musk-tesla-full-self-driving-quantum-leap-new-rewrite/
+          width: 800
+          height: 386
 
       - name: First lag-free virtual reality headsets
         necessary: true
         actual: -15
         label: 2013
         source: https://en.wikipedia.org/wiki/Virtual_reality
+        image:
+          name: virtual-reality.jpg
+          link: https://commons.wikimedia.org/wiki/File:Reality_check_ESA384313.jpg
+          width: 800
+          height: 600
 
       - name: First computer to beat best human Go player (AlphaGo)
         actual: -15
         label: 2015
         source: https://en.wikipedia.org/wiki/AlphaGo
+        image:
+          name: alphago.jpg
+          link: http://opendeeptech.com/alphago-googles-artificial-intelligence
+          width: 512
+          height: 288
 
       - name: First cheap, targeted DNA editing (CRISPR)
         necessary: true
         actual: -15
         label: 2015
         source: https://en.wikipedia.org/wiki/Genome_editing
+        image:
+          name: crispr.jpg
+          link: https://commons.wikimedia.org/wiki/File:Genetic_engineering_logo.png
+          width: 459
+          height: 432
+
+      - name: First rocket to re-enter atmostphere and land vertically
+        actual: -15
+        label: 2015
+        source: https://en.wikipedia.org/wiki/Falcon_9
+        image:
+          name: reusable-rocket.jpg
+          link: https://commons.wikimedia.org/wiki/File:Falcon_Heavy_Side_Boosters_landing_on_LZ1_and_LZ2_-_2018_(25254688767).jpg
+          width: 800
+          height: 533
 
       - name: Discovery of gravitational waves (LIGO)
         necessary: true
         actual: -16
         label: 2016
         source: https://en.wikipedia.org/wiki/Gravitational_wave
+        image:
+          name: gravity-wave.jpg
+          link: https://commons.wikimedia.org/wiki/File:Artist%E2%80%99s_impression_of_merging_neutron_stars.jpg
+          width: 800
+          height: 527
 
       - name: Discovery of first interstellar object in our solar system, ʻOumuamua (Robert Weryk)
         actual: -17
         label: 2017
         source: https://en.wikipedia.org/wiki/%CA%BBOumuamua
+        image:
+          name: oumuamua.jpg
+          link: https://commons.wikimedia.org/wiki/File:Oumuamua_orbit_at_perihelion.png
+          width: 800
+          height: 600
+
+      - name: First crewed reusable rocket (SpaceX Falcon 9)
+        actual: -20
+        label: 2020
+        source: https://en.wikipedia.org/wiki/Falcon_9
+        image:
+          name: reusable-rocket-crew.jpg
+          link: https://twitter.com/SpaceX/status/1266798486256676864
+          width: 800
+          height: 600
