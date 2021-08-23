@@ -9,7 +9,7 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
         var sourceHtml = "";
         if (event.source.length > 0) {
             if (event.source.substr(0, 4) === "http") {
-                sourceHtml = " <a href='" + event.source + "'>[" + event.sourceText + "]</a>";
+                sourceHtml = " <a target='_blank' href='" + event.source + "'>[" + event.sourceText + "]</a>";
             } else {
                 sourceHtml = " <i>[" + event.sourceText + "]</i>";
             }
@@ -29,7 +29,7 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
             imageWidth = imageWidth * factor;
             imageHeight = imageHeight > 0 ? imageHeight * factor : "";
             imgHtml =
-                "<a href='" + imgLink + "'>" +
+                "<a target='_blank' href='" + imgLink + "'>" +
                 "<img src='" + imgUrl + "' width='" + imageWidth + "' height='" + imageHeight + "' />" +
                 "</a>";
         }

@@ -2138,6 +2138,16 @@ eras:
         label: 1916
         source: https://en.wikipedia.org/wiki/General_relativity
 
+      - name: Invention of zipper
+        actual: 83
+        label: 1917
+        source: https://en.wikipedia.org/wiki/Zipper
+        image:
+          name: zipper.jpg
+          link: https://commons.wikimedia.org/wiki/File:Coil_plastic_and_metal_zippers.jpg
+          width: 800
+          height: 600
+
       - name: Largest empire by land area - 24% of earth, 13 million mi<sup>2</sup> (Britain)
         actual: 80
         label: 1920
