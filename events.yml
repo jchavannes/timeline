@@ -1573,51 +1573,96 @@ eras:
         actual: 1524
         label: 476
         source: https://en.wikipedia.org/wiki/Fall_of_the_Western_Roman_Empire
+        image:
+          name: roman-invasions.jpg
+          link: https://commons.wikimedia.org/wiki/File:Invasions_of_the_Roman_Empire_1.png
+          width: 800
+          height: 566
 
       - name: Method to solve quadratic equations, understanding of zero (Brahmagupta, India)
         necessary: true
         actual: 1372
         label: 628
         source: https://en.wikipedia.org/wiki/Br%C4%81hmasphu%E1%B9%ADasiddh%C4%81nta
+        image:
+          name: zero.jpg
+          link: https://commons.wikimedia.org/wiki/File:Khmer_Numerals_-_605_from_the_Sambor_inscriptions.jpg
+          width: 244
+          height: 157
 
       - name: First paper currency (China)
         necessary: true
         actual: 1194
         label: 806
         source: http://www.pbs.org/wgbh/nova/ancient/history-money.html
+        image:
+          name: paper-currency.jpg
+          link: https://twitter.com/mashreqtweets/status/640102109942157312
+          width: 505
+          height: 318
 
       - name: Development of algebra (Muhammad ibn Musa al-Khwarizmi, Middle East)
         necessary: true
         actual: 1170
         label: 830
         source: https://en.wikipedia.org/wiki/History_of_algebra
+        image:
+          name: algebra.jpg
+          link: https://commons.wikimedia.org/wiki/File:Bodleian_MS._Huntington_214_roll332_frame36.jpg
+          width: 800
+          height: 578
 
       - name: Invention of gunpowder (China)
         necessary: true
         actual: 1150
         label: 850
         source: https://en.wikipedia.org/wiki/History_of_gunpowder
+        image:
+          name: gunpowder.jpg
+          link: https://www.grc.nasa.gov/www/k-12/rocket/BottleRocket/13thru16.htm
+          width: 242
+          height: 186
 
       - name: Oldest existing university founded (University of Al Quaraouiyine, Morocco)
         actual: 1141
         label: 859
         source: https://en.wikipedia.org/wiki/University_of_Al_Quaraouiyine
+        image:
+          name: university.jpg
+          link: https://commons.wikimedia.org/wiki/File:University_of_Al_Qaraouiyine.jpg
+          width: 567
+          height: 600
 
       - name: Experimental evidence for intromission light theory, predicted light has a finite speed (Ibn al-Haytham, Middle East)
         actual: 1000
         label: 1000
         source: https://en.wikipedia.org/wiki/Book_of_Optics
+        image:
+          name: optics.jpg
+          link: https://commons.wikimedia.org/wiki/File:Thesaurus_opticus_Titelblatt.jpg
+          width: 545
+          height: 600
 
       - name: Invention of magnetic compass (China)
         necessary: true
         actual: 960
         label: 1040
         source: https://en.wikipedia.org/wiki/History_of_the_compass
+        image:
+          name: compass.jpg
+          link: https://commons.wikimedia.org/wiki/File:Chinese_Geomantic_Compass_c._1760,_National_Maritime_Museum.JPG
+          width: 800
+          height: 531
 
       - name: Magna Carta, foundation for individual rights (England)
         actual: 785
         label: 1215
         source: https://en.wikipedia.org/wiki/Magna_Carta
+        image:
+          name: magna-carta.jpg
+          link: https://en.wikipedia.org/wiki/File:Magna_Carta_(British_Library_Cotton_MS_Augustus_II.106).jpg
+          width: 800
+          height: 533
 
       - name: First rockets (China)
         actual: 768
