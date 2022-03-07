@@ -1679,44 +1679,84 @@ eras:
         actual: 750
         label: 1250
         source: https://en.wikipedia.org/wiki/Joint-stock_company
+        image:
+          name: joint-stock-company.jpg
+          link: https://www.britannica.com/topic/joint-stock-company
+          width: 556
+          height: 600
 
       - name: First firearm, cannon (Middle East)
         necessary: true
         actual: 740
         label: 1260
         source: https://en.wikipedia.org/wiki/History_of_the_firearm
+        image:
+          name: canon.jpg
+          link: https://commons.wikimedia.org/wiki/File:Yuan_chinese_gun.jpg
+          width: 800
+          height: 599
 
       - name: Invention of eyeglasses (Italy)
         actual: 714
         label: 1286
         source: https://en.wikipedia.org/wiki/Glasses
+        image:
+          name: reading-stone.jpg
+          link: https://commons.wikimedia.org/wiki/File:2015-08_archeon_reading_stone.JPG
+          width: 800
+          height: 533
 
       - name: Largest contiguous land empire - 16% of earth, 9 million mi<sup>2</sup> (Mongol Empire)
         actual: 706
         label: 1294
         source: https://en.wikipedia.org/wiki/Mongol_Empire
+        image:
+          name: mongol-empire.jpg
+          link: https://mapsontheweb.zoom-maps.com/post/162235071505/mongol-empire-in-1294-via-reddit
+          width: 800
+          height: 592
 
       - name: Lincoln Cathedral surpasses Great Pyramid as tallest manmade structure (height of 525 feet)
         actual: 689
         label: 1311
         source: https://en.wikipedia.org/wiki/List_of_tallest_buildings_and_structures
+        image:
+          name: lincoln-cathedral.jpg
+          link: https://commons.wikimedia.org/wiki/File:Lincoln_Cathedral_viewed_from_Lincoln_Castle.jpg
+          width: 800
+          height: 600
 
       - name: First use of coffee drinking - may have replaced alcohol and led to the enlightment (Yemen)
         necessary: true
         actual: 586
         label: 1414
         source: https://en.wikipedia.org/wiki/History_of_coffee
+        image:
+          name: coffee.jpg
+          link: https://www.bbc.com/news/magazine-22190802
+          width: 800
+          height: 578
 
       - name: Invention of printing press (Johannes Gutenberg)
         necessary: true
         actual: 560
         label: 1440
         source: https://en.wikipedia.org/wiki/Printing_press
+        image:
+          name: printing-press.jpg
+          link: https://commons.wikimedia.org/wiki/File:Chodowiecki_Basedow_Tafel_21_c_Z.jpg
+          width: 793
+          height: 600
 
       - name: Columbus explores America
         actual: 508
         label: 1492
         source: https://en.wikipedia.org/wiki/Voyages_of_Christopher_Columbus
+        image:
+          name: columbus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Eclipse_Christophe_Colomb.jpg
+          width: 738
+          height: 600
 
       - name: Realization that America was a new land mass, not Asia (Amerigo Vespucci, Italy)
         actual: 498
