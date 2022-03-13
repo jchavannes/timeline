@@ -1786,23 +1786,43 @@ eras:
         actual: 457
         label: 1543
         source: https://en.wikipedia.org/wiki/Copernican_Revolution
+        image:
+          name: heliocentrism.jpg
+          link: https://commons.wikimedia.org/wiki/File:Copernican_heliocentrism_diagram-2.jpg
+          width: 655
+          height: 600
 
       - name: First published picture of camera obscura (Gemma Frisius)
         actual: 455
         label: 1545
         source: https://en.wikipedia.org/wiki/Camera_obscura
+        image:
+          name: camera-obscura-picture.jpg
+          link: https://commons.wikimedia.org/wiki/File:1545_gemma_frisius_-_camera-obscura-sonnenfinsternis_1545-650x337.jpg
+          width: 650
+          height: 337
 
       - name: Invention of microscope (Zacharias Janssen)
         necessary: true
         actual: 410
         label: 1590
         source: https://en.wikipedia.org/wiki/Microscope
+        image:
+          name: microscope.jpg
+          link: https://en.wikipedia.org/wiki/File:Jaansen_Microscope.jpg
+          width: 800
+          height: 600
 
       - name: First stock market (Amsterdam Stock Exchange)
         necessary: true
         actual: 398
         label: 1602
         source: https://en.wikipedia.org/wiki/Stock_market
+        image:
+          name: stock-market.jpg
+          link: https://commons.wikimedia.org/wiki/File:VOC_aandeel_9_september_1606.jpg
+          width: 800
+          height: 582
 
       - name: Invention of telescope (Hans Lippershey)
         necessary: true
