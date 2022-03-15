@@ -1987,6 +1987,11 @@ eras:
         actual: 234
         label: 1766
         source: https://en.wikipedia.org/wiki/Hydrogen
+        image:
+          name: cavendish-hydrogen.jpg
+          link: https://commons.wikimedia.org/wiki/File:Cavendish_hydrogen.jpg
+          width: 495
+          height: 343
 
       - name: First iron-cased rockets (India)
         actual: 220
@@ -2003,11 +2008,21 @@ eras:
         actual: 219
         label: 1781
         source: https://en.wikipedia.org/wiki/History_of_the_steam_engine
+        image:
+          name: steam-engine.jpg
+          link: https://commons.wikimedia.org/wiki/File:Maquina_vapor_Watt_ETSIIM.jpg
+          width: 800
+          height: 594
 
       - name: Discovery of Uranus (William Herschel)
         actual: 219
         label: 1781
         source: https://en.wikipedia.org/wiki/Uranus
+        image:
+          name: uranus-telescope.jpg
+          link: https://commons.wikimedia.org/wiki/File:HerschelTelescope.jpg
+          width: 468
+          height: 600
 
       - name: Theory of black holes (John Michell)
         actual: 217
@@ -2035,12 +2050,22 @@ eras:
         actual: 217
         label: 1783
         source: https://en.wikipedia.org/wiki/Solar_apex
+        image:
+          name: solar-apex.jpg
+          link: https://www.islamicvideos.org/the-quran-and-science-booklet/
+          width: 800
+          height: 599
 
       - name: Development of chemistry, first list of elements (Antoine Lavoisier)
         necessary: true
         actual: 213
         label: 1789
         source: https://en.wikipedia.org/wiki/Chemical_revolution
+        image:
+          name: ice-calorimeter.jpg
+          link: https://commons.wikimedia.org/wiki/File:Ice-calorimeter.jpg
+          width: 358
+          height: 600
 
       - name: First vaccine, smallpox (Edward Jenner)
         necessary: true
@@ -2086,6 +2111,11 @@ eras:
         actual: 197
         label: 1803
         source: https://en.wikipedia.org/wiki/Atomic_theory
+        image:
+          name: dalton-elements.jpg
+          link: https://commons.wikimedia.org/wiki/File:Dalton%27s_symbols_of_the_elements._1806_Wellcome_M0004592.jpg
+          width: 442
+          height: 600
 
       - name: First commercially successful locomotive (Matthew Murray)
         actual: 188
