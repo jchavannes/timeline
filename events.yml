@@ -1829,16 +1829,31 @@ eras:
         actual: 392
         label: 1608
         source: https://en.wikipedia.org/wiki/History_of_the_telescope
+        image:
+          name: telescope.jpg
+          link: https://commons.wikimedia.org/wiki/File:Emblemata_1624.jpg
+          width: 800
+          height: 545
 
       - name: Discovery of moons of Jupiter (Galileo Galilei)
         actual: 391
         label: 1610
         source: https://en.wikipedia.org/wiki/Galilean_moons
+        image:
+          name: galilean-moons.jpg
+          link: https://commons.wikimedia.org/wiki/File:Jupiter_and_the_Galilean_Satellites.jpg
+          width: 800
+          height: 561
 
       - name: Laws of planetary motion (Johannes Kepler)
         actual: 381
         label: 1619
         source: https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion
+        image:
+          name: kepler-laws.jpg
+          link: https://commons.wikimedia.org/wiki/File:Kepler_laws_diagram.svg
+          width: 559
+          height: 600
 
       - name: First submarine (Cornelis Drebbel, Dutch)
         actual: 380
@@ -1854,60 +1869,115 @@ eras:
         actual: 363
         label: 1637
         source: https://en.wikipedia.org/wiki/Economic_bubble
+        image:
+          name: tulip-mania.jpg
+          link: https://commons.wikimedia.org/wiki/File:Jan_Brueghel_the_Younger,_Satire_on_Tulip_Mania,_c._1640.jpg
+          width: 800
+          height: 511
 
       - name: Theory of chemical elements (Robert Boyle)
         necessary: true
         actual: 339
         label: 1661
         source: https://en.wikipedia.org/wiki/Chemical_element
+        image:
+          name: boyles-law.jpg
+          link: https://www.britannica.com/science/Boyles-law
+          width: 800
+          height: 564
 
       - name: Development of calculus (Gottfried Leibniz and Isaac Newton)
         necessary: true
         actual: 325
         label: 1675
         source: https://en.wikipedia.org/wiki/History_of_calculus
+        image:
+          name: calculus.jpg
+          link: https://commons.wikimedia.org/wiki/File:Integral_as_region_under_curve.svg
+          width: 643
+          height: 600
 
       - name: Discovery of bacteria (Antonie van Leeuwenhoek)
         actual: 324
         label: 1676
         source: https://en.wikipedia.org/wiki/Bacteria
+        image:
+          name: leeuwenhoek-microscope.jpg
+          link: https://commons.wikimedia.org/wiki/File:Leeuwenhoek_Microscope.png
+          width: 800
+          height: 481
 
       - name: First quantatitive estimate of the speed of light, only 25% off (Ole Rømer)
         necessary: true
         actual: 324
         label: 1676
         source: https://en.wikipedia.org/wiki/Speed_of_light
+        image:
+          name: ole-romer.jpg
+          link: https://commons.wikimedia.org/wiki/File:Ole_R%C3%B8mer_at_work.jpg
+          width: 413
+          height: 319
 
       - name: Discovery of gravitational force (Isaac Newton)
         actual: 313
         label: 1687
         source: https://en.wikipedia.org/wiki/Gravity
+        image:
+          name: gravity.jpg
+          link: https://commons.wikimedia.org/wiki/File:NewtonsLawOfUniversalGravitation.svg
+          width: 800
+          height: 500
 
       - name: Accurate measurement of speed of sound (William Derham)
         actual: 291
         label: 1709
         source: https://en.wikipedia.org/wiki/Speed_of_sound
+        image:
+          name: speed-of-sound.jpg
+          link: https://www.fineartstorehouse.com/collections/dorling-kindersley-prints/illustration-william-derhams-sound-experiment-13540675.html
+          width: 600
+          height: 226
 
       - name: Invention of electrical capacitor (Pieter van Musschenbroek)
         actual: 254
         label: 1746
         source: https://en.wikipedia.org/wiki/Capacitor
+        image:
+          name: leyden-jar.jpg
+          link: https://commons.wikimedia.org/wiki/File:Andreas_Cunaeus_discovering_the_Leyden_jar.png
+          width: 800
+          height: 582
 
       - name: Discovery of galaxies (Thomas Wright)
         actual: 250
         label: 1750
         source: https://en.wikipedia.org/wiki/Galaxy
+        image:
+          name: galaxies.jpg
+          link: https://commons.wikimedia.org/wiki/File:Pic_iroberts1.jpg
+          width: 569
+          height: 371
 
       - name: Common understanding of electricity (Benjamin Franklin)
         actual: 250
         label: 1750
         source: https://en.wikipedia.org/wiki/History_of_electrical_engineering
+        image:
+          name: franklin-kite.jpg
+          link: https://commons.wikimedia.org/wiki/File:Benjamin_West,_English_(born_America)_-_Benjamin_Franklin_Drawing_Electricity_from_the_Sky_-_Google_Art_Project.jpg
+          width: 448
+          height: 600
 
       - name: Discovery of electromagnetism (Franz Aepinus)
         necessary: true
         actual: 241
         label: 1759
         source: https://en.wikipedia.org/wiki/History_of_electromagnetic_theory
+        image:
+          name: magnetism.jpg
+          link: https://commons.wikimedia.org/wiki/File:Lodestone_attracting_nails.png
+          width: 668
+          height: 532
 
   - name: Industrial Revolution
     label: 250 years ago
