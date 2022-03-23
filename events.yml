@@ -2072,39 +2072,74 @@ eras:
         actual: 204
         label: 1796
         source: https://en.wikipedia.org/wiki/Vaccine
+        image:
+          name: vaccine.jpg
+          link: https://commons.wikimedia.org/wiki/File:Jenner_phipps_01_(cropped).jpg
+          width: 574
+          height: 379
 
       - name: Invention of internal combustion engine (John Stevens)
         necessary: true
         actual: 202
         label: 1798
         source: https://en.wikipedia.org/wiki/History_of_the_internal_combustion_engine
+        image:
+          name: internal-combustion-engine.jpg
+          link: https://commons.wikimedia.org/wiki/File:Benz_Patent_Motorwagen_Engine.jpg
+          width: 800
+          height: 600
 
       - name: Discovery of Rosetta Stone (origin 196 BC) enabling translation of Egyptian hieroglyphics (Napoleon)
         actual: 201
         label: 1799
         source: https://en.wikipedia.org/wiki/Rosetta_Stone
+        image:
+          name: rosetta-stone.jpg
+          link: https://commons.wikimedia.org/wiki/File:Rosetta_Stone.JPG
+          width: 513
+          height: 600
 
       - name: Invention of continuous current electric battery (Alessandro Volta)
         necessary: true
         actual: 201
         label: 1799
         source: https://en.wikipedia.org/wiki/History_of_the_battery
+        image:
+          name: voltaic-pile.jpg
+          link: https://commons.wikimedia.org/wiki/File:VoltaBattery.JPG
+          width: 450
+          height: 600
 
       - name: Invention of photography (Thomas Wedgwood)
         necessary: true
         actual: 201
         label: 1800
         source: https://en.wikipedia.org/wiki/History_of_photography
+        image:
+          name: photography.jpg
+          link: https://en.wikipedia.org/wiki/File:Boulevard_du_Temple_by_Daguerre.jpg
+          width: 800
+          height: 575
 
       - name: Discovery of infrared radiation (William Herschel)
         actual: 200
         label: 1800
         source: https://en.wikipedia.org/wiki/Infrared
+        image:
+          name: infrared.jpg
+          link: https://web.archive.org/web/20120225094516/http://coolcosmos.ipac.caltech.edu/cosmic_classroom/classroom_activities/herschel_bio.html
+          width: 258
+          height: 328
 
       - name: Discovery of ultraviolet light (Johann Wilhelm Ritter)
         actual: 199
         label: 1801
         source: https://en.wikipedia.org/wiki/Ultraviolet
+        image:
+          name: ultraviolet.jpg
+          link: https://timetunnelcollective.tumblr.com/post/618354364201025536/embed
+          width: 600
+          height: 600
 
       - name: Atomic theory (John Dalton)
         necessary: true
@@ -2256,6 +2291,11 @@ eras:
         actual: 114
         label: 1886
         source: https://en.wikipedia.org/wiki/Car
+        image:
+          name: automobile.jpg
+          link: https://commons.wikimedia.org/wiki/File:1885Benz.jpg
+          width: 763
+          height: 600
 
       - name: Discovery of radio waves (Heinrich Hertz)
         necessary: true
