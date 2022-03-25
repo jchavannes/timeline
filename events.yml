@@ -2156,17 +2156,32 @@ eras:
         actual: 188
         label: 1812
         source: https://en.wikipedia.org/wiki/History_of_rail_transport
+        image:
+          name: locomotive.jpg
+          link: https://commons.wikimedia.org/wiki/File:Blenkinsop%27s_rack_locomotive,_1812_(British_Railway_Locomotives_1803-1853).jpg
+          width: 696
+          height: 600
 
       - name: Invention of electric motor (Michael Faraday)
         necessary: true
         actual: 179
         label: 1821
         source: https://en.wikipedia.org/wiki/Timeline_of_the_electric_motor
+        image:
+          name: motor.jpg
+          link: https://commons.wikimedia.org/wiki/File:Faraday_magnetic_rotation.jpg
+          width: 538
+          height: 545
 
       - name: Invention of electric generator (Michael Faraday)
         actual: 169
         label: 1831
         source: https://en.wikipedia.org/wiki/Electric_generator
+        image:
+          name: generator.jpg
+          link: https://commons.wikimedia.org/wiki/File:Faraday_disk_generator.jpg
+          width: 768
+          height: 600
 
       - name: Development of glass silvering; affordable glass mirrors (Justus von Liebig)
         actual: 165
