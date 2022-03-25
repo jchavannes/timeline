@@ -2255,6 +2255,11 @@ eras:
         actual: 131
         label: 1869
         source: https://en.wikipedia.org/wiki/Periodic_table
+        image:
+          name: periodic-table.jpg
+          link: https://commons.wikimedia.org/wiki/File:Mendelejevs_periodiska_system_1871.png
+          width: 684
+          height: 341
 
       - name: First transcontinental railroad (Pacific Railroad)
         actual: 131
