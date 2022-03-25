@@ -2062,9 +2062,9 @@ eras:
         label: 1789
         source: https://en.wikipedia.org/wiki/Chemical_revolution
         image:
-          name: ice-calorimeter.jpg
-          link: https://commons.wikimedia.org/wiki/File:Ice-calorimeter.jpg
-          width: 358
+          name: chemistry.jpg
+          link: https://commons.wikimedia.org/wiki/File:Lavoisier_Trait%C3%A9_%C3%A9l%C3%A9mentaire_de_chimie_p192.jpg
+          width: 331
           height: 600
 
       - name: First vaccine, smallpox (Edward Jenner)
