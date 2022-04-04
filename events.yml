@@ -2455,28 +2455,53 @@ eras:
         actual: 100
         label: 1900
         source: https://en.wikipedia.org/wiki/Amplitude_modulation
+        image:
+          name: amplitude-modulation.jpg
+          link: https://commons.wikimedia.org/wiki/File:Illustration_of_Amplitude_Modulation.png
+          width: 797
+          height: 310
 
       - name: First flight of an airplane (Orville and Wilbur Wright)
         necessary: true
         actual: 97
         label: 1903
         source: https://en.wikipedia.org/wiki/Airplane
+        image:
+          name: flight.jpg
+          link: https://en.wikipedia.org/wiki/File:First_flight2.jpg
+          width: 800
+          height: 519
 
       - name: Special relativity, spacetime continuum (Albert Einstein)
         necessary: true
         actual: 95
         label: 1905
         source: https://en.wikipedia.org/wiki/Special_relativity
+        image:
+          name: special-relativity.jpg
+          link: https://commons.wikimedia.org/wiki/File:World_line.svg
+          width: 588
+          height: 600
 
       - name: First cathode ray tube television (Boris Rosing)
         actual: 93
         label: 1907
         source: https://en.wikipedia.org/wiki/Cathode_ray_tube
+        image:
+          name: television.jpg
+          link: https://www.timetoast.com/timelines/television-timeline-1cfc72b9-86c8-481c-b136-d60299ba32a1
+          width: 640
+          height: 396
 
       - name: First affordable automobile (Henry Ford)
         actual: 92
         label: 1908
         source: https://en.wikipedia.org/wiki/Car
+        image:
+          name: model-t.jpg
+          link: https://commons.wikimedia.org/wiki/File:1910Ford-T.jpg
+          width: 670
+          height: 527
 
       - name: First expedition to geographic South Pole (Norway)
         actual: 89
@@ -2493,6 +2518,11 @@ eras:
         actual: 88
         label: 1912
         source: https://en.wikipedia.org/wiki/Continental_drift
+        image:
+          name: continental-drift.jpg
+          link: https://commons.wikimedia.org/wiki/File:Snider-Pellegrini_Wegener_fossil_map.svg
+          width: 780
+          height: 600
 
 #      - name: World War I
 #        actual: 86
@@ -2502,11 +2532,21 @@ eras:
         actual: 85
         label: 1915
         source: https://en.wikipedia.org/wiki/First_transcontinental_telephone_call
+        image:
+          name: transcontinental-phone-call.jpg
+          link: https://commons.wikimedia.org/wiki/File:Alexander_Graham_Bell,_first_transcontinental_phone_call,_25_Jan_1915.jpg
+          width: 735
+          height: 600
 
       - name: General relativity, gravity curves spacetime (Albert Einstein)
         actual: 84
         label: 1916
         source: https://en.wikipedia.org/wiki/General_relativity
+        image:
+          name: general-relativity.jpg
+          link: https://commons.wikimedia.org/wiki/File:Spacetime_lattice_analogy.svg
+          width: 800
+          height: 299
 
       - name: Invention of zipper
         actual: 83
