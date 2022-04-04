@@ -2187,27 +2187,52 @@ eras:
         actual: 165
         label: 1835
         source: https://en.wikipedia.org/wiki/Silvering
+        image:
+          name: glass-silvering.jpg
+          link: https://commons.wikimedia.org/wiki/File:Johann_Jacob_Kirstein_001.JPG
+          width: 667
+          height: 600
 
       - name: First telegram, invention of Morse code (Samuel F.B. Morse)
         necessary: true
         actual: 162
         label: 1838
         source: https://en.wikipedia.org/wiki/Electrical_telegraph
+        image:
+          name: morse-telegraph.jpg
+          link: https://commons.wikimedia.org/wiki/File:Morse_Telegraph_1837.jpg
+          width: 800
+          height: 600
 
       - name: First commercially successful camera (Louis Daguerre)
         actual: 161
         label: 1839
         source: https://en.wikipedia.org/wiki/History_of_the_camera
+        image:
+          name: camera.jpg
+          link: https://commons.wikimedia.org/wiki/File:Susse_Fr%C3%A9re_Daguerreotype_camera_1839.jpg
+          width: 753
+          height: 600
 
       - name: Correct prediction and discovery of Neptune (Johann Galle)
         actual: 154
         label: 1846
         source: https://en.wikipedia.org/wiki/Neptune
+        image:
+          name: neptune.jpg
+          link: https://commons.wikimedia.org/wiki/File:Neptune_-_Voyager_2_(29347980845)_flatten_crop.jpg
+          width: 600
+          height: 600
 
       - name: Germ theory of disease, sterilization (John Snow)
         actual: 151
         label: 1849
         source: https://en.wikipedia.org/wiki/Germ_theory_of_disease
+        image:
+          name: germ-theory.jpg
+          link: https://en.wikipedia.org/wiki/File:Snow-cholera-map-1.jpg
+          width: 640
+          height: 600
 
   - name: Technological Revolution
     label: 160 years ago
