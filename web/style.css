@@ -2,6 +2,10 @@ body {
     background: #ddd;
     color: #000;
 }
+body.dark {
+    background: #555;
+    color: #bbb;
+}
 a {
     cursor: pointer;
 }
@@ -13,9 +17,22 @@ hr {
 .navbar {
     margin-bottom: 0;
     min-height: 55px;
+    border: none;
 }
 .navbar-default {
     background: #eee;
+}
+body.dark .navbar-default .navbar-nav>li>a {
+    color: #ccc;
+}
+body.dark .navbar-default .navbar-nav>.active>a {
+    background: #666;
+}
+body.dark .navbar-default .navbar-nav>li>a:hover {
+    color: #fff;
+}
+body.dark .navbar-default {
+    background: #333;
 }
 .navbar-brand {
     padding: 8px 15px;
@@ -24,6 +41,9 @@ hr {
     margin: 0;
     padding: 0;
     color: #333;
+}
+body.dark .navbar-brand h1 {
+    color: #999;
 }
 
 #timelines {
@@ -39,6 +59,10 @@ hr {
     background: #fff;
     color: #000;
     padding: 20px;
+}
+body.dark .timeline-body {
+    background: #333;
+    color: #bbb;
 }
 
 .timeline-body h4 {
