@@ -2242,39 +2242,74 @@ eras:
         actual: 146
         label: 1854
         source: https://en.wikipedia.org/wiki/Refrigeration
+        image:
+          name: refrigeration.jpg
+          link: https://australianfoodtimeline.com.au/james-harrisons-refrigeration-system/
+          width: 688
+          height: 600
 
       - name: First plastic patent (Alexander Parkes)
         necessary: true
         actual: 144
         label: 1856
         source: https://en.wikipedia.org/wiki/Timeline_of_plastic_development
+        image:
+          name: plastic.jpg
+          link: https://dailybritain.wordpress.com/tag/alexander-parkes/
+          width: 800
+          height: 568
 
       - name: Discovery of natural selection (Charles Darwin)
         necessary: true
         actual: 142
         label: 1858
         source: https://en.wikipedia.org/wiki/Natural_selection
+        image:
+          name: darwin.jpg
+          link: https://commons.wikimedia.org/wiki/File:Darwin%27s_finches_by_Gould.jpg
+          width: 795
+          height: 600
 
       - name: First transatlantic telegraph cable (Atlantic Telegraph Company)
         actual: 142
         label: 1858
         source: https://en.wikipedia.org/wiki/Transatlantic_telegraph_cable
+        image:
+          name: transatlantic-cable.jpg
+          link: https://commons.wikimedia.org/wiki/File:Atlantic_cable_Map.jpg
+          width: 800
+          height: 322
 
       - name: Fundamental equations of electromagnetism (James Clerk Maxwell)
         actual: 139
         label: 1861
         source: https://en.wikipedia.org/wiki/Maxwell%27s_equations
+        image:
+          name: maxwell-equations.jpg
+          link: https://commons.wikimedia.org/wiki/File:Maxwell%27sEquations.svg
+          width: 800
+          height: 596
 
       - name: Antiseptics - reduced infections from surgery (Joseph Lister)
         actual: 133
         label: 1867
         source: https://en.wikipedia.org/wiki/Antiseptic
+        image:
+          name: antiseptic.jpg
+          link: https://www.sutori.com/en/item/untitled-56a1-7ac7
+          width: 437
+          height: 587
 
       - name: First commercially successful typewriter (Sholes, Hall, Glidden, Soule)
         necessary: true
         actual: 132
         label: 1868
         source: https://en.wikipedia.org/wiki/Typewriter
+        image:
+          name: typewriter.jpg
+          link: https://commons.wikimedia.org/wiki/File:Sholes_typewriter.jpg
+          width: 531
+          height: 600
 
       - name: Development of periodic table, correct predictions of unknown elements (Dmitri Mendeleev)
         actual: 131
@@ -2290,18 +2325,33 @@ eras:
         actual: 131
         label: 1869
         source: https://en.wikipedia.org/wiki/First_Transcontinental_Railroad
+        image:
+          name: transcontinental-railroad.jpg
+          link: https://commons.wikimedia.org/wiki/File:East_west_shaking_hands_by_russell.jpg
+          width: 791
+          height: 600
 
       - name: Invention of voice telephone (Alexander Graham Bell)
         necessary: true
         actual: 124
         label: 1876
         source: https://en.wikipedia.org/wiki/Telephone
+        image:
+          name: telephone.jpg
+          link: https://americanhistory.si.edu/collections/search/object/nmah_689864
+          width: 800
+          height: 600
 
       - name: Invention of phonograph for recording and playing sound (Thomas Edison)
         necessary: true
         actual: 123
         label: 1877
         source: https://en.wikipedia.org/wiki/Phonograph
+        image:
+          name: phonograph.jpg
+          link: https://www.sciencephoto.com/media/808553/view/edison-s-first-phonograph-1877
+          width: 800
+          height: 431
 
       - name: First motion picture, galloping horse (Eadweard Muybridge)
         necessary: true
@@ -2318,18 +2368,33 @@ eras:
         actual: 122
         label: 1878
         source: https://en.wikipedia.org/wiki/QWERTY
+        image:
+          name: qwerty.jpg
+          link: https://commons.wikimedia.org/wiki/File:QWERTY_1878.png
+          width: 330
+          height: 211
 
       - name: Invention of viable light bulb and continuous electrical system (Thomas Edison)
         necessary: true
         actual: 121
         label: 1879
         source: https://www.nps.gov/edis/learn/kidsyouth/the-electric-light-system-phonograph-motion-pictures.htm
+        image:
+          name: lightbulb.jpg
+          link: https://www.worthpoint.com/worthopedia/thomas-edison-1st-electric-light-1880-492768971
+          width: 241
+          height: 400
 
       - name: First successful organ transplant, thyroid (Theodor Kocher)
         necessary: true
         actual: 117
         label: 1883
         source: https://en.wikipedia.org/wiki/Organ_transplantation
+        image:
+          name: thyroid.jpg
+          link: https://www.niddk.nih.gov/health-information/diagnostic-tests/thyroid
+          width: 300
+          height: 342
 
       - name: Invention of automobile (Karl Benz)
         necessary: true
@@ -2347,6 +2412,11 @@ eras:
         actual: 113
         label: 1887
         source: https://en.wikipedia.org/wiki/History_of_radio
+        image:
+          name: radio.jpg
+          link: https://commons.wikimedia.org/wiki/File:Hertz_spark_radio_transmitter_1887.png
+          width: 800
+          height: 557
 
       - name: Invention of kinetoscope, first movie player, standardization of 35mm film (Thomas Edison)
         actual: 107
@@ -2362,11 +2432,21 @@ eras:
         actual: 103
         label: 1897
         source: https://en.wikipedia.org/wiki/Electron
+        image:
+          name: thomson-electron.jpg
+          link: https://www.ssplprints.com/image/99169/richardson-claire-thomsons-cathode-ray-tube-1897
+          width: 428
+          height: 347
 
       - name: First remote control, boat (Nikola Tesla)
         actual: 102
         label: 1898
         source: https://en.wikipedia.org/wiki/Remote_control
+        image:
+          name: remote-control.jpg
+          link: https://www.engadget.com/2014-01-19-nikola-teslas-remote-control-boat.html
+          width: 630
+          height: 549
 
   - name: Petroleum Age
     label: 115 years ago
