@@ -2562,6 +2562,11 @@ eras:
         actual: 80
         label: 1920
         source: https://en.wikipedia.org/wiki/List_of_largest_empires
+        image:
+          name: british-empire.jpg
+          link: https://commons.wikimedia.org/wiki/File:British_Empire_1921.png
+          width: 800
+          height: 351
 
       - name: Discovery of the first antibiotic, penicillin (Sir Alexander Fleming)
         actual: 72
