@@ -2572,6 +2572,11 @@ eras:
         actual: 72
         label: 1928
         source: https://en.wikipedia.org/wiki/Antibiotics
+        image:
+          name: penicillin.jpg
+          link: https://commons.wikimedia.org/wiki/File:Penicillium_notatum.jpg
+          width: 624
+          height: 600
 
 #      - name: Great Depression, 15% drop in global GDP
 #        actual: 71
@@ -2581,12 +2586,22 @@ eras:
         actual: 69
         label: 1931
         source: https://en.wikipedia.org/wiki/Big_Bang
+        image:
+          name: universe-expansion.jpg
+          link: https://commons.wikimedia.org/wiki/File:Universe_expansion-en.svg
+          width: 667
+          height: 600
 
       - name: Invention of radio telescope, first search for extraterrestrial intelligence (Grote Reber)
         necessary: true
         actual: 63
         label: 1937
         source: https://en.wikipedia.org/wiki/Radio_telescope
+        image:
+          name: radio-telescope.jpg
+          link: https://commons.wikimedia.org/wiki/File:Grote_Antenna_Wheaton.gif
+          width: 476
+          height: 600
 
 #      - name: World War II
 #        actual: 61
@@ -2597,24 +2612,44 @@ eras:
         actual: 58
         label: 1942
         source: https://en.wikipedia.org/wiki/Antibiotics
+        image:
+          name: antibiotic.jpg
+          link: https://commons.wikimedia.org/wiki/File:A_course_of_green_cefalexin_pills.jpg
+          width: 800
+          height: 533
 
       - name: DNA identified as genetic transformer (Avery, MacLeod, McCarty)
         necessary: true
         actual: 57
         label: 1943
         source: https://en.wikipedia.org/wiki/Avery%E2%80%93MacLeod%E2%80%93McCarty_experiment
+        image:
+          name: dna-water.jpg
+          link: https://commons.wikimedia.org/wiki/File:DNA_in_water.jpg
+          width: 435
+          height: 600
 
       - name: Atomic bomb (Manhattan Project)
         necessary: true
         actual: 55
         label: 1945
         source: https://en.wikipedia.org/wiki/Nuclear_weapon
+        image:
+          name: trinity-detonation.jpg
+          link: https://commons.wikimedia.org/wiki/File:Trinity_Detonation_T%26B.jpg
+          width: 800
+          height: 471
 
       - name: Invention of microwave oven (Percy Lebaron Spencer)
         necessary: true
         actual: 55
         label: 1945
         source: https://en.wikipedia.org/wiki/Microwave_oven
+        image:
+          name: microwave.jpg
+          link: https://commons.wikimedia.org/wiki/File:NS_Savannah_microwave_oven_MD8.jpg
+          width: 353
+          height: 600
 
       - name: Invention of transistor (Bardeen, Brattain, Shockley)
         necessary: true
