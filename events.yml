@@ -2449,7 +2449,7 @@ eras:
           height: 549
 
   - name: Petroleum Age
-    label: 115 years ago
+    label: 120 years ago
     events:
       - name: First transmission of voice by radio, invention of amplitude modulation aka AM (Reginald Fessenden)
         actual: 100
@@ -2656,23 +2656,43 @@ eras:
         actual: 53
         label: 1947
         source: https://en.wikipedia.org/wiki/Transistor
+        image:
+          name: transistor.jpg
+          link: https://www.computerhistory.org/revolution/digital-logic/12/273/2237
+          width: 600
+          height: 376
 
       - name: First manned supersonic flight (Chuck Yeager)
         necessary: true
         actual: 53
         label: 1947
         source: https://en.wikipedia.org/wiki/Sound_barrier
+        image:
+          name: supersonic.jpg
+          link: https://commons.wikimedia.org/wiki/File:Chuck_Yeager.jpg
+          width: 800
+          height: 500
 
       - name: First stored-program computer (Victoria University of Manchester)
         necessary: true
         actual: 52
         label: 1948
         source: https://en.wikipedia.org/wiki/Stored-program_computer
+        image:
+          name: computer-program.jpg
+          link: https://www.manchestereveningnews.co.uk/news/greater-manchester-news/bringing-up-baby-how-1948-14819127
+          width: 800
+          height: 450
 
       - name: DNA double-helix structure discovered (James Watson and Francis Crick)
         actual: 47
         label: 1953
         source: https://en.wikipedia.org/wiki/DNA
+        image:
+          name: dna.jpg
+          link: https://en.wikipedia.org/wiki/File:DNA_Structure%2BKey%2BLabelled.pn_NoBB.png
+          width: 605
+          height: 600
 
       - name: First ascent of Mount Everest, Earth's highest mountain (Britain)
         actual: 47
@@ -2697,7 +2717,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Nuclear_power_plant
 
   - name: Space Age
-    label: 60 years ago
+    label: 65 years ago
     events:
       - name: First artificial satellite (Sputnik 1)
         necessary: true
@@ -2837,7 +2857,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Smallpox
 
   - name: Information Age
-    label: 35 years ago
+    label: 40 years ago
     events:
       - name: First window based graphical user interface and mouse (Xerox Parc)
         necessary: true
@@ -2906,7 +2926,7 @@ eras:
         source: https://en.wikipedia.org/wiki/Human_Genome_Project
 
   - name: Mobile Age
-    label: 10 years ago
+    label: 15 years ago
     events:
       - name: First multi-touch smart phone (iPhone)
         necessary: true
