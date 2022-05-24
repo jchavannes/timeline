@@ -1,3 +1,4 @@
+
 # https://en.wikipedia.org/wiki/Timeline_of_human_evolution
 eras:
   - name: Big Bang
@@ -2709,12 +2710,22 @@ eras:
         actual: 46
         label: 1954
         source: https://en.wikipedia.org/wiki/Solar_cell
+        image:
+          name: solar-cell.jpg
+          link: https://www.nrel.gov/docs/fy04osti/33947.pdf
+          width: 736
+          height: 600
 
       - name: First nuclear power plant (England)
         necessary: true
         actual: 44
         label: 1956
         source: https://en.wikipedia.org/wiki/Nuclear_power_plant
+        image:
+          name: nuclear-power.jpg
+          link: https://commons.wikimedia.org/wiki/File:Calder_Hall_nuclear_power_station_(11823864155).jpg
+          width: 751
+          height: 600
 
   - name: Space Age
     label: 65 years ago
@@ -2724,11 +2735,21 @@ eras:
         actual: 43
         label: 1957
         source: https://en.wikipedia.org/wiki/Sputnik_1
+        image:
+          name: sputnik.jpg
+          link: https://en.wikipedia.org/wiki/File:Sputnik_asm.jpg
+          width: 733
+          height: 600
 
       - name: First bone marrow transplant (E. Donnall Thomas)
         actual: 44
         label: 1957
         source: https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4222417/
+        image:
+          name: bone-marrow-transplant.jpg
+          link: https://www.immunology.org/bone-marrow-1957
+          width: 800
+          height: 450
 
 #      - name: NASA created
 #        actual: 42
@@ -2738,33 +2759,63 @@ eras:
         actual: 41
         label: 1959
         source: https://en.wikipedia.org/wiki/Luna_1
+        image:
+          name: luna-1.jpg
+          link: https://commons.wikimedia.org/wiki/File:RIAN_archive_510848_Interplanetary_station_Luna_1_-_blacked.jpg
+          width: 760
+          height: 600
 
       - name: First human in orbit (Yuri Gagarin, Vostok 1)
         necessary: true
         actual: 39
         label: 1961
         source: https://en.wikipedia.org/wiki/Vostok_1
+        image:
+          name: vostok-1.jpg
+          link: https://en.wikipedia.org/wiki/File:Vostok1.jpg
+          width: 240
+          height: 180
 
       - name: First Venus flyby (Venera 1)
         actual: 39
         label: 1961
         source: https://en.wikipedia.org/wiki/Venera_1
+        image:
+          name: venera-1.jpg
+          link: https://commons.wikimedia.org/wiki/File:Venera_1_(a)_(Memorial_Museum_of_Astronautics).JPG
+          width: 400
+          height: 600
 
       - name: Invention of cassette tapes (Philips)
         actual: 38
         label: 1962
         source: https://en.wikipedia.org/wiki/Compact_Cassette
+        image:
+          name: cassette-tape.jpg
+          link: https://commons.wikimedia.org/wiki/File:Compactcassette.jpg
+          width: 800
+          height: 520
 
       - name: Invention of liquid crystal displays (George H. Heilmeier)
         necessary: true
         actual: 36
         label: 1964
         source: https://en.wikipedia.org/wiki/Liquid-crystal_display
+        image:
+          name: lcd-screen.jpg
+          link: https://www.nytimes.com/2014/05/06/technology/george-h-heilmeier-an-inventor-of-lcds-dies-at-77.html
+          width: 735
+          height: 600
 
       - name: Discovery of cosmic microwave background (Arno Penzias and Robert Wilson)
         actual: 36
         label: 1964
         source: https://en.wikipedia.org/wiki/Cosmic_microwave_background
+        image:
+          name: cosmic-microwave-background-2.jpg
+          link: https://commons.wikimedia.org/wiki/File:Planck_satellite_cmb.jpg
+          width: 800
+          height: 400
 
 #      - name: First Mars flyby (Mariner 4)
 #        actual: 35
@@ -2775,28 +2826,53 @@ eras:
         actual: 35
         label: 1965
         source: https://en.wikipedia.org/wiki/Programma_101
+        image:
+          name: programma-101.jpg
+          link: https://commons.wikimedia.org/wiki/File:Olivetti_Programma_101_-_Museo_scienza_e_tecnologia_Milano.jpg
+          width: 800
+          height: 533
 
       - name: Theory of plate tectonics, solid plates move on top of molten interior, creating earthquakes, mountains, and volcanoes (Dan McKenzie)
         actual: 35
         label: 1965
         source: https://en.wikipedia.org/wiki/Plate_tectonics
+        image:
+          name: plate-tectonics.jpg
+          link: https://commons.wikimedia.org/wiki/File:Plates_tect2_en.svg
+          width: 800
+          height: 546
 
       - name: First spacewalk (Alexey Leonov, Voskhod 2)
         necessary: true
         actual: 35
         label: 1965
         source: https://en.wikipedia.org/wiki/Voskhod_2
+        image:
+          name: spacewalk.jpg
+          link: https://en.wikipedia.org/wiki/File:FirstSpaceWalk.png
+          width: 374
+          height: 267
 
       - name: First successful heart transplant (Christiaan Barnard)
         actual: 33
         label: 1967
         source: https://en.wikipedia.org/wiki/Heart_transplantation
+        image:
+          name: heart-transplant.jpg
+          link: https://commons.wikimedia.org/wiki/File:Transport_bij%C3%ADc%C3%ADho_srdce.jpg
+          width: 800
+          height: 597
 
       - name: First human on the Moon (Neil Armstrong, Apollo 11)
         necessary: true
         actual: 31
         label: 1969
         source: https://en.wikipedia.org/wiki/Apollo_11
+        image:
+          name: apollo-11.jpg
+          link: https://en.wikipedia.org/wiki/File:Aldrin_Apollo_11_original.jpg
+          width: 596
+          height: 600
 
 #      - name: First Mars orbiter (Mariner 9)
 #        actual: 29
@@ -2807,11 +2883,21 @@ eras:
         actual: 29
         label: 1971
         source: https://en.wikipedia.org/wiki/Computer_virus
+        image:
+          name: creeper-virus.jpg
+          link: https://www.historyofinformation.com/detail.php?entryid=2860
+          width: 555
+          height: 182
 
       - name: First candidate black hole discovered (Charles Thomas Bolton)
         actual: 28
         label: 1972
         source: https://en.wikipedia.org/wiki/Black_hole
+        image:
+          name: cygnus-x1.jpg
+          link: https://commons.wikimedia.org/wiki/File:Cygnus_x1_xray.jpg
+          width: 500
+          height: 500
 
       - name: First Jupiter flyby, first spacecraft to achieve escape velocity from solar system, first spacecraft to traverse asteroid belt (Pioneer 10)
         actual: 27
