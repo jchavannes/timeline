@@ -1060,6 +1060,17 @@ eras:
           link: https://commons.wikimedia.org/wiki/File:Wild_Pig_KSC02pd0873.jpg
           height: 61.13
 
+      - name: Earliest known oil lamps (Lascaux caves, France)
+        necessary: true
+        actual: 15000
+        label: 13,000 BC
+        source: https://en.wikipedia.org/wiki/Oil_lamp#History
+        image:
+          name: oil-lamp.jpg
+          link: https://commons.wikimedia.org/wiki/File:Lampe_a_graisse_-_Lascaux.jpg
+          width: 800
+          height: 580
+
       - name: First cities, beginning of civilization
         necessary: true
         actual: 14000
@@ -1289,6 +1300,16 @@ eras:
           link: http://www.egykingblog.com/2012/11/can-you-answer-this-questions-about.html
           width: 800
           height: 448
+
+      - name: Invention of candles/torches (Romans/Egyptians)
+        actual: 5000
+        label: 3000 BC
+        source: https://candles.org/history/
+        image:
+          name: candle.jpg
+          link: https://commons.wikimedia.org/wiki/File:Candle_(Slava_celebration).jpg
+          width: 600
+          height: 600
 
       - name: Invention of abacus (Middle East)
         actual: 4700
