@@ -2924,6 +2924,11 @@ eras:
         actual: 27
         label: 1973
         source: https://en.wikipedia.org/wiki/Pioneer_10
+        image:
+          name: jupiter-flyby.jpg
+          link: https://commons.wikimedia.org/wiki/File:Pioneer_10_at_Jupiter.jpg
+          width: 785
+          height: 600
 
 #      - name: First Mercury flyby (Mariner 10)
 #        actual: 26
@@ -2934,17 +2939,32 @@ eras:
         actual: 24
         label: 1976
         source: https://en.wikipedia.org/wiki/Viking_1
+        image:
+          name: mars-lander.jpg
+          link: https://commons.wikimedia.org/wiki/File:Mars_Viking_12a001.png
+          width: 800
+          height: 285
 
       - name: Invention of public key cryptography, algorithm to establish shared secret key over an insecure channel (Diffie, Hellman, Merkle)
         necessary: true
         actual: 24
         label: 1976
         source: https://en.wikipedia.org/wiki/Public-key_cryptography
+        image:
+          name: diffie-hellman.jpg
+          link: https://commons.wikimedia.org/wiki/File:Public_key_shared_secret.svg
+          width: 559
+          height: 600
 
       - name: First encryption algorithm with separate public and private keys, also allowing digital signatures (Rivest, Shamir, Adleman)
         actual: 23
         label: 1977
         source: https://en.wikipedia.org/wiki/RSA_(cryptosystem)
+        image:
+          name: public-key-encryption.jpg
+          link: https://commons.wikimedia.org/wiki/File:Public_key_encryption.svg
+          width: 614
+          height: 600
 
 #      - name: First Saturn flyby (Pioneer 11)
 #        actual: 21
@@ -2955,6 +2975,11 @@ eras:
         actual: 21
         label: 1979
         source: https://en.wikipedia.org/wiki/1G
+        image:
+          name: cellular-phone.jpg
+          link: https://commons.wikimedia.org/wiki/File:DynaTAC8000X.jpg
+          width: 500
+          height: 600
 
       - name:
           Smallpox, which killed up to 500 million people in the 20th century alone,
@@ -2962,6 +2987,11 @@ eras:
         actual: 20
         label: 1980
         source: https://en.wikipedia.org/wiki/Smallpox
+        image:
+          name: smallpox.jpg
+          link: https://commons.wikimedia.org/wiki/File:Hemorrhagic_smallpox_2_(cropped).jpg
+          width: 362
+          height: 295
 
   - name: Information Age
     label: 40 years ago
@@ -2971,12 +3001,22 @@ eras:
         actual: 19
         label: 1981
         source: https://en.wikipedia.org/wiki/Xerox_Star
+        image:
+          name: xerox-star.jpg
+          link: https://encyclopedia2.thefreedictionary.com/Xerox+Star
+          width: 392
+          height: 421
 
       - name: TCP/IP (Internet Protocol) standardized
         necessary: true
         actual: 18
         label: 1982
         source: https://en.wikipedia.org/wiki/Internet_protocol_suite
+        image:
+          name: ip-address.jpg
+          link: https://commons.wikimedia.org/wiki/File:IPv4_address_structure_and_writing_systems-en.svg
+          width: 800
+          height: 271
 
 #      - name: First Uranus flyby (Voyager 2)
 #        actual: 14
@@ -2991,46 +3031,86 @@ eras:
         actual: 10
         label: 1990
         source: https://en.wikipedia.org/wiki/Web_search_engine
+        image:
+          name: search-engine.jpg
+          link: https://www.makeuseof.com/tag/the-archie-search-engine-the-worlds-first-search/
+          width: 590
+          height: 195
 
       - name: First exoplanet discovered (Aleksander Wolszczan and Dale Frail)
         necessary: true
         actual: 8
         label: 1992
         source: https://en.wikipedia.org/wiki/Exoplanet
+        image:
+          name: exoplanet.jpg
+          link: https://commons.wikimedia.org/wiki/File:Lich_pulsar.png
+          width: 600
+          height: 600
 
       - name: Beginning of widespread Internet adoption
         actual: 5
         label: 1995
         source: https://en.wikipedia.org/wiki/Internet
+        image:
+          name: america-online.jpg
+          link: https://commons.wikimedia.org/wiki/File:America_Online_logo.svg
+          width: 685
+          height: 600
 
       - name: First computer to beat best human chess player (Deep Blue)
         necessary: true
         actual: 4
         label: 1996
         source: https://en.wikipedia.org/wiki/Computer_chess
+        image:
+          name: deep-blue.jpg
+          link: https://commons.wikimedia.org/wiki/File:Deep_Blue.jpg
+          width: 399
+          height: 600
 
       - name: First major peer-to-peer file sharing network (Napster)
         necessary: true
         actual: 1
         label: 1999
         source: https://en.wikipedia.org/wiki/Peer-to-peer_file_sharing
+        image:
+          name: napster.jpg
+          link: https://en.wikipedia.org/wiki/File:Napster_corporate_logo.svg
+          width: 800
+          height: 213
 
       - name: Last time there wasn’t a human in orbit
         necessary: true
         actual: 0
         label: 2000
         source: https://en.wikipedia.org/wiki/International_Space_Station
+        image:
+          name: space-station.jpg
+          link: https://commons.wikimedia.org/wiki/File:The_station_pictured_from_the_SpaceX_Crew_Dragon_5_(cropped).jpg
+          width: 800
+          height: 461
 
       - name: Beginning of most popular collaborative general information database (Wikipedia)
         actual: -1
         label: 2001
         source: https://en.wikipedia.org/wiki/Wikipedia
+        image:
+          name: wikipedia.jpg
+          link: https://en.wikipedia.org/wiki/File:Wikipedia-logo-v2.svg
+          width: 657
+          height: 600
 
       - name: Complete mapping of human genome (Human Genome Project)
         necessary: true
         actual: -3
         label: 2003
         source: https://en.wikipedia.org/wiki/Human_Genome_Project
+        image:
+          name: genome.jpg
+          link: https://commons.wikimedia.org/wiki/File:Dna-split.png
+          width: 202
+          height: 397
 
   - name: Mobile Age
     label: 15 years ago
@@ -3040,6 +3120,11 @@ eras:
         actual: -7
         label: 2007
         source: https://en.wikipedia.org/wiki/Smartphone
+        image:
+          name: iphone.jpg
+          link: https://www.theiphonewiki.com/wiki/M68AP
+          width: 264
+          height: 500
 
       - name: First decentralized digital currency (Bitcoin)
         necessary: true
