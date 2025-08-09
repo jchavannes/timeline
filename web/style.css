@@ -117,8 +117,8 @@ body.dark .navbar-brand:hover h1 {
 }
 
 .main-container {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 #timelines {
@@ -177,9 +177,29 @@ body.dark .timeline-body h2 {
     padding-left: 15px;
 }
 
+.timeline-body h4 .era-time {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 500;
+    background: linear-gradient(135deg, #3498db, #2980b9);
+    color: white;
+    padding: 4px 12px;
+    border-radius: 16px;
+    white-space: nowrap;
+    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.3);
+    letter-spacing: 0.5px;
+    font-style: normal;
+    margin-top: 8px;
+}
+
 body.dark .timeline-body h4 {
     color: #b8c4ce;
     border-left-color: #6495ed;
+}
+
+body.dark .timeline-body h4 .era-time {
+    background: linear-gradient(135deg, #6495ed, #5a7fd8);
+    box-shadow: 0 2px 8px rgba(100, 149, 237, 0.3);
 }
 
 .timeline-body p {
@@ -296,7 +316,7 @@ body.dark .timeline-body hr {
 
 .head {
     position: relative;
-    padding: 30px 0;
+    padding: 0;
 }
 
 .head h2 {
@@ -414,7 +434,7 @@ body.dark .navbar-toggle .icon-bar {
     }
 
     .timeline-body h4 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     .timeline-body li {
