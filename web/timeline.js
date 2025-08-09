@@ -1,5 +1,5 @@
 function timeline(eraName, eraLabel, eraData, $timeline) {
-    var appendText = "<h4>" + eraName + " <br/><div class='era-time'>" + eraLabel + "</div></h4><ul>";
+    var appendText = "<div class='timeline-era'><h4>" + eraName + " <br/><div class='era-time'>" + eraLabel + "</div></h4><ul>";
     for (var i = 0; i < eraData.length; i++) {
         var event = eraData[i];
         if (event.group === 1) {
@@ -42,7 +42,7 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
             "<div style='clear:both;'></div>" +
             "</li>";
     }
-    appendText += "</ul><hr/>";
+    appendText += "</ul></div>";
     $timeline.append(appendText);
 }
 
