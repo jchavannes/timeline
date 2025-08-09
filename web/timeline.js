@@ -31,7 +31,7 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
             imgHtml =
                 "<a target='_blank' href='" + imgLink + "'>" +
                 "<img src='" + imgUrl + "' width='" + imageWidth + "' height='" + imageHeight + "' />" +
-                "</a>";
+                "</a><br/>";
         }
         appendText +=
             "<li>" +

@@ -1,4 +1,4 @@
-# Timeline of Important Events
+# Events Timeline
 
 https://jasonc.me/timeline/
 
@@ -6,9 +6,8 @@ https://jasonc.me/timeline/
 
 ```bash
 # Fetch missing packages
-govendor fetch +missing
+go get
 
 # Run
 go run main.go
 ```
-
