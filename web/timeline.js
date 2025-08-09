@@ -1,5 +1,10 @@
+var eraCounter = 0;
+var eraNavItems = [];
+
 function timeline(eraName, eraLabel, eraData, $timeline) {
-    var appendText = "<div class='timeline-era'><h4>" + eraName + " <br/><div class='era-time'>" + eraLabel + "</div></h4><ul>";
+    var eraId = "era-" + eraCounter++;
+    eraNavItems.push({id: eraId, name: eraName, label: eraLabel});
+    var appendText = "<div class='timeline-era' id='" + eraId + "'><h4>" + eraName + " <br/><div class='era-time'>" + eraLabel + "</div></h4><ul>";
     for (var i = 0; i < eraData.length; i++) {
         var event = eraData[i];
         if (event.group === 1) {
@@ -44,6 +49,44 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
     }
     appendText += "</ul></div>";
     $timeline.append(appendText);
+}
+
+function buildEraNavigation() {
+    if (eraNavItems.length === 0) return;
+
+    var navHtml = '<div class="era-navigation"><div class="era-nav-header">Quick Navigation</div><ul class="era-nav-list">';
+    for (var i = 0; i < eraNavItems.length; i++) {
+        var era = eraNavItems[i];
+        navHtml += '<li><a href="#' + era.id + '" data-era-id="' + era.id + '">' +
+            '<span class="era-nav-name">' + era.name + '</span>' +
+            '<span class="era-nav-label">' + era.label + '</span></a></li>';
+    }
+    navHtml += '</ul></div>';
+
+    $('body').append(navHtml);
+
+    // Smooth scrolling
+    $('.era-nav-list a').click(function (e) {
+        e.preventDefault();
+        var target = $(this).attr('href');
+        var offset = $(target).offset().top - 80;
+        $('html, body').animate({
+            scrollTop: offset
+        }, 500);
+    });
+
+    // Update active state on scroll
+    $(window).scroll(function () {
+        var scrollPos = $(window).scrollTop() + 100;
+        $('.timeline-era').each(function () {
+            var currEra = $(this);
+            var currEraId = currEra.attr('id');
+            if (currEra.offset().top <= scrollPos && currEra.offset().top + currEra.height() > scrollPos) {
+                $('.era-nav-list a').removeClass('active');
+                $('.era-nav-list a[data-era-id="' + currEraId + '"]').addClass('active');
+            }
+        });
+    });
 }
 
 /**

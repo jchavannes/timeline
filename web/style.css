@@ -486,6 +486,166 @@ body.dark .sources a:hover {
     color: #87a9ff;
 }
 
+/* Era Navigation Sidebar */
+.era-navigation {
+    position: fixed;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255, 255, 255, 0.98);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    max-height: 70vh;
+    overflow-y: auto;
+    min-width: 200px;
+    max-width: 250px;
+    backdrop-filter: blur(10px);
+    transition: all 0.3s ease;
+}
+
+.era-navigation:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.15);
+}
+
+body.dark .era-navigation {
+    background: rgba(30, 30, 46, 0.98);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+body.dark .era-navigation:hover {
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
+}
+
+.era-nav-header {
+    font-weight: 700;
+    font-size: 16px;
+    margin-bottom: 15px;
+    color: #2c3e50;
+    padding-bottom: 10px;
+    border-bottom: 2px solid rgba(52, 152, 219, 0.2);
+}
+
+body.dark .era-nav-header {
+    color: #e8e8e8;
+    border-bottom-color: rgba(100, 149, 237, 0.3);
+}
+
+.era-nav-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.era-nav-list li {
+    margin-bottom: 8px;
+}
+
+.era-nav-list a {
+    display: block;
+    padding: 8px 12px;
+    border-radius: 6px;
+    color: #34495e;
+    transition: all 0.3s ease;
+    border-left: 3px solid transparent;
+}
+
+.era-nav-list a:hover {
+    background: rgba(52, 152, 219, 0.1);
+    border-left-color: #3498db;
+    transform: translateX(3px);
+}
+
+.era-nav-list a.active {
+    background: rgba(52, 152, 219, 0.15);
+    border-left-color: #3498db;
+    color: #2980b9;
+    font-weight: 600;
+}
+
+body.dark .era-nav-list a {
+    color: #b8c4ce;
+}
+
+body.dark .era-nav-list a:hover {
+    background: rgba(100, 149, 237, 0.15);
+    border-left-color: #6495ed;
+}
+
+body.dark .era-nav-list a.active {
+    background: rgba(100, 149, 237, 0.2);
+    border-left-color: #6495ed;
+    color: #87a9ff;
+}
+
+.era-nav-name {
+    display: block;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.3;
+}
+
+.era-nav-label {
+    display: block;
+    font-size: 11px;
+    opacity: 0.7;
+    margin-top: 2px;
+}
+
+/* Mobile adjustments */
+@media (max-width: 1200px) {
+    .era-navigation {
+        right: 10px;
+        max-width: 180px;
+        min-width: 150px;
+        padding: 15px;
+    }
+
+    .era-nav-header {
+        font-size: 14px;
+    }
+
+    .era-nav-name {
+        font-size: 12px;
+    }
+
+    .era-nav-label {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 768px) {
+    .era-navigation {
+        position: fixed;
+        right: auto;
+        left: 50%;
+        top: auto;
+        bottom: 20px;
+        transform: translateX(-50%);
+        max-width: 90%;
+        width: auto;
+        max-height: 200px;
+        flex-direction: row;
+    }
+
+    .era-nav-list {
+        display: flex;
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        gap: 10px;
+    }
+
+    .era-nav-list li {
+        flex-shrink: 0;
+        margin-bottom: 0;
+    }
+
+    .era-nav-list a {
+        white-space: nowrap;
+    }
+}
+
 @keyframes fadeIn {
     from {
         opacity: 0;
