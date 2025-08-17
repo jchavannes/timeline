@@ -1346,10 +1346,10 @@ eras:
         label: 2100 BC
         source: https://en.wikipedia.org/wiki/Epic_of_Gilgamesh
         image:
-          name: chariot.jpg
-          link: https://commons.wikimedia.org/wiki/File:Parade_charriots_Louvre_CA2503.jpg
-          width: 800
-          height: 450
+          name: gilgamesh.jpg
+          link: https://commons.wikimedia.org/wiki/File:British_Museum_Flood_Tablet.jpg
+          width: 530
+          height: 600
 
       - name: First horses used for transporting people, chariot becomes primary branch of the military
         actual: 4000
