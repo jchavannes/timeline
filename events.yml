@@ -3038,6 +3038,17 @@ eras:
           width: 800
           height: 271
 
+      - name: First full map of a connectome's neural connections (C. elegans, Brenner)
+        necessary: true
+        actual: 14
+        label: 1986
+        source: https://en.wikipedia.org/wiki/Connectome
+        image:
+          name: connectome.jpg
+          link: https://picower.mit.edu/news/molecular-whole-brain-scale-simple-animal-study-reveals-serotonins-effects
+          width: 800
+          height: 273
+
 #      - name: First Uranus flyby (Voyager 2)
 #        actual: 14
 #        label: 1986
@@ -3186,6 +3197,16 @@ eras:
           link: https://www.datacenterknowledge.com/archives/2016/05/24/inside-facebook-data-center-sweden-video
           width: 800
           height: 416
+
+      - name: First deep neural network, beginning of AI boom (AlexNet)
+        actual: -12
+        label: 2012
+        source: https://en.wikipedia.org/wiki/AlexNet
+        image:
+          name: deep-neural-network.jpg
+          link: https://commons.wikimedia.org/wiki/File:AlexNet_architecture.png
+          width: 800
+          height: 351
 
       - name: Discovery of Higgs boson (CERN)
         actual: -12
