@@ -1,6 +1,8 @@
 package main
 
 import (
+	"crypto/rand"
+	"encoding/hex"
 	"github.com/jchavannes/browser-history-parser/wikipedia"
 	"github.com/jchavannes/jgo/web"
 	"gopkg.in/yaml.v2"
@@ -34,11 +36,24 @@ var (
 	}
 )
 
+var CacheBuster string
+
+func init() {
+	b := make([]byte, 3)
+	if _, err := rand.Read(b); err != nil {
+		panic(err)
+	}
+	CacheBuster = hex.EncodeToString(b)
+}
+
 func main() {
 	server := web.Server{
 		Port:           2040,
 		TemplatesDir:   "web",
 		StaticFilesDir: "web",
+		PreHandler: func(r *web.Response) {
+			r.Helper["CacheBuster"] = CacheBuster
+		},
 		Routes: []web.Route{
 			indexRoute,
 			necessaryRoute,
@@ -82,7 +97,7 @@ type event struct {
 }
 
 func (e event) GetSourceText() string {
-	if ! wikipedia.IsWikipediaUrl(e.Source) {
+	if !wikipedia.IsWikipediaUrl(e.Source) {
 		return e.Source
 	}
 	return "wiki/" + wikipedia.ArticleNameFromUrl(e.Source)
