@@ -3279,3 +3279,13 @@ eras:
           link: https://twitter.com/SpaceX/status/1266798486256676864
           width: 800
           height: 600
+
+      - name: First consumer LLM (ChatGPT)
+        actual: -23
+        label: 2023
+        source: https://en.wikipedia.org/wiki/ChatGPT
+        image:
+          name: chatgpt.jpg
+          link: https://commons.wikimedia.org/wiki/File:ChatGPT_essay_draft.png
+          width: 800
+          height: 556
