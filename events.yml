@@ -1331,6 +1331,16 @@ eras:
           width: 800
           height: 491
 
+      - name: Oldest known written story, Epic of Gilgamesh (Mesopotamia)
+        actual: 4100
+        label: 2100 BC
+        source: https://en.wikipedia.org/wiki/Epic_of_Gilgamesh
+        image:
+          name: chariot.jpg
+          link: https://commons.wikimedia.org/wiki/File:Parade_charriots_Louvre_CA2503.jpg
+          width: 800
+          height: 450
+
       - name: First horses used for transporting people, chariot becomes primary branch of the military
         actual: 4000
         label: 2000 BC
@@ -1386,6 +1396,16 @@ eras:
           width: 500
           height: 275
 
+      - name: Torah compiled, foundational text of Abrahamic religions, currently followed by 54% of the world (Judah)
+        actual: 3000
+        label: 1000 - 500 BC
+        source: https://en.wikipedia.org/wiki/Abrahamic_religions
+        image:
+          name: jehu-obelisk.jpg
+          link: https://commons.wikimedia.org/wiki/File:Jehu-Obelisk-cropped.jpg
+          width: 800
+          height: 513
+
       - name: First glass lenses (Middle East)
         necessary: true
         actual: 2700
@@ -1396,16 +1416,6 @@ eras:
           link: https://commons.wikimedia.org/wiki/File:Nimrud_lens_British_Museum.jpg
           width: 800
           height: 600
-
-      - name: Torah written, beginning of Abrahamic religions, currently 54% of world population adheres to an Abrahamic religion (Babylonia)
-        actual: 2600
-        label: 600 - 400 BC
-        source: https://en.wikipedia.org/wiki/Abrahamic_religions
-        image:
-          name: jehu-obelisk.jpg
-          link: https://commons.wikimedia.org/wiki/File:Jehu-Obelisk-cropped.jpg
-          width: 800
-          height: 513
 
       - name: Democracy (Cleisthenes, Greece)
         necessary: true
@@ -1460,7 +1470,7 @@ eras:
           width: 500
           height: 281
 
-      - name: First higher learning institution founded, The Academy (Plato, Greece)
+      - name: First higher learning institution (Plato, Greece)
         necessary: true
         actual: 2387
         label: 387 BC
@@ -1471,7 +1481,7 @@ eras:
           width: 800
           height: 509
 
-      - name: Foundation of western philosophy, science, western religion, and spirituality (Plato, Greece)
+      - name: Foundation of western philosophy (Plato, Greece)
         necessary: true
         actual: 2375
         label: 375 BC
@@ -2525,7 +2535,7 @@ eras:
           width: 670
           height: 527
 
-      - name: First expedition to geographic South Pole (Norway)
+      - name: First expedition to South Pole (Norway)
         actual: 89
         label: 1911
         source: https://en.wikipedia.org/wiki/Amundsen%27s_South_Pole_expedition

@@ -273,6 +273,36 @@ body.dark .timeline-era li:hover {
     transition: transform 0.3s ease;
 }
 
+/* Two-column layout for wide screens */
+@media (min-width: 992px) {
+    .timeline-era li {
+        display: flex;
+        align-items: flex-start;
+        gap: 20px;
+    }
+
+    .timeline-era li img {
+        float: none;
+        margin-right: 0;
+        margin-bottom: 0;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .timeline-era li a:first-child {
+        flex-shrink: 0;
+    }
+
+    .timeline-era li .event-content {
+        flex-grow: 1;
+        min-width: 0;
+    }
+
+    .timeline-era li br:last-of-type {
+        display: none;
+    }
+}
+
 .timeline-era li img:hover {
     transform: scale(1.05);
 }

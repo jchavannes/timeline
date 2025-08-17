@@ -36,14 +36,16 @@ function timeline(eraName, eraLabel, eraData, $timeline) {
             imgHtml =
                 "<a target='_blank' href='" + imgLink + "'>" +
                 "<img src='" + imgUrl + "' width='" + imageWidth + "' height='" + imageHeight + "' />" +
-                "</a><br/>";
+                "</a>";
         }
         appendText +=
             "<li>" +
             imgHtml +
+            "<div class='event-content'>" +
             event.content +
             "<br/>" +
             sourceHtml +
+            "</div>" +
             "<div style='clear:both;'></div>" +
             "</li>";
     }
