@@ -1281,6 +1281,16 @@ eras:
           width: 800
           height: 580
 
+      - name: Cities with over 100,000 people (Uruk, Mesopotamia)
+        actual: 5000
+        label: 3000 BC
+        source: https://en.wikipedia.org/wiki/Uruk
+        image:
+          name: uruk.jpg
+          link: https://www.sciencemagazinedigital.org/sciencemagazine/22_november_2019/MobilePagedArticle.action?articleId=1540194&app=false#articleId1540194
+          width: 800
+          height: 394
+
       - name: Invention of indoor plumbing and flush toilet (South Asia)
         actual: 5000
         label: 3000 BC
