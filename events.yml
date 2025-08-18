@@ -3291,6 +3291,16 @@ eras:
           width: 800
           height: 600
 
+      - name: First commercial walking robot (Boston Dynamics)
+        actual: -19
+        label: 2019
+        source: https://en.wikipedia.org/wiki/Spot_(robot)
+        image:
+          name: boston-dynamics-spot.jpg
+          link: https://commons.wikimedia.org/wiki/File:Spot_by_Boston_Dynamics.jpg
+          width: 800
+          height: 533
+
       - name: First crewed reusable rocket (SpaceX Falcon 9)
         actual: -20
         label: 2020
@@ -3300,6 +3310,26 @@ eras:
           link: https://twitter.com/SpaceX/status/1266798486256676864
           width: 800
           height: 600
+
+      - name: First approved mRNA vaccine (BioNTech/Pfizer)
+        actual: -20
+        label: 2020
+        source: https://en.wikipedia.org/wiki/MRNA_vaccine
+        image:
+          name: mrna-vaccine.jpg
+          link: https://commons.wikimedia.org/wiki/File:Ijms-21-06582-g002.webp
+          width: 800
+          height: 440
+
+      - name: First self-sustaining fusion reaction (National Ignition Facility)
+        actual: -22
+        label: 2022
+        source: https://en.wikipedia.org/wiki/Nuclear_fusion
+        image:
+          name: fusion-reactor.jpg
+          link: https://www.energy.gov/articles/doe-announces-42-million-inertial-fusion-energy-hubs
+          width: 800
+          height: 533
 
       - name: First consumer LLM (ChatGPT)
         actual: -23
